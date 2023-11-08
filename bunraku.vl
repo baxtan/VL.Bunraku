@@ -3393,7 +3393,7 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
               </p:NodeReference>
-              <Pin Id="Hw3C1fe48T6LkJ8UmaxhLy" Name="Bounds" Kind="InputPin" DefaultValue="1173, 34, 744, 1082" />
+              <Pin Id="Hw3C1fe48T6LkJ8UmaxhLy" Name="Bounds" Kind="InputPin" DefaultValue="1598, 169, 744, 1082" />
               <Pin Id="CyFvAT3SOdCO1P4mY04iMY" Name="Save Bounds" Kind="InputPin" />
               <Pin Id="SWhD1y81DO6LwTzwqT66vk" Name="Input" Kind="InputPin" />
               <Pin Id="J6IzVeefAu0QMrZVfS0kYb" Name="Camera" Kind="InputPin" />
@@ -13279,6 +13279,110 @@
           </Node>
         </Canvas>
         <Canvas Id="DxtR7mjOFlALE9x8v5x7bt" Name="RSI" Position="165,385" BordersChecked="false" CanvasType="Group" />
+        <Canvas Id="BjEF6D4awqPMVnaogY5yZE" Name="InputDevices" Position="419,276">
+          <!--
+
+    ************************ XboxController ************************
+
+-->
+          <Node Name="XboxController" Bounds="390,334" Id="ETWOk40JgkdLjP4PkLRe6k">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="ContainerDefinition" Name="Process" />
+            </p:NodeReference>
+            <Patch Id="DWeQAB5plW5LDf20z20g5y">
+              <Canvas Id="LE4U7K1rNntNdL2P3bec9H" CanvasType="Group">
+                <Node Bounds="437,191,103,19" Id="UGejqzcJFltMxtMsNR6Ra8">
+                  <p:NodeReference LastCategoryFullName="IO.Xbox360Controller" LastDependency="VL.IO.Xbox360Controller.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="Xbox360Controller (State)" />
+                  </p:NodeReference>
+                  <Pin Id="HjCb1dRxjphM2021ne9G3C" Name="User Index" Kind="InputPin" />
+                  <Pin Id="J4t4r7vxlH3MnMFxY93jTv" Name="Output" Kind="OutputPin" />
+                  <Pin Id="QnLy8GiW4LLOsiCpCcZVWS" Name="Is Connected" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="437,381,405,26" Id="Gu8FrRKQrqvN5FRL5VG5CT">
+                  <p:NodeReference LastCategoryFullName="IO.Xbox360Controller.Xbox360ControllerState" LastDependency="VL.IO.Xbox360Controller.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="Category" Name="Xbox360Controller" />
+                    <CategoryReference Kind="4026531840" Name="Xbox360ControllerState" />
+                    <Choice Kind="OperationCallFlag" Name="Split" />
+                  </p:NodeReference>
+                  <Pin Id="VgsO2eExXrRNZQZAae7y7J" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="QBB2LY0YXsFOK55mNzICTt" Name="Output" Kind="OutputPin" />
+                  <Pin Id="OpfRQC67ZcXPQLSWhg5WEC" Name="Left Thumbstick X" Kind="OutputPin" />
+                  <Pin Id="DOtCUPQtKWTQY9iSufQV3Q" Name="Left Thumbstick Y" Kind="OutputPin" />
+                  <Pin Id="AplUSGacWJ8NIXQNNBm1rk" Name="Left Thumbstick Pressed" Kind="OutputPin" />
+                  <Pin Id="CZZr4wxCRSjOwgBWR643zc" Name="Right Thumbstick X" Kind="OutputPin" />
+                  <Pin Id="Qz3N4xtZ593OYSyn7FEoLB" Name="Right Thumbstick Y" Kind="OutputPin" />
+                  <Pin Id="Fdtr8TCba7qNeiLns9Jn1D" Name="Right Thumbstick Pressed" Kind="OutputPin" />
+                  <Pin Id="CytM3SayS7sPDDC1dgRSxt" Name="Left Trigger" Kind="OutputPin" />
+                  <Pin Id="PYCnRPuT3iLNKQRG4Wn20E" Name="Left Shoulder Button" Kind="OutputPin" />
+                  <Pin Id="BrQ3OCY1aJYP4K94frSUk8" Name="Right Trigger" Kind="OutputPin" />
+                  <Pin Id="KqFjBcrOnhrLS8P4tvgwGA" Name="Right Shoulder Button" Kind="OutputPin" />
+                  <Pin Id="HSgsIGDuXYUQBPLQRPv6RU" Name="A Button" Kind="OutputPin" />
+                  <Pin Id="CLY7mzJIqG6NkW4AUuWmhg" Name="B Button" Kind="OutputPin" />
+                  <Pin Id="GddSCClfyoxPlEWGNvwp9s" Name="X Button" Kind="OutputPin" />
+                  <Pin Id="RXQE6q4PqqwMqsKjhzKJba" Name="Y Button" Kind="OutputPin" />
+                  <Pin Id="NJAaldMiuqZQLWPiwxnbYG" Name="D-Pad Up" Kind="OutputPin" />
+                  <Pin Id="AVRFW6m9w24LxN3LCpmCo4" Name="D-Pad Down" Kind="OutputPin" />
+                  <Pin Id="UTlmqmUVCtALx8xANVQ4NB" Name="D-Pad Left" Kind="OutputPin" />
+                  <Pin Id="JGoP4i8V0IzMXvU39hE9pO" Name="D-Pad Right" Kind="OutputPin" />
+                  <Pin Id="G8fKlwLJJe9OrxOtDRoc4f" Name="Start" Kind="OutputPin" />
+                  <Pin Id="LYtNTxT53URLys7NqoJPbf" Name="Back" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="458,472,46,19" Id="JM6cx8yk7K0QMYjAuwI5Gs">
+                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
+                  </p:NodeReference>
+                  <Pin Id="AfbuWcqg8PPLQMxdgURgq1" Name="X" Kind="InputPin" />
+                  <Pin Id="HcpHVrRZoQbMQ8glYANkFT" Name="Y" Kind="InputPin" />
+                  <Pin Id="LibCW1DiKt9NpEVL1SUf3x" Name="Z" Kind="InputPin" />
+                  <Pin Id="Oyha5ypbHi0QYimjIiGAiP" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Node Bounds="499,444,25,19" Id="Bnr0kXNx3MgLUyEXba9mWz">
+                  <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="*" />
+                  </p:NodeReference>
+                  <Pin Id="C2FR4PHdAQ4P6ERwepmbD4" Name="Input" Kind="InputPin" />
+                  <Pin Id="LvxwvuTgbjvQSaUVUBLKug" Name="Input 2" Kind="InputPin" DefaultValue="-1" />
+                  <Pin Id="MrcPmrXq54WMpqTZL6mmsa" Name="Output" Kind="OutputPin" />
+                </Node>
+                <ControlPoint Id="UJLwtS4k119OPSROOZdZX5" Bounds="537,241" />
+                <ControlPoint Id="EvXB6ON8PP9PYAHfVO3Ny4" Bounds="439,140" />
+                <ControlPoint Id="GT8hlreCkbFPyiOSQajLNG" Bounds="460,536" />
+              </Canvas>
+              <!--
+
+    ************************  ************************
+
+-->
+              <ProcessDefinition Id="C2z2uVVfVf6NhhexoE5Nyb">
+                <Fragment Id="QUX98ZxgpE2NXYwxbKjO62" Patch="P9jAptYRmEZQCGX9mR382w" Enabled="true" />
+                <Fragment Id="EoCapUXyCfhOIxDuScNaKq" Patch="UclO64tbsMyOc9q9dkiVsQ" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="MAAJNMgI6qtOS8U5AugzDo" Ids="J4t4r7vxlH3MnMFxY93jTv,VgsO2eExXrRNZQZAae7y7J" />
+              <Link Id="H4a8eg3JvYTN7ZElLqCAYa" Ids="OpfRQC67ZcXPQLSWhg5WEC,AfbuWcqg8PPLQMxdgURgq1" />
+              <Link Id="UTukaLLbosJLGHD0EGb0LP" Ids="DOtCUPQtKWTQY9iSufQV3Q,C2FR4PHdAQ4P6ERwepmbD4" />
+              <Link Id="L6BiBRJqkqtPI994ytoNjB" Ids="MrcPmrXq54WMpqTZL6mmsa,LibCW1DiKt9NpEVL1SUf3x" />
+              <Link Id="QgBMtRjcdN7OrtKLweR852" Ids="Qz3N4xtZ593OYSyn7FEoLB,HcpHVrRZoQbMQ8glYANkFT" />
+              <Link Id="C0oioMATEZ8NETde9bCpEd" Ids="QnLy8GiW4LLOsiCpCcZVWS,UJLwtS4k119OPSROOZdZX5" />
+              <Link Id="KJ7zZaWN81OQUHqHmJifh2" Ids="UJLwtS4k119OPSROOZdZX5,OscHI7jqqO1NghI3wbnvJP" IsHidden="true" />
+              <Link Id="Fb8gslFX0zsPS34jUvAyOy" Ids="EvXB6ON8PP9PYAHfVO3Ny4,HjCb1dRxjphM2021ne9G3C" />
+              <Link Id="PJP678vLmgcNZ5FifJAkG9" Ids="S6VroxTxpnqO0pPPge4RV3,EvXB6ON8PP9PYAHfVO3Ny4" IsHidden="true" />
+              <Link Id="TtcYqFGwNiXOCfOXby99l5" Ids="Oyha5ypbHi0QYimjIiGAiP,GT8hlreCkbFPyiOSQajLNG" />
+              <Link Id="FtRBug3AP8UQDio8LeQCzl" Ids="GT8hlreCkbFPyiOSQajLNG,TKXrNAZj8ZXQKBUJ5DJp81" IsHidden="true" />
+              <Patch Id="P9jAptYRmEZQCGX9mR382w" Name="Create" />
+              <Patch Id="UclO64tbsMyOc9q9dkiVsQ" Name="Update">
+                <Pin Id="S6VroxTxpnqO0pPPge4RV3" Name="User Index" Kind="InputPin" Bounds="428,128" />
+                <Pin Id="TKXrNAZj8ZXQKBUJ5DJp81" Name="XYZ" Kind="OutputPin" Bounds="459,544" />
+                <Pin Id="OscHI7jqqO1NghI3wbnvJP" Name="Is Connected" Kind="OutputPin" Bounds="583,256" />
+              </Patch>
+            </Patch>
+          </Node>
+        </Canvas>
       </Canvas>
       <Canvas Id="TxhGx6UMgo9MASO1QHjuHW" Name="Spot" Position="112,359">
         <Canvas Id="Ey9xv7UhSoxL7RcyDMXNW0" Name="Commands" Position="85,181">
@@ -19934,4 +20038,5 @@
   <NugetDependency Id="DFFbzR1TDOCM50j5Cf7rUw" Location="Grpc.Net.Client" Version="2.53.0" />
   <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" Version="3.22.3" />
   <PlatformDependency Id="IA08bfiMOFzNVOamoRS1YA" Location="Z:/SleeveArchive/_Archive__Software/InnovationAwardBackUp/KUKAInovationAward_2506_1200/Dependencies/KUKAprcROSBridge.dll" />
+  <NugetDependency Id="UeLSX9KZm0hPjS0yghsC9s" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
 </Document>
