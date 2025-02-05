@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="P3ELss4YbEdMquZBtMYPL8" LanguageVersion="2025.7.0-0042-g033cc1ac00" Version="0.128">
+  <NugetDependency Id="Qw9oZ68pTnMNs4Ws7g8g7j" Location="VL.CoreLib" Version="2025.7.0-0042-g033cc1ac00" />
+  <Patch Id="IwbrSIlKD2kONLSRmyov8g">
+    <Canvas Id="LOZ5FLKyhRzNhwJAGrlm0i" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="HWSiMx3k4dsNGFbzKFRxI7">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="GFRUIA96eDUNi2R952EXLM">
+        <Canvas Id="OmHVWODbXBWNr4mQigjqU1" CanvasType="Group">
+          <Node Bounds="239,246,98,26" Id="UX052hXzCOqLEevYOrW4On">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="InverseKinematicSolver" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="Npx28C9aZRLPBA4mFwB8Fm" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="300,308,98,26" Id="RcK22r9rfh2M9YucjEr7FT">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="InverseKinematicSolver" />
+              <Choice Kind="OperationCallFlag" Name="SetRobot" />
+            </p:NodeReference>
+            <Pin Id="OjuugAET5wcLma0URveea7" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="STnJFadHAI4MkVbWW3rMUv" Name="Input" Kind="InputPin" />
+            <Pin Id="T9yNqvByPagNgAozdHvZe8" Name="Robot" Kind="InputPin" />
+          </Node>
+          <Node Bounds="339,603,98,26" Id="EE53pzrTTrgPFqSowqVg3X">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="InverseKinematicSolver" />
+              <Choice Kind="OperationCallFlag" Name="SetBaseConfig" />
+            </p:NodeReference>
+            <Pin Id="HQuMHqFM7cnN1ejwGkMsSH" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="BybF7wC8YzTPRxpUQJrEQx" Name="Input" Kind="InputPin" />
+            <Pin Id="ALBVrOIwELKMXd4GQbbDM9" Name="Base Config" Kind="InputPin" />
+          </Node>
+          <Node Bounds="453,739,98,26" Id="E3oOyObysbqNeb7pwWpqgq">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="InverseKinematicSolver" />
+              <Choice Kind="OperationCallFlag" Name="SetTool" />
+            </p:NodeReference>
+            <Pin Id="Np2hPuGNxQnLfstfsXDob1" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="IMRVY8sKOKvOahG0ZkVkfE" Name="Input" Kind="InputPin" />
+            <Pin Id="DZF42XDuuyTOtKe3fFpekk" Name="Tool" Kind="InputPin" />
+          </Node>
+          <Node Bounds="568,1021,98,26" Id="HoFTEkVYfRYQPgc8PlawZl">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="InverseKinematicSolver" />
+              <Choice Kind="OperationCallFlag" Name="SetStatus" />
+            </p:NodeReference>
+            <Pin Id="IccuW1VURKDPGY684vxjLZ" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="AV9p9WPUnN9LMC8me0qN3x" Name="Input" Kind="InputPin" />
+            <Pin Id="ETiQy76QJ1RQQVT5kH6TlS" Name="Status" Kind="InputPin" />
+          </Node>
+          <Node Bounds="393,269,85,26" Id="T40G2N4Y7PbMXtBlP3hjnP">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotMini" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="AgFgvS4Jh6BQXF2LqMT73h" Name="A 01length" Kind="InputPin" />
+            <Pin Id="BF6UDaGny1DO0k9DaVUzV5" Name="A 01offset" Kind="InputPin" />
+            <Pin Id="AeoGj3v6pXWMbRE8lpxSjU" Name="A 02length" Kind="InputPin" />
+            <Pin Id="DGcG2yd0cBsN70sAnQmUV7" Name="A 03length" Kind="InputPin" />
+            <Pin Id="Uf6lOqCRTXSO4egQmIyjrB" Name="A 03offset" Kind="InputPin" />
+            <Pin Id="UckHz6yCj0SNEej67wSu9B" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="DsgpZNY6PmEOXDmrEuxjoM" Bounds="561,206,160,19" ShowValueBox="true" isIOBox="true" Value="400, 25, 455, 420, 25, 90">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TTDV5AdNpayOKP8J9WGsBy" Comment="A 01length" Bounds="396,183,42,15" ShowValueBox="true" isIOBox="true" Value="400">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="EpaPzQkgGHANSkVVpf5AlX" Comment="A 01offset" Bounds="414,205,35,15" ShowValueBox="true" isIOBox="true" Value="25">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Ppfqhn0AOaqNvPs5p7HdAk" Comment="A 02length" Bounds="436,223,42,15" ShowValueBox="true" isIOBox="true" Value="455">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="O40e9wIuVXYNiyelftHi5R" Comment="A 03length" Bounds="455,241,42,15" ShowValueBox="true" isIOBox="true" Value="420">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="VcF1tiTizsxPfqtVPexZBS" Comment="A 03offset" Bounds="475,260,35,15" ShowValueBox="true" isIOBox="true" Value="90">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="416,361,71,26" Id="ElARPmcjF19OsfEF85nUcg">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="HjwvUe4LKhyPZ6AcogMLUX" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="431,409,71,26" Id="B3Fc884ckCbOfPMNFMuIkZ">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalA" />
+            </p:NodeReference>
+            <Pin Id="Fbn8IhKjQ4SNkrOXzqpMk5" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="QrrqcXR8Ak6Nr9ElgoLemu" Name="Input" Kind="InputPin" />
+            <Pin Id="SpmyTeulHrRMzXZPyixYAU" Name="Baseval A" Kind="InputPin" />
+          </Node>
+          <Node Bounds="430,440,71,26" Id="DS2rhuxMRBVLrLBwKO9pIZ">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalB" />
+            </p:NodeReference>
+            <Pin Id="UCRA2D74EhwPBLtSuvjjsK" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="MO6seWaghzINnCjhyeHs1g" Name="Input" Kind="InputPin" />
+            <Pin Id="HrDpBHNP1h4LjqUFLfAUgQ" Name="Baseval B" Kind="InputPin" />
+          </Node>
+          <Node Bounds="430,468,71,26" Id="UuAb9TwJFAULQ8DCXuFEbe">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalC" />
+            </p:NodeReference>
+            <Pin Id="VlIUwnm2hlCLVyYARqph6L" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="TnV6b3JvVxgN7nphPgqWFY" Name="Input" Kind="InputPin" />
+            <Pin Id="LXHSuk1PdhCMmZLzsFJTJB" Name="Baseval C" Kind="InputPin" />
+          </Node>
+          <Node Bounds="430,498,71,26" Id="Dlgssrhmbu9LGanrbY3MqI">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalX" />
+            </p:NodeReference>
+            <Pin Id="C20ApJuzDP2PYdaufhykXV" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="O40EgXB6tuLPsafME2rajF" Name="Input" Kind="InputPin" />
+            <Pin Id="EUIDRIGv9wFODmigyRLtmC" Name="Baseval X" Kind="InputPin" />
+          </Node>
+          <Node Bounds="430,527,71,26" Id="P2wBszDpXUHP62slsNidbJ">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalY" />
+            </p:NodeReference>
+            <Pin Id="LqI3uzJtOeCP6Ilsmwz4P1" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Sk0CLMSUC7vLo8goBOMK7g" Name="Input" Kind="InputPin" />
+            <Pin Id="UjJ0MNQvBR3NausTq74jYY" Name="Baseval Y" Kind="InputPin" />
+          </Node>
+          <Node Bounds="431,557,71,26" Id="TtD6ODqR52TLIIY4h9IOcu">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotBase" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotBase" />
+              <Choice Kind="OperationCallFlag" Name="SetbasevalZ" />
+            </p:NodeReference>
+            <Pin Id="Oq5jyTghb2xLvpnJE4UUJm" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="E0s9fzMTPMVQOaAuTIemoh" Name="Input" Kind="InputPin" />
+            <Pin Id="KHLrd1CuVVIPnfyUAqMsHF" Name="Baseval Z" Kind="InputPin" />
+          </Node>
+          <Node Bounds="537,517,65,26" Id="FPVmpaU0opZMFF5cbWuBNm">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="RRKFSNMIk9OLlcTBau87U9" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="546,567,67,26" Id="TolInwz2OHlNp9bVJFQjTP">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalA" />
+            </p:NodeReference>
+            <Pin Id="KyRkGMdRQkPLNZ2bryrzym" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="QopjADNBjsnLgIbCTIvpQR" Name="Input" Kind="InputPin" />
+            <Pin Id="Gdyt1pVnc2PPQp62IbcKaP" Name="Toolval A" Kind="InputPin" />
+          </Node>
+          <Node Bounds="546,595,66,26" Id="FyvZg5Y9LVPMMl0mhqiPKz">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalB" />
+            </p:NodeReference>
+            <Pin Id="GopLEcvqnc9P3Q4soKqOjU" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="IdNjtbJhqTZNq4cLcfH84x" Name="Input" Kind="InputPin" />
+            <Pin Id="HGdlZ2GzNeHMqJ5kcpdYsc" Name="Toolval B" Kind="InputPin" />
+          </Node>
+          <Node Bounds="546,622,67,26" Id="DY9J9ICGR7GNKYSNVCW7yo">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalC" />
+            </p:NodeReference>
+            <Pin Id="HEUvYWTs2DtOxSNRXUguud" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Gc664QOo6PkQKCgUB9rUoB" Name="Input" Kind="InputPin" />
+            <Pin Id="C08CVoXHpyQNFkePg4oXC0" Name="Toolval C" Kind="InputPin" />
+          </Node>
+          <Node Bounds="546,651,67,26" Id="SRzTrl5khXpLql98jEaooj">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalA" />
+            </p:NodeReference>
+            <Pin Id="AlJ5L5JRTgMPjufYSyvjZA" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="BqPTiewkN9pOYb9kHDpzZf" Name="Input" Kind="InputPin" />
+            <Pin Id="I6ubKqTeQQiO33rsXkhI8y" Name="Toolval A" Kind="InputPin" />
+          </Node>
+          <Node Bounds="546,679,66,26" Id="FaNhbIUAVm8QQcirJPBb16">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalB" />
+            </p:NodeReference>
+            <Pin Id="BbSqxYtj5rBOJaCJK8rbNe" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="B67w3xFNxcvPvYPahr2V9X" Name="Input" Kind="InputPin" />
+            <Pin Id="ASKzKFhw6zYLGzBt5nVwPt" Name="Toolval B" Kind="InputPin" />
+          </Node>
+          <Node Bounds="546,707,67,26" Id="QoPaHTbU9UIOt388BBvUjo">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_ToolMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_ToolMini" />
+              <Choice Kind="OperationCallFlag" Name="SettoolvalC" />
+            </p:NodeReference>
+            <Pin Id="CY4b4GUsxQBL8vTQa9LzGl" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="APkBF3NVaL0LQvTkJiknih" Name="Input" Kind="InputPin" />
+            <Pin Id="LPXZRB6bV32OmvDt53RaO1" Name="Toolval C" Kind="InputPin" />
+          </Node>
+          <Node Bounds="745,724,46,26" Id="PRCK0DpqMA1P39DOKcOUEK">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.PlaneB" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PlaneB" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="BR2LZjXN3UrNjOblmNZalZ" Name="Origin" Kind="InputPin" />
+            <Pin Id="N9bHfguhnKqMcWIqFciwlY" Name="X Axis" Kind="InputPin" />
+            <Pin Id="QLEsKW3fbjmLmp7hYy1GUq" Name="Y Axis" Kind="InputPin" />
+            <Pin Id="BMuvhK6L7nfM1hlUuAV0aS" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="677,651,46,26" Id="DvVJ9qnJXFGPyS8oH6L9SQ">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.Point3d" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="Point3d" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="KkHwV8EFrb8NaJw5FwWM5a" Name="X" Kind="InputPin" />
+            <Pin Id="NGq6vOuUifBM8K8BWNCoFX" Name="Y" Kind="InputPin" />
+            <Pin Id="Dc0VyCNE494N5IUvpKjbg2" Name="Z" Kind="InputPin" />
+            <Pin Id="JZb0yedX6rbMOLtjQqbRcE" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="763,661,49,26" Id="NTtFNk6hfxcMbZLwm9GjP6">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.Vector3d" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="Vector3d" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="QA2I4cMnZHkNJNfweOGaZr" Name="X" Kind="InputPin" DefaultValue="1" />
+            <Pin Id="QB5Ho1PjyHVLWJW8q67Aso" Name="Y" Kind="InputPin" />
+            <Pin Id="RxgpzQKKf2oNAQBqpT9kKP" Name="Z" Kind="InputPin" />
+            <Pin Id="E6xhdsy1wwwPLk9Fkp7D8j" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="786,694,49,26" Id="C1rBraA3Xr2PMWXKxBtP2P">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.Vector3d" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="Vector3d" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="UGxuAJWOhtKNdUOFQ3Bstu" Name="X" Kind="InputPin" />
+            <Pin Id="AKD11pRj5kWMj3Xmm6YiVZ" Name="Y" Kind="InputPin" DefaultValue="1" />
+            <Pin Id="EucHOysqx7NPnPpOlQ9PG5" Name="Z" Kind="InputPin" />
+            <Pin Id="LimiJRZ2Nx4QKJd4IVby2u" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="678,597,46,19" Id="VrC1bk21IXeN8aFDl20CU6">
+            <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+            </p:NodeReference>
+            <Pin Id="EB9lOolXLe9NKPwYwuJeTS" Name="Input" Kind="StateInputPin" />
+            <Pin Id="LgqaNquIRzGOCLmwvSjDWP" Name="X" Kind="OutputPin" />
+            <Pin Id="UHMaKIr9yyaPIHsT0sZSvv" Name="Y" Kind="OutputPin" />
+            <Pin Id="SkXWtGQZahqPFlwtSyXCvg" Name="Z" Kind="OutputPin" />
+          </Node>
+          <Pad Id="DIgaSzsWA6PPWYJKV91ZmK" Comment="" Bounds="679,535,57,43" ShowValueBox="true" isIOBox="true" Value="0.02, 0.23, 0.73">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:stepsize p:Type="Single">0.01</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GEdydDWrPyGMOcQOxRzOMc" Comment="Status" Bounds="672,1000,35,15" ShowValueBox="true" isIOBox="true" Value="010">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="553,118,98,19" Id="MdcSE5gckoCN3fWnOdQtx3">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_RobotMini" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_RobotMini" />
+              <Choice Kind="OperationCallFlag" Name="PRC_KR610R9002" />
+            </p:NodeReference>
+            <Pin Id="DFKs3jh3pQMNobJMSv98X8" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="JvhK4rqIh0yOAhv00BWzrc" Comment="Baseval X" Bounds="575,463,35,15" ShowValueBox="true" isIOBox="true" Value="1.94">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="565,954,98,26" Id="FQk51362HqvMXtde9nIodC">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SetTargetPlaneBB" />
+            </p:NodeReference>
+            <Pin Id="LY3z9vsdFGNOlvLTSWgZir" Name="Input" Kind="StateInputPin" />
+            <Pin Id="KTdn0Cn9AB7PjdnhdxZRQ2" Name="Target Plane BB" Kind="InputPin" />
+            <Pin Id="DEZWnS81ucwPOxfkTf9Ibn" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="574,1117,98,26" Id="McTaIpAZ8FPPvElPXXGO0f">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.InverseKinematicSolver" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="JointAngles" />
+            </p:NodeReference>
+            <Pin Id="OcSxg1Oj70bMumBDYNne82" Name="Input" Kind="StateInputPin" />
+            <Pin Id="IgIGHAX5YazO9oUghLDKlO" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="VJaia1kedwKPCI3eGsPjdj" Name="Joint Angles" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="672,1181,58,26" Id="Tf3NPM5lq3eO9MzP7FbjOF">
+            <p:NodeReference LastCategoryFullName="InverseKinematics.PRC_AxVals" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PRC_AxVals" />
+              <Choice Kind="OperationCallFlag" Name="a01_val" />
+            </p:NodeReference>
+            <Pin Id="KuJvkaLx9k3OvjRTn94LFQ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="C2a1haSEztWPvKVznJUO76" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="UXWlUrH1EaJQUKYHHEj7fj" Name="A 01_val" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="749,800,46,26" Id="Ak9gJtakgftMgscjMfeXmt">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.PlaneB" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="PlaneB" />
+              <Choice Kind="OperationCallFlag" Name="IsValid" />
+            </p:NodeReference>
+            <Pin Id="P8zvN3UrOurNU7LIUZ8Fot" Name="Input" Kind="StateInputPin" />
+            <Pin Id="EdMVNIi2PHrLUKSsUWpoPo" Name="Tolerance" Kind="InputPin" />
+            <Pin Id="TTanoShfmeOPaPQ8SwYdTp" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="CNveh2YfnsAN53bS1ES2gw" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="CInelU8YFrPNhjsadtNWo9" Comment="Tolerance" Bounds="828,777,35,15" ShowValueBox="true" isIOBox="true" Value="0.59">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="C7kcLkfHjgAOM4dskGdiVp" Comment="" Bounds="786,863,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OQ3Nncn9l7nQPd8HZfyxTB" Comment="A 01_val" Bounds="730,1223,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="879,930,76,26" Id="LCfBLzqCK8iNhgAgrAilCm">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.RobotWorkspace" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="RobotWorkspace" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="JfZtpSP2SJQLkzjKrPDObV" Name="Max Reach" Kind="InputPin" />
+            <Pin Id="VJ9TeS30guYOuVOsnzlAvx" Name="Min Reach" Kind="InputPin" />
+            <Pin Id="LjBUgxaXwb4OaWUgtoT17V" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="927,973,101,26" Id="M2SGSYnNeBKQcB9QxGabGh">
+            <p:NodeReference LastCategoryFullName="Bunraku.Geometry.RobotWorkspace" LastDependency="bunrakuInverseKinrmaticUtils.csproj">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="RobotWorkspace" />
+              <Choice Kind="OperationCallFlag" Name="IsWithinWorkspace" />
+            </p:NodeReference>
+            <Pin Id="G25joSCcTKWOMNiwrUEKaP" Name="Input" Kind="StateInputPin" />
+            <Pin Id="DPnDseYy1HSL2LrOT8I3uk" Name="Target" Kind="InputPin" />
+            <Pin Id="Kddphfj6RkSN18DearCl7s" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="MqI5uD91D3gNPnEw3dR88O" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="S1RJTqxddLANDtg8nlS6mX" Comment="" Bounds="907,1082,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="FHXpwBEXGmYQJsBCmPecgc" Comment="Max Reach" Bounds="941,858,35,15" ShowValueBox="true" isIOBox="true" Value="100">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+        </Canvas>
+        <Patch Id="Ik9iRtolBiPPaYiBxSR5gF" Name="Create" />
+        <Patch Id="LcuvUCigWGhNWgxdC2jHP5" Name="Update" />
+        <ProcessDefinition Id="LGG5Zq5Ou1hLiWgSC47MeS">
+          <Fragment Id="MDK1hzzvDRJN0bZWrfGt6O" Patch="Ik9iRtolBiPPaYiBxSR5gF" Enabled="true" />
+          <Fragment Id="RPqVh3yHP66LOLPV8Ithq1" Patch="LcuvUCigWGhNWgxdC2jHP5" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="PTsH8Xaz2b6P1vd1am9DfF" Ids="Npx28C9aZRLPBA4mFwB8Fm,STnJFadHAI4MkVbWW3rMUv" />
+        <Link Id="HSvC0SKRfQOMWxptRDg50h" Ids="OjuugAET5wcLma0URveea7,BybF7wC8YzTPRxpUQJrEQx" />
+        <Link Id="Qq2FKY7iCr6OHVUfpb3MTs" Ids="HQuMHqFM7cnN1ejwGkMsSH,IMRVY8sKOKvOahG0ZkVkfE" />
+        <Link Id="TBAQgR9cuDHNtjdErKYJVz" Ids="TTDV5AdNpayOKP8J9WGsBy,AgFgvS4Jh6BQXF2LqMT73h" />
+        <Link Id="NMszoN8CoEjO3mJ94d6AQT" Ids="EpaPzQkgGHANSkVVpf5AlX,BF6UDaGny1DO0k9DaVUzV5" />
+        <Link Id="CSeKXN97Z9CLgJ2u8sTnUw" Ids="Ppfqhn0AOaqNvPs5p7HdAk,AeoGj3v6pXWMbRE8lpxSjU" />
+        <Link Id="RnHWq19aY1rMkReNrkLlY7" Ids="O40e9wIuVXYNiyelftHi5R,DGcG2yd0cBsN70sAnQmUV7" />
+        <Link Id="SzbuC2DeuvoLZwuBPPRFj3" Ids="VcF1tiTizsxPfqtVPexZBS,Uf6lOqCRTXSO4egQmIyjrB" />
+        <Link Id="Bmtqwru9r1uNn0VeT3CFUr" Ids="HjwvUe4LKhyPZ6AcogMLUX,QrrqcXR8Ak6Nr9ElgoLemu" />
+        <Link Id="KcZmAJm4UOMMCsXhUZW0cz" Ids="Fbn8IhKjQ4SNkrOXzqpMk5,MO6seWaghzINnCjhyeHs1g" />
+        <Link Id="VJQsG1jc4uUPjlOWgW5IF9" Ids="UCRA2D74EhwPBLtSuvjjsK,TnV6b3JvVxgN7nphPgqWFY" />
+        <Link Id="OwvQHjRZeyGOna1d05sLLJ" Ids="C20ApJuzDP2PYdaufhykXV,Sk0CLMSUC7vLo8goBOMK7g" />
+        <Link Id="LrsxbammZsKQAZmQPT5AZN" Ids="LqI3uzJtOeCP6Ilsmwz4P1,E0s9fzMTPMVQOaAuTIemoh" />
+        <Link Id="SgtbDargltbNYBGpqsVf1J" Ids="VlIUwnm2hlCLVyYARqph6L,O40EgXB6tuLPsafME2rajF" />
+        <Link Id="A5WCkSluYRtMpJGKmwtuqc" Ids="RRKFSNMIk9OLlcTBau87U9,QopjADNBjsnLgIbCTIvpQR" />
+        <Link Id="Pbfom44jwbSQNKfudhJyMt" Ids="KyRkGMdRQkPLNZ2bryrzym,IdNjtbJhqTZNq4cLcfH84x" />
+        <Link Id="OwvT9WHjRn1OJohPAAy0Xp" Ids="GopLEcvqnc9P3Q4soKqOjU,Gc664QOo6PkQKCgUB9rUoB" />
+        <Link Id="SNKiVbNEnAUPvo7ucB7Mbl" Ids="HEUvYWTs2DtOxSNRXUguud,BqPTiewkN9pOYb9kHDpzZf" />
+        <Link Id="I8sJqAQcvBnNYUNfkE9KYW" Ids="AlJ5L5JRTgMPjufYSyvjZA,B67w3xFNxcvPvYPahr2V9X" />
+        <Link Id="DDbZ6yOUGdsLO5QUz1hreB" Ids="BbSqxYtj5rBOJaCJK8rbNe,APkBF3NVaL0LQvTkJiknih" />
+        <Link Id="AXMXlyjo5EDMmYbQSIWdhk" Ids="JZb0yedX6rbMOLtjQqbRcE,BR2LZjXN3UrNjOblmNZalZ" />
+        <Link Id="TBiuWOOqGHvPgdPJMhbvMi" Ids="E6xhdsy1wwwPLk9Fkp7D8j,N9bHfguhnKqMcWIqFciwlY" />
+        <Link Id="J8suvSqrp9VQCmEfonrasx" Ids="LimiJRZ2Nx4QKJd4IVby2u,QLEsKW3fbjmLmp7hYy1GUq" />
+        <Link Id="VLJz75wjfsUMj3nAyjDV7W" Ids="LgqaNquIRzGOCLmwvSjDWP,KkHwV8EFrb8NaJw5FwWM5a" />
+        <Link Id="HnzhB1YMvaBK9s2hSaHZVw" Ids="UHMaKIr9yyaPIHsT0sZSvv,NGq6vOuUifBM8K8BWNCoFX" />
+        <Link Id="QyLsc6ufotUNG2f7sYgsAz" Ids="SkXWtGQZahqPFlwtSyXCvg,Dc0VyCNE494N5IUvpKjbg2" />
+        <Link Id="SFbISJjin6aPbqQoqdtO2T" Ids="DIgaSzsWA6PPWYJKV91ZmK,EB9lOolXLe9NKPwYwuJeTS" />
+        <Link Id="SsNI6xX3waiLHYh7sWLcg3" Ids="GEdydDWrPyGMOcQOxRzOMc,ETiQy76QJ1RQQVT5kH6TlS" />
+        <Link Id="Ewu4H0pdVldQVniXNLuWNc" Ids="JvhK4rqIh0yOAhv00BWzrc,EUIDRIGv9wFODmigyRLtmC" />
+        <Link Id="QCKHUI9alE1LSTq7KCCAsa" Ids="Oq5jyTghb2xLvpnJE4UUJm,ALBVrOIwELKMXd4GQbbDM9" />
+        <Link Id="B2MrW2pl3bzQOQuyewlUNe" Ids="CY4b4GUsxQBL8vTQa9LzGl,DZF42XDuuyTOtKe3fFpekk" />
+        <Link Id="L2NumKyRBF5PdqYqX1ehgf" Ids="UckHz6yCj0SNEej67wSu9B,T9yNqvByPagNgAozdHvZe8" />
+        <Link Id="C9IXzl2hTpQP3ciiwpT88L" Ids="Np2hPuGNxQnLfstfsXDob1,LY3z9vsdFGNOlvLTSWgZir" />
+        <Link Id="VOAH3YTGYK0QIdk6gNiCOl" Ids="DEZWnS81ucwPOxfkTf9Ibn,AV9p9WPUnN9LMC8me0qN3x" />
+        <Link Id="EfyVkwXtUGBOc2RRZGM3r2" Ids="VJaia1kedwKPCI3eGsPjdj,KuJvkaLx9k3OvjRTn94LFQ" />
+        <Link Id="QrpwIWHjIvvOcRJyBgQqNw" Ids="BMuvhK6L7nfM1hlUuAV0aS,P8zvN3UrOurNU7LIUZ8Fot" />
+        <Link Id="RQUrShO4srxOemQha5AHoD" Ids="TTanoShfmeOPaPQ8SwYdTp,KTdn0Cn9AB7PjdnhdxZRQ2" />
+        <Link Id="ESjyIgWRG7NMf5Zd9SsYpv" Ids="CInelU8YFrPNhjsadtNWo9,EdMVNIi2PHrLUKSsUWpoPo" />
+        <Link Id="ISLR4V5oprCQJ2SPH7BulY" Ids="CNveh2YfnsAN53bS1ES2gw,C7kcLkfHjgAOM4dskGdiVp" />
+        <Link Id="J7x4wfMqdFRL97XXu7vZmv" Ids="UXWlUrH1EaJQUKYHHEj7fj,OQ3Nncn9l7nQPd8HZfyxTB" />
+        <Link Id="Iv8mhM1Zp3DLRj601e8631" Ids="LjBUgxaXwb4OaWUgtoT17V,G25joSCcTKWOMNiwrUEKaP" />
+        <Link Id="EPb76Wzx3KcLuAkpWU5coR" Ids="JZb0yedX6rbMOLtjQqbRcE,DPnDseYy1HSL2LrOT8I3uk" />
+        <Link Id="QgA0xRBwNm1OovNYK9v1JS" Ids="MqI5uD91D3gNPnEw3dR88O,S1RJTqxddLANDtg8nlS6mX" />
+        <Link Id="BOvcPhRUMpfN5i8iqVlc9a" Ids="FHXpwBEXGmYQJsBCmPecgc,JfZtpSP2SJQLkzjKrPDObV" />
+        <Link Id="F71lyWlrsSBNHwfLIDOQtt" Ids="IccuW1VURKDPGY684vxjLZ,OcSxg1Oj70bMumBDYNne82" />
+      </Patch>
+    </Node>
+  </Patch>
+  <ProjectDependency Id="Hiyt7D7rLLyLbSUmN2h3ic" Location="./csharp/bunrakuInverseKinrmaticUtils/bunrakuInverseKinrmaticUtils.csproj" IsForward="true" />
+</Document>
