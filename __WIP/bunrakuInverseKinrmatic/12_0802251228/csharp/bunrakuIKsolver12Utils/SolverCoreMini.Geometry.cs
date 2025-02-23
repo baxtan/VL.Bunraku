@@ -5,7 +5,6 @@ namespace SolverCoreMini.Geometry
 {
     /// <summary>
     /// Represents a coordinate frame defined by an origin and three orthonormal axes.
-    /// (This is analogous to your previous “Plane” class but implemented using Stride’s math library.)
     /// </summary>
     public class Frame
     {
