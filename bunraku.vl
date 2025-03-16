@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0067-g1d2c249f1c" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0207-g7809617343" Version="0.128">
   <Patch Id="AFgV484WtHVNmGRlGPa8nc">
     <Canvas Id="IOsY6fKdWfcQDC150bXKvF" DefaultCategory="bunraku" CanvasType="FullCategory">
       <Canvas Id="LhRjTxwMDOSOejq3nMVjai" Name="Utilities" Position="115,124">
@@ -1106,6 +1106,7 @@
                         <Pin Id="FAtkmziCYHEL28knttOnq2" Name="Children" Kind="InputPin" />
                         <Pin Id="RMPj6Ob5WkUL0ymx88seZJ" Name="Name" Kind="InputPin" />
                         <Pin Id="V8SLmjRouVDO86wuzOwnw6" Name="Enabled" Kind="InputPin" />
+                        <Pin Id="FIAGmtJS1S4MMf24aAzKIP" Name="Output" Kind="OutputPin" IsHidden="true" />
                         <Pin Id="MIPkS7mSs4fQIxHKNPQeMF" Name="Entity" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="764,916,77,19" Id="G3wVzGKiFVUQcL7kQK8TIJ">
@@ -1146,6 +1147,7 @@
                         <Pin Id="I1SlMKSWzPjPbh4opypYX3" Name="Children" Kind="InputPin" />
                         <Pin Id="IAOKWHhwsKCLS1TL9SJPSa" Name="Name" Kind="InputPin" />
                         <Pin Id="Hbqq3IR2uaiLwdWAVBQbvP" Name="Enabled" Kind="InputPin" />
+                        <Pin Id="Em6kRIFvJ12LjEPgBPyVJg" Name="Output" Kind="OutputPin" IsHidden="true" />
                         <Pin Id="TQzALIFuaRoMnJxVTSyhxc" Name="Entity" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="545,1064,85,19" Id="HAClKzzXlnnLRMssH8fHWB">
@@ -1774,8 +1776,8 @@
               <Link Id="O1o5RaactiQNZ3PnRO7tug" Ids="MDMgklpfQxtOW8UZoUeOKD,SDscvkMVrVvO0XK1uj6XcA" />
               <Link Id="BcpKitcBTmrLNwG4OVWivJ" Ids="SDscvkMVrVvO0XK1uj6XcA,QpWqzbqH54MNi1VpShJcjr" />
               <Link Id="DGegj4mFR1xLZMIqxE74gO" Ids="GfAXHq7otuDN9IBeRXJsvQ,InMzVdtqEGoMqAGowFegEx" />
-              <Link Id="EjVsV7iIPqaLOZkbJMcipO" Ids="C3gxH3z2EBbLqbOT0wkcp0,UUHB3N8bkRMOgrfBpSea5c" />
               <Link Id="LbtIPGOG0TxNgmgZ7QgbUd" Ids="EqOrzyTEbPiOqNLMksXQeC,C3gxH3z2EBbLqbOT0wkcp0" IsHidden="true" />
+              <Link Id="GSodnx2yr8hL9jvsBYyspr" Ids="QR6zZwVPy5TPKper101HtS,UUHB3N8bkRMOgrfBpSea5c" />
             </Patch>
           </Node>
           <!--
@@ -4210,6 +4212,7 @@
               <Pin Id="CwogRK6NvaAPlNrv18rFCN" Name="Children" Kind="InputPin" />
               <Pin Id="Scl5fu60hNkOhJgWyUTMSN" Name="Name" Kind="InputPin" />
               <Pin Id="AW5XkUT0uEMLbex4YqIuyj" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+              <Pin Id="DVLmSMcCSNsPiOZ1DbNiNA" Name="Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="IF7angQdKBPL1dMody9U83" Name="Entity" Kind="OutputPin" />
             </Node>
             <Node Bounds="424,2291,265,19" Id="VsKqylGX0QKOYsX4UUppo0">
@@ -4224,6 +4227,7 @@
               <Pin Id="CyFvAT3SOdCO1P4mY04iMY" Name="Save Bounds" Kind="InputPin" />
               <Pin Id="ADNHYkeGBCbOw5kGlgDXp7" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
               <Pin Id="SQHbyjVqqxgNS22Opdnw9T" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
+              <Pin Id="TgfuuO7pyBbQAYtgOjD0VG" Name="Input Priority" Kind="InputPin" IsHidden="true" />
               <Pin Id="SWhD1y81DO6LwTzwqT66vk" Name="Input" Kind="InputPin" />
               <Pin Id="J6IzVeefAu0QMrZVfS0kYb" Name="Camera" Kind="InputPin" />
               <Pin Id="Lu7EC1JvDJXMGjASPsxDp1" Name="Enable Default Camera" Kind="InputPin" DefaultValue="True" />
@@ -4251,6 +4255,7 @@
               <Pin Id="NJibii4bEcINFFcoNzQ1Ou" Name="Input Source" Kind="OutputPin" />
               <Pin Id="PQJ9VdqSYHHQK7BX3Ghnub" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
               <Pin Id="HSl7cGaWh19OKOkRUgy8Q4" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="M9qEKRd0UWRMpNPvkoysib" Name="Present Call Intercept" Kind="InputPin" IsHidden="true" />
             </Node>
             <Node Bounds="142,1649,145,19" Id="MlUiSZeld82OGez371wBQm">
               <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
@@ -4794,6 +4799,7 @@
               <Pin Id="JMc80jaNYhKMxyOuU8Ol97" Name="Children" Kind="InputPin" />
               <Pin Id="PlK1FgdcqtMPdnmzQ8yPWH" Name="Name" Kind="InputPin" />
               <Pin Id="DmDJhaPkG9hNsRL0HejU0V" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+              <Pin Id="EtDfRToUvBIM8Mlv5zGob4" Name="Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="FoGQBIV6Vh2QRTFJI7hQN7" Name="Entity" Kind="OutputPin" />
             </Node>
             <Pad Id="BMJPSwcLcitMvfWpMcrxsc" Comment="Size" Bounds="60,1360,39,28" ShowValueBox="true" isIOBox="true" Value="12, 12">
@@ -4817,6 +4823,7 @@
               <Pin Id="AnTJCBExWBdQYENauvtBmI" Name="Roughness" Kind="InputPin" DefaultValue="0.28" />
               <Pin Id="G72hzmTVxWuM6k2fzbKjod" Name="Transparency" Kind="InputPin" />
               <Pin Id="KXP66PRj8HJP3RKXQxNvQz" Name="Cull Mode" Kind="InputPin" />
+              <Pin Id="A7EKfspirgVMFXHCxUzkyi" Name="State Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="PeuDuC552caOdUtMVCz4jV" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="866,1614,55,19" Id="F3Uvxn9zd8tL4ywki3JtpG">
@@ -5464,6 +5471,7 @@
                   <Pin Id="BojNrVlY7yWOIHUVZJoWDS" Name="Children" Kind="InputPin" />
                   <Pin Id="O6qzdpiCduDO63BRKGJP03" Name="Name" Kind="InputPin" />
                   <Pin Id="LTcNALyCLUWMlnA9TkLzTL" Name="Enabled" Kind="InputPin" />
+                  <Pin Id="PgBQDDzlHwiOcT8yuD8DIO" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="N2x4WnITPfFMylwpGSY5XU" Name="Entity" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1401,929,85,19" Id="L8ssJG75HwoQHo7e1Lekip">
@@ -5477,6 +5485,7 @@
                   <Pin Id="HtCFocxuqELMc4PAMY7VVL" Name="Roughness" Kind="InputPin" DefaultValue="0.39" />
                   <Pin Id="E92MFycRIgwP3SFnisKrUD" Name="Transparency" Kind="InputPin" />
                   <Pin Id="DpgLCu2EshgN9i12vAeamj" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
+                  <Pin Id="Uq7hgLrYoGiPxN3cqcldMa" Name="State Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="CGjenODNKifNOjnG1PWKyK" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1363,971,109,97" Id="KRLJpYwaGNTNcjr7Tr6lQ0">
@@ -5506,6 +5515,7 @@
                       <Pin Id="P3yrgTgSqhRMV3wCvgjnOE" Name="Roughness" Kind="InputPin" DefaultValue="0.39" />
                       <Pin Id="HDxwLYGdgjYNxovZuFYRpz" Name="Transparency" Kind="InputPin" />
                       <Pin Id="VKd1kSPNLR7NoBjdJyk3wu" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
+                      <Pin Id="SdICl4JXXkWPDtcqX72WYN" Name="State Output" Kind="OutputPin" IsHidden="true" />
                       <Pin Id="LKX60PMjEzWMpMLVYwKd0V" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="1384,994,65,19" Id="B8KAtoiJ520LoomHbrCysX">
@@ -5915,6 +5925,7 @@
                   <Pin Id="SYCIq25deF0O1p04kFeLb7" Name="Roughness" Kind="InputPin" DefaultValue="0.39" />
                   <Pin Id="V2awN80Qy97QJ2cKdgj0JK" Name="Transparency" Kind="InputPin" />
                   <Pin Id="EUamGHCfglFORDAIKmQqW8" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
+                  <Pin Id="MaRmaegV3eLPxxHKkU5Lp3" Name="State Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="Npud6038sWvNVeWvcFlfad" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
@@ -6010,6 +6021,7 @@
                       <Pin Id="IkLADz7JnUGPK5uwlX0XXu" Name="Roughness" Kind="InputPin" DefaultValue="0.21" />
                       <Pin Id="VHDsSdMIVvuP44tzpqZO7C" Name="Transparency" Kind="InputPin" />
                       <Pin Id="MPwbNZhCQm0M3lgrzjl87a" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
+                      <Pin Id="Hl5htdweEZBNWVLtZkmI8O" Name="State Output" Kind="OutputPin" IsHidden="true" />
                       <Pin Id="Igsaq3vSZMBL4d34qIKTW5" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="848,958,65,19" Id="Cb0Kmz5QLDqNVAf6QTZho9">
@@ -9815,6 +9827,7 @@
                   <Pin Id="MrNpE6XA8K7O87J3OV6AFB" Name="Local End Point" Kind="InputPin" />
                   <Pin Id="OgHcwMS3s4lMHaL6lEVdFT" Name="Bind" Kind="InputPin" />
                   <Pin Id="MALaePKKkgKLEux236g4Jy" Name="Enabled" Kind="InputPin" />
+                  <Pin Id="NsMit9f8eM4LbUAkuwcscg" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="EnUDfuuxu0fMabkVllUurH" Name="Result" Kind="OutputPin" />
                   <Pin Id="U1aYYTuhmE4PZp1nuslYYu" Name="Is Open" Kind="OutputPin" />
                 </Node>
@@ -9872,6 +9885,7 @@
                   <Pin Id="JX1fN2wUfm2M8eOu8YUevB" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="EFskMm1DT7yLn9ttbgPaVc" Name="Local Socket" Kind="InputPin" />
                   <Pin Id="VYHAAPv2yAbPoCwDi25KWn" Name="Datagrams" Kind="InputPin" />
+                  <Pin Id="JTAclnnxbjSMzbrpAXa7XG" Name="Output" Kind="OutputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="475,824,98,19" Id="TC1hsYPfAkaPMC2Z2qMsMG">
                   <p:NodeReference LastCategoryFullName="IO.Socket" LastDependency="VL.CoreLib.vl">
@@ -9894,6 +9908,7 @@
                   <Pin Id="CTMWUXSkej5Lx1aGEGCsqs" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="T4DpqqBKcWFL0dmK83jVZd" Name="Message" Kind="InputPin" />
                   <Pin Id="NhtkecdeLuaMOhguJeOXl1" Name="Send" Kind="InputPin" />
+                  <Pin Id="Mdk89SUdL4xOEfU4HmKSei" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="CZ2tvZLA6SsL4OxglHMCBg" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Pad Id="H0dQv84kMSVMCM93y6iP5E" Comment="" Bounds="567,788,71,15" ShowValueBox="true" isIOBox="true" Value="172.31.1.147">
@@ -9915,6 +9930,7 @@
                   <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                   <Pin Id="Cje9TxjCTbzPhUnPmEBpgU" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="MeWZEJcMbVLQZuwdSvH3be" Name="Local Socket" Kind="InputPin" />
+                  <Pin Id="TqD9FZxlCTbLVA51Itt2rK" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="Jsa3sL6ZfcLLj09J0rF4RU" Name="Datagrams" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="AQxs6OKbb7OM4si5fHyp7b" Bounds="895,883" />
@@ -10269,6 +10285,7 @@
                   <Pin Id="SOfYLsTJiCbOMdrPQZsyY6" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="JugbU1Jb8C9OxTSrAMlvce" Name="Messages" Kind="InputPin" />
                   <Pin Id="EGMdXjLrJDyPiuEiRmiyCT" Name="Reset" Kind="InputPin" />
+                  <Pin Id="LcDYf2mKjG5NwCxpaa5SQc" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="Hof8RwxxNBOMPtQgfQX223" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="467,357,65,19" Id="IjSKg8cHRg4N0nK8TarR7w">
@@ -10281,6 +10298,7 @@
                   <Pin Id="AoHAQAyJWATP9VU8C5gEZO" Name="Initial Result" Kind="InputPin" />
                   <Pin Id="NCUrQTUJsjNPjjst4tm0K9" Name="Async Notifications" Kind="InputPin" />
                   <Pin Id="E5MLuHf5UsNM1tAC5oy9nE" Name="Reset" Kind="InputPin" />
+                  <Pin Id="ORGPcqblkciM0a0RIErsPy" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="FFvTiW4xLL6LWXtkm9ssUy" Name="Value" Kind="OutputPin" />
                   <Pin Id="TsDdRhet0J1QSMVBFAif10" Name="On Data" Kind="OutputPin" />
                 </Node>
@@ -11357,6 +11375,7 @@
                   <Pin Id="JJ93JHv2aoMMbqtI2w5vKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="D8yz8SdlxrwMKdkrydwm3B" Name="Trigger" Kind="InputPin" />
                   <Pin Id="S6kva5U9ScCNnchHaf5KJS" Name="Abort" Kind="InputPin" />
+                  <Pin Id="MDrLO7UNld7O5NPN7SoMq4" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="J2E1jNqcBgmMV9q93V1MoM" Name="Result" Kind="OutputPin" />
                   <Pin Id="J0rC5qiePUCPgucpkp1MPi" Name="In Progress" Kind="OutputPin" />
                 </Node>
@@ -11369,6 +11388,7 @@
                   <Pin Id="T6eiai2VwrnQWtqvyk7wON" Name="Initial Result" Kind="InputPin" IsHidden="true" />
                   <Pin Id="UYpDKgFVp1rP299KFB5pij" Name="Async Notifications" Kind="InputPin" />
                   <Pin Id="IXKQAOFi2kxNwIjsLtsuO7" Name="Reset" Kind="InputPin" />
+                  <Pin Id="JAEdvTHOSlrOWiC4FmvqQN" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="SAGaFJhquwPOCdhdX1XF58" Name="Value" Kind="OutputPin" />
                   <Pin Id="CbwIDAVdBlgLcJccBHfs02" Name="On Data" Kind="OutputPin" />
                 </Node>
@@ -16091,6 +16111,7 @@
                           <Choice Kind="ProcessAppFlag" Name="Sampler" />
                         </p:NodeReference>
                         <Pin Id="TMlGFgWKAIJPdyBfhqmDwQ" Name="Async Notifications" Kind="InputPin" />
+                        <Pin Id="QvYhPTbEhJkLP28xgGz9jL" Name="Output" Kind="OutputPin" IsHidden="true" />
                         <Pin Id="ImNFlhzRmzPOmUoODHdWzW" Name="Notifications" Kind="OutputPin" />
                         <Pin Id="PTplOyiiHeXOgJM036N4yr" Name="On Data" Kind="OutputPin" />
                       </Node>
@@ -21059,6 +21080,7 @@
                 <Pin Id="AAVuKcvPcN7PnFYszm8J2D" Name="Component" Kind="InputPin" />
                 <Pin Id="Qw20fdWR9aSL9jGs22JoDN" Name="Name" Kind="InputPin" />
                 <Pin Id="BI4ALyj87fRPpYAhKm8TsN" Name="Enabled" Kind="InputPin" />
+                <Pin Id="NputvYqJQOSLQQd86Kdq5i" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="GGAWFW0Jml8Mx6B8AMzRRl" Name="Entity" Kind="OutputPin" />
               </Node>
               <Pad Id="K2beecqCt58NGxBK8WmQJ3" Comment="Colors" Bounds="374,398,136,34" ShowValueBox="true" isIOBox="true">
@@ -22728,6 +22750,7 @@
                 <Pin Id="VlQ3LBUSy0fLyBHTQ6uTx0" Name="Bounds" Kind="InputPin" />
                 <Pin Id="P2U20UY8I58OlNC7ZizPOQ" Name="Paint" Kind="InputPin" />
                 <Pin Id="Lpfxt3O0rrOLblspHtYthA" Name="Enabled" Kind="InputPin" />
+                <Pin Id="AG1Hlln424ONOylYjvRs0d" Name="State Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="ClJf2os8339P7mGZbTu0DF" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="687,836,65,19" Id="HB1n4rhGOAKQEPiKClyr6R">
@@ -22766,6 +22789,7 @@
                 <Pin Id="BU14t9tskwNLPkTkhttrLd" Name="Bounds" Kind="InputPin" />
                 <Pin Id="JboiiATOki6OvzPEvPvWV0" Name="Paint" Kind="InputPin" />
                 <Pin Id="SOkrgkkhFMZPmXgXrysvMP" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+                <Pin Id="IO0Y7Tylde2NjLYlgfYJXL" Name="State Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="TESMrOa7YprNp4wKNugIRZ" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="MqSs5LlQe2RNrfL8yvM7mY" Bounds="280,288" />
@@ -23160,6 +23184,7 @@
                 <Pin Id="ThoidWqKaUzOeJSLKcTxDy" Name="Component" Kind="InputPin" />
                 <Pin Id="QiPoVLXWeVeMELUEFNJocE" Name="Name" Kind="InputPin" />
                 <Pin Id="TFrekT1qReZQaxoFiopFRY" Name="Enabled" Kind="InputPin" />
+                <Pin Id="IZvIEEn8xnAOsmxNQmD0zg" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="COahesEFjZPNhvDdqZnm68" Name="Entity" Kind="OutputPin" />
               </Node>
               <Node Bounds="524,1179,225,19" Id="IZ5F5GNvKgBQKgKAIw7Xh6">
@@ -23180,6 +23205,7 @@
                 <Pin Id="CCSg4O5IR7oNLbBhGMpjxu" Name="Color Transforms" Kind="InputPin" />
                 <Pin Id="M30aix9kHEfNHdWwhejtPb" Name="Enable Default ToneMap" Kind="InputPin" />
                 <Pin Id="SLYhwxgm2yrNVWTqoFkT4e" Name="Antialiasing" Kind="InputPin" />
+                <Pin Id="BQx26kiLbASOP0VtUn8OhU" Name="State Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="RF9WLHvvMHVNsojppbr8p4" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="604,1148,65,19" Id="VRvvOhaw4KDLdt2UfPZHsg">
@@ -23289,6 +23315,7 @@
                 <Pin Id="N2hAHo3juWqNp6jXGw5tKn" Name="Children" Kind="InputPin" />
                 <Pin Id="Epvo231E0CtMEzGSNojyix" Name="Name" Kind="InputPin" />
                 <Pin Id="EFJjm4Z1poNLSPJOOdwHiI" Name="Enabled" Kind="InputPin" DefaultValue="False" />
+                <Pin Id="POIp1zLnMRfLUfNxZXWWD8" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="VYJ5q7bwswoO3QvxhO5CsJ" Name="Entity" Kind="OutputPin" />
               </Node>
               <Pad Id="BGbC0DbyrgeQOcSmonfep1" Comment="Tessellation" Bounds="580,772,24,15" ShowValueBox="true" isIOBox="true" Value="60">
@@ -23958,6 +23985,7 @@
                     <Pin Id="TDCrhMecbOzNKfEj5WC7t0" Name="Children" Kind="InputPin" />
                     <Pin Id="Ttc6mFHPM64PHEHY6nupKl" Name="Name" Kind="InputPin" />
                     <Pin Id="LplfwNIbpdRLbzw94HVdaO" Name="Enabled" Kind="InputPin" />
+                    <Pin Id="IdAi14d3G5OPHKaTu9gnAw" Name="Output" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="Fypn03isnFQNmNn4XG92qH" Name="Entity" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="711,1038,85,19" Id="VzxVEMMMYnZPLxdWaUOBRf">
@@ -23971,6 +23999,7 @@
                     <Pin Id="HTg4C2LHd0ELn64DKH4jE2" Name="Roughness" Kind="InputPin" DefaultValue="1.26" />
                     <Pin Id="IsgWuQkSm70N4RYyzQawyH" Name="Transparency" Kind="InputPin" />
                     <Pin Id="GMLOdhxEItxNRyx5NXh41D" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
+                    <Pin Id="PpMyTBT9PhsOFf9IQX5V7q" Name="State Output" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="BWnK6ZyZp9pMKvGtwJ2N3u" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
@@ -24136,6 +24165,7 @@
                     <Pin Id="Ikqlw4fic3qOEThvYCBLBZ" Name="Children" Kind="InputPin" />
                     <Pin Id="PbAIndcUwmSO0Y8y7G3NPf" Name="Name" Kind="InputPin" />
                     <Pin Id="VoVz42Q7iPuMaqAicQLMsx" Name="Enabled" Kind="InputPin" />
+                    <Pin Id="IG8XetGF7gLLl46ddRnur1" Name="Output" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="AUAF7GeJT9cMevqmSwgvVg" Name="Entity" Kind="OutputPin" />
                   </Node>
                 </Patch>
@@ -24289,6 +24319,7 @@
               <Pin Id="DYdnda1mj6ILpbay0rZT7Z" Name="Color Transforms" Kind="InputPin" />
               <Pin Id="FhwVne6EvKnPXThajp6mcd" Name="Enable Default ToneMap" Kind="InputPin" />
               <Pin Id="GxJpbvpANM0OP0iuhkKu8Z" Name="Antialiasing" Kind="InputPin" />
+              <Pin Id="OAwIQz5lkHAMoLwSwL7dVv" Name="State Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="TqakaX7Uw5KOS2hwsKuN38" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="939,689,185,19" Id="TfqvxWDtdhQM5aUY7UyhO7">
@@ -24418,6 +24449,7 @@
                   <Pin Id="LuaghfgDW8kMb6z153BIA1" Name="Name" Kind="InputPin" />
                   <Pin Id="StN52YccDBZPrykYcbvIeQ" Name="Enabled" Kind="InputPin" />
                   <Pin Id="I7OB7yDj3V8NHdD61XJuO9" Name="Show Helper" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="A3oJEtknz8OPMsdLBGdq53" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="UHtzluUJoHEN3WN9CrYAvJ" Name="Entity" Kind="OutputPin" />
                 </Node>
               </Patch>
@@ -24495,15 +24527,15 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0067-g1d2c249f1c" />
-  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0067-g1d2c249f1c" />
-  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0067-g1d2c249f1c" />
+  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0207-g7809617343" />
+  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0207-g7809617343" />
+  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0207-g7809617343" />
   <NugetDependency Id="Vnha69qNnKmQXFc92Xx8V3" Location="VL.SimpleHTTP" Version="1.2.1" />
   <NugetDependency Id="TfnlKmL7DEtN61gL35AeHk" Location="Grpc.Core.Api" IsForward="true" Version="2.66.0" />
   <NugetDependency Id="DFFbzR1TDOCM50j5Cf7rUw" Location="Grpc.Net.Client" IsForward="true" Version="2.66.0" />
   <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" IsForward="true" Version="3.28.3" />
   <NugetDependency Id="UeLSX9KZm0hPjS0yghsC9s" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
-  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0067-g1d2c249f1c" />
+  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0207-g7809617343" />
   <PlatformDependency Id="S0vchuidQNsPjUGhQ3oZzo" Location="./lib/KUKAprcMiniInvKin.dll" />
   <PlatformDependency Id="QrVdWcNhtqfOc3KJSZIoNN" Location="./lib/KUKAprcCore.dll" />
   <PlatformDependency Id="GGespB8uu6PLGrQEeWLaEe" Location="./lib/KUKAprcLibrary.dll" />
