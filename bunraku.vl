@@ -4079,19 +4079,6 @@
                     <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="HQoDAZi5LSHNV5vkPznJR4" Comment="" Bounds="662,958,63,112" ShowValueBox="true" isIOBox="true" Value="-1, -1, -1, 1, -1, 1">
-                  <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="Spread" />
-                    <p:TypeArguments>
-                      <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                        <Choice Kind="TypeFlag" Name="Float32" />
-                      </TypeReference>
-                    </p:TypeArguments>
-                  </p:TypeAnnotation>
-                  <p:ValueBoxSettings>
-                    <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
-                  </p:ValueBoxSettings>
-                </Pad>
                 <Node Bounds="574,1069,91,26" Id="N4RWwSEpZVbQFo4GfZXoVT">
                   <p:NodeReference LastCategoryFullName="bunraku.RobotData" LastDependency="bunraku.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4126,7 +4113,7 @@
                     <p:showentryindex p:Type="Boolean">true</p:showentryindex>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="SgjXzejir1lNBJcfLyNLSM" Comment="" Bounds="786,886,66,111" ShowValueBox="true" isIOBox="true" Value="1, -1, -1, 1, -1, 1">
+                <Pad Id="SgjXzejir1lNBJcfLyNLSM" Comment="" Bounds="786,886,66,111" ShowValueBox="true" isIOBox="true" Value="-1, -1, -1, 1, -1, 1">
                   <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
@@ -4169,12 +4156,12 @@
               <Link Id="Oeyb2O59xfaNuPVqGA7OI7" Ids="Dqpyb0Ex8JwNWG1wgGrOze,EwbLfLlDGEcNGFL9e4iRIc" />
               <Link Id="K5ujKhhZfwKPRLaN7Y2lH6" Ids="LqPXvSvaHhLOmFCHQaj4Lr,IUOy68wLedgPEYwr2Z2sqc" />
               <Link Id="TaJUBn67KEGLS6XiavGcc9" Ids="KDfnx0w0JOgOz3FLHbhPZE,QY8HUI3hx4SNXraB0CiBjB" />
-              <Link Id="QzrSK4xqdrkQQ08fyKExcg" Ids="HQoDAZi5LSHNV5vkPznJR4,GpWBBhCs89yMJkiuZTqlIY" />
               <Link Id="POhL7mFAk5cOOIrqVhlaF3" Ids="LoWev89cHUhMC84e1u1vxS,TQ7jnDXIvOVNpMy5FfCOIZ" />
               <Link Id="VmVUBp99lfwMtnbtTwTCM2" Ids="JVa8KidXbGLMIs7FXLnCtX,Mhp2zynR8gqQYfdT1e4SJ6" />
               <Link Id="JugUCzKtIw0O8Vq6ftI5x6" Ids="T1DisCEPRe7OgA81OYWIUs,ISx5Y08zaPQPEvOEmaUqn6" />
               <Link Id="SbMJ7tl5BInOmCg7FZpThj" Ids="HcktwnFvAHiQJ1n7kf4tNk,NeX6UFMadW2M2z3QXJKAkS" />
               <Link Id="ArIjQJGQ8yAQD6VtAmM69b" Ids="Q2uAKl1jq8FOJAdGiBNS4K,UnBTyZHnGZMLnjLNaSmV2M" />
+              <Link Id="UTdvucIMfJBMrDU8qZ4kmE" Ids="SgjXzejir1lNBJcfLyNLSM,GpWBBhCs89yMJkiuZTqlIY" />
             </Patch>
           </Node>
         </Canvas>
@@ -6126,7 +6113,7 @@
               <Pin Id="BP1kUvT9WraPtn9QNDmhyG" Name="Parent" Kind="OutputPin" />
             </Node>
             <Pad Id="H7kWKz5vZTKOcxfpW9X5T1" SlotId="IYTXKpbuXskLXQwQwIL8iJ" Bounds="1766,1179" />
-            <Overlay Id="O2ndoNyQ9DaPe840KKRjAo" Name="Ginbal" Bounds="1625,907,368,284">
+            <Overlay Id="O2ndoNyQ9DaPe840KKRjAo" Name="Gimbal" Bounds="1625,907,368,284">
               <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
             </Overlay>
             <ControlPoint Id="Fzi3Cf54w0ENvzYE7sdNWm" Bounds="433,75" />
@@ -6966,33 +6953,9 @@
               <Pin Id="V5MregLxTT2OyVwSv9usuc" Name="AxisValues" Kind="InputPin" />
               <Pin Id="STBxuc9GWHXQdD5N1FY1SN" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="V8EdJBNuksONpVWtPh5jQb" Bounds="-6,17" />
+            <ControlPoint Id="V8EdJBNuksONpVWtPh5jQb" Bounds="11,30" />
             <Pad Id="UkVdqbgKuiDMahOuIWlEpE" SlotId="Sg5MlX156amLL675AWRInO" Bounds="10,94" />
             <Pad Id="DXlOOubYnlCQC9fV2delZ7" SlotId="Sg5MlX156amLL675AWRInO" Bounds="790,557" />
-            <Node Bounds="-139,181,58,19" Id="E8KIbFwuaRYMnN3iYaZLly">
-              <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
-                  <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
-                </CategoryReference>
-                <Choice Kind="OperationCallFlag" Name="Translate" />
-              </p:NodeReference>
-              <Pin Id="GOS5VpbF86oMYkEdwQz402" Name="Input" Kind="InputPin" />
-              <Pin Id="FfSiRZhVp6IOSvrczutY9d" Name="Translation" Kind="InputPin" />
-              <Pin Id="A1RnCVdHx8LNBsRU9lpB49" Name="Output" Kind="OutputPin" />
-            </Node>
-            <Node Bounds="-141,150,46,19" Id="GJ7KN6HCTTBNSF5BtYTreW">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
-                <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
-              </p:NodeReference>
-              <Pin Id="FwEbxHC2XGvNTcAYXHwNIk" Name="X" Kind="InputPin" />
-              <Pin Id="EzUB7I5S1l5QFL8UQkGJEh" Name="Y" Kind="InputPin" />
-              <Pin Id="T0j3Z8FBG0JLnhlz24PGFc" Name="Z" Kind="InputPin" DefaultValue="0.19" />
-              <Pin Id="KQycKm3qyr1MXUibh4x05z" Name="Output" Kind="StateOutputPin" />
-            </Node>
-            <ControlPoint Id="F0mnseUgSg4PPLIji6RAqb" Bounds="-95,26" />
           </Canvas>
           <ProcessDefinition Id="HlGbzKCJcpTNTO3ZsGcydO" HasStateOut="true">
             <Fragment Id="E6tPMt65KBxNoJDKeYjCqj" Patch="HyIkd7he67WLlm82SIWyxM" Enabled="true" />
@@ -7100,7 +7063,6 @@
           <Link Id="ULDRetKwSe0PgiHQKFZlal" Ids="DXlOOubYnlCQC9fV2delZ7,Ml5qqtv2YwlQJluuLtB8ZX" />
           <Patch Id="HyIkd7he67WLlm82SIWyxM" Name="Create" />
           <Patch Id="Rc1eDbWCI3sOBzZlC9Vym8" Name="Update" ParticipatingElements="IMMQoKQsWKjOUvcMpzx80R">
-            <Pin Id="E5vPxSxTNyENOoMAZkdY1J" Name="Z" Kind="InputPin" />
             <Pin Id="JkMe6LdIxwxM3neudzmK9w" Name="Base" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Matrix" />
@@ -7135,9 +7097,6 @@
           <Patch Id="TTYbZ1BvTumMcKs2Bt3uTU" Name="GetRobotColors" ParticipatingElements="VTvwcfX3SdaLEtIvlUlp2c">
             <Pin Id="JYLZgvuumn0PXPbkf92oh8" Name="RobotColors" Kind="OutputPin" />
           </Patch>
-          <Link Id="QAibHiIQqKxOQqcsMNwfiL" Ids="KQycKm3qyr1MXUibh4x05z,FfSiRZhVp6IOSvrczutY9d" />
-          <Link Id="U5QO2Z8T4L0MpCHAjdwlRa" Ids="F0mnseUgSg4PPLIji6RAqb,T0j3Z8FBG0JLnhlz24PGFc" />
-          <Link Id="PrlRJUTByhdQA2fu6JDOoZ" Ids="E5vPxSxTNyENOoMAZkdY1J,F0mnseUgSg4PPLIji6RAqb" IsHidden="true" />
           <Link Id="LnD0FDEhKtpNU7bF9Bl8rb" Ids="V8EdJBNuksONpVWtPh5jQb,UkVdqbgKuiDMahOuIWlEpE" />
         </Patch>
       </Node>
@@ -24544,9 +24503,9 @@
   <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0253-g169ec5ff92" />
   <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0253-g169ec5ff92" />
   <NugetDependency Id="Vnha69qNnKmQXFc92Xx8V3" Location="VL.SimpleHTTP" Version="1.2.1" />
-  <NugetDependency Id="TfnlKmL7DEtN61gL35AeHk" Location="Grpc.Core.Api" IsForward="true" Version="2.66.0" />
-  <NugetDependency Id="DFFbzR1TDOCM50j5Cf7rUw" Location="Grpc.Net.Client" IsForward="true" Version="2.66.0" />
-  <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" IsForward="true" Version="3.28.3" />
+  <NugetDependency Id="TfnlKmL7DEtN61gL35AeHk" Location="Grpc.Core.Api" IsForward="true" Version="2.52.0" />
+  <NugetDependency Id="DFFbzR1TDOCM50j5Cf7rUw" Location="Grpc.Net.Client" IsForward="true" Version="2.52.0" />
+  <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" IsForward="true" Version="3.29.3" />
   <NugetDependency Id="UeLSX9KZm0hPjS0yghsC9s" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
   <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0253-g169ec5ff92" />
   <PlatformDependency Id="S0vchuidQNsPjUGhQ3oZzo" Location="./lib/KUKAprcMiniInvKin.dll" />
