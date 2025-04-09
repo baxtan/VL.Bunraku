@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
-<KairosSessionModel>
+<KairosSessionModel xmlns:r="reflection" r:Version="2">
   <Clock_model Loop_Out="10" Period="1" Speed="1" />
-  <Composition_Sampler_Model />
-  <Default_KeyframeEditor_Model ID="27763833-a95e-4cd8-84b0-c2552c0d8527" />
+  <Composition_Sampler_Model>
+    <Track_Samplers>
+      <Item Key="AnyTrack">
+        <Value Channel_Binding_Enabled="True" Enabled="True" TDomain="Float64" Track_ID="AnyTrack" Type_Full_Name="Vector3 [3D]">
+          <Background_Value r:Type="Vector3 [3D]">0, 0, 0</Background_Value>
+          <Parameter Key="c3d362dc-0fee-438f-b4bf-40b76c533ac1" Path="AnyTrack" Type_Full_Name="Vector3 [3D]" />
+          <Source_Track_Model ID="41488e35-5b65-45f5-a533-f9a718ba42bc" r:Type="TrackModel (KeyframeEditor) [Kairos.KeyframeEditor.Track]">
+            <Author_IDs>
+              <Item>KeyframeEditorUI</Item>
+            </Author_IDs>
+            <Parameter Key="c3d362dc-0fee-438f-b4bf-40b76c533ac1" Path="AnyTrack" Type_Full_Name="Vector3 [3D]" />
+          </Source_Track_Model>
+        </Value>
+      </Item>
+    </Track_Samplers>
+  </Composition_Sampler_Model>
+  <Default_KeyframeEditor_Model ID="48e64c15-33b3-4d83-b2df-c71ca9f9b89d">
+    <Tracks>
+      <Item Key="AnyTrack">
+        <Value ID="41488e35-5b65-45f5-a533-f9a718ba42bc" r:Type="TrackModel (KeyframeEditor) [Kairos.KeyframeEditor.Track]">
+          <Author_IDs>
+            <Item>KeyframeEditorUI</Item>
+          </Author_IDs>
+          <Parameter Key="c3d362dc-0fee-438f-b4bf-40b76c533ac1" Path="AnyTrack" Type_Full_Name="Vector3 [3D]" />
+        </Value>
+      </Item>
+    </Tracks>
+  </Default_KeyframeEditor_Model>
   <KeyframeEditor_UI_Model Composition_Track_Folding="True" ID="6885f67c-a4ea-4f74-87b6-d611f2181ebe" Output_Monitor_Folding="True" Time_Grid_Snapping_Enabled="True" Track_Selective_View_Enabled="True">
-    <Camera_Model Initial_Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22, 0, 0, 1" Maximum_Zoom="50" Minimum_Position_Bound="1.22, 0" Minimum_Zoom="0.01" Scroll_Speed="1, 1" Zoom_Speed="1">
+    <Camera_Model Initial_Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22, 0, 0, 1" Maximum_Zoom="50" Minimum_Position_Bound="1.22, 0" Minimum_Zoom="0.01" Scroll_Speed="1, 1" Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22, 0, 0, 1" Zoom_Speed="1">
       <Minimum_Position_Bound_Enabled Item1="False" Item2="True" />
     </Camera_Model>
+    <Tracks>
+      <Item Key="AnyTrack">
+        <Value Folding="True" Height="1" ID="41488e35-5b65-45f5-a533-f9a718ba42bc" Value_View_Maximum="1" />
+      </Item>
+    </Tracks>
   </KeyframeEditor_UI_Model>
   <Settings Auto_Backup_Enabled="True" Auto_Backup_Interval="10" Auto_Save_Enabled="True" />
 </KairosSessionModel>
