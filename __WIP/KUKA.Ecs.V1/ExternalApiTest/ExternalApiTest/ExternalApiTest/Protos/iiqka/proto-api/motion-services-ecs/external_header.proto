@@ -1,0 +1,21 @@
+// This material is the exclusive property of KUKA.
+// Except as expressly permitted by separate agreement, this material
+// may only be used by members of the development department of KUKA
+// for internal development purposes of KUKA.
+//
+// Copyright (C) KUKA. All Rights Reserved.
+
+syntax = "proto3";
+
+package kuka.ecs.v1;
+
+option csharp_namespace = "Kuka.Ecs.V1";
+
+
+// Proto definition for external RT commands
+message ExternalHeader {
+  // Message Id
+  uint32 message_id = 1;
+  // Interpolator message identifier
+  uint32 ipoc = 2;
+}
