@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Stride.Core.Mathematics;
 using SolverCoreMini.Geometry;
@@ -10,7 +10,7 @@ namespace SolverCoreMini
     public class InverseKinematic
     {
         /// <summary>
-        /// Calculates the robot�s joint positions for a given Cartesian target.
+        /// Calculates the robot’s joint positions for a given Cartesian target.
         /// Note: This version uses the Frame class (a coordinate system) from our Stride integration.
         /// </summary>
         public static IK_Solver_AxVals IK_Solver_InverseKinematic(
@@ -183,10 +183,17 @@ namespace SolverCoreMini
             #endregion
 
             #region Define Robot Tip and Rotational Axes
+          
+            var tipX = (float)(a03length - a01offset);  // = a03 + (–a01offset)
+            var tipY = 0f;
+            var tipZ = (float)((a01length + a02length) - a03offset);
+
+            // X‑axis should point down the link‑3 (0,0,–1), Y‑axis remains up (0,1,0)
             Frame robotTip = new Frame(
-                new Vector3((float)(a03length + a01offset), 0f, (float)((a01length + a02length) - a03offset)),
-                new Vector3(1, 0, 0),
-                new Vector3(0, 1, 0));
+                new Vector3(tipX, tipY, tipZ),
+                new Vector3(0, 0, -1),
+                new Vector3(0, 1, 0)
+            );
 
             Line[] rotAxes = new Line[6];
             rotAxes[0] = new Line(new Vector3(0, 0, 0), new Vector3(0, 0, (float)a01length));

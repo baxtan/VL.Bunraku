@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bunraku_IKSolver09Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94a9d3c39d7ca9aa7dd2ef38148191c57fa9b0f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("bunraku_IKSolver09Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bunraku_IKSolver09Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

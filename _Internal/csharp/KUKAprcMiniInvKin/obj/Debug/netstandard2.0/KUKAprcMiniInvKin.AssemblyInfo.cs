@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KUKAprcMiniInvKin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f8af0d44d7e4b640b8495e5ae31307f3f05f48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94a9d3c39d7ca9aa7dd2ef38148191c57fa9b0f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KUKAprcMiniInvKin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KUKAprcMiniInvKin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
