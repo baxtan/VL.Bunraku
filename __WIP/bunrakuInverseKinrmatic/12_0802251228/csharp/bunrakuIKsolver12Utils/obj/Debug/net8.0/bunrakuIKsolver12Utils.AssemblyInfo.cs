@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bunrakuIKsolver12Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5db6c4370c7d2c983d020ce0df5811242b96e0be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec8ce5f42d73102cc5b2f80c0bf8672884a8815d")]
 [assembly: System.Reflection.AssemblyProductAttribute("bunrakuIKsolver12Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bunrakuIKsolver12Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
