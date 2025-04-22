@@ -1,8 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LwtZSUGTlOKMUt0RwBN5HA" LanguageVersion="2025.7.0-0291-g0fa8d3ddbf" Version="0.128">
-  <NugetDependency Id="ACj8nftXLZOLzMcCU0L8GF" Location="VL.CoreLib" Version="2025.7.0-0291-g0fa8d3ddbf" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LwtZSUGTlOKMUt0RwBN5HA" LanguageVersion="2025.7.0-0293-g948ffb0dd8" Version="0.128">
+  <NugetDependency Id="ACj8nftXLZOLzMcCU0L8GF" Location="VL.CoreLib" Version="2025.7.0-0293-g948ffb0dd8" />
   <Patch Id="IjF5Dk7D3tvLi15ZPYFgK4">
-    <Canvas Id="J690pfX4uWpMfYVnpFBDCB" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <Canvas Id="J690pfX4uWpMfYVnpFBDCB" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
+      <!--
+
+    ************************ Patch ************************
+
+-->
+      <Node Name="Patch" Bounds="197,91" Id="CrOKLVyo9NnLZQ0CTslTU6">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <Patch Id="CGQnaXaZw35NxKgaB0EhRr">
+          <Canvas Id="Urx0vStSBOaLW91dTLqfDm" CanvasType="Group" />
+          <Patch Id="LrzA7VctwdDNBYyJ8eCODw" Name="Create" />
+          <Patch Id="UiNCXpyi5LQQNutZZ0cKW5" Name="Update" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="GvoKjEEK3yjLrl5mhtlmvu">
+            <Fragment Id="RzYuEBudwwOMXudCCLKnVJ" Patch="LrzA7VctwdDNBYyJ8eCODw" Enabled="true" />
+            <Fragment Id="VzxcsecwqZTPtqATMQlqB6" Patch="UiNCXpyi5LQQNutZZ0cKW5" Enabled="true" />
+          </ProcessDefinition>
+        </Patch>
+      </Node>
+    </Canvas>
     <!--
 
     ************************ Application ************************
@@ -148,7 +174,7 @@
             <Pin Id="S2wvH62uu0BO0sf7ZFRu3Q" Name="Enabled" Kind="InputPin" />
             <Pin Id="UMGDeOGsTPfNZilE43Utfm" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Mog2CXG4Gg1OONHbO5ONg5" Comment="" Bounds="163,470,35,49" ShowValueBox="true" isIOBox="true" Value="False, True">
+          <Pad Id="Mog2CXG4Gg1OONHbO5ONg5" Comment="" Bounds="163,470,35,65" ShowValueBox="true" isIOBox="true" Value="False, True, True">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -168,7 +194,7 @@
             <Pin Id="OYgsmx6EeUbOe4Veo7rDrS" Name="ABC" Kind="InputPin" />
             <Pin Id="BEXXFsdmLFEOMnekoL0wOH" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="287,502,39,19" Id="Np0vdTZNm6eOwnRCOdmwQL">
+          <Node Bounds="287,502,45,19" Id="Np0vdTZNm6eOwnRCOdmwQL">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
@@ -177,6 +203,7 @@
             <Pin Id="VmiWBhnaayAOnPCnFakYHg" Name="Input" Kind="InputPin" />
             <Pin Id="NdDCTSAfBkEPbYYM01bHO4" Name="Input 2" Kind="InputPin" />
             <Pin Id="Kulp1XXy1TTLu2PnRHrLKJ" Name="Result" Kind="OutputPin" />
+            <Pin Id="KyhOf1tApoGP3g563KFGfU" Name="Input 3" Kind="InputPin" />
           </Node>
           <Node Bounds="35,-154,73,19" Id="LGUTiNubNPELgggHvVzT6r">
             <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
@@ -303,14 +330,49 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="RdtBYWC9wbHPYJg8cThMHu" SlotId="CnvucemPfTGPSqmDts0iQy" Bounds="438,275" />
+          <Node Bounds="603,410,68,19" Id="V6eI3qLy4DMLncO1pKNdpL">
+            <p:NodeReference LastCategoryFullName="bunraku.Motion" LastDependency="bunraku.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AxisMotion" />
+            </p:NodeReference>
+            <Pin Id="TTQUaWKgzVMNYVjEw2OsZ8" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OJYkhxJhIKUQP4DJcim3SC" Name="AxisValues" Kind="InputPin" />
+            <Pin Id="EtlotV7N9euOrHYf5eukeC" Name="Motion" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="366,-150,73,19" Id="BLggEZcWtjxMmSiBllb6lA">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
+            </p:NodeReference>
+            <Pin Id="PrhOREj2uaFLwii5JJg7j1" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KfBYowvNPjQNq5cHkylgBG" Name="Input" Kind="InputPin" />
+            <Pin Id="VRvvnXdXqyHP3lUAhQfpyy" Name="Address" Kind="InputPin" />
+            <Pin Id="G6HTYA75XrSPf7KifLKjhX" Name="Learn" Kind="InputPin" />
+            <Pin Id="HYpC5Fq35L0OjhvuvrYLMS" Name="Output" Kind="OutputPin" />
+            <Pin Id="CuOblalUClZN9xKEDPD5FH" Name="Is Learning" Kind="OutputPin" />
+            <Pin Id="HqUnoZFmS70LBYL2lAz0wh" Name="On Data" Kind="OutputPin" />
+            <Pin Id="FKBpvvr2hzRL9mgCOKYRVc" Name="Address" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="LwxMPCIOUBpNdKYe9w7jqk" Comment="Address" Bounds="402,-180,35,15" ShowValueBox="true" isIOBox="true" Value="/BunrakuSolver">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="JjXSiXGYnWXLfFTnVZVycq" Comment="" Bounds="368,-70,45,97" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="SYDL0NilVleP0PbUgImjs8" SlotId="OUGy8TRGtIiP3nv0bPCOMm" Bounds="368,-110" />
+          <Pad Id="AqIvHBScrA9QWpluCsH9cc" SlotId="OUGy8TRGtIiP3nv0bPCOMm" Bounds="605,280" />
         </Canvas>
         <Patch Id="Iqem1tI1ydHPj4eFMkH92i" Name="Create" />
         <Patch Id="DGVbJs4XZQDQdWTghOSbvq" Name="Update" ParticipatingElements="DpDFDwgWFjxLMWa1Ymwo3X,LmBPI9vtnFILZn6a9l4I3V,BixHUHaIwvnPPJPhVfgGvZ,DyQL0YylIj3QHSqW421Go9" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="F4ImlI3JZ72Mg4Wa4vl92c">
           <Fragment Id="Hlxt2q9buLxNeZ2UYgSL5A" Patch="Iqem1tI1ydHPj4eFMkH92i" Enabled="true" />
           <Fragment Id="KS9OzCbXGPVLW16JZhhfNA" Patch="DGVbJs4XZQDQdWTghOSbvq" Enabled="true" />
@@ -354,10 +416,17 @@
         <Link Id="BixHUHaIwvnPPJPhVfgGvZ" Ids="DFpmBp0iS0fQAbLpQvSW8E,NMPGMi8rdPNOTqk8vC2QkV" />
         <Link Id="DyQL0YylIj3QHSqW421Go9" Ids="RdtBYWC9wbHPYJg8cThMHu,SwaYKff2gH7MVleKddmTWF" />
         <Link Id="SsKr329d7H7MSCHhHKxFmD" Ids="SwaYKff2gH7MVleKddmTWF,GTPzhQkgXk3NWk4X0e0mfp" />
+        <Link Id="CJWhzabZ5awOgLaMzXA10v" Ids="EtlotV7N9euOrHYf5eukeC,KyhOf1tApoGP3g563KFGfU" />
+        <Link Id="QWWhzbs9bpyO6vwtGWcRVd" Ids="D3PphOqQEdNQc2Ct1I5TNx,KfBYowvNPjQNq5cHkylgBG" />
+        <Link Id="D1GVhhKyZ2aPvln457Ftk8" Ids="LwxMPCIOUBpNdKYe9w7jqk,VRvvnXdXqyHP3lUAhQfpyy" />
+        <Link Id="LG3JNinYfbTLUbT9PSQO02" Ids="HYpC5Fq35L0OjhvuvrYLMS,SYDL0NilVleP0PbUgImjs8" />
+        <Link Id="N1FQji9QchROl9QS4Utdh1" Ids="SYDL0NilVleP0PbUgImjs8,JjXSiXGYnWXLfFTnVZVycq" />
+        <Slot Id="OUGy8TRGtIiP3nv0bPCOMm" Name="BunrakuSolver" />
+        <Link Id="M3scPfoUwb4P1fSI063an9" Ids="AqIvHBScrA9QWpluCsH9cc,OJYkhxJhIKUQP4DJcim3SC" />
       </Patch>
     </Node>
   </Patch>
   <DocumentDependency Id="TKbQnZA68KXQAwdhNiM0yO" Location="../../bunraku.vl" />
-  <NugetDependency Id="C2cAJgTckZhMSlnPlObHqa" Location="VL.Stride" Version="2025.7.0-0291-g0fa8d3ddbf" />
+  <NugetDependency Id="C2cAJgTckZhMSlnPlObHqa" Location="VL.Stride" Version="2025.7.0-0293-g948ffb0dd8" />
   <NugetDependency Id="LDa2HSmRoqdOo5bVDzW56g" Location="VL.IO.OSC" Version="1.1.5" />
 </Document>
