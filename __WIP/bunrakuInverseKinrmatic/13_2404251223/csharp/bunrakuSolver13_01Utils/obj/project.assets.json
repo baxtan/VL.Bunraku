@@ -198,13 +198,17 @@
           }
         }
       },
-      "NuGet.Versioning/6.8.1": {
+      "NuGet.Versioning/6.12.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {}
+          "lib/netstandard2.0/NuGet.Versioning.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {}
+          "lib/netstandard2.0/NuGet.Versioning.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.native.System/4.3.0": {
@@ -235,7 +239,7 @@
           "lib/netstandard2.0/ServiceWire.dll": {}
         }
       },
-      "Stride.Core/4.2.0.2232": {
+      "Stride.Core/4.2.0.2293": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "7.0.4",
@@ -256,10 +260,10 @@
           "buildTransitive/_._": {}
         }
       },
-      "Stride.Core.Mathematics/4.2.0.2232": {
+      "Stride.Core.Mathematics/4.2.0.2293": {
         "type": "package",
         "dependencies": {
-          "Stride.Core": "4.2.0.2232"
+          "Stride.Core": "4.2.0.2293"
         },
         "compile": {
           "lib/net8.0/Stride.Core.Mathematics.dll": {
@@ -783,7 +787,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "VL.Core/2025.7.0-0081-g93c26cf8c6": {
+      "VL.Core/2025.7.0-0170-gf0ee7a321e": {
         "type": "package",
         "dependencies": {
           "CommunityToolkit.HighPerformance": "8.2.2",
@@ -791,8 +795,8 @@
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Extensions.ObjectPool": "8.0.0",
-          "NuGet.Versioning": "6.8.1",
-          "Stride.Core.Mathematics": "4.2.0.2232",
+          "NuGet.Versioning": "6.12.1",
+          "Stride.Core.Mathematics": "4.2.0.2293",
           "System.Collections.Immutable": "8.0.0",
           "System.Drawing.Common": "8.0.0",
           "System.Interactive": "6.0.1",
@@ -1201,18 +1205,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NuGet.Versioning/6.8.1": {
-      "sha512": "nHfiUBVDfn8x79UBJmSYcodGzxiZDwaFKtZljAAZj+DsiYLFudZehjlaw1CALevF++YFD/vdVpKFrkbJAYOspg==",
+    "NuGet.Versioning/6.12.1": {
+      "sha512": "fJ6rFYANDnohFsdpaY79FvrJxI6murmoOxXz6nZlf819F48+IBKMnAIg3oIBRtZq5y498ObMtKnro5IitvizUg==",
       "type": "package",
-      "path": "nuget.versioning/6.8.1",
+      "path": "nuget.versioning/6.12.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Versioning.dll",
+        "lib/net472/NuGet.Versioning.xml",
         "lib/netstandard2.0/NuGet.Versioning.dll",
-        "nuget.versioning.6.8.1.nupkg.sha512",
+        "lib/netstandard2.0/NuGet.Versioning.xml",
+        "nuget.versioning.6.12.1.nupkg.sha512",
         "nuget.versioning.nuspec"
       ]
     },
@@ -1244,10 +1250,10 @@
         "servicewire.nuspec"
       ]
     },
-    "Stride.Core/4.2.0.2232": {
-      "sha512": "2S7gD+DZijLo7xmV2oGOkLp95LDfEoIpX7fYNMAyUQfbCUtbB+o91BDNZqIw1yL7u1h9LyAPfCU7x6SKbwenBg==",
+    "Stride.Core/4.2.0.2293": {
+      "sha512": "TnDIkZm7LQe6cWUgyUM+uewt8PdyHO0N+v/sZpbGDgtQaW+sbCkalogqUc9TCKrg4/XuZBn8aq3sCU7aLGII/Q==",
       "type": "package",
-      "path": "stride.core/4.2.0.2232",
+      "path": "stride.core/4.2.0.2293",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1261,16 +1267,16 @@
         "lib/net8.0-android34.0/Stride.Core.pdb",
         "lib/net8.0-android34.0/Stride.Core.usrdoc",
         "lib/net8.0-android34.0/Stride.Core.xml",
-        "lib/net8.0-ios17.2/Stride.Core.dll",
-        "lib/net8.0-ios17.2/Stride.Core.pdb",
-        "lib/net8.0-ios17.2/Stride.Core.usrdoc",
-        "lib/net8.0-ios17.2/Stride.Core.xml",
+        "lib/net8.0-ios17.5/Stride.Core.dll",
+        "lib/net8.0-ios17.5/Stride.Core.pdb",
+        "lib/net8.0-ios17.5/Stride.Core.usrdoc",
+        "lib/net8.0-ios17.5/Stride.Core.xml",
         "lib/net8.0/Stride.Core.dll",
         "lib/net8.0/Stride.Core.pdb",
         "lib/net8.0/Stride.Core.usrdoc",
         "lib/net8.0/Stride.Core.xml",
         "nuget-icon.png",
-        "stride.core.4.2.0.2232.nupkg.sha512",
+        "stride.core.4.2.0.2293.nupkg.sha512",
         "stride.core.nuspec",
         "tools/AssemblyProcessor/net8.0/Mono.Cecil.Mdb.dll",
         "tools/AssemblyProcessor/net8.0/Mono.Cecil.Pdb.dll",
@@ -1294,10 +1300,10 @@
         "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.pdb"
       ]
     },
-    "Stride.Core.Mathematics/4.2.0.2232": {
-      "sha512": "ZztzGxypZblH8wbNL4epNCk5OAeDoE+mTlVyexC95rW7iTWjAi5+Ismqod6Ngcr3WVwf8C3ZkT4djF0uOaKqZQ==",
+    "Stride.Core.Mathematics/4.2.0.2293": {
+      "sha512": "EuWIGMi2FDBiwSzXbRqvS0OpHZdEkzldmHK+m/SLN4W3kLoATxxlDj2gCFxx7M6+8pHDzPGi/+unMioC8TOh+w==",
       "type": "package",
-      "path": "stride.core.mathematics/4.2.0.2232",
+      "path": "stride.core.mathematics/4.2.0.2293",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1305,16 +1311,16 @@
         "lib/net8.0-android34.0/Stride.Core.Mathematics.pdb",
         "lib/net8.0-android34.0/Stride.Core.Mathematics.usrdoc",
         "lib/net8.0-android34.0/Stride.Core.Mathematics.xml",
-        "lib/net8.0-ios17.2/Stride.Core.Mathematics.dll",
-        "lib/net8.0-ios17.2/Stride.Core.Mathematics.pdb",
-        "lib/net8.0-ios17.2/Stride.Core.Mathematics.usrdoc",
-        "lib/net8.0-ios17.2/Stride.Core.Mathematics.xml",
+        "lib/net8.0-ios17.5/Stride.Core.Mathematics.dll",
+        "lib/net8.0-ios17.5/Stride.Core.Mathematics.pdb",
+        "lib/net8.0-ios17.5/Stride.Core.Mathematics.usrdoc",
+        "lib/net8.0-ios17.5/Stride.Core.Mathematics.xml",
         "lib/net8.0/Stride.Core.Mathematics.dll",
         "lib/net8.0/Stride.Core.Mathematics.pdb",
         "lib/net8.0/Stride.Core.Mathematics.usrdoc",
         "lib/net8.0/Stride.Core.Mathematics.xml",
         "nuget-icon.png",
-        "stride.core.mathematics.4.2.0.2232.nupkg.sha512",
+        "stride.core.mathematics.4.2.0.2293.nupkg.sha512",
         "stride.core.mathematics.nuspec"
       ]
     },
@@ -3009,23 +3015,23 @@
         "version.txt"
       ]
     },
-    "VL.Core/2025.7.0-0081-g93c26cf8c6": {
-      "sha512": "d7sv5+8zqs0Jh2b3AJ7SMoo1HyswGx7z7Yreu8X6G0l3Iiez2i/Yv1fL4KQmdXPzIPoHmpcWvRLfUyG6nmxfBQ==",
+    "VL.Core/2025.7.0-0170-gf0ee7a321e": {
+      "sha512": "RWkfolnLKH4Q8SDsVtmEKdm4knthuBbapOP86gy6Ejlehx1Vqd37SOYpziMo2fcH5mC22htdurPa4DNdhllOJg==",
       "type": "package",
-      "path": "vl.core/2025.7.0-0081-g93c26cf8c6",
+      "path": "vl.core/2025.7.0-0170-gf0ee7a321e",
       "files": [
         ".nupkg.metadata",
         "lib/net8.0/VL.Core.dll",
         "lib/net8.0/VL.Core.xml",
         "nugeticon.png",
-        "vl.core.2025.7.0-0081-g93c26cf8c6.nupkg.sha512",
+        "vl.core.2025.7.0-0170-gf0ee7a321e.nupkg.sha512",
         "vl.core.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "VL.Core >= 2025.7.0-0081-g93c26cf8c6"
+      "VL.Core >= 2025.7.0-0170-gf0ee7a321e"
     ]
   },
   "packageFolders": {
@@ -3035,17 +3041,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\12_0802251228\\csharp\\bunrakuIKsolver12Utils\\bunrakuIKsolver12Utils.csproj",
-      "projectName": "bunrakuIKsolver12Utils",
-      "projectPath": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\12_0802251228\\csharp\\bunrakuIKsolver12Utils\\bunrakuIKsolver12Utils.csproj",
+      "projectUniqueName": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\13_2404251223\\csharp\\bunrakuSolver13_01Utils\\bunrakuSolver13_01Utils.csproj",
+      "projectName": "bunrakuSolver13_01Utils",
+      "projectPath": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\13_2404251223\\csharp\\bunrakuSolver13_01Utils\\bunrakuSolver13_01Utils.csproj",
       "packagesPath": "C:\\Users\\abaxt\\.nuget\\packages\\",
-      "outputPath": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\12_0802251228\\csharp\\bunrakuIKsolver12Utils\\obj\\",
+      "outputPath": "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\13_2404251223\\csharp\\bunrakuSolver13_01Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\12_0802251228\\csharp\\bunrakuIKsolver12Utils\\NuGet.Config",
+        "X:\\_Projects\\_VL.Repos\\VL.bunraku\\__WIP\\bunrakuInverseKinrmatic\\13_2404251223\\csharp\\bunrakuSolver13_01Utils\\NuGet.Config",
         "C:\\Users\\abaxt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3081,7 +3087,7 @@
         "dependencies": {
           "VL.Core": {
             "target": "Package",
-            "version": "[2025.7.0-0081-g93c26cf8c6, )"
+            "version": "[2025.7.0-0170-gf0ee7a321e, )"
           }
         },
         "imports": [
