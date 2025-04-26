@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0328-g5bed1bf840" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0320-gfcb63b408e" Version="0.128">
   <Patch Id="AFgV484WtHVNmGRlGPa8nc">
     <Canvas Id="IOsY6fKdWfcQDC150bXKvF" DefaultCategory="Bunraku" CanvasType="FullCategory">
       <Canvas Id="LhRjTxwMDOSOejq3nMVjai" Name="Utilities" Position="44,269">
@@ -25389,7 +25389,7 @@
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
                 <Pin Id="MStusxzDurtLyhhp4EKB6H" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="NjZb8IhwCZlMEcnhog6mEY" Name="Bounds" Kind="InputPin" DefaultValue="2694, 210, 674, 513" />
+                <Pin Id="NjZb8IhwCZlMEcnhog6mEY" Name="Bounds" Kind="InputPin" DefaultValue="1522, 330, 728, 822" />
                 <Pin Id="O3nyzGrNPDLO7v4rAZd4vX" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="IMsVr6LqDxAN2xE7mghdSb" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="ERXEaFMPmvoNRFbaNvicMQ" Name="Save Bounds" Kind="InputPin" />
@@ -26558,8 +26558,6 @@
               <Pin Id="J9bbGSxOZa5M1mcLqGN0gJ" Name="Z" Kind="OutputPin" />
             </Node>
             <Link Id="Opv58MBij0cPij60Ts9OJf" Ids="RX3OTWGYVyyPMQzRepX1R8,Tce48Gf2HPGOfcrec7x9kO" />
-            <Link Id="JHU1N2tfs0jQAMSuwm0Ivc" Ids="J9bbGSxOZa5M1mcLqGN0gJ,RmkE7iGvFgHP87RLmROjD7" />
-            <Link Id="F6qqZRGVwoAOf9MIN1GvdE" Ids="BXxW94gk6JVPby2OIlLqMZ,KfP8x2Cfbh4NdISHrXxyLa" />
             <ControlPoint Id="ClrwLNmS6BxQXrowASnKZE" Bounds="344,102" />
             <Link Id="ERmM3kKKXmhLWARKTHuMRd" Ids="ClrwLNmS6BxQXrowASnKZE,ACCvByFtMn8PoRPnzM09aT" />
             <Pin Id="GTTRbi9lykaMD8mZqKdwTv" Name="BasePosition" Kind="InputPin" />
@@ -26586,6 +26584,8 @@
             <Link Id="Ax1PBXPAjMDNbRwmvrI9nO" Ids="MF2l5OCwqhGMXW7b1GBTk5,G7poPTTuLtUNqnaKwy9JMF" />
             <Pin Id="PaPZwx7cMcjOC3O0gq4tLt" Name="Output" Kind="OutputPin" />
             <Link Id="IWJUtIX64vqNGn5UYU2zDq" Ids="G7poPTTuLtUNqnaKwy9JMF,PaPZwx7cMcjOC3O0gq4tLt" IsHidden="true" />
+            <Link Id="PaqOyS6j9CSQb4py5CeGys" Ids="J9bbGSxOZa5M1mcLqGN0gJ,RmkE7iGvFgHP87RLmROjD7" />
+            <Link Id="A9ioCWZkPghLMbTKNRwLcI" Ids="BXxW94gk6JVPby2OIlLqMZ,KfP8x2Cfbh4NdISHrXxyLa" />
           </Patch>
         </Node>
         <!--
@@ -26739,11 +26739,11 @@
             <Link Id="T1uuKmhMwATQNzeGaEGmLQ" Ids="GV6g8ApRLQzQZWM1i1OIIh,F3VhpX6DTOyOy0pyFgrZvy" />
             <Link Id="Lvl50a6ph2SMO2gAYFq3hv" Ids="BzJlyJsAys6LuO1UFXSUUS,GV6g8ApRLQzQZWM1i1OIIh" IsHidden="true" />
             <Link Id="DOgLwK99o7wM0sMBMBLcAB" Ids="BkmFTPxkjWdMc59QH7aEgF,EcdbnrbTpCsOIrjRsTAn2r" />
-            <Link Id="U6ua7Y3Y25wMdYkupTk4dB" Ids="GMXhSXkm8lvQLQz4SVEgdn,DgkZJqOkxNWPzlX2QygLbc" />
-            <Link Id="FfpIXmdvXrwNq5kHZuN6vu" Ids="Ro4elT4cgeAQPz0s6lHI15,Bt3WIRb2x4NM5GOfvrGBLo" />
             <Link Id="CqFYjkNJMV3OMib5eTsjir" Ids="KmEjdyLvet3M9Ty8PmxmwM,UPYznWqdCERL1U8rLfxbaq" />
             <Link Id="Je3INVwOLo2MhSFGwfsfsd" Ids="KQzRXh3jTnOMsNOjq0eHPL,TMCHFK3zTbUOA6FMlu5RKj" />
             <Link Id="JQGVitmJd7LOTTFdXi3gFz" Ids="KeEa8L1vkRhOxqp1gwxHQr,TQQDcJefYCrQblgKpuGZiF" />
+            <Link Id="NV2SPBTdCN5Mzy5qpVQazo" Ids="GMXhSXkm8lvQLQz4SVEgdn,DgkZJqOkxNWPzlX2QygLbc" />
+            <Link Id="NcfLkZ68aDDP1ONHU4eXXz" Ids="Ro4elT4cgeAQPz0s6lHI15,Bt3WIRb2x4NM5GOfvrGBLo" />
           </Patch>
         </Node>
         <!--
@@ -27048,8 +27048,6 @@
             <Link Id="Mlp3OCocqNhPqksfU7rWQ6" Ids="SB2PfuVHAsDPX1AWLfGe4w,LPyrbliAltJPjPxZ1mOi3o" />
             <Link Id="CuPReCBaurfPF1SONFnoxy" Ids="QupeHr4XurEPpOzxRv39y0,CNlFNcrVveBOydTe5LolU4" />
             <Link Id="LEZvOSzytA3MwedYj803kw" Ids="UfZ2NwYBxodNMsxvANCXxG,CiJIe9LkxZMLiKty8SPrWM" />
-            <Link Id="FO9mMQrwjrkQZyXKO5JN6k" Ids="Rifr289s8irLqznMeqNsoO,IS7vAjRVI4UM7X4omwoluY" />
-            <Link Id="CmYOCRUj6LsQZK4hOZjpzV" Ids="JozZ7mNy0oEQEuuKmhGwHu,Sj0xmBeqBkZPHOonGXRHo3" />
             <ControlPoint Id="UXmV6yC5mv4PjoFRYQGNnB" Bounds="546,479" />
             <Link Id="AEa8K9UtotEPuX2krhAH6j" Ids="UXmV6yC5mv4PjoFRYQGNnB,FWSmxdIVmJJNRmCY8NmrYI" />
             <Link Id="PN7zVjI71OFPOQAgqFjyMT" Ids="SzdKDAufSJnPFDUTLEMClR,VZkfXVPyLAeMS8uTozXWue" />
@@ -27059,6 +27057,8 @@
               </p:TypeAnnotation>
             </Pad>
             <Link Id="L64wPN6pMTKPsnBWz5f7li" Ids="HCznCcXnDe7N1jqLDEWScq,BPyDTTBl6roN0wZ1MiOGMT" />
+            <Link Id="D9NmJzL9xsxOARbGNb28Vn" Ids="Rifr289s8irLqznMeqNsoO,Sj0xmBeqBkZPHOonGXRHo3" />
+            <Link Id="Tv2aDYU3eWwNUohJ2T2mEX" Ids="JozZ7mNy0oEQEuuKmhGwHu,IS7vAjRVI4UM7X4omwoluY" />
           </Patch>
         </Node>
       </Canvas>
@@ -27084,15 +27084,15 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0328-g5bed1bf840" />
-  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0328-g5bed1bf840" />
-  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0328-g5bed1bf840" />
+  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0320-gfcb63b408e" />
+  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0320-gfcb63b408e" />
+  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0320-gfcb63b408e" />
   <NugetDependency Id="Vnha69qNnKmQXFc92Xx8V3" Location="VL.SimpleHTTP" Version="1.2.1" />
   <NugetDependency Id="TfnlKmL7DEtN61gL35AeHk" Location="Grpc.Core.Api" Version="2.52.0" />
   <NugetDependency Id="DFFbzR1TDOCM50j5Cf7rUw" Location="Grpc.Net.Client" Version="2.52.0" />
   <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" Version="3.29.3" />
   <NugetDependency Id="UeLSX9KZm0hPjS0yghsC9s" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
-  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0328-g5bed1bf840" />
+  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0320-gfcb63b408e" />
   <PlatformDependency Id="S0vchuidQNsPjUGhQ3oZzo" Location="./lib/KUKAprcMiniInvKin.dll" />
   <PlatformDependency Id="QrVdWcNhtqfOc3KJSZIoNN" Location="./lib/KUKAprcCore.dll" />
   <PlatformDependency Id="GGespB8uu6PLGrQEeWLaEe" Location="./lib/KUKAprcLibrary.dll" />
