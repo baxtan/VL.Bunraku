@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bunraku.KinematicsUtils</name>
+    </assembly>
+    <members>
+        <member name="T:Bunraku.Kinematics.Geometry.Frame">
+            <summary>
+            Represents a coordinate frame defined by an origin and three orthonormal axes.
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.Frame.Transform(Stride.Core.Mathematics.Matrix@)">
+            <summary>
+            Applies a transformation matrix to this frame.
+            </summary>
+        </member>
+        <member name="T:Bunraku.Kinematics.Geometry.TransformUtil">
+            <summary>
+            Provides transformation utility methods based on Stride’s Matrix functions.
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.TransformUtil.Rotation(System.Single,Stride.Core.Mathematics.Vector3,Stride.Core.Mathematics.Vector3)">
+            <summary>
+            Returns a transformation matrix representing a rotation about a given axis through a specified origin.
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.TransformUtil.Translation(Stride.Core.Mathematics.Vector3)">
+            <summary>
+            Returns a translation transformation matrix.
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.TransformUtil.ChangeBasis(Bunraku.Kinematics.Geometry.Frame,Bunraku.Kinematics.Geometry.Frame)">
+            <summary>
+            Computes a transformation matrix that changes basis from one frame to another.
+            (For simplicity, this sample computes a basic basis change.)
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.TransformUtil.PlaneToPlane(Bunraku.Kinematics.Geometry.Frame,Bunraku.Kinematics.Geometry.Frame)">
+            <summary>
+            Computes a transformation matrix that maps one frame to another.
+            For our purposes, this is equivalent to ChangeBasis.
+            </summary>
+        </member>
+        <member name="T:Bunraku.Kinematics.Geometry.Line">
+            <summary>
+            Represents a line defined by two points.
+            </summary>
+        </member>
+        <member name="M:Bunraku.Kinematics.Geometry.Line.Transform(Stride.Core.Mathematics.Matrix@)">
+            <summary>
+            Applies a transformation matrix to the line.
+            </summary>
+        </member>
+        <member name="T:Bunraku.Kinematics.InverseKinematic">
+            <summary>
+            Inverse kinematics solver for a 6-axis robot arm.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Bunraku.Kinematics.Kinematics_JointAxisValues.ToList" -->
+    </members>
+</doc>

@@ -92,7 +92,7 @@ namespace Bunraku.Kinematics
             Matrix m2 = TransformUtil.Translation(targetFrame.Origin - toolFrame.Origin);
             a456.Transform(ref m2);
 
-            Matrix m3 = TransformUtil.ChangeBasis(baseFrame, worldFrame);
+            Matrix m3 = TransformUtil.ChangeBasis(worldFrame, baseFrame);
             a456.Transform(ref m3);
 
             targetFrame = a456;
