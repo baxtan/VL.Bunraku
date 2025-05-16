@@ -144,7 +144,7 @@
     ************************ AxisAndOffset ************************
 
 -->
-        <Node Name="AxisAndOffset" Bounds="107,785,228,214" Id="NvurjfKfAycMzQq6wVzAAV">
+        <Node Name="AxisAndOffset" Bounds="107,785,243,214" Id="NvurjfKfAycMzQq6wVzAAV">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
@@ -421,7 +421,7 @@
               </p:NodeReference>
               <Pin Id="LknKrkEJk7vLl6i8CVLoBt" Name="Input" Kind="InputPin" />
               <Pin Id="OTdATVrLjqVPTOkIGtluFY" Name="OffsetX" Kind="InputPin" DefaultValue="0.02" />
-              <Pin Id="JxGtQHKE4yvQC29vd702Qu" Name="OffsetY" Kind="InputPin" DefaultValue="0.39999998" />
+              <Pin Id="JxGtQHKE4yvQC29vd702Qu" Name="OffsetY" Kind="InputPin" />
               <Pin Id="OlWB7m3JilpMGdczlLxT5c" Name="OffsetZ" Kind="InputPin" IsHidden="true" />
               <Pin Id="ELIOaJqsDGhO3nlbSeLPqH" Name="ValueX" Kind="InputPin" IsHidden="true" />
               <Pin Id="TEqRVrGGYFfLMv8slMUlC1" Name="ValueY" Kind="InputPin" IsHidden="true" />
@@ -561,13 +561,13 @@
             <Link Id="BGN0tkiRXvtPOLwl73UAgy" Ids="UENUtlLcbSIPZpvR1Dn4Dm,TchzxJej9tILuyjHhFomhL" />
             <Link Id="VE8iW04kvuENSB7w1Isxkp" Ids="LJQn4nl43FKMgdHn9aoCFZ,DBGR3jhC8OZMHr1mfi16kT" />
             <Link Id="N3TwGCYtOPQOYexZjeQQLs" Ids="AGnL2u2j5cNLRU0GbspsWX,BR3I3oB8rG9PksAsltd4gs" />
-            <Link Id="J9djFYV6TTgM9kgLs5nyk9" Ids="OZYKYA96BeEP5XPCY2QcQ3,JxGtQHKE4yvQC29vd702Qu" />
             <Link Id="NBI7Voi7lr9Pn4vj40GY7P" Ids="MEbpEYN1E4BLW9iEH56PHw,OTdATVrLjqVPTOkIGtluFY" />
             <Link Id="OjhrKA3ryaZLePCt17NDAp" Ids="N7nwYX5Bt5jMnQENTsknpy,Gq7lG48cV6BL0cRbkcJEhS" />
             <Link Id="KiydumdcW42NXCqet59yUS" Ids="V192sgel3oJPkaFim31Xlh,LhBIEO32gX8LEWmAorTYh9" />
             <Link Id="OG6dt1z5sUxO2iRyZenpCT" Ids="N5LWpMsJueMLakdiVnBBfJ,STpiEWQ6gFaPJnu8gjBtRB" />
             <Link Id="SokMKf7c3lLLviUf0VgvH7" Ids="SyPqYrGwtliOxMfDFelXKv,Qbj3rkjLSOLPUgRQA3niDg" />
             <Link Id="Mgg9PRWCcBsLTJeEs6jWhB" Ids="AR0C2IeDhrOOGLRrE8dErP,JgUP7H15XEROqQZoZ1Rv41" />
+            <Link Id="LM4Ifh8gVOqOpgR8VUVG9w" Ids="OZYKYA96BeEP5XPCY2QcQ3,JxGtQHKE4yvQC29vd702Qu" />
           </Patch>
         </Node>
         <!--
@@ -2453,6 +2453,15 @@
             <Link Id="Ms08ja9mziePqJlldNw8Pd" Ids="OFkVHOo7bPPNkPUHVMozrx,VrhGe6cRWm9N5mxMI5F1Q0" />
           </Patch>
         </Node>
+        <Pad Id="GxCEf0aWne0PBKpoH5gOL2" Bounds="-375,1017,329,146" ShowValueBox="true" isIOBox="true" Value="Second axis center point is the A1 Offset!!!">
+          <p:TypeAnnotation>
+            <Choice Kind="TypeFlag" Name="String" />
+          </p:TypeAnnotation>
+          <p:ValueBoxSettings>
+            <p:fontsize p:Type="Int32">12</p:fontsize>
+            <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+          </p:ValueBoxSettings>
+        </Pad>
       </Canvas>
       <Canvas Id="G7WIok0xuSBOHGXC6O4VTR" Name="Robot" Position="44,62">
         <Canvas Id="JaFIPiX2ExWO9ky97oQwTa" Name="Cybertech" Position="82,335">
@@ -4985,7 +4994,7 @@
                   <Pin Id="BIQwVoI1Fx9LwAwQeyCq0Z" Name="RobotMeshOrder" Kind="InputPin" />
                   <Pin Id="SJq6OrXi9cMPbB2z52qksm" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Pad Id="IRmvsGnl1BoMrFdW6W0BcQ" Comment="Material Indices" Bounds="705,936,20,172" ShowValueBox="true" isIOBox="true" Value="0, 2, 2, 1, 2, 2, 1, 2, 0">
+                <Pad Id="IRmvsGnl1BoMrFdW6W0BcQ" Comment="Material Indices" Bounds="702,832,27,172" ShowValueBox="true" isIOBox="true" Value="2, 2, 2, 2, 0, 2, 1, 0, 0">
                   <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
@@ -4998,6 +5007,7 @@
                     <p:maximum p:Type="Int32">2</p:maximum>
                     <p:maxvisibleentries p:Type="Int32">13</p:maxvisibleentries>
                     <p:minimum p:Type="Int32">0</p:minimum>
+                    <p:showentryindex p:Type="Boolean">true</p:showentryindex>
                   </p:ValueBoxSettings>
                 </Pad>
                 <Pad Id="PvW0ibie7AFMKuiDX01J8V" Comment="" Bounds="572,1052,121,58" ShowValueBox="true" isIOBox="true">
@@ -5018,7 +5028,7 @@
                     <Item>0.9099997, 0.9099997, 0.9099997, 1</Item>
                   </p:Value>
                 </Pad>
-                <Pad Id="PPs7o0aaeMSPMxMfuMidR2" Comment="" Bounds="632,830,27,172" ShowValueBox="true" isIOBox="true" Value="0, 1, 2, 2, 3, 4, 4, 5, 6">
+                <Pad Id="PPs7o0aaeMSPMxMfuMidR2" Comment="" Bounds="632,830,27,172" ShowValueBox="true" isIOBox="true" Value="2, 4, 5, 3, 6, 1, 4, 0, 2">
                   <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
