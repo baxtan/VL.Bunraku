@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="FtM65y3shf0PECoclY6NDg" LanguageVersion="2025.7.0-0320-gfcb63b408e" Version="0.128">
-  <NugetDependency Id="BagMzi84gJeNBjyQLUubnx" Location="VL.CoreLib" Version="2025.7.0-0320-gfcb63b408e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="FtM65y3shf0PECoclY6NDg" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
+  <NugetDependency Id="BagMzi84gJeNBjyQLUubnx" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
   <Patch Id="E3fouYTK3xmLvk31oc2tHZ">
     <Canvas Id="CDkhYRJ3eneOI2p6BS0twK" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
@@ -486,7 +486,6 @@
               <Choice Kind="ProcessAppFlag" Name="RobotVisualization" />
             </p:NodeReference>
             <Pin Id="BndJq6RWM1jOcQGEHtBSCL" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="PiBsIHH9MSVLNS8oVnw5F3" Name="Input" Kind="InputPin" />
             <Pin Id="U9ORGal0dN6PGSdGgIKOlw" Name="TragetPlane" Kind="InputPin" IsHidden="true" />
             <Pin Id="Jxhf5SIlyO8QWKseqdUW6k" Name="XRay" Kind="InputPin" DefaultValue="False" />
             <Pin Id="CjW6zRjG3LeLVn7jusP9R7" Name="ShowBoundingBox" Kind="InputPin" />
@@ -497,6 +496,7 @@
             <Pin Id="JGpo5cQrZOeOhTBxM2FPro" Name="Output" Kind="OutputPin" />
             <Pin Id="QXWS8hjzfNrQKgzc6JMxQo" Name="FlangPos" Kind="OutputPin" />
             <Pin Id="FAq1nm8VOB9Ok61e8tjnR9" Name="Transformation Out" Kind="OutputPin" />
+            <Pin Id="PiBsIHH9MSVLNS8oVnw5F3" Name="Input" Kind="InputPin" />
           </Node>
           <Node Bounds="250,818,87,19" Id="Rdp7zgWJFUBOumMgvxKfSm">
             <p:NodeReference LastCategoryFullName="Bunraku.Robot" LastDependency="bunraku.vl">
@@ -520,9 +520,6 @@
             <Pin Id="TVL427GHUXgL05bOVq2KZ6" Name="Motion" Kind="InputPin" />
             <Pin Id="P33RISAkQDtL0s4Rvb7kfX" Name="State Output" Kind="StateOutputPin" />
             <Pin Id="Ec9Sa4DPIUSMa2QBhT8Hsd" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="UMiJVwC8E6oLg0dKCa8P5a" Name="TargetPlane" Kind="OutputPin" />
-            <Pin Id="SisRjZKCM3QP3e2T9SMFGc" Name="ToolXYZ" Kind="InputPin" IsHidden="true" />
-            <Pin Id="RkTqUe57fHjQXGr27xWL2c" Name="ToolABC" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="335,700,68,19" Id="LCydPSkWnZJMXzBOoXuhxp">
             <p:NodeReference LastCategoryFullName="Bunraku.Motion" LastDependency="bunraku.vl">
@@ -798,7 +795,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="HeUxq34uBdOMxzb1ZUFUzd" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="BSDDiKOCiFBQRoqT3AfuZ9" Name="Bounds" Kind="InputPin" DefaultValue="1485, 551, 738, 704">
+            <Pin Id="BSDDiKOCiFBQRoqT3AfuZ9" Name="Bounds" Kind="InputPin" DefaultValue="1484.5714, 550.8571, 737.7143, 704">
               <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -1169,6 +1166,6 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="MUFdICg06XpQZJpGioVfld" Location="../bunraku.vl" />
-  <NugetDependency Id="Ota1pSdKAFWO4fN7mjEMQg" Location="VL.Stride" Version="2025.7.0-0320-gfcb63b408e" />
+  <NugetDependency Id="Ota1pSdKAFWO4fN7mjEMQg" Location="VL.Stride" Version="2025.7.0-0359-gbbb0444d86" />
+  <DocumentDependency Id="ObOLrlQ173PPDI2xoAN9l4" Location="../VL.Bunraku.vl" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="NJqJL9jScfQLjt7ZymoqEV" LanguageVersion="2023.5.0" Version="0.128">
-  <NugetDependency Id="BiiFRy8sDaOLiWQriH9Di0" Location="VL.CoreLib" Version="2023.5.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="NJqJL9jScfQLjt7ZymoqEV" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
+  <NugetDependency Id="BiiFRy8sDaOLiWQriH9Di0" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
   <Patch Id="FNOZyOSspGvMvZCR23PpJe">
     <Canvas Id="N2iaae96ORyPmg6znsF4HJ" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -21,6 +21,7 @@
               <Choice Kind="ProcessAppFlag" Name="RobotCommand" />
             </p:NodeReference>
             <Pin Id="P5tVzBZATRqObrOjRW0trL" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="LFbC2hxsUo1QSNM6jRAU6u" Name="Node Context" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="QzL4yJbFpLLPtqIn2tU8X5" Comment="body_height" Bounds="407,912,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -205,6 +206,8 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Changed" />
             </p:NodeReference>
+            <Pin Id="FawjngPNhQYLVdR88HfDvR" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="O9btYtMzwGGNqwAtIb0xcq" Name="Changed On Create" Kind="InputPin" IsHidden="true" />
             <Pin Id="T9ExyqAfxHEPoPbVAXIdq1" Name="Value" Kind="InputPin" />
             <Pin Id="Vxnz2mrot9WPSVxRdoJlx6" Name="Result" Kind="OutputPin" />
             <Pin Id="L6YzGlpz3U2NrDVtU5O2jx" Name="Unchanged" Kind="OutputPin" />
@@ -214,6 +217,8 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Changed" />
             </p:NodeReference>
+            <Pin Id="OKBaF949gOsMPKAYagmn6X" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Rx4ImiLCzXFM65vyfLU43v" Name="Changed On Create" Kind="InputPin" IsHidden="true" />
             <Pin Id="GqogMweYYsZPSPpXbAfE5E" Name="Value" Kind="InputPin" />
             <Pin Id="H6GbRIuSdDFLZO3puQDVFT" Name="Result" Kind="OutputPin" />
             <Pin Id="PTzDe4aZVltOPT9Fmf5Taj" Name="Unchanged" Kind="OutputPin" />
@@ -265,6 +270,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Connector" />
             </p:NodeReference>
+            <Pin Id="FqlVW8C9uYCPvdMA81QlID" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="UPzz5B4O9GzP8FFo64fMQi" Name="Connect" Kind="InputPin" />
             <Pin Id="IgOrZs6RMX0OwClhnzdidu" Name="Discconect" Kind="InputPin" />
             <Pin Id="O7y1FA533DZPK0DZSO9LVQ" Name="Output" Kind="OutputPin" />
@@ -317,6 +323,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RobotState" />
             </p:NodeReference>
+            <Pin Id="JyLuXf3auIkLPTAkkMpP2M" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="BuMg87MYHOmOjxTtcua4Pe" Name="Input" Kind="InputPin" />
             <Pin Id="Tp2tPgQRukhPDuebc0nSme" Name="Output" Kind="StateOutputPin" />
           </Node>
@@ -366,10 +373,10 @@
             </p:NodeReference>
             <Pin Id="FtkttJFHMBhPE2akF0YsdB" Name="Input" Kind="InputPin" />
             <Pin Id="C5s2F8P8WhoPS3uCTEG3q6" Name="Position" Kind="OutputPin" />
-            <Pin Id="PTvhj479BymM8HP1qXQMEL" Name="Velocity" Kind="OutputPin" />
-            <Pin Id="PMgCzSr4RfSMwAZxpvgkXv" Name="Acceleration" Kind="OutputPin" />
-            <Pin Id="IdtR8T3wxOKQJ7GKqztB4X" Name="Load" Kind="OutputPin" />
-            <Pin Id="PgJoU2SJbwfM5XLqgeQ3IX" Name="Names" Kind="OutputPin" />
+            <Pin Id="PTvhj479BymM8HP1qXQMEL" Name="Velocity" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="PMgCzSr4RfSMwAZxpvgkXv" Name="Acceleration" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="IdtR8T3wxOKQJ7GKqztB4X" Name="Load" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="PgJoU2SJbwfM5XLqgeQ3IX" Name="Names" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1590,1059,44,19" Id="HWyZJvQ91GCPbUkBRE2Tr9">
             <p:NodeReference LastCategoryFullName="bunraku.Spot.RobotState.SpotBodyFrames" LastDependency="_bunraku.vl">
@@ -398,10 +405,10 @@
             </p:NodeReference>
             <Pin Id="KiSOrtAaGw6Py9CGPpTBz1" Name="Input" Kind="InputPin" />
             <Pin Id="CePbAWSlGzlQSTtP3goeIW" Name="Position" Kind="OutputPin" />
-            <Pin Id="R5lFw3ifIFuQdsgv9Ed9M5" Name="Velocity" Kind="OutputPin" />
-            <Pin Id="N1aVfyQXPDLMPUVeZOZj1f" Name="Acceleration" Kind="OutputPin" />
-            <Pin Id="OvW3UXjZu8HMz6sHoZpca7" Name="Load" Kind="OutputPin" />
-            <Pin Id="P05dvzHtQZVOD0LGc0MtFH" Name="Names" Kind="OutputPin" />
+            <Pin Id="R5lFw3ifIFuQdsgv9Ed9M5" Name="Velocity" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="N1aVfyQXPDLMPUVeZOZj1f" Name="Acceleration" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="OvW3UXjZu8HMz6sHoZpca7" Name="Load" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="P05dvzHtQZVOD0LGc0MtFH" Name="Names" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1187,1266,85,19" Id="Q1n6H1EG2eDO2QCYQfz7Rm">
             <p:NodeReference LastCategoryFullName="bunraku.Spot.RobotState.SpotLegs" LastDependency="_bunraku.vl">
@@ -411,10 +418,10 @@
             </p:NodeReference>
             <Pin Id="JyNT2c1W6FQPWM2Bf7vPu4" Name="Input" Kind="InputPin" />
             <Pin Id="SEgbWRYBDYaN5WEkh2YKmg" Name="Position" Kind="OutputPin" />
-            <Pin Id="IfLbOXPbraYMGDu3GRHf3B" Name="Velocity" Kind="OutputPin" />
-            <Pin Id="O0RsZeDtpNwP0DIfx0aq9y" Name="Acceleration" Kind="OutputPin" />
-            <Pin Id="Mdh9eckONXzLI8qx50VnaL" Name="Load" Kind="OutputPin" />
-            <Pin Id="Nzg6glNagOENJIAGkGDIxi" Name="Names" Kind="OutputPin" />
+            <Pin Id="IfLbOXPbraYMGDu3GRHf3B" Name="Velocity" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="O0RsZeDtpNwP0DIfx0aq9y" Name="Acceleration" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="Mdh9eckONXzLI8qx50VnaL" Name="Load" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="Nzg6glNagOENJIAGkGDIxi" Name="Names" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1495,1263,85,19" Id="Q1N3ft20bi5QCjbZzKZi2Q">
             <p:NodeReference LastCategoryFullName="bunraku.Spot.RobotState.SpotLegs" LastDependency="_bunraku.vl">
@@ -424,10 +431,10 @@
             </p:NodeReference>
             <Pin Id="R9pszvnYfJTPwcfdPk9LEW" Name="Input" Kind="InputPin" />
             <Pin Id="AZxzlPpp4FNN0rELlcZAcj" Name="Position" Kind="OutputPin" />
-            <Pin Id="JcSR1Q37xVaMKoFJ4rhPhi" Name="Velocity" Kind="OutputPin" />
-            <Pin Id="E6CVLekEiEsOQzDvSCbaPv" Name="Acceleration" Kind="OutputPin" />
-            <Pin Id="B71IbqVCDapNAU6RC30KPs" Name="Load" Kind="OutputPin" />
-            <Pin Id="IbBa1bhv2MQOORYxy8zInD" Name="Names" Kind="OutputPin" />
+            <Pin Id="JcSR1Q37xVaMKoFJ4rhPhi" Name="Velocity" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="E6CVLekEiEsOQzDvSCbaPv" Name="Acceleration" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="B71IbqVCDapNAU6RC30KPs" Name="Load" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="IbBa1bhv2MQOORYxy8zInD" Name="Names" Kind="OutputPin" IsHidden="true" />
           </Node>
           <ControlPoint Id="HxWJGZ6AQStLPcqxJTvFTo" Bounds="1496,1227" />
           <Pad Id="VuA0xAVpw2nPJaX2iDxaHQ" Comment="Position" Bounds="1189,1303,35,65" ShowValueBox="true" isIOBox="true" Value="0" />
@@ -462,6 +469,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="LndC4B6cLvVOKWfFdk8YvL" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Swkye13BnJ7M6eNgRCBMM2" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="N2ak7hKU5oaNRDRY8dttFX" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="DA9TbGuLWYUMKljekAXneR" Name="Period" Kind="InputPin" DefaultValue="0.19" />
             <Pin Id="JY9eGSB8gR2PrxAQUgukaC" Name="Pause" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Hcmzv12WSn5MxWXaaPsFZK" Name="Reset" Kind="ApplyPin" />
@@ -512,6 +522,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Box" />
             </p:NodeReference>
+            <Pin Id="SRc1FNQBdbuL3ZNNxNm3v7" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="RQb71hWu3sxNpDcwH2EyfU" Name="Transformation" Kind="InputPin" />
             <Pin Id="B8XCeEM9lkiPcNO6bX1EL5" Name="Size" Kind="InputPin" />
             <Pin Id="Syyc65HZPdEQLWw37sTljE" Name="Tessellation" Kind="InputPin" />
@@ -521,6 +532,7 @@
             <Pin Id="NDcnwEDVUKKPuxPLdWGhAd" Name="Children" Kind="InputPin" />
             <Pin Id="DvpDUqkrR5INLUeVOyVfTI" Name="Name" Kind="InputPin" />
             <Pin Id="T2rGAqp6WSSLa6LzkD87fe" Name="Enabled" Kind="InputPin" />
+            <Pin Id="FFxNZT2fHeaOP9K3y0UnJS" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="AMwVvpdkVRAPQDHXOdt7Ge" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="1655,1598,85,19" Id="LeKDURJ29QwPDpiaY8Mrat">
@@ -738,6 +750,7 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="B3ccWc4jniCMjU5AnVHdV0" Location="../_bunraku.vl" />
-  <NugetDependency Id="MtJjKDIVoJDMlXnIvthS0Q" Location="VL.Stride" Version="2023.5.0" />
+  <NugetDependency Id="MtJjKDIVoJDMlXnIvthS0Q" Location="VL.Stride" Version="2025.7.0-0359-gbbb0444d86" />
+  <NugetDependency Id="R8XACVt54fBOwTyOEmyCXn" Location="VL.Stride.TextureFX" Version="2025.7.0-0359-gbbb0444d86" />
+  <DocumentDependency Id="U3oTTIeDy3sQSqU4fYalvr" Location="../VL.Bunraku.vl" />
 </Document>
