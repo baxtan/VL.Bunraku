@@ -1,1 +1,0 @@
-py.exe -3 server.py --ip "127.0.0.1" --port 8080 --user admin --password 9y6tb8ymw3m4 192.168.80.3
