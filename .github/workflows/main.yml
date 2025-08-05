@@ -7,7 +7,7 @@ name: push_nuget
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - README.md
 
@@ -16,7 +16,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Git Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
       with:
 #        submodules: 'true'
         lfs: 'true'
@@ -34,7 +34,7 @@ jobs:
         nuspec: deployment\VL.Bunraku.nuspec
 
         # Fill the Icon file
-        icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
+        icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/main/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
         
         # Provide the nuget key. See: https://thegraybook.vvvv.org/reference/extending/publishing.html#getting-a-nugetorg-api-key
