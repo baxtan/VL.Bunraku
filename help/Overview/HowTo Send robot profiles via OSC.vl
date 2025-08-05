@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CcC8cQUlWswOeWE980ojjl" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
-  <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CcC8cQUlWswOeWE980ojjl" LanguageVersion="2025.7.0-0423-g437d373115" Version="0.128">
+  <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" Version="2025.7.0-0423-g437d373115" />
   <Patch Id="GauHDHfpdPrOfhfRE2peY6">
     <Canvas Id="Hq17MV1HagjQJc3nQ1OKz8" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -599,6 +599,7 @@
             <Pin Id="FfUqYA8BqpAQRsIjpOU1S5" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="SsSMZjXUhpsL6G4J55AZew" Name="RobotAssemblyStae" Kind="InputPin" />
             <Pin Id="CcB79ptQShZMw4ZjGT8yKM" Name="Entity" Kind="InputPin" />
+            <Pin Id="AepmOHJMVhgLU7HtaY6aIx" Name="Settings" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="S3J3lQE0YrcMwGqNafvrRI" Comment="Orientation" Bounds="534,220,35,43" ShowValueBox="true" isIOBox="true" Value="1.27, 2.24, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
@@ -705,6 +706,6 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="Ir46mGyT0qDONwMpfLmOyN" Location="../VL.Bunraku.vl" />
-  <NugetDependency Id="CbWaG3mcfwRQObzyEhDqNh" Location="VL.IO.OSC" Version="1.1.5" />
+  <NugetDependency Id="CbWaG3mcfwRQObzyEhDqNh" Location="VL.IO.OSC" Version="2.0.0" />
+  <DocumentDependency Id="BNrUxwGvHY7NTa07PutJ3y" Location="../../VL.Bunraku.vl" />
 </Document>

@@ -186,7 +186,7 @@
             <Pin Id="ENNLWKrJNgnQXdrGsDbJCl" Name="UserName" Kind="OutputPin" />
             <Pin Id="HnhFEFSV0hkM4ootbESbH4" Name="Password" Kind="OutputPin" />
           </Node>
-          <Pad Id="Kt0Wmuehd2vP3NgdDNcOUs" Comment="File Path" Bounds="292,1155,77,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\Users\ping\OneDrive\Desktop\Credential.txt">
+          <Pad Id="Kt0Wmuehd2vP3NgdDNcOUs" Comment="File Path" Bounds="292,1155,77,15" ShowValueBox="true" isIOBox="true" Value="..\content\SpotServer\Credential.txt">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -581,6 +581,164 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="1136,760,365,19" Id="PetZS4vKJCOPyn4HDM3qbi">
+            <p:NodeReference LastCategoryFullName="IO.Xbox360Controller" LastDependency="VL.IO.Xbox360Controller.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Xbox360Controller (Vector)" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="PzgJO3U2h6BODpI6ELgAQq" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RQucXSVyyyjPiOqMR9kYHd" Name="User Index" Kind="InputPin" />
+            <Pin Id="OaQaBHPGxzHN2iUmuAUzYz" Name="Left Thumbstick" Kind="OutputPin" />
+            <Pin Id="Lvnf2dzDKnzP4EosvKK1aA" Name="Left Thumbstick Pressed" Kind="OutputPin" />
+            <Pin Id="PhihIjkUwgKMmwOss4d9Xe" Name="Right Thumbstick" Kind="OutputPin" />
+            <Pin Id="KumUNKMy2uZOrVMqUD5bqX" Name="Right Thumbstick Pressed" Kind="OutputPin" />
+            <Pin Id="TJ8Vg69rRBTQRnpUJsG7gc" Name="Left Trigger" Kind="OutputPin" />
+            <Pin Id="CJPxeG2mQr1NQBNkaqEa1G" Name="Left Shoulder Button" Kind="OutputPin" />
+            <Pin Id="BTB5ouwXb5IOTsGt8eupNY" Name="Right Trigger" Kind="OutputPin" />
+            <Pin Id="Lkr6PQnr08QM7VFF9HDWNE" Name="Right Shoulder Button" Kind="OutputPin" />
+            <Pin Id="QqEbbJehRtmQGApZ3lbYSr" Name="A Button" Kind="OutputPin" />
+            <Pin Id="S5aeWuqjtugNnYb1qXr1Kk" Name="B Button" Kind="OutputPin" />
+            <Pin Id="UweUME2rA43PxgP34yIYl0" Name="X Button" Kind="OutputPin" />
+            <Pin Id="TCsew0utoXZO609blhrRWf" Name="Y Button" Kind="OutputPin" />
+            <Pin Id="CaYvQDWOERILDlVeOnsnzY" Name="D-Pad Up" Kind="OutputPin" />
+            <Pin Id="TJHitNkTF9iMDm4DbEhx7s" Name="D-Pad Down" Kind="OutputPin" />
+            <Pin Id="Ca4SwjG4r7SLcpElrWr9Bd" Name="D-Pad Left" Kind="OutputPin" />
+            <Pin Id="T38cFl368hVNCrTyZSTDft" Name="D-Pad Right" Kind="OutputPin" />
+            <Pin Id="NkNVliPvwKhMnLghBjsdtM" Name="Start" Kind="OutputPin" />
+            <Pin Id="JIb1GdvvtTbLaV0RGKELr6" Name="Back" Kind="OutputPin" />
+            <Pin Id="JKkdmeBfJoaNpmlzJpcdZ8" Name="Is Connected" Kind="OutputPin" />
+          </Node>
+          <Pad Id="IVGhIGr8xlFPvBuPE4oO5u" Comment="User Index" Bounds="1138,679,60,19" ShowValueBox="true" isIOBox="true" Value="One">
+            <p:TypeAnnotation LastCategoryFullName="IO.Xbox360Controller" LastDependency="VL.IO.Xbox360Controller.vl">
+              <Choice Kind="TypeFlag" Name="UserIndex" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1191,840,46,19" Id="CiqqoQpNAptQG8MquI5IIi">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+            </p:NodeReference>
+            <Pin Id="SLDJgIxFUW5M2LsYHWROIv" Name="Input" Kind="StateInputPin" />
+            <Pin Id="GqJ32wvKOF3NCnnZFnYguA" Name="X" Kind="OutputPin" />
+            <Pin Id="DmyTO3sbk0UNFXbPly83Qb" Name="Y" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1136,840,46,19" Id="H2YtXRL6CuiOacO3Mx7rWH">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+            </p:NodeReference>
+            <Pin Id="C0RXtd9US8qMznIhoUKYN1" Name="Input" Kind="StateInputPin" />
+            <Pin Id="V6BTW8PYpcnLVk85tBqhiF" Name="X" Kind="OutputPin" />
+            <Pin Id="Kdg0tex7rxANel1dLFKlnH" Name="Y" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1781,730,105,19" Id="J7HlsmNz6BvOQ6PFHjmBH1">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSCServer" />
+            </p:NodeReference>
+            <Pin Id="MkxBy297QshNfnp4zSzpbm" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Q4QBIJ032GMPaX2nAutKJK" Name="Listening IP" Kind="InputPin" />
+            <Pin Id="GYGzx3znzTPMOeFMLPWcto" Name="Port" Kind="InputPin" />
+            <Pin Id="QqsjKW8jv4NLsuDz92Qm1C" Name="Enable Data Preview" Kind="InputPin" />
+            <Pin Id="LwRIfbgE2RRLneIBvvrRKJ" Name="Sort Data Preview" Kind="InputPin" />
+            <Pin Id="EEjwWCBGKUiPOssxaLUrV7" Name="Reset Data Preview" Kind="InputPin" />
+            <Pin Id="Cba2nsi25PUMHYUdvXFSgU" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Bz82he2g9asOrRXy9MEWa3" Name="Data" Kind="OutputPin" />
+            <Pin Id="AFcR2qVcNYTNSiMkMGNGcB" Name="Data Preview" Kind="OutputPin" />
+            <Pin Id="HXyAdve78QPOyJZY7ZXFzo" Name="Is Open" Kind="OutputPin" />
+          </Node>
+          <Pad Id="QMYoqUqxLlGOhnpAsz3pge" Comment="Port" Bounds="1803,689,35,15" ShowValueBox="true" isIOBox="true" Value="9000">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1781,809,73,19" Id="VFGVcCpiJeYMXoKTSqP6Re">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
+            </p:NodeReference>
+            <Pin Id="MF4wQ5HgzVdOb8IavZ3f8D" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TYsHWoA0YnYPtci15S3ZPA" Name="Input" Kind="InputPin" />
+            <Pin Id="EocZDvZxlaDNtHeRW3QcTH" Name="Address" Kind="InputPin" />
+            <Pin Id="NQYZmLtPtnvMEpZiHVLYhH" Name="Learn" Kind="InputPin" />
+            <Pin Id="GGZSgWhqYQDM46va9fNj0K" Name="Output" Kind="OutputPin" />
+            <Pin Id="JLcXe1UJvFFPbPZZbL6xoI" Name="Is Learning" Kind="OutputPin" />
+            <Pin Id="D705PLt9EzQOyX1ZnZa2Lf" Name="On Data" Kind="OutputPin" />
+            <Pin Id="RhGWxi82xSXPUNZKHawYXO" Name="Address" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="Ln6VchftENrNW2DhmIY747" Comment="" Bounds="1817,779,84,15" ShowValueBox="true" isIOBox="true" Value="./headset/pitch">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1915,809,73,19" Id="JqO5yfOuRnFNdsuFoXypaq">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
+            </p:NodeReference>
+            <Pin Id="CLec5J6x6I3LIEmoMNAffU" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AUxNH5JSovrNa4DnxWshyH" Name="Input" Kind="InputPin" />
+            <Pin Id="QztuWkHJJMQNS2awlA0abw" Name="Address" Kind="InputPin" />
+            <Pin Id="MewBWeDgA9LPl9I1Mlu2wy" Name="Learn" Kind="InputPin" />
+            <Pin Id="MUVkSi3fcEkNBaHg1ZCdXb" Name="Output" Kind="OutputPin" />
+            <Pin Id="VBK9pK1FadvOLr1tqIQXrR" Name="Is Learning" Kind="OutputPin" />
+            <Pin Id="OAZdPEQaJ2kNfJuzE0iaUo" Name="On Data" Kind="OutputPin" />
+            <Pin Id="KUnLzrnlkGYLLQLXeNTMb1" Name="Address" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="LJTjajD1ljMOyuKbYzGylr" Comment="" Bounds="1951,779,81,15" ShowValueBox="true" isIOBox="true" Value="./headset/roll">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="2029,809,73,19" Id="Cz2CIAECYThLMiE1Mog2b4">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
+            </p:NodeReference>
+            <Pin Id="NvRijfwjw0oMJ1qRo8RLg3" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="MYUsjTxYOquQdFMrSpi7xn" Name="Input" Kind="InputPin" />
+            <Pin Id="OYR7QqRNnTqP7A12v04CM8" Name="Address" Kind="InputPin" />
+            <Pin Id="Mxn6UIbrPbjOA4FSF1MkdG" Name="Learn" Kind="InputPin" />
+            <Pin Id="PXBMo6jccTrLGxbT2J62YD" Name="Output" Kind="OutputPin" />
+            <Pin Id="I6Q43HfObKSPLrVpkYmJ0L" Name="Is Learning" Kind="OutputPin" />
+            <Pin Id="BjahDQlwDVXMRmmpbs1TNc" Name="On Data" Kind="OutputPin" />
+            <Pin Id="CgDgLUNpr5DNKEJMHKmyT2" Name="Address" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="Dl7QEZvCGzcMO3LBlcPYoi" Comment="" Bounds="2065,779,74,15" ShowValueBox="true" isIOBox="true" Value="./headset/yaw">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1781,850,89,26" Id="H084CAfdUm2PkK3YpYDVcy">
+            <p:NodeReference LastCategoryFullName="Primitive.Float32" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Float32Type" Name="Float32" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="DegreeToCycles" />
+            </p:NodeReference>
+            <Pin Id="J0OHfD4IxJwOywHXbw5gnF" Name="Input" Kind="StateInputPin" />
+            <Pin Id="HgqxtAQMjmiPYz5BjxW8zB" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1915,850,89,26" Id="JjlVRtwrpYMNC7m6QMnw29">
+            <p:NodeReference LastCategoryFullName="Primitive.Float32" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Float32Type" Name="Float32" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="DegreeToCycles" />
+            </p:NodeReference>
+            <Pin Id="TTkmV5ukId6Ms7sZoxB9nW" Name="Input" Kind="StateInputPin" />
+            <Pin Id="RWAPSY8QJUTPVEy3uAIHdP" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="2029,850,89,26" Id="AEo6PsJxhWoQOSrIIKP0l4">
+            <p:NodeReference LastCategoryFullName="Primitive.Float32" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Float32Type" Name="Float32" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="DegreeToCycles" />
+            </p:NodeReference>
+            <Pin Id="TNEnY2jF5CbOZsiBcXC9qb" Name="Input" Kind="StateInputPin" />
+            <Pin Id="SwSKz7tv1HRMPLfQlcMm5J" Name="Output" Kind="StateOutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="A3qhRjsW9xCLFIVr9WBBxH" Name="Create" />
         <Patch Id="NnfPVPvyanuNN9OXbzpf7S" Name="Update" />
@@ -663,6 +821,19 @@
         <Link Id="JYlfv3fH2FgLNyqsYmCkwo" Ids="PQhjNLkfiMtQUeDwslX8Pq,KVdTrWIRjBDLiMIr4MZJok" IsFeedback="true" />
         <Link Id="KvkxJQ7rjn2NdCLup3JHnl" Ids="KVdTrWIRjBDLiMIr4MZJok,RylaLku4BDrMra7gtRrgBc" />
         <Link Id="D2RSevivWn7MsNwDmp9Tzl" Ids="Poima5xPi02NtfKRfUiR8U,KVdTrWIRjBDLiMIr4MZJok" />
+        <Link Id="BMih1kZZye3PN6ocm12Lfo" Ids="IVGhIGr8xlFPvBuPE4oO5u,RQucXSVyyyjPiOqMR9kYHd" />
+        <Link Id="NLnitSemWyjO0nkdMMYvph" Ids="PhihIjkUwgKMmwOss4d9Xe,SLDJgIxFUW5M2LsYHWROIv" />
+        <Link Id="J0O34ikVfUbOmb3lyZBLoW" Ids="OaQaBHPGxzHN2iUmuAUzYz,C0RXtd9US8qMznIhoUKYN1" />
+        <Link Id="EP6qOUkyBXGORwGrBfiZ1X" Ids="QMYoqUqxLlGOhnpAsz3pge,GYGzx3znzTPMOeFMLPWcto" />
+        <Link Id="KFztJabF4OBQU78GNrQwt1" Ids="Bz82he2g9asOrRXy9MEWa3,TYsHWoA0YnYPtci15S3ZPA" />
+        <Link Id="QckbFtNKugzP87rTp5bmtt" Ids="Ln6VchftENrNW2DhmIY747,EocZDvZxlaDNtHeRW3QcTH" />
+        <Link Id="H88qf9Ei22RLjdZ0xLTDFa" Ids="Bz82he2g9asOrRXy9MEWa3,AUxNH5JSovrNa4DnxWshyH" />
+        <Link Id="JDep4jtQvM0O8PoeI6OomM" Ids="LJTjajD1ljMOyuKbYzGylr,QztuWkHJJMQNS2awlA0abw" />
+        <Link Id="BWQ3IKI7WESPjmkdby0Ld4" Ids="Bz82he2g9asOrRXy9MEWa3,MYUsjTxYOquQdFMrSpi7xn" />
+        <Link Id="QIz0dkbMSYaPhIPQQMEN5P" Ids="Dl7QEZvCGzcMO3LBlcPYoi,OYR7QqRNnTqP7A12v04CM8" />
+        <Link Id="Pz3ONea9yBMPi254YxCUKR" Ids="GGZSgWhqYQDM46va9fNj0K,J0OHfD4IxJwOywHXbw5gnF" />
+        <Link Id="GngxUkS1CXwNBoBObet2tK" Ids="MUVkSi3fcEkNBaHg1ZCdXb,TTkmV5ukId6Ms7sZoxB9nW" />
+        <Link Id="BYdKe9tEQezMCOICQ4oElW" Ids="PXBMo6jccTrLGxbT2J62YD,TNEnY2jF5CbOZsiBcXC9qb" />
       </Patch>
     </Node>
   </Patch>
@@ -673,4 +844,5 @@
   <PlatformDependency Id="P3zQdFufIfjLCdI8dZ4IV6" Location="System.Text.Json" />
   <PlatformDependency Id="THRWUFXT3l5LpBjAdyQqfL" Location="../lib/BunrakuSpotControlUtils.dll" />
   <DocumentDependency Id="KvjqrG1EnORNOhSY9xTfyd" Location="../VL.Bunraku.vl" />
+  <NugetDependency Id="D2aIOtSgas8PUwWEvQe6NB" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
 </Document>
