@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="MFSlFRUfh9VL2XGmeFtGbD" LanguageVersion="2025.7.0-0455-gc3c129174f" Version="0.128">
   <Patch Id="AFgV484WtHVNmGRlGPa8nc">
     <Canvas Id="IOsY6fKdWfcQDC150bXKvF" DefaultCategory="Bunraku" CanvasType="FullCategory">
       <Canvas Id="LhRjTxwMDOSOejq3nMVjai" Name="Utilities" Position="44,206">
@@ -8330,8 +8330,8 @@
                 <Node Bounds="798,872,85,19" Id="FVXYEHVh0Q2O4v98XlU7zE">
                   <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Format" />
                     <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Format (Version 1)" />
                   </p:NodeReference>
                   <Pin Id="H8mVs47KZIXMJPt5AL9mQy" Name="Format" Kind="InputPin" />
                   <Pin Id="Lzm7L3QgB1LNd3QYRIxnD6" Name="Input" Kind="StateInputPin" />
@@ -8604,8 +8604,8 @@
                 <Node Bounds="805,1267,85,19" Id="BSWYzujClrwOQO7rAsa9Hm">
                   <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Format" />
                     <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Format (Version 1)" />
                   </p:NodeReference>
                   <Pin Id="CelD7a7vdnrQayWikPJW88" Name="Format" Kind="InputPin" />
                   <Pin Id="C60yWOaFhOgNSDq8vVY0wW" Name="Input" Kind="StateInputPin" />
@@ -10603,8 +10603,8 @@
                 <Node Bounds="192,943,85,19" Id="EluwSZdzSzLLmOQhD7S2jb">
                   <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Format" />
                     <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Format (Version 1)" />
                   </p:NodeReference>
                   <Pin Id="EBHmWgg0IiMNfh75kxywvt" Name="Format" Kind="InputPin" />
                   <Pin Id="DDIwd0NEUbDMyFw6dHmCdS" Name="Input" Kind="StateInputPin" />
@@ -10685,8 +10685,8 @@
                 <Node Bounds="512,968,85,19" Id="Lar8vCUMiaWPtiI8ubt8bx">
                   <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Format" />
                     <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Format (Version 1)" />
                   </p:NodeReference>
                   <Pin Id="Lh6liNd4uyBNu9rNAlnkcZ" Name="Format" Kind="InputPin" />
                   <Pin Id="Vzqk4pDrEzhLnSToWgapPq" Name="Input" Kind="StateInputPin" />
@@ -19924,10 +19924,12 @@
                 <Pin Id="PmUxMDRv9KoNLaEkIcEfrB" Name="Input 2" Kind="InputPin" />
                 <Pin Id="UlYCqH2mWVLPaGvtxzLxHl" Name="Output" Kind="StateOutputPin" />
               </Node>
+              <ControlPoint Id="KcmXF90mJlDPfwTWc9KvTn" Bounds="143,320" />
             </Canvas>
             <Patch Id="HFq7rbk7CEEPLo2qi7MG9f" Name="Create" />
             <Patch Id="Jk8tMYXPempMJovTfoZ6wd" Name="Update" ParticipatingElements="E2q64dzsVkOLRrFoqj1OUm,EEJnwz5bfQTPEpfqOqsZHS,I8itvUrPhocNRpv047jvqT,OAt5kPolINPPhR3ijA874n,SiazVZtKRkuQR34DpsWChd,AieAQjsJsOYNnJDHaVFJSB,QfH3djkH4YsNZxuHz3ZG0h,Lvb4eJTooJrMSsHNrATXx5,MiZkmqdJilCNEWb62DK40V,FYTrAvn2tqJQSSQV45BS8f">
               <Pin Id="Lx3MPrVbtf8Nz9dKQ1Voc5" Name="RobotData" Kind="InputPin" />
+              <Pin Id="Gg9TIrB926fNNfTpTnRWf3" Name="Transform" Kind="InputPin" Visibility="Hidden" />
               <Pin Id="JLMJ9iyERjCOWzr1POElxv" Name="MotionHandlerStrategy" Kind="InputPin">
                 <p:TypeAnnotation LastCategoryFullName="Bunraku.Motion" LastDependency="bunraku.vl">
                   <Choice Kind="TypeFlag" Name="MotionHandler" />
@@ -20213,6 +20215,8 @@
             <Link Id="VeRHkFWBdbZO7ATcnjtIGc" Ids="UlYCqH2mWVLPaGvtxzLxHl,M558XayNs3IQLEAgalaL86" />
             <Link Id="SwVKdHyzbg6M6BBM1kEknC" Ids="ML6VCjgHoqWNz7RAG9tYJs,FzKQ8fjqb5QQG8VfD9MfpV" />
             <Link Id="AozITE5T3RTMKx9rG0lwEr" Ids="ML6VCjgHoqWNz7RAG9tYJs,RVUPKFD2L6oOLOlGOllTtb" />
+            <Link Id="H28RlxIhcb5Oc6kYJmnPT8" Ids="KcmXF90mJlDPfwTWc9KvTn,Ncyl8QaMYt8MlhFdZBvusv" />
+            <Link Id="PC642eEGoHgOu2krQ9a6eZ" Ids="Gg9TIrB926fNNfTpTnRWf3,KcmXF90mJlDPfwTWc9KvTn" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
@@ -22416,6 +22420,7 @@
                     <Choice Kind="ProcessAppFlag" Name="Receiver (Datagram)" />
                   </p:NodeReference>
                   <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+                  <Pin Id="AexriCdvx7aP38y5O5BdaP" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="MeWZEJcMbVLQZuwdSvH3be" Name="Local Socket" Kind="InputPin" />
                   <Pin Id="Jsa3sL6ZfcLLj09J0rF4RU" Name="Datagrams" Kind="OutputPin" />
                 </Node>
@@ -24107,7 +24112,7 @@
                             <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
-                              <Choice Kind="OperationCallFlag" Name="Format" />
+                              <Choice Kind="OperationNode" Name="Format (Version 1)" />
                             </p:NodeReference>
                             <Pin Id="FkjM4y1rHrIOagu8VMY65A" Name="Format" Kind="InputPin" />
                             <Pin Id="J5EExuAHsaIPb5kCw1IIAi" Name="Input" Kind="StateInputPin" />
@@ -31361,11 +31366,6 @@
                 <Pin Id="DVjZO5FgMxHQP32gr5jET6" Name="Input" Kind="InputPin" />
                 <Pin Id="N3CFU6h1VeFPTBpA4HfYWe" Name="State" Kind="OutputPin" />
               </Patch>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="DU3e3ytRYI3LyPyzqVHD9Z">
                 <Fragment Id="JmRmvdojBf0OSSXxfIdnf1" Patch="U0A6aA9NY9zOmClIPF0ytp" Enabled="true" />
                 <Fragment Id="UkGBQc5cuHzLHJ388ncyDX" Patch="UFFxUEcVzWMMVKq6JG4P52" Enabled="true" />
@@ -32839,7 +32839,7 @@
                       <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true">
                         <p:OuterCategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
                       </CategoryReference>
-                      <Choice Kind="OperationCallFlag" Name="Format" />
+                      <Choice Kind="OperationNode" Name="Format (Version 1)" />
                     </p:NodeReference>
                     <Pin Id="InM8QobT8FPMWlZqe4u0Ox" Name="Format" Kind="InputPin" />
                     <Pin Id="NwKWjsYn7wwNnkdxajxQ5W" Name="Input" Kind="StateInputPin" />
@@ -35478,12 +35478,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="Bu9wZduK0BKPjM6bcoWIMM" Location="VL.CoreLib" Version="2025.7.0-0455-gc3c129174f" />
+  <NugetDependency Id="VUkrJuYF9g7ONjZ5L2PSbs" Location="VL.Stride" Version="2025.7.0-0455-gc3c129174f" />
+  <NugetDependency Id="AGgAYE0D5wZLidwjasRmAg" Location="VL.Skia" Version="2025.7.0-0455-gc3c129174f" />
   <NugetDependency Id="Cq1MpoUPpfWPlg2gBy3S11" Location="Google.Protobuf" Version="3.28.3" />
   <NugetDependency Id="UeLSX9KZm0hPjS0yghsC9s" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
-  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="VyL7iahjRFZNT9wTtQPJKK" Location="VL.Stride.TextureFX" Version="2025.7.0-0455-gc3c129174f" />
   <PlatformDependency Id="TPPZKgJ0msZPw1s1Vny9z6" Location="./__WIP/KUKA.Ecs.V1/ExternalApiTest/ExternalApiTest/ExternalApiTest/bin/Debug/net8.0/Grpc.Net.Client.dll" IsForward="true" />
   <PlatformDependency Id="LMnfxDc6yZlNJZjoXaxAgC" Location="./__WIP/KUKA.Ecs.V1/ExternalApiTest/ExternalApiTest/ExternalApiTest/bin/Debug/net8.0/Google.Protobuf.dll" />
   <NugetDependency Id="Ox14usEfzuKPrK0UgBzfkH" Location="Stride.Core.Mathematics" Version="4.2.0.2293" />
@@ -35492,6 +35492,6 @@
   <PlatformDependency Id="FOzLkmVNZZtNsW8m0HnCp2" Location="Stride.Graphics.dll" />
   <PlatformDependency Id="TKRkusBaE5uO9Li77CfJp9" Location="./lib/BunrakuSpotControlUtils.dll" />
   <PlatformDependency Id="RYuIrXeMYOrOjQ1UiriXFg" Location="System.Text.Json" />
-  <NugetDependency Id="GSVSZFmF4S6OIIdCdVPaxX" Location="VL.Serialization.MessagePack" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="GSVSZFmF4S6OIIdCdVPaxX" Location="VL.Serialization.MessagePack" Version="2025.7.0-0455-gc3c129174f" />
   <NugetDependency Id="T04cPvCaiXBL2meWFoT0sn" Location="VL.IO.WebSocket" Version="1.1.0" />
 </Document>
