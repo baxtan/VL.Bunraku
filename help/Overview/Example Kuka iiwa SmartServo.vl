@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mw1aqs4UOh0Le6ngu1Y9ot" LanguageVersion="2025.7.0-0486-g4e38aa55c7" Version="0.128">
-  <NugetDependency Id="RNNT7rcgohFP5NSJ5esjBY" Location="VL.CoreLib" Version="2025.7.0-0486-g4e38aa55c7" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Mw1aqs4UOh0Le6ngu1Y9ot" LanguageVersion="2025.7.1-0118-geaea4f9e82" Version="0.128">
+  <NugetDependency Id="RNNT7rcgohFP5NSJ5esjBY" Location="VL.CoreLib" Version="2025.7.1-0118-geaea4f9e82" />
   <Patch Id="VOWtl41O3cIN5knMfaF6La">
-    <Canvas Id="SeRJccE8fFwOnBSLg5IlzE" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <Canvas Id="SeRJccE8fFwOnBSLg5IlzE" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
 
     ************************ Application ************************
@@ -172,7 +172,7 @@
             <p:NodeReference LastCategoryFullName="Bunraku.IO.SmartServo" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="SmartServo" />
-              <Choice Kind="ProcessAppFlag" Name="ParseRobotData" />
+              <Choice Kind="ProcessAppFlag" Name="ParseSmartServoData" />
             </p:NodeReference>
             <Pin Id="TLFwrq9QA7yL26QrABbKfk" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="ASTL0yWh8PhMGQoSUfqvIL" Name="Input" Kind="InputPin" />
@@ -276,6 +276,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="KlxEAt8g5VuMoKFZ4dyPlx" Location="VL.Bunraku" Version="0.0.6" />
-  <NugetDependency Id="GfCWyYPjAcrPMeviJtPQLW" Location="VL.Stride" Version="2025.7.0-0486-g4e38aa55c7" />
+  <NugetDependency Id="GfCWyYPjAcrPMeviJtPQLW" Location="VL.Stride" Version="2025.7.1-0118-geaea4f9e82" />
+  <DocumentDependency Id="RqRFb1MEnaYNDAm6UoGebo" Location="../../VL.Bunraku.vl" />
 </Document>
