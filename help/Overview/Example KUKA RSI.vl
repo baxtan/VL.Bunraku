@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mw1aqs4UOh0Le6ngu1Y9ot" LanguageVersion="2025.7.1-0118-geaea4f9e82" Version="0.128">
-  <NugetDependency Id="RNNT7rcgohFP5NSJ5esjBY" Location="VL.CoreLib" Version="2025.7.1-0118-geaea4f9e82" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Mw1aqs4UOh0Le6ngu1Y9ot" LanguageVersion="2025.7.1-0128-ge29fd66ed6" Version="0.128">
+  <NugetDependency Id="RNNT7rcgohFP5NSJ5esjBY" Location="VL.CoreLib" Version="2025.7.1-0128-ge29fd66ed6" />
   <Patch Id="VOWtl41O3cIN5knMfaF6La">
     <Canvas Id="SeRJccE8fFwOnBSLg5IlzE" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -58,13 +58,13 @@
             <Pin Id="SkS3xAVCzOaM7O1eBRuNyv" Name="Entity" Kind="InputPin" />
             <Pin Id="MkQDlcioR1JPbJKcxplY3n" Name="Settings" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Overlay Id="MkLDHEutK5bMKQ1p11qXs7" Name="Phycical Robot vis RSI" Bounds="263,1140,302,353">
+          <Overlay Id="MkLDHEutK5bMKQ1p11qXs7" Name="Phycical Robot vis RSI" Bounds="207,1194,302,353">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Overlay Id="Expj53Oxf4KP5b9fTsLOSX" Name="Send Axis Data" Bounds="521,1535,365,214">
+          <Overlay Id="Expj53Oxf4KP5b9fTsLOSX" Name="Send Axis Data" Bounds="465,1589,365,214">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Node Bounds="327,1260,45,19" Id="RMkQe3pbTPJLcLZHXO9o4U">
+          <Node Bounds="271,1314,45,19" Id="RMkQe3pbTPJLcLZHXO9o4U">
             <p:NodeReference LastCategoryFullName="Main.IO.RSI" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RSI" />
@@ -77,17 +77,17 @@
             <Pin Id="T3kypPcP98fLwedTe0XiuA" Name="Is Open" Kind="OutputPin" />
             <Pin Id="O9zg56OGYqON6aFpXKnkxD" Name="Data" Kind="OutputPin" />
           </Node>
-          <Pad Id="IF566wT7RZbMrfmL1xC8kC" Comment="IP" Bounds="329,1200,41,15" ShowValueBox="true" isIOBox="true" Value="0.0.0.0">
+          <Pad Id="IF566wT7RZbMrfmL1xC8kC" Comment="IP" Bounds="273,1254,67,15" ShowValueBox="true" isIOBox="true" Value="192.168.1.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IW46D1AY9D7O0hUUl6Zdbi" Comment="Port" Bounds="349,1230,38,15" ShowValueBox="true" isIOBox="true" Value="49152">
+          <Pad Id="IW46D1AY9D7O0hUUl6Zdbi" Comment="Port" Bounds="293,1284,45,15" ShowValueBox="true" isIOBox="true" Value="59152">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="367,1290,75,19" Id="QSG5atGi7ftOD9MbDZgB9Q">
+          <Node Bounds="311,1344,75,19" Id="QSG5atGi7ftOD9MbDZgB9Q">
             <p:NodeReference LastCategoryFullName="Main.IO.RSI" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ParseRSIData" />
@@ -97,8 +97,8 @@
             <Pin Id="PlsIzbBuTxePdGkaUdbTCu" Name="AxisValues" Kind="OutputPin" />
             <Pin Id="CRA8E52lawrOqycBxoSA8a" Name="POC" Kind="OutputPin" />
           </Node>
-          <Pad Id="GeqW7WvNV7oNWRogD3FYpv" Comment="POC" Bounds="439,1331,78,20" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="585,1680,168,19" Id="QxE39bYRfF7LquIBLRDEVj">
+          <Pad Id="GeqW7WvNV7oNWRogD3FYpv" Comment="POC" Bounds="383,1385,72,20" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="572,1760,168,19" Id="QxE39bYRfF7LquIBLRDEVj">
             <p:NodeReference LastCategoryFullName="Main.IO.RSI" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SendAxisMove (RSI)" />
@@ -110,7 +110,7 @@
             <Pin Id="Iqv5M1GM4jNP7rFewPWwqW" Name="Apply" Kind="InputPin" />
             <Pin Id="PohgaCrux52OhXOUzl8Uw7" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="585,1620,59,19" Id="FFmgPy2U3lzL9Vj0bwXW6c">
+          <Node Bounds="572,1700,59,19" Id="FFmgPy2U3lzL9Vj0bwXW6c">
             <p:NodeReference LastCategoryFullName="Main.IO.RSI" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SyncIPOC" />
@@ -120,16 +120,20 @@
             <Pin Id="C02edRUFO5PQcTMcbnHgbC" Name="Output" Kind="OutputPin" />
             <Pin Id="TSIKNp7VEAJMm0xw1CPvs0" Name="IPOC" Kind="OutputPin" />
           </Node>
-          <Pad Id="PbDCoAp6OV5PKHLdnsvyCs" Comment="Apply" Bounds="750,1621,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+          <Pad Id="PbDCoAp6OV5PKHLdnsvyCs" Comment="Apply" Bounds="737,1701,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <ControlPoint Id="NKkdbUiyUwOPpBTFYOqlOI" Bounds="329,1445" />
-          <Pad Id="EWoKFVrj8RIMI2YjaKX3qK" Comment="AxisValues" Bounds="369,1361,78,104" ShowValueBox="true" isIOBox="true" />
+          <ControlPoint Id="NKkdbUiyUwOPpBTFYOqlOI" Bounds="273,1499" />
+          <Pad Id="EWoKFVrj8RIMI2YjaKX3qK" Comment="AxisValues" Bounds="313,1415,57,127" ShowValueBox="true" isIOBox="true" Value="1, -90.33, 1.001, 1, 1.43, 1">
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">12</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
           <Node Bounds="219,654,517,315" Id="AkqtBz643uIMeFrMoTXZA9">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -148,7 +152,7 @@
                 </p:NodeReference>
                 <Pin Id="BNSLbP1hykeQS9XUgaInMk" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="ShqdfPQRMJXOsWO6pPOoBh" Name="RobotData" Kind="InputPin" />
-                <Pin Id="IwUuhHBdsxuOSxGBdm8O97" Name="Transform" Kind="InputPin" IsHidden="true" />
+                <Pin Id="IwUuhHBdsxuOSxGBdm8O97" Name="Transform" Kind="InputPin" />
                 <Pin Id="MoHrS8DSgn2OCoGWfuUg8H" Name="MotionHandlerStrategy" Kind="InputPin" />
                 <Pin Id="B5cyLXdBHSnLxT5rjB4ug7" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="DBVcykHux3qMA7CQ76VqcF" Name="ForwardKinematic" Kind="OutputPin" IsHidden="true" />
@@ -263,6 +267,7 @@
             <ControlPoint Id="HmqANJ9TFozPP2scQ1VU6z" Bounds="619,660" Alignment="Top" />
             <ControlPoint Id="CcHIelvYNIVOJntHQhaPCs" Bounds="233,660" Alignment="Top" />
             <ControlPoint Id="KPHg8ITTqlLPV4qyj8GKp1" Bounds="436,660" Alignment="Top" />
+            <ControlPoint Id="U47seaTZIzlOm4As5CwmJ5" Bounds="274,660" Alignment="Top" />
           </Node>
           <Node Bounds="313,340,462,19" Id="IPMeOgIxVWkLXzmKoeHD5a">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -307,7 +312,7 @@
             <Pin Id="P93YIjRzVDpM2RaUHSTlac" Name="AxisValues" Kind="InputPin" />
             <Pin Id="J1b8Ywz6FsyN8PPdWDRoUn" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="694,1230,52,19" Id="D7FST23OWtHPlz0K6cNthu">
+          <Node Bounds="638,1224,52,19" Id="D7FST23OWtHPlz0K6cNthu">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -318,9 +323,9 @@
             <Pin Id="Mp2H3APiijtPUlm4TAeZhi" Name="Index" Kind="InputPin" />
             <Pin Id="PTearSbFsOyNf1ZcvRCOwy" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="DKDjjEXNKqqMAQR94t6gBV" SlotId="FtfUk2CJgsMQQJj6wLdvym" Bounds="696,1360" />
+          <Pad Id="DKDjjEXNKqqMAQR94t6gBV" SlotId="FtfUk2CJgsMQQJj6wLdvym" Bounds="640,1414" />
           <Pad Id="OZY4q39rOYjL0uVBwintTK" SlotId="FtfUk2CJgsMQQJj6wLdvym" Bounds="543,190" />
-          <Pad Id="GTPd8hpqC8aLSj5CYv3Zx5" SlotId="QKY0S6ZLXF8M9KWRLPiVnW" Bounds="369,1415" />
+          <Pad Id="GTPd8hpqC8aLSj5CYv3Zx5" SlotId="QKY0S6ZLXF8M9KWRLPiVnW" Bounds="313,1585" />
           <Pad Id="F71zUnb8zhSLK1JTl7uI46" SlotId="QKY0S6ZLXF8M9KWRLPiVnW" Bounds="772,180" />
           <Node Bounds="770,290,83,19" Id="Q56aabHyj4nLqzkOQHNqvJ">
             <p:NodeReference LastCategoryFullName="Bunraku.Motion" LastDependency="VL.Bunraku.vl">
@@ -341,7 +346,7 @@
             <Pin Id="RRieNSy0CkFMo3ieJRZyXX" Name="AxisValues" Kind="InputPin" />
             <Pin Id="HPbw8B7GbfAPuu83I4tVWG" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="694,1280,71,19" Id="GRH0sb8Em7tNfgHtJQrFoj">
+          <Node Bounds="585,1310,71,19" Id="GRH0sb8Em7tNfgHtJQrFoj">
             <p:NodeReference LastCategoryFullName="Main.IO.RSI" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MotionFilter" />
@@ -350,7 +355,7 @@
             <Pin Id="UJ6B71xUXgdNNZPs1t2NZj" Name="Goto Position" Kind="InputPin" />
             <Pin Id="G9gr6XUiTjwNYkxZQL5y5k" Name="Position" Kind="OutputPin" />
           </Node>
-          <Overlay Id="HqJtrOl10qmMnBAMfCeGGC" Name="Motion Filter" Bounds="610,1109,259,341">
+          <Overlay Id="HqJtrOl10qmMnBAMfCeGGC" Name="Motion Filter" Bounds="554,1163,259,271">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Pad Id="ChsbRJHZH1LLNQk56Z6vHC" Comment="" Bounds="356,560,123,15" ShowValueBox="true" isIOBox="true" Value="False, True, False">
@@ -394,7 +399,7 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Ns2JOvt4mfAPWWHsJHNuSJ" Comment="" Bounds="100,530,152,71" ShowValueBox="true" isIOBox="true">
+          <Pad Id="Ns2JOvt4mfAPWWHsJHNuSJ" Comment="" Bounds="100,530,152,103" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -424,9 +429,849 @@
                 <Item>1, 0.48000002, 0, 1</Item>
                 <Item>0.91, 0.91, 0.91, 1</Item>
               </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
+              <Item>
+                <Item>0.2, 0.2, 0.2, 1</Item>
+                <Item>1, 0.48000002, 0, 1</Item>
+                <Item>0.91, 0.91, 0.91, 1</Item>
+              </Item>
             </p:Value>
           </Pad>
-          <Pad Id="LNSGoDHmPqBMnWnwrnhbx2" Comment="RobotColors" Bounds="20,155,136,65" ShowValueBox="true" isIOBox="true">
+          <Pad Id="LNSGoDHmPqBMnWnwrnhbx2" Comment="RobotColors" Bounds="-349,138,136,65" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -483,7 +1328,7 @@
             <Pin Id="CNYi0buyOZMNvKiuyOgBWz" Name="AxisValues" Kind="InputPin" />
             <Pin Id="AZb3w1yUUXBN0gBCiCl5w9" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="S8ASiNXtSMuPFeSiRg1RHf" Comment="AxisValues" Bounds="315,120,56,111" ShowValueBox="true" isIOBox="true" Value="-74, -129, 61, 162, -17, 44">
+          <Pad Id="S8ASiNXtSMuPFeSiRg1RHf" Comment="AxisValues" Bounds="315,120,56,111" ShowValueBox="true" isIOBox="true" Value="1, -90, 1, 1, 1, 2">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -497,12 +1342,682 @@
               <p:stepsize p:Type="Single">1</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="KwcFP0HVCsJNsMJfKeOMtU" Bounds="368,1255,102,13" ShowValueBox="true" isIOBox="true" Value="&lt;&lt; This is your PC's IP">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">6</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="-274,1230,45,19" Id="Spc0SuoRlQVLhOND20U8bS">
+            <p:NodeReference LastCategoryFullName="IO.Net" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Ping" />
+            </p:NodeReference>
+            <Pin Id="LovDaT4rqYPMu6rnt5qJhT" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JP5rBbOouncQNYDFKi89ZO" Name="Input" Kind="InputPin" />
+            <Pin Id="L72nyrfkRjgNU9g6wxm6Fs" Name="Period" Kind="InputPin" />
+            <Pin Id="Md52AUnavKALPlyYrS5ciw" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Fb67T8afLPYLV3Yx6zK5Oz" Name="Reachable" Kind="OutputPin" />
+            <Pin Id="OiNZ7hBI2WmP0tJHrI46O0" Name="Status" Kind="OutputPin" />
+            <Pin Id="UsI99rvgyZgPEtmwrFpLOL" Name="Roundtrip Time" Kind="OutputPin" />
+          </Node>
+          <Pad Id="PkJF3cqS7a6PLgvXnYlnhK" Comment="" Bounds="-272,1199,91,15" ShowValueBox="true" isIOBox="true" Value="192.168.1.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="LebQzlmmHs2M6F7KLy16aZ" Comment="Reachable" Bounds="-272,1271,35,35" ShowValueBox="true" isIOBox="true" />
+          <Overlay Id="M5XNL7bJ8AUMYEk7X5T8bk" Name="Are you connected to RSI?" Bounds="-319,1133,296,226" />
+          <Node Bounds="251,440,58,19" Id="OuCrChmDPDtNjabqlV47RU">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="OperationCallFlag" Name="Translate" />
+            </p:NodeReference>
+            <Pin Id="EttHTiqb0K9N8nnTkUM067" Name="Input" Kind="InputPin" />
+            <Pin Id="V1NtQhBJXHRMzwyvkg6a6F" Name="Translation" Kind="InputPin" />
+            <Pin Id="MUdMkWhoQMTLJ2pTkQJHsm" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="281,470,58,19" Id="PQNiUvRZTS3PLo8FoS2lfN">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="OperationCallFlag" Name="Translate" />
+            </p:NodeReference>
+            <Pin Id="FI6mPjlj9f7OZ7HO9ExQ3W" Name="Input" Kind="InputPin" />
+            <Pin Id="DKegJQVYAm9OPyXnh52jUq" Name="Translation" Kind="InputPin" />
+            <Pin Id="BLQ3GM5WkNwPGwXIRHBcBJ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="311,500,58,19" Id="POw2xZ70FETMdasPCElh2W">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="OperationCallFlag" Name="Translate" />
+            </p:NodeReference>
+            <Pin Id="T0L1pQkhfLmOTuHRi0Do9o" Name="Input" Kind="InputPin" />
+            <Pin Id="Fjp6uC0s4iEORKdNv1Rzc9" Name="Translation" Kind="InputPin" />
+            <Pin Id="NQRyZ6hZOPqNCk7xPOERKh" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="281,530,45,19" Id="M1HMbuHPQAXMZEic7sHozl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Cons" />
+            </p:NodeReference>
+            <Pin Id="A3Xq7B425lALX8z5iFX5aV" Name="Input" Kind="InputPin" />
+            <Pin Id="I8Gqs0kjL7jOkw1bQ83gDx" Name="Input 2" Kind="InputPin" />
+            <Pin Id="Jl1LB9dbSQNOthZuUaYSTj" Name="Result" Kind="OutputPin" />
+            <Pin Id="BlPARLRYmrPPJHaadMxYD4" Name="Input 3" Kind="InputPin" />
+          </Node>
+          <Pad Id="VbxFntHGMqQLoEbtmroirq" Comment="Translation" Bounds="309,401,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0.46">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Ii1ZlzwtKyEQNd0T6fidp9" Comment="Translation" Bounds="383,440,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BtHsvoXgD10MSqbLlVDKzc" Comment="Translation" Bounds="487,470,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GYWv6Xoj3YUMqZDfNQQ7NR" Comment="" Bounds="988,1491,57,122" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DcdQXLsKwbtOKik6yi27c0" SlotId="QKY0S6ZLXF8M9KWRLPiVnW" Bounds="934,1581" />
+          <Node Bounds="954,1654,121,163" Id="PkN4dsb0fUoLneZNiI3QsJ">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+            </p:NodeReference>
+            <Pin Id="N7yINLlqP2eQADWdmvU0tG" Name="Break" Kind="OutputPin" />
+            <Patch Id="UFlADLkmZBwOG7Wm4gr4tE" ManuallySortedPins="true">
+              <Patch Id="KPGZxlvzfiRNJCrmB6gmqX" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="GIqNv22i9bAPAjba897t1q" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="HsGve5wmQifMYH1SQhpwLX" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="966,1690,22,19" Id="B5yuh7kE2vMOCzotwYxQbz">
+                <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="- (Negate)" />
+                </p:NodeReference>
+                <Pin Id="C45UUP2G6U6LtfLnYf2xLC" Name="Input" Kind="InputPin" />
+                <Pin Id="VQZICXRxCZMQESwJg31ZMs" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="966,1730,48,19" Id="F7SePWZK8heMDkzEwX31XA">
+                <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="+" />
+                </p:NodeReference>
+                <Pin Id="LdOx5UYFLvlOzyxDqNdHm8" Name="Input" Kind="InputPin" />
+                <Pin Id="GtvpLQ1BlJFNbyB6pezEBr" Name="Input 2" Kind="InputPin" />
+                <Pin Id="RTSL47pgghXLm7dAMWSyzt" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="966,1770,97,19" Id="IKPx22qjZAePeIg0xUvajd">
+                <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="*" />
+                </p:NodeReference>
+                <Pin Id="Vf4qU4eFk90MgPXP7HkTuh" Name="Input" Kind="InputPin" />
+                <Pin Id="N8jeojKaMnzNuWUeNsdrKo" Name="Input 2" Kind="InputPin" />
+                <Pin Id="UO27n70kuS1LtsE4uQhrD3" Name="Output" Kind="OutputPin" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="AmJ4WVndgaOOaFlOq3QXoa" Bounds="968,1660" Alignment="Top" />
+            <ControlPoint Id="UL6Etrif7uoMlQlW1Afyy7" Bounds="968,1811" Alignment="Bottom" />
+            <ControlPoint Id="DHlB76xUP8POGy7nd58NMV" Bounds="1011,1660" Alignment="Top" />
+          </Node>
+          <Pad Id="OT98SCRmJ92Np6oeCpKN99" Comment="" Bounds="968,1850,45,111" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="G5KHcwxJhKOMQWhR3fwHoq" Bounds="1492,856,595,1024" ShowValueBox="true" isIOBox="true" Value="&amp;ACCESS RVP&#xD;&#xA;&amp;REL 3&#xD;&#xA;&amp;PARAM EDITMASK = *&#xD;&#xA;&amp;PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe&#xD;&#xA;DEF RSI_Bunraku( )&#xD;&#xA;; =============================================&#xD;&#xA;; &#xD;&#xA;; RSI EXAMPLE: Ethernet communication with Bunraku&#xD;&#xA;; Realtime UDP data exchange with server application&#xD;&#xA;;&#xD;&#xA;; =============================================&#xD;&#xA;&#xD;&#xA;; Declaration of KRL variables&#xD;&#xA;DECL INT ret    ; Return value for RSI commands&#xD;&#xA;DECL INT CONTID    ; ContainerID&#xD;&#xA;&#xD;&#xA;;FOLD INI&#xD;&#xA;  ;FOLD BASISTECH INI&#xD;&#xA;  BAS (#INITMOV,0 )&#xD;&#xA;  ;ENDFOLD (BASISTECH INI)&#xD;&#xA;  ;FOLD USER INI&#xD;&#xA;    ;Make your modifications here&#xD;&#xA;  ;ENDFOLD (USER INI)&#xD;&#xA;;ENDFOLD (INI)&#xD;&#xA;&#xD;&#xA;; Move to start position&#xD;&#xA;PTP {A1 1, A2 -90, A3 1, A4 1, A5 1, A6 1}&#xD;&#xA;;PTP $AXIS_ACT &gt;&gt;&gt; ther is no specific start position &#xD;&#xA;&#xD;&#xA;; Create RSI Context &#xD;&#xA;ret = RSI_CREATE(&quot;RSI_Bunraku&quot;, CONTID, TRUE)&#xD;&#xA;IF (ret &lt;&gt; RSIOK) THEN&#xD;&#xA;  HALT&#xD;&#xA;ENDIF&#xD;&#xA;&#xD;&#xA;; Start RSI execution&#xD;&#xA;;ret = RSI_ON(#ABSOLUTE)&#xD;&#xA;ret = RSI_ON(#RELATIVE)&#xD;&#xA;IF (ret &lt;&gt; RSIOK) THEN&#xD;&#xA;  HALT&#xD;&#xA;ENDIF&#xD;&#xA;&#xD;&#xA;; Sensor guided movement&#xD;&#xA;RSI_MOVECORR()&#xD;&#xA;&#xD;&#xA;; Turn off RSI &#xD;&#xA;ret = RSI_OFF()&#xD;&#xA;IF (ret &lt;&gt; RSIOK) THEN&#xD;&#xA;  HALT&#xD;&#xA;ENDIF&#xD;&#xA;&#xD;&#xA;PTP {A1 1, A2 -90, A3 1, A4 1, A5 1, A6 1}&#xD;&#xA;&#xD;&#xA;END">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LhGgtPicqEAP7T47Ca31mD" Comment="Goto Position" Bounds="-54,2081,35,111" ShowValueBox="true" isIOBox="true" Value="0, 0, 0, 0, 0, 0">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="SJNax85OLh9M5iSUUsIk9K" Comment="Acceleration" Bounds="969,1260,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="VmkAkkgXuwgM1X3cGuDUjD" Comment="Max Velocity" Bounds="1029,1290,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="915,1320,129,62" Id="EZoCIutzYadMj3wm8DNHD4">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+            </p:NodeReference>
+            <Pin Id="QtKuWD4mypeLpOQDu14cZL" Name="Break" Kind="OutputPin" />
+            <Patch Id="Hm8GsOfBODrMZctugMzDU5" ManuallySortedPins="true">
+              <Patch Id="Tt4vZ9RByy0PnHW5UNEdR8" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="AdToq5qM0cIN5exVe0oRE2" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="G0zHiBGDsOMOwLuS0MTNrl" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="927,1343,105,19" Id="OWT4gGSscojQI2qeJuAoSf">
+                <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="DeNiro" />
+                </p:NodeReference>
+                <Pin Id="QB2MgXlWdAaPpkRyuuVWAd" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DnJZG4OtDcAOxB8Lgm3QYa" Name="Clock" Kind="InputPin" IsHidden="true" />
+                <Pin Id="KiKaxDsieBENaCbZG6ES5M" Name="Update Filter Graph" Kind="InputPin" IsHidden="true" />
+                <Pin Id="SSCj7VrZMv0L0W3ae2Emer" Name="Goto Position" Kind="InputPin" />
+                <Pin Id="UTE0QkgxsfXPoUM8tVCqFZ" Name="Go" Kind="InputPin" IsHidden="true" />
+                <Pin Id="HbTUonV7LnLOvcMPWzdLNQ" Name="Position In" Kind="InputPin" IsHidden="true" />
+                <Pin Id="UAJGCYwZjpPPu1f2ATfKnu" Name="Velocity In" Kind="InputPin" IsHidden="true" />
+                <Pin Id="BefUjmVAMDLLsAHF5RCMA4" Name="Force Update" Kind="InputPin" IsHidden="true" />
+                <Pin Id="V1GbbUr5WylP9smCRpI1ow" Name="Pause" Kind="InputPin" />
+                <Pin Id="Rq9TROsBzgDPHcdOAZmc6P" Name="Select Input" Kind="InputPin" IsHidden="true" />
+                <Pin Id="NaQPKqG4zEfQNq84JBlnfI" Name="Goto Velocity" Kind="InputPin" IsHidden="true" />
+                <Pin Id="FUNSi4yILbtNR9yO6I9NI1" Name="Acceleration" Kind="InputPin" />
+                <Pin Id="Rydb1TP7kh9MzCH2Alli4i" Name="Cyclic" Kind="InputPin" />
+                <Pin Id="VEwmRZzT6n0O1fwAgCYkHi" Name="Constant Drive" Kind="InputPin" />
+                <Pin Id="JoShjXYvA9hL3FaiOKUUeo" Name="Max Velocity" Kind="InputPin" />
+                <Pin Id="DchvDHEmPbONhm9ULvxXki" Name="Position" Kind="OutputPin" />
+                <Pin Id="EqPFlpB9g1sMDnUnAeZQxf" Name="Velocity" Kind="OutputPin" />
+                <Pin Id="Ixjv1Gls3CHONbjnRXZboD" Name="Acceleration" Kind="OutputPin" />
+                <Pin Id="SNOwgc9ZCTkMMgRc9lD1BI" Name="Reset" Kind="InputPin" IsHidden="true" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="SL1RYA058aNNTDMZ71BnFp" Bounds="929,1326" Alignment="Top" />
+            <ControlPoint Id="VnFFqgm1jlNPzAqX68p1PM" Bounds="929,1376" Alignment="Bottom" />
+          </Node>
+          <Node Bounds="96,2051,96,26" Id="JFPG45Yp8h6OOkbTZ77xOu">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetItem" />
+            </p:NodeReference>
+            <Pin Id="EA3FIlNYImAOPQYWZ8tRT0" Name="Input" Kind="StateInputPin" />
+            <Pin Id="U6LSLH3b3QZNZXg98TwJLE" Name="Index" Kind="InputPin" DefaultValue="4" />
+            <Pin Id="FPh1kUMQd39O1bOOZGUHXi" Name="Item" Kind="InputPin" />
+            <Pin Id="Sb71lTONybeMkxWM43i3HO" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="CSVLVZoQ9oBQbsNYwAPqlB" Comment="Goto Position" Bounds="35,1812,35,111" ShowValueBox="true" isIOBox="true" Value="0, 0, 0, 0, 0, 0">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="C2rMumnmtbEMEByfo51vUA" Comment="Item" Bounds="151,1862,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="PGi7LeQiVa7NaUv6PLl828" Comment="" Bounds="98,2121,45,111" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HFgr4wqQj2CQQVYpYLq8w1" Comment="Index" Bounds="66,1991,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="187,2011,105,19" Id="ONlmlRtNnNFQcRrKCQ7zrl">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DeNiro" />
+            </p:NodeReference>
+            <Pin Id="Gyg5WZ2TxotNQHh3f1advR" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="R7U979aRNmmPgaxfcmI84X" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PKv4jRdYTqfOSc0TSrsFwx" Name="Update Filter Graph" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IhGh5ngkhAAO2Co2LBr0sf" Name="Goto Position" Kind="InputPin" />
+            <Pin Id="Mb54E2r6WcOODhhRQ8u2my" Name="Go" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NdM5S2ouEQEOFXIQBCHe74" Name="Position In" Kind="InputPin" IsHidden="true" />
+            <Pin Id="V7UjwLo4x0NQOSccuaLWP6" Name="Velocity In" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QiqJd8QEL1kMxG0OQpHbO7" Name="Force Update" Kind="InputPin" IsHidden="true" />
+            <Pin Id="APvb49rpx2kQEejZWuLk9Q" Name="Pause" Kind="InputPin" />
+            <Pin Id="I2JXgP51MbALrAUyawQfnp" Name="Select Input" Kind="InputPin" IsHidden="true" />
+            <Pin Id="MxAZDxhGDmMObA7zF8uuv4" Name="Goto Velocity" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Nojnd0MGc98PrCUFBf9wXU" Name="Acceleration" Kind="InputPin" />
+            <Pin Id="Psq6xjse0wnMt5UOy8D908" Name="Cyclic" Kind="InputPin" />
+            <Pin Id="UuQ3cqGJT4ZLPHdGwetb9z" Name="Constant Drive" Kind="InputPin" />
+            <Pin Id="GNylCs2Cig0MqlSVaYlCfI" Name="Max Velocity" Kind="InputPin" />
+            <Pin Id="HLPNbuQfpQ6LIQDgVL7wek" Name="Position" Kind="OutputPin" />
+            <Pin Id="RRiIS2y8GJDQEM1ouTIyAG" Name="Velocity" Kind="OutputPin" />
+            <Pin Id="FAdrBrEhiAtLUk7jkZRSVx" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="ToBCcxyHm9lLlYyVI7nOWR" Name="Reset" Kind="InputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="MObzo0HnyeFOBcaWjwc30n" Comment="Acceleration" Bounds="229,1978,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="OhrJ3yRHtHKPfJOLr01kMx" Comment="Max Velocity" Bounds="289,1998,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="187,1801,52,19" Id="K5FNJeBn2KvN8rh5OS0k1R">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="GetSlice" />
+            </p:NodeReference>
+            <Pin Id="DDugywHaOQONKCIxrTLTlY" Name="Input" Kind="StateInputPin" />
+            <Pin Id="FDpVsRb9wy8QM0zvFQqKj0" Name="Default Value" Kind="InputPin" />
+            <Pin Id="OkcExaqDDC8QTnjpAWdkqo" Name="Index" Kind="InputPin" />
+            <Pin Id="IBMds1pEt23Lwxk9gTiqMB" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="HyuHRz0MWsMMIXQeGnJUJF" Comment="Index" Bounds="236,1751,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="187,1941,25,19" Id="LnG8LCmj2ffOGQiABW5L0A">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="-" />
+            </p:NodeReference>
+            <Pin Id="AEKESda9cRiQM2tKASMPR5" Name="Input" Kind="InputPin" />
+            <Pin Id="P3Og4x8wiPEPdlELPMaiN9" Name="Input 2" Kind="InputPin" />
+            <Pin Id="HMLXJy3WzRePjL037DCmBD" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="GrL7Z3l7HkeMkux4PmL6Ag" Comment="" Bounds="941,2091,52,112" ShowValueBox="true" isIOBox="true" Value="1.08, -90, 1, 1, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="1010,2257,51,62" Id="C78YJeEk5wnM9QQa06rWZK">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+            </p:NodeReference>
+            <Pin Id="IxslNkzdkI8O7fdiQvSG0b" Name="Break" Kind="OutputPin" />
+            <Patch Id="HB4SGxcx15NPidxTLzzAE5" ManuallySortedPins="true">
+              <Patch Id="RhSVe4RHNqOPjw5OqTh3Ep" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="GhYpqkNVt5aN48BLXQiRbr" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="S1vWTJimyH8LrYJjZyMQiF" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="1022,2280,25,19" Id="TNEs073jpLFQLLXA3vSx8M">
+                <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="-" />
+                </p:NodeReference>
+                <Pin Id="HFOXRJl3gW7PJZT8whaJSn" Name="Input" Kind="InputPin" />
+                <Pin Id="OwJblvGyYZuMu3rhUeyKiT" Name="Input 2" Kind="InputPin" />
+                <Pin Id="S4dfvLKELsaLbZx5TF67Ga" Name="Output" Kind="OutputPin" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="IQbrU32Df5SQBmyhMw7YgN" Bounds="1044,2263" Alignment="Top" />
+            <ControlPoint Id="SCDiqJenvOkM3MZVNvsorc" Bounds="1024,2313" Alignment="Bottom" />
+            <ControlPoint Id="OKiySfzJUezPm8wtJqP33H" Bounds="1024,2263" Alignment="Top" />
+          </Node>
+          <Pad Id="Q4B6SUiD8y3LCYeq6qG44A" Comment="Fin" Bounds="1024,2360,51,111" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="1263,2468,105,19" Id="HYRiqxDCvtnLJIdUjzk57o">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DeNiro" />
+            </p:NodeReference>
+            <Pin Id="QuRD8sGlMYVNG6bMDwJ3wb" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NRHMLFAmo0bNICPcFEmBSg" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ORkAsiHMIeZNiSROTiWQGe" Name="Update Filter Graph" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RJnTOpnAcfNPQ3SrgJ6a7l" Name="Goto Position" Kind="InputPin" />
+            <Pin Id="UUIXsvMgZW2Lhe8h7RkYp9" Name="Go" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BefDvbromWGM70j1ENsQQV" Name="Position In" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AwwLJMexPnHPzf9yooMFcO" Name="Velocity In" Kind="InputPin" IsHidden="true" />
+            <Pin Id="C9fX2drC4N6PZZyBMCwnPu" Name="Force Update" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TLA0wkEhiIfOBGljoTQbsX" Name="Pause" Kind="InputPin" />
+            <Pin Id="R1GXXRCPWAsLRV9d8SrhyV" Name="Select Input" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QONXlpkP0dGQJEeyyekEam" Name="Goto Velocity" Kind="InputPin" IsHidden="true" />
+            <Pin Id="DtQoxsEetraPIXIe25nxPs" Name="Acceleration" Kind="InputPin" />
+            <Pin Id="Qgms1OoFQVaQQS8o37ipLw" Name="Cyclic" Kind="InputPin" />
+            <Pin Id="GYBn4TBftieLUT3QbMYVo4" Name="Constant Drive" Kind="InputPin" />
+            <Pin Id="OYtjKwsjVNtL7843cCtZjE" Name="Max Velocity" Kind="InputPin" />
+            <Pin Id="COkrQqgEp33Nr5WKCY4ohd" Name="Position" Kind="OutputPin" />
+            <Pin Id="Q99GDAJNLFBLBz0IxB1WSU" Name="Velocity" Kind="OutputPin" />
+            <Pin Id="USGVMqq062TPubittx96jE" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="FJBBOyviUuyPHniLyADIGN" Name="Reset" Kind="InputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="Bm43wXBQefbMCFotuu4Cqh" Comment="AxisAct" Bounds="1047,2131,96,111" ShowValueBox="true" isIOBox="true" Value="1, -90, 1, 1, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:horizontal p:Type="Boolean">false</p:horizontal>
+              <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="658,2649,22,19" Id="CvxbtTM5oiXO4MJHUXUC22">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="- (Negate)" />
+            </p:NodeReference>
+            <Pin Id="EJuHt8XZO6cMchYthvypVH" Name="Input" Kind="InputPin" />
+            <Pin Id="VFZH6WIilhEN2T1SgP15LN" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="658,2749,48,19" Id="IvRXL41oTCvMDhz3eeNRti">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="OjW5uysDaGJMAP97nI6YSo" Name="Input" Kind="InputPin" />
+            <Pin Id="B8nFpDTqnzSOc36ZqN2WMG" Name="Input 2" Kind="InputPin" />
+            <Pin Id="LmodQqLhVZEOYgDgPpe6nI" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="658,2849,97,19" Id="A6aAkG1J5ltLLJpLzZILod">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="LOY2NdOOw7pMHSNWmLuczJ" Name="Input" Kind="InputPin" />
+            <Pin Id="TA3axZQpctYN2ASrZmFF6p" Name="Input 2" Kind="InputPin" />
+            <Pin Id="I37TpmVNYtZN4VoBHhJSI8" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Esyw8lcx9f3PtjMALjL5B3" Comment="Current" Bounds="660,2550,39,15" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Qr6SSf1AyngPi7OpjBUusQ" Comment="Target" Bounds="800,2550,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Km0DvqxF8ezQPi4WUJr8Yf" Comment="Proportional parameter" Bounds="761,2829,50,15" ShowValueBox="true" isIOBox="true" Value="0.002">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:precision p:Type="Int32">4</p:precision>
+              <p:stepsize p:Type="Single">0.0001</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="678,3200,97,19" Id="RWAAFfva9ofLkQFGm4LYos">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="VB1pVxgb9nbQUhGOJSSgVV" Name="Input" Kind="InputPin" />
+            <Pin Id="E9OgYECyEyPNTC8a7lNnWm" Name="Input 2" Kind="InputPin" />
+            <Pin Id="DIR9riXFS0dQXpRZcrFzRT" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="UaOO69bVVEYLejn1cSUSkV" Comment="DifferencuilParam" Bounds="772,3180,35,15" ShowValueBox="true" isIOBox="true" Value="-0.02">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="KaR8UAGKkXOPjG6H7EGcgd" Comment="PreviousVelocity" Bounds="680,3140,35,15" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Overlay Id="SAtq2giyV5QMHaddMCHYic" Name="ApplyP" Bounds="526,2796,440,95" />
+          <Overlay Id="VAbVu9TakxZOuFq9ibAd8E" Name="ActualDisplacement" Bounds="528,2702,286,81" />
+          <Overlay Id="TAz2aHmg2KJNMBZEilyQrJ" Name="Negative actial Pos" Bounds="524,2607,288,80" />
+          <Overlay Id="JW7CgXyNelAL4OpzEqJxTO" Name="Apply D" Bounds="559,3065,370,170" />
+          <Overlay Id="PSCMiEdCJefM208RPA07I6" Name="RAW acceleration" Bounds="582,3268,217,135" />
+          <Node Bounds="658,3330,25,19" Id="SepbjzaRL6RM1j5G35XnzT">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="BFojzWmpbd4P4ZpD229fwa" Name="Input" Kind="InputPin" />
+            <Pin Id="Sexr7pn8so0LHs3ITh9wjs" Name="Input 2" Kind="InputPin" />
+            <Pin Id="AQIcK1COICfO8NeHHfqCjs" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="V38vL3iVvThNSVWVbvPkeb" Comment="Maximum Acceleration" Bounds="768,3440,65,15" ShowValueBox="true" isIOBox="true" Value="0.0001">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:precision p:Type="Int32">5</p:precision>
+              <p:stepsize p:Type="Single">0.01</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <!--
+
+    ************************ MinMax ************************
+
+-->
+          <Node Name="MinMax" Bounds="315,3232,140,175" Id="PYoQmpUNKo6M6d6nde5Vgx">
+            <p:NodeReference>
+              <Choice Kind="OperationDefinition" />
+            </p:NodeReference>
+            <Patch Id="OOIzyPMsvQwO7Eq89bxUjA">
+              <Node Bounds="327,3290,39,19" Id="Vpgw94Sq33OOcLTdPJh4bq">
+                <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="Cons" />
+                </p:NodeReference>
+                <Pin Id="ABhgjk3PIpDO59RXyuGWe2" Name="Input" Kind="InputPin" />
+                <Pin Id="AteWk3r6wa6LunuikZBHti" Name="Input 2" Kind="InputPin" />
+                <Pin Id="U1I7o8J3UdSNnNl9tOw3Av" Name="Result" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="327,3320,41,26" Id="IJTSrmIPuWyNaK5UI1gO92">
+                <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="Sort" />
+                </p:NodeReference>
+                <Pin Id="IwbmF15v94KM5wSYEajK01" Name="Input" Kind="StateInputPin" />
+                <Pin Id="D2ctSGIjuL2MNlewN4YSEL" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="327,3350,80,19" Id="Bbq8oalyEoGPaZTZV6tW0w">
+                <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
+                </p:NodeReference>
+                <Pin Id="S8Tfo0pDeNyOPQ2RAz0u7Q" Name="Input" Kind="StateInputPin" />
+                <Pin Id="Gs2S8Q213LNMnh89JINxNE" Name="Default Value" Kind="InputPin" />
+                <Pin Id="D1Bo7rUGNXPQJYbIXfbbei" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="LuVUbcFDMjnQFigdtRaPFJ" Name="Result" Kind="OutputPin" />
+              </Node>
+              <Link Id="IiUgks1uM0nNYQOcNeeMqF" Ids="U1I7o8J3UdSNnNl9tOw3Av,IwbmF15v94KM5wSYEajK01" />
+              <Link Id="IAefcxBo5yRM70d3zJQ7wE" Ids="D2ctSGIjuL2MNlewN4YSEL,S8Tfo0pDeNyOPQ2RAz0u7Q" />
+              <ControlPoint Id="NCEPTBL5GyNMUnfjDK9llk" Bounds="329,3250" />
+              <Link Id="GOHVnfVmNnjNO9uykMf5yo" Ids="NCEPTBL5GyNMUnfjDK9llk,ABhgjk3PIpDO59RXyuGWe2" />
+              <Pin Id="EASNgryQPRpMytLJpjUGO4" Name="Input1" Kind="InputPin">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Link Id="OF6QBL74P2vNrZdC6YFr4e" Ids="EASNgryQPRpMytLJpjUGO4,NCEPTBL5GyNMUnfjDK9llk" IsHidden="true" />
+              <ControlPoint Id="MGWumdsSqfQLqui57Ec0Jm" Bounds="363,3280" />
+              <Link Id="AEqMFyjDB2VOrF4cMb4V8Y" Ids="MGWumdsSqfQLqui57Ec0Jm,AteWk3r6wa6LunuikZBHti" />
+              <Pin Id="TSqobPgy1NCNvGRhs8QUYo" Name="Input 2" Kind="InputPin" />
+              <Link Id="IFtdLlLPIR4O8OR92CU1vX" Ids="TSqobPgy1NCNvGRhs8QUYo,MGWumdsSqfQLqui57Ec0Jm" IsHidden="true" />
+              <ControlPoint Id="Ot0krNGrzy6PQNRTOGlH19" Bounds="404,3390" />
+              <Link Id="VxRLovMnvJ4OtZHuNksUw9" Ids="LuVUbcFDMjnQFigdtRaPFJ,Ot0krNGrzy6PQNRTOGlH19" />
+              <Pin Id="UBwyhz9LDHuNekwGHWMw0A" Name="Result" Kind="OutputPin" />
+              <Link Id="IuaYxM6BDYNMtUfqa8TVHq" Ids="Ot0krNGrzy6PQNRTOGlH19,UBwyhz9LDHuNekwGHWMw0A" IsHidden="true" />
+            </Patch>
+          </Node>
+          <Node Bounds="766,3480,25,19" Id="LnnDIf7DijGMrcMXf1oPpJ">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="Rmq8ZZtEFJxPW3ekO7FgzQ" Name="Input" Kind="InputPin" />
+            <Pin Id="GP1wCaKTxViOA6PSCRId3y" Name="Input 2" Kind="InputPin" DefaultValue="1" />
+            <Pin Id="QP9t3GDNozBQAD0XsOSz72" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="P946nVb5QxnNcDegUO1i2S" Comment="" Bounds="788,3470,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="766,3560,25,19" Id="FtnV2jW7wmuOHaYzGW3hEs">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="FEQdWu8s2YAMrIi1DMCp1e" Name="Input" Kind="InputPin" />
+            <Pin Id="EPDTfZaXd45P1yqe3no2Eu" Name="Input 2" Kind="InputPin" DefaultValue="1" />
+            <Pin Id="Op2XgO4SrYiMeO0B2la2WM" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="BsHMZrxkONaPQixioI68sh" Comment="" Bounds="788,3550,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="658,3550,33,19" Id="PN3XKKWMexxNpnHSdMAsZU">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Min" />
+            </p:NodeReference>
+            <Pin Id="NOep4snMpbEOLjzp5GHYgQ" Name="Input" Kind="InputPin" />
+            <Pin Id="NhbMkKTjbUxLkpKVHHCEOY" Name="Input 2" Kind="InputPin" />
+            <Pin Id="OFT5U3KqQ6LP2UoqIAMh5O" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="658,3600,113,19" Id="CIatS7CLyptMUREv6vtz9N">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Max" />
+            </p:NodeReference>
+            <Pin Id="Pcttk67nlQfPU9SaIV9tLE" Name="Input" Kind="InputPin" />
+            <Pin Id="L005PmQpme0POIkTbLeksz" Name="Input 2" Kind="InputPin" />
+            <Pin Id="Tyvdhiu7nEvQKqlONUdfAf" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="658,3670,305,19" Id="NV4Dyqmz19iP002jT59jgB">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="CFo4HhBB8G3OsZ7IXzMuIC" Name="Input" Kind="InputPin" />
+            <Pin Id="AwOuZ7CvHXSLaBanBDvWBb" Name="Input 2" Kind="InputPin" />
+            <Pin Id="Jj59jshOcKOLiTp3WbclfB" Name="Output" Kind="OutputPin" />
+          </Node>
+          <ControlPoint Id="NT3nneD9AznM2XjzqMpufz" Bounds="962,3279" />
+          <Node Bounds="630,3790,33,19" Id="GulyRl4fK1nOjahtUflxE9">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Min" />
+            </p:NodeReference>
+            <Pin Id="G4Jt6yRT0qOPUrw52UvPry" Name="Input" Kind="InputPin" />
+            <Pin Id="LErKoPwXC9MMJNGDRNSklO" Name="Input 2" Kind="InputPin" />
+            <Pin Id="Qr2YJEEt50wPT4B4TjEgDp" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="407,3680,25,19" Id="HJLw9Ad8iS5Lfey1svIA0k">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="MDGnsQhcS25MOnZAlBjjje" Name="Input" Kind="InputPin" />
+            <Pin Id="NKET1oaEevsLNrHsl2RsNe" Name="Input 2" Kind="InputPin" DefaultValue="1.5" />
+            <Pin Id="HtfYvA3s636MDkoAgLSbc2" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="S0sQ2tI5WFhNBrML06FMnQ" Comment="Percentage of Full Rotational Velocity" Bounds="298,3570,60,15" ShowValueBox="true" isIOBox="true" Value="0.033">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:precision p:Type="Int32">4</p:precision>
+              <p:stepsize p:Type="Single">0.01</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="BCsLhKTT2WHNLmtgx092z7" Comment="Axis Specific Max Velocity" Bounds="429,3610,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="407,3830,25,19" Id="EoFqVjJU2rxOquwqHIuCD4">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="UyqWKFXwl1UO2SbxKT9B60" Name="Input" Kind="InputPin" />
+            <Pin Id="OIZiKIQFPbiQIyaOmR8iHl" Name="Input 2" Kind="InputPin" />
+            <Pin Id="O1dmdFtzHy1PXbFtGPlN82" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="T05GNmzU1u4LaF1uOrZSp2" Comment="" Bounds="429,3800,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="407,3900,228,19" Id="KntoGQ0gfEMOuorg1Cvs6u">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Max" />
+            </p:NodeReference>
+            <Pin Id="F6jMKWlEImKLDohACP47Ql" Name="Input" Kind="InputPin" />
+            <Pin Id="ICm8du1QqNuQPcLQuxs2Fp" Name="Input 2" Kind="InputPin" />
+            <Pin Id="JIX9L3R19vlLr2kD1cxmSQ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VNv39vpP7aUM9wwXp6O9Zz" SlotId="IRVK2yZEysuMtjS9mkIYtc" Bounds="409,3971" />
+          <Pad Id="S6or1rrtgNBNaQPFIgkXOU" SlotId="IRVK2yZEysuMtjS9mkIYtc" Bounds="680,3111" />
+          <Node Bounds="528,2930,34,19" Id="HKEsyj122f0MOrBxrREPzj">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Abs" />
+            </p:NodeReference>
+            <Pin Id="S28QbY6OmDJOQhtIUFaMvq" Name="Input" Kind="InputPin" />
+            <Pin Id="Owxxd77M0gIPv5aJa8X29E" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="QYLY8hRVHDiLK1uzF3n3nL" Comment="Convergence Tolerance" Bounds="602,4016,35,15" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="QDAYLYIo5irMhemIi2FPpB" Name="Create" ParticipatingElements="FuG8G57wHGpP1dyMIFQo0w,GYf1HntdPkGM2n7SZtK7HB" />
-        <Patch Id="AcWwAHm0qkDNNemSxv4cug" Name="Update" />
+        <Patch Id="AcWwAHm0qkDNNemSxv4cug" Name="Update" ParticipatingElements="PwhLnPTqQ47N6EgJ4T4Ifa,P3X4WHoTtMqQUJQaVFdET4" />
         <ProcessDefinition Id="Guy52RPJGwMOjO2flQZ6sC">
           <Fragment Id="VpEF2WtaqFqPmccHXk4dX1" Patch="QDAYLYIo5irMhemIi2FPpB" Enabled="true" />
           <Fragment Id="IwnPKA7iFndNOSubHx2sAf" Patch="AcWwAHm0qkDNNemSxv4cug" Enabled="true" />
+          <Fragment Id="DOL1Qm8i8HuPCFXhzb8Vhu" Patch="PYoQmpUNKo6M6d6nde5Vgx" />
         </ProcessDefinition>
         <Link Id="RHe86aBqJNCQCMZZ9XYqhK" Ids="GVLPTnrtPiqPYEo8nCEWie,Qzu7qnX3KRkLvvCkOsu4iO" />
         <Link Id="I5jYXRCwdW4LGpzzxXB5HW" Ids="ClkMISffayQO3YV0cZIiln,VdN9JE5YyB1PakKgRBUAt2" />
@@ -535,11 +2050,9 @@
         <Link Id="GcZp7l7ixVmLyyU04matja" Ids="GowWxFb43s2QCH2YHKy7Hy,AG8t03N2nD0N96ddUMtGV3" />
         <Slot Id="FtfUk2CJgsMQQJj6wLdvym" Name="Target" />
         <Slot Id="QKY0S6ZLXF8M9KWRLPiVnW" Name="PhysicalRobot" />
-        <Link Id="GVzJI2m235nOWhalyaXFzT" Ids="PlsIzbBuTxePdGkaUdbTCu,GTPd8hpqC8aLSj5CYv3Zx5" />
         <Link Id="Lxna0CGY5tgPdk916j6AOY" Ids="HPbw8B7GbfAPuu83I4tVWG,VhhLgxcGNEoLTCLnNIa4pJ" />
         <Link Id="EbWMnfk7zJILNvIH9CQIpQ" Ids="Nq28UU67rWFNxch5Jd4tIp,IGm3pc8WCD3NMT0s2AlDxj" />
         <Link Id="A8GlpqhCOrfPvyuFVLOmpo" Ids="PTearSbFsOyNf1ZcvRCOwy,UJ6B71xUXgdNNZPs1t2NZj" />
-        <Link Id="TJvy3CV0fTBOa4OoMzO33u" Ids="DKDjjEXNKqqMAQR94t6gBV,RqZOjnzRzctMKccZPktF45" />
         <Link Id="HFG3zZspVBXNHeYkwuLfqS" Ids="OZY4q39rOYjL0uVBwintTK,P93YIjRzVDpM2RaUHSTlac" />
         <Link Id="LKYd3iOfAecP3pMwV3FEbb" Ids="KddgOUCzJ4KMVVK7pOO5rq,FJX3bcLJjW6Os0sJ9jutUI" />
         <Link Id="HTOogdXdN2ZNISVAYbskFh" Ids="QuG3uwIeb7HL0YRNnWMeoi,FRf7uxKaECPPspND9Jjzcj" />
@@ -558,11 +2071,84 @@
         <Link Id="OGIliIssceyNBTeWPeOZt9" Ids="AZb3w1yUUXBN0gBCiCl5w9,IaeSZn9o6erO7znGSc6rH7" />
         <Link Id="GwrsUcAeNKTOayZHwc4Qbf" Ids="VUw0Ui2DvjINd4eICbr1jS,SMUSuZ18JiZPj1CFnlh244" />
         <Link Id="KJnPlFPIXpyOmzMzfVpf85" Ids="S8ASiNXtSMuPFeSiRg1RHf,CNYi0buyOZMNvKiuyOgBWz" />
-        <Link Id="B2DqEjG0arcP00wsR60kkd" Ids="G9gr6XUiTjwNYkxZQL5y5k,DKDjjEXNKqqMAQR94t6gBV" />
         <Link Id="Af1YZU5tYQYLuQYFbQpIfW" Ids="B5cyLXdBHSnLxT5rjB4ug7,Gw4eaMSPtMAQHwjxFMxBHe" />
+        <Link Id="U3GITSzTPpFNZr8eGwiTVt" Ids="PkJF3cqS7a6PLgvXnYlnhK,JP5rBbOouncQNYDFKi89ZO" />
+        <Link Id="Ps6C4M3sL8ALxv8DSrzxUi" Ids="Fb67T8afLPYLV3Yx6zK5Oz,LebQzlmmHs2M6F7KLy16aZ" />
+        <Link Id="S2rQfYUIehQPlXh9JVN5er" Ids="MUdMkWhoQMTLJ2pTkQJHsm,A3Xq7B425lALX8z5iFX5aV" />
+        <Link Id="HBgU8ieEz5mMMGmc4dnsfS" Ids="BLQ3GM5WkNwPGwXIRHBcBJ,I8Gqs0kjL7jOkw1bQ83gDx" />
+        <Link Id="NDGPdivBAgkNmY9ziBjZlA" Ids="NQRyZ6hZOPqNCk7xPOERKh,BlPARLRYmrPPJHaadMxYD4" />
+        <Link Id="JDzf9grbnt0QOmyOu5huP0" Ids="Jl1LB9dbSQNOthZuUaYSTj,U47seaTZIzlOm4As5CwmJ5" />
+        <Link Id="HaCsoUcJ8WOQBtHNhtm6ND" Ids="U47seaTZIzlOm4As5CwmJ5,IwUuhHBdsxuOSxGBdm8O97" />
+        <Link Id="JDVbRwbu3eqNJRz535C9BY" Ids="VbxFntHGMqQLoEbtmroirq,V1NtQhBJXHRMzwyvkg6a6F" />
+        <Link Id="NtoSYj3JjD2PMyZE5NB2gs" Ids="Ii1ZlzwtKyEQNd0T6fidp9,DKegJQVYAm9OPyXnh52jUq" />
+        <Link Id="Nyv1Hirl6LnNSCsl3npQzH" Ids="BtHsvoXgD10MSqbLlVDKzc,Fjp6uC0s4iEORKdNv1Rzc9" />
+        <Link Id="R3S8uRHBB7tLV5NtQpJHBt" Ids="DcdQXLsKwbtOKik6yi27c0,AmJ4WVndgaOOaFlOq3QXoa" />
+        <Link Id="BMLJHDJ3D72NQ2sID1joAa" Ids="UL6Etrif7uoMlQlW1Afyy7,OT98SCRmJ92Np6oeCpKN99" />
+        <Link Id="PwhLnPTqQ47N6EgJ4T4Ifa" Ids="EWoKFVrj8RIMI2YjaKX3qK,GTPd8hpqC8aLSj5CYv3Zx5" />
+        <Link Id="N5tlA09oDbfLbgpucqwAUD" Ids="SJNax85OLh9M5iSUUsIk9K,FUNSi4yILbtNR9yO6I9NI1" />
+        <Link Id="EChQ3DA9EkHQXwaoCBP31P" Ids="VmkAkkgXuwgM1X3cGuDUjD,JoShjXYvA9hL3FaiOKUUeo" />
+        <Link Id="VGcsjphoVKXLtRUCVllqcW" Ids="SL1RYA058aNNTDMZ71BnFp,SSCj7VrZMv0L0W3ae2Emer" />
+        <Link Id="L0uCeUmqN1zP2alnH0bdsc" Ids="DchvDHEmPbONhm9ULvxXki,VnFFqgm1jlNPzAqX68p1PM" />
+        <Link Id="DotQz9II7UoLMZVUCoJ2hQ" Ids="VnFFqgm1jlNPzAqX68p1PM,DKDjjEXNKqqMAQR94t6gBV" />
+        <Link Id="L00aHpou64lLn15GdR645e" Ids="VnFFqgm1jlNPzAqX68p1PM,GYWv6Xoj3YUMqZDfNQQ7NR" />
+        <Link Id="P6TqM68R0zeLwitLUhZXF0" Ids="CSVLVZoQ9oBQbsNYwAPqlB,EA3FIlNYImAOPQYWZ8tRT0" />
+        <Link Id="T918cUyHJLZOZkzftL31eH" Ids="Sb71lTONybeMkxWM43i3HO,PGi7LeQiVa7NaUv6PLl828" />
+        <Link Id="VouK6y4NEkkPeasFBB2zMD" Ids="HFgr4wqQj2CQQVYpYLq8w1,U6LSLH3b3QZNZXg98TwJLE" />
+        <Link Id="BbbnMkz9driP8xFCuGsKdg" Ids="MObzo0HnyeFOBcaWjwc30n,Nojnd0MGc98PrCUFBf9wXU" />
+        <Link Id="GZTRN81bZp5PHcHQZnn4no" Ids="OhrJ3yRHtHKPfJOLr01kMx,GNylCs2Cig0MqlSVaYlCfI" />
+        <Link Id="Gwy4IEBIzRGPJccjrJLJ99" Ids="HLPNbuQfpQ6LIQDgVL7wek,FPh1kUMQd39O1bOOZGUHXi" />
+        <Link Id="L02iy2lYf7xLK8RSFWHcVK" Ids="EWoKFVrj8RIMI2YjaKX3qK,DDugywHaOQONKCIxrTLTlY" />
+        <Link Id="OFpoAVDTMEqM508s6PiEQV" Ids="HyuHRz0MWsMMIXQeGnJUJF,OkcExaqDDC8QTnjpAWdkqo" />
+        <Link Id="Sk5OI5MwULwPZ46HtObuPA" Ids="IBMds1pEt23Lwxk9gTiqMB,P3Og4x8wiPEPdlELPMaiN9" />
+        <Link Id="OSK3TjS8Gx0M7oVKyAMnCn" Ids="C2rMumnmtbEMEByfo51vUA,AEKESda9cRiQM2tKASMPR5" />
+        <Link Id="G3YEY7CsXW9OOAScca6H9E" Ids="HMLXJy3WzRePjL037DCmBD,IhGh5ngkhAAO2Co2LBr0sf" />
+        <Link Id="N9FlCrnhPMXO9j8OKI3YrO" Ids="S4dfvLKELsaLbZx5TF67Ga,SCDiqJenvOkM3MZVNvsorc" />
+        <Link Id="HBdvrkTrQrCMtrkpT7Gqse" Ids="SCDiqJenvOkM3MZVNvsorc,Q4B6SUiD8y3LCYeq6qG44A" />
+        <Link Id="CgaFAXpVjFFQAnYY0A0qEL" Ids="Bm43wXBQefbMCFotuu4Cqh,IQbrU32Df5SQBmyhMw7YgN" />
+        <Link Id="Kf9ItDXO3KeQahmsL0FMsc" Ids="GrL7Z3l7HkeMkux4PmL6Ag,OKiySfzJUezPm8wtJqP33H" />
+        <Link Id="TlJ1cePXrK9MSmgjtRn8rT" Ids="OKiySfzJUezPm8wtJqP33H,HFOXRJl3gW7PJZT8whaJSn" />
+        <Link Id="ErxocDcr0BxLcehzAZvvCA" Ids="IQbrU32Df5SQBmyhMw7YgN,OwJblvGyYZuMu3rhUeyKiT" />
+        <Link Id="Rn6jByD5ShXMYD9Ayv78s6" Ids="PTearSbFsOyNf1ZcvRCOwy,SL1RYA058aNNTDMZ71BnFp" />
+        <Link Id="Gh3amjdxiuwLCt1nn6v5xV" Ids="AmJ4WVndgaOOaFlOq3QXoa,C45UUP2G6U6LtfLnYf2xLC" />
+        <Link Id="LkzpstGi7NJLw80Ws7dRna" Ids="VQZICXRxCZMQESwJg31ZMs,LdOx5UYFLvlOzyxDqNdHm8" />
+        <Link Id="STBgMNjbrHtPukd8SKaazq" Ids="DHlB76xUP8POGy7nd58NMV,GtvpLQ1BlJFNbyB6pezEBr" />
+        <Link Id="Fv6Or80HXbSOlI2bovUUxf" Ids="GYWv6Xoj3YUMqZDfNQQ7NR,DHlB76xUP8POGy7nd58NMV" />
+        <Link Id="Mp7UK3ltB4pPJEdBbt2uHg" Ids="RTSL47pgghXLm7dAMWSyzt,Vf4qU4eFk90MgPXP7HkTuh" />
+        <Link Id="EwE5VdixzwhL58wjUFN3YE" Ids="UO27n70kuS1LtsE4uQhrD3,UL6Etrif7uoMlQlW1Afyy7" />
+        <Link Id="CfDCFA2FgVzPbiPz7npdYS" Ids="VFZH6WIilhEN2T1SgP15LN,OjW5uysDaGJMAP97nI6YSo" />
+        <Link Id="EXtvNjNZ7xWQWGHZkdjTge" Ids="LmodQqLhVZEOYgDgPpe6nI,LOY2NdOOw7pMHSNWmLuczJ" />
+        <Link Id="L6MBUtWuN7BPNrJvSyjKho" Ids="Esyw8lcx9f3PtjMALjL5B3,EJuHt8XZO6cMchYthvypVH" />
+        <Link Id="PcKVWuF6HehLVwPE4DnYM3" Ids="Qr6SSf1AyngPi7OpjBUusQ,B8nFpDTqnzSOc36ZqN2WMG" />
+        <Link Id="QCBHAf5qJucNVLBf6hTS5a" Ids="Km0DvqxF8ezQPi4WUJr8Yf,TA3axZQpctYN2ASrZmFF6p" />
+        <Link Id="NrXEnZHoTJCLuEyItHUECi" Ids="UaOO69bVVEYLejn1cSUSkV,E9OgYECyEyPNTC8a7lNnWm" />
+        <Link Id="A0touJZlHmsPgsK0M1XQ65" Ids="KaR8UAGKkXOPjG6H7EGcgd,VB1pVxgb9nbQUhGOJSSgVV" />
+        <Link Id="T4QRFiEgD7sPMFk5ReiFFL" Ids="DIR9riXFS0dQXpRZcrFzRT,Sexr7pn8so0LHs3ITh9wjs" />
+        <Link Id="Tbd4X1IN12hLirGNW8KVr7" Ids="I37TpmVNYtZN4VoBHhJSI8,BFojzWmpbd4P4ZpD229fwa" />
+        <Link Id="OKCR7wP0tIRO5rUlm1KcHk" Ids="V38vL3iVvThNSVWVbvPkeb,Rmq8ZZtEFJxPW3ekO7FgzQ" />
+        <Link Id="KAbfaYfzGDXLWKeAxTX6xc" Ids="P946nVb5QxnNcDegUO1i2S,GP1wCaKTxViOA6PSCRId3y" />
+        <Link Id="OLrIW6RzCrgP7RRALKhXRz" Ids="QP9t3GDNozBQAD0XsOSz72,FEQdWu8s2YAMrIi1DMCp1e" />
+        <Link Id="L6eOzgcF8QiPa7EMLCgyL8" Ids="BsHMZrxkONaPQixioI68sh,EPDTfZaXd45P1yqe3no2Eu" />
+        <Link Id="Tl5XzojOyrbMQw1YnRtpVS" Ids="QP9t3GDNozBQAD0XsOSz72,NhbMkKTjbUxLkpKVHHCEOY" />
+        <Link Id="QiGfzVpTXNnP9SbFachvCY" Ids="Op2XgO4SrYiMeO0B2la2WM,L005PmQpme0POIkTbLeksz" />
+        <Link Id="QqfFXu4PH8hMvWGPmHPdy4" Ids="OFT5U3KqQ6LP2UoqIAMh5O,Pcttk67nlQfPU9SaIV9tLE" />
+        <Link Id="Qt5uEckA40IOnX13LudqqA" Ids="AQIcK1COICfO8NeHHfqCjs,NOep4snMpbEOLjzp5GHYgQ" />
+        <Link Id="T53ichwvvuEMFVQZLsbPvs" Ids="Tyvdhiu7nEvQKqlONUdfAf,CFo4HhBB8G3OsZ7IXzMuIC" />
+        <Link Id="BWtUR7lH53XLmNgk05mdts" Ids="KaR8UAGKkXOPjG6H7EGcgd,NT3nneD9AznM2XjzqMpufz,AwOuZ7CvHXSLaBanBDvWBb" />
+        <Link Id="JiKe5mWS9pSQGi2dJCkE0E" Ids="Jj59jshOcKOLiTp3WbclfB,LErKoPwXC9MMJNGDRNSklO" />
+        <Link Id="B4ckDm8FYBOO1ypV3mBy4N" Ids="S0sQ2tI5WFhNBrML06FMnQ,MDGnsQhcS25MOnZAlBjjje" />
+        <Link Id="Cl7oYZYCTPLL6Sk1stC9KM" Ids="BCsLhKTT2WHNLmtgx092z7,NKET1oaEevsLNrHsl2RsNe" />
+        <Link Id="AV0rtl9cC2cM7v21tyZ0IN" Ids="HtfYvA3s636MDkoAgLSbc2,G4Jt6yRT0qOPUrw52UvPry" />
+        <Link Id="NnLAghbiSOaMzuE43vYmcw" Ids="T05GNmzU1u4LaF1uOrZSp2,OIZiKIQFPbiQIyaOmR8iHl" />
+        <Link Id="P8fz807lgA7MZUxEAZv0Or" Ids="HtfYvA3s636MDkoAgLSbc2,UyqWKFXwl1UO2SbxKT9B60" />
+        <Link Id="QvyHepGQjUgM00QN3LBYz6" Ids="O1dmdFtzHy1PXbFtGPlN82,F6jMKWlEImKLDohACP47Ql" />
+        <Link Id="OF9OE5U3kJeQdRTcAu7Jzm" Ids="Qr2YJEEt50wPT4B4TjEgDp,ICm8du1QqNuQPcLQuxs2Fp" />
+        <Slot Id="IRVK2yZEysuMtjS9mkIYtc" Name="Previous Velocity" />
+        <Link Id="LjWYs3ZiYqfOG67Y0QLWAN" Ids="JIX9L3R19vlLr2kD1cxmSQ,VNv39vpP7aUM9wwXp6O9Zz" />
+        <Link Id="P3X4WHoTtMqQUJQaVFdET4" Ids="S6or1rrtgNBNaQPFIgkXOU,KaR8UAGKkXOPjG6H7EGcgd" />
+        <Link Id="S0cEimxlXqSOgNGd9Fznod" Ids="LmodQqLhVZEOYgDgPpe6nI,S28QbY6OmDJOQhtIUFaMvq" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GfCWyYPjAcrPMeviJtPQLW" Location="VL.Stride" Version="2025.7.1-0118-geaea4f9e82" />
+  <NugetDependency Id="GfCWyYPjAcrPMeviJtPQLW" Location="VL.Stride" Version="2025.7.1-0128-ge29fd66ed6" />
   <DocumentDependency Id="RqRFb1MEnaYNDAm6UoGebo" Location="../../VL.Bunraku.vl" />
 </Document>
