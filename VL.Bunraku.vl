@@ -3852,11 +3852,6 @@
                 <ControlPoint Id="KL2ONaDZeJ9Lt33l1DGic2" Bounds="486,307" Alignment="Top" />
                 <ControlPoint Id="S5y5mZaLyJnM8dtjWTOGpp" Bounds="486,397" Alignment="Bottom" />
               </Node>
-              <Pad Id="BuLyInO8j4RNH3CvexsMfr" Comment="" Bounds="541,280,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Float32" />
-                </p:TypeAnnotation>
-              </Pad>
               <Node Bounds="484,414,50,26" Id="ItJrpnbI2AeL1MyQZsst5m">
                 <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3902,7 +3897,7 @@
               <ControlPoint Id="HsdGAs0eaQ1LeZMbD5Tiik" Bounds="555,240" />
               <ControlPoint Id="CVx0GKUfHr8OjfFeirW6FW" Bounds="486,190" />
               <ControlPoint Id="EaXuj0XliReNhqUTXBz0Cx" Bounds="581,161" />
-              <ControlPoint Id="BJKOQh3sxXHOnxzWKGeIO8" Bounds="682,230" />
+              <ControlPoint Id="BJKOQh3sxXHOnxzWKGeIO8" Bounds="682,240" />
               <ControlPoint Id="PTNCjUFOWLgLrkqxOlhZZ8" Bounds="783,440" />
               <ControlPoint Id="D6SgUBn2V3IPBXg0EPXpHu" Bounds="486,620" />
               <ControlPoint Id="CG5b0B5b67DPnQOwUkwV0F" Bounds="561,620" />
@@ -3910,10 +3905,19 @@
             </Canvas>
             <Patch Id="Jfmx1DDPkr6M0U3G22afav" Name="Create" />
             <Patch Id="CDXX0yypyWOP3ZLZxluQVx" Name="Update">
-              <Pin Id="DiIXU0bZPp7Njf6kp7am8Z" Name="CurrentPosition" Kind="InputPin" />
+              <Pin Id="DiIXU0bZPp7Njf6kp7am8Z" Name="CurrentPosition" Kind="InputPin" DefaultValue="0, 90, -90, 0, 0, 0">
+                <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Spread" />
+                  <p:TypeArguments>
+                    <TypeReference>
+                      <Choice Kind="TypeFlag" Name="Float32" />
+                    </TypeReference>
+                  </p:TypeArguments>
+                </p:TypeAnnotation>
+              </Pin>
               <Pin Id="EElBOp1gO1MO3aHwrWobtd" Name="TargetPosition" Kind="InputPin" />
-              <Pin Id="Q9ojEHr9hR5Pjyo21kcKFQ" Name="Tolerance" Kind="InputPin" />
-              <Pin Id="OmblgkciAv7L7m4K68aKw0" Name="DeltaTime" Kind="InputPin" />
+              <Pin Id="Q9ojEHr9hR5Pjyo21kcKFQ" Name="Tolerance" Kind="InputPin" DefaultValue="0.1" />
+              <Pin Id="OmblgkciAv7L7m4K68aKw0" Name="DeltaTime" Kind="InputPin" DefaultValue="1" />
               <Pin Id="MHROs2s3HovQQXJTK7T9zn" Name="Matched" Kind="OutputPin" />
               <Pin Id="GcDZQGqJ0aZM4sMHEFS0Xc" Name="Reached" Kind="OutputPin" />
               <Pin Id="GLKKPoCdpsDPzrUDqj5pIp" Name="DwellTime" Kind="OutputPin" />
@@ -3932,7 +3936,6 @@
             <Link Id="FA3KEiJQMV3NJ86InQ1vlj" Ids="M2L8LrSQmbpQLdmVEi4Ywx,TGosPErnoMGPC3YJPNpuCi" />
             <Link Id="J1awCiinKEEOI9o1AdnYJP" Ids="KL2ONaDZeJ9Lt33l1DGic2,UdfoRuZ0qZkP8NlFYv2rbK" />
             <Link Id="AMe5D5mr12zPYOtvWJtPl6" Ids="RLTnSGplFnTPxtFkj3sVUW,FfWBJJ8PgcXOqqm0ymb7Ms" />
-            <Link Id="RimSktzUUtcM0JSVURbHN5" Ids="BuLyInO8j4RNH3CvexsMfr,HlTaenLlnOjPyybfmusOF6" />
             <Link Id="Ruxk5QcRZF0LCmfFM9XYXp" Ids="O0pJV80wPAROrXQpZ5bt0y,S5y5mZaLyJnM8dtjWTOGpp" />
             <Link Id="Vc6QQlz6UE9NQWUjgSWl2X" Ids="S5y5mZaLyJnM8dtjWTOGpp,Bsvgnv7G2U3NkZqRZti4dd" />
             <Link Id="I6mxVB6rxz8MWl4blbz21a" Ids="CBB47rBt6mfOSwzpHvo61n,CMl3OBLlQ8bQFf8748W0ru" />
@@ -3953,6 +3956,7 @@
             <Link Id="By6sH2ObxjIPPLuiaeb3id" Ids="CG5b0B5b67DPnQOwUkwV0F,GcDZQGqJ0aZM4sMHEFS0Xc" IsHidden="true" />
             <Link Id="FNbNbAeYWKlMbXxPjtiSOL" Ids="H5TMHP4FL1KLeBGPDnWyb8,Ix8YxKZnJTuPHpZVP6YtR7" />
             <Link Id="DNCmjFEug9PQai3YbIubmV" Ids="Ix8YxKZnJTuPHpZVP6YtR7,GLKKPoCdpsDPzrUDqj5pIp" IsHidden="true" />
+            <Link Id="ScjfsRbVfu6LRa2Dfuga25" Ids="BJKOQh3sxXHOnxzWKGeIO8,HlTaenLlnOjPyybfmusOF6" />
           </Patch>
         </Node>
       </Canvas>
