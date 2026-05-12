@@ -3788,12 +3788,13 @@
         </Node>
         <!--
 
-    ************************ DwellCheck ************************
+    ************************ DwellClock ************************
 
 -->
-        <Node Name="DwellCheck" Bounds="930,70" Id="LLbrpEXKBQDMTXrow1UOmL">
+        <Node Name="DwellClock" Bounds="930,70" Id="LLbrpEXKBQDMTXrow1UOmL">
           <p:NodeReference>
-            <Choice Kind="ContainerDefinition" />
+            <Choice Kind="RecordDefinition" Name="Record" />
+            <CategoryReference Kind="Category" Name="Primitive" />
           </p:NodeReference>
           <Patch Id="BPWBlGAUdi3P0tqT7XetYu">
             <Canvas Id="AInUoCmWHXmNG2yuTUZJjv" CanvasType="Group">
@@ -3884,18 +3885,21 @@
                 <Pin Id="CBB47rBt6mfOSwzpHvo61n" Name="Result" Kind="OutputPin" />
                 <Pin Id="PiXTWMxTB65QO2VaeX06Wd" Name="Unchanged" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="HsdGAs0eaQ1LeZMbD5Tiik" Bounds="555,240" />
-              <ControlPoint Id="CVx0GKUfHr8OjfFeirW6FW" Bounds="486,190" />
-              <ControlPoint Id="EaXuj0XliReNhqUTXBz0Cx" Bounds="581,161" />
-              <ControlPoint Id="BJKOQh3sxXHOnxzWKGeIO8" Bounds="682,240" />
-              <ControlPoint Id="PTNCjUFOWLgLrkqxOlhZZ8" Bounds="783,440" />
-              <ControlPoint Id="D6SgUBn2V3IPBXg0EPXpHu" Bounds="486,620" />
-              <ControlPoint Id="CG5b0B5b67DPnQOwUkwV0F" Bounds="561,620" />
-              <ControlPoint Id="Ix8YxKZnJTuPHpZVP6YtR7" Bounds="650,620" />
+              <ControlPoint Id="HsdGAs0eaQ1LeZMbD5Tiik" Bounds="555,231" />
+              <ControlPoint Id="EaXuj0XliReNhqUTXBz0Cx" Bounds="572,190" />
+              <ControlPoint Id="BJKOQh3sxXHOnxzWKGeIO8" Bounds="660,231" />
+              <ControlPoint Id="PTNCjUFOWLgLrkqxOlhZZ8" Bounds="786,401" />
+              <ControlPoint Id="D6SgUBn2V3IPBXg0EPXpHu" Bounds="486,670" />
+              <ControlPoint Id="CG5b0B5b67DPnQOwUkwV0F" Bounds="561,670" />
+              <ControlPoint Id="Ix8YxKZnJTuPHpZVP6YtR7" Bounds="677,670" />
+              <Pad Id="FfB06d2ATj6PZ1MNJ6uNgl" SlotId="QpZljndA1qWQN0C2NPMk1h" Bounds="677,620" />
+              <Pad Id="LmQM8WqyX8TMz7NubEWYX1" SlotId="AQNlFoYdBUTLxKcoX8XaJO" Bounds="561,620" />
+              <Pad Id="PCjjiW4nVODOmcIqc9ol6j" SlotId="Ha4Kg8kzULoNB2uRkz1g9n" Bounds="486,620" />
+              <ControlPoint Id="UIdSKk0EfTKMNmNUDX9IBz" Bounds="486,231" />
             </Canvas>
             <Patch Id="Jfmx1DDPkr6M0U3G22afav" Name="Create" />
             <Patch Id="CDXX0yypyWOP3ZLZxluQVx" Name="Update">
-              <Pin Id="DiIXU0bZPp7Njf6kp7am8Z" Name="CurrentPosition" Kind="InputPin" DefaultValue="0, 90, -90, 0, 0, 0">
+              <Pin Id="KVsdCIZbRy3LCVgbNZiyZJ" Name="CurrentPosition" Kind="InputPin" DefaultValue="0, 90, -90, 0, 0, 0">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -3905,7 +3909,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="EElBOp1gO1MO3aHwrWobtd" Name="TargetPosition" Kind="InputPin" DefaultValue="0, 0, 0, 0, 0, 0">
+              <Pin Id="PnBkDIJ6aBlPdE9HzPImvY" Name="TargetPosition" Kind="InputPin" DefaultValue="0, 0, 0, 0, 0, 0">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -3915,15 +3919,13 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="Q9ojEHr9hR5Pjyo21kcKFQ" Name="Tolerance" Kind="InputPin" DefaultValue="0.1" />
-              <Pin Id="OmblgkciAv7L7m4K68aKw0" Name="DeltaTime" Kind="InputPin" DefaultValue="1" />
-              <Pin Id="MHROs2s3HovQQXJTK7T9zn" Name="Matched" Kind="OutputPin" />
-              <Pin Id="GcDZQGqJ0aZM4sMHEFS0Xc" Name="Reached" Kind="OutputPin" />
-              <Pin Id="GLKKPoCdpsDPzrUDqj5pIp" Name="DwellTime" Kind="OutputPin" />
+              <Pin Id="ASsn9LRRPt2NTSUDXV5mf7" Name="Tolerance" Kind="InputPin" DefaultValue="0.1" />
+              <Pin Id="Q17VWqE0B9aLr2URyzAGym" Name="DeltaTime" Kind="InputPin" DefaultValue="1" />
             </Patch>
-            <ProcessDefinition Id="JOl1vEn5qqFPnbYg5IxvPW">
+            <ProcessDefinition Id="JOl1vEn5qqFPnbYg5IxvPW" HasStateOut="true">
               <Fragment Id="UwTsJrJF7InOR8huRRwEpr" Patch="Jfmx1DDPkr6M0U3G22afav" Enabled="true" />
               <Fragment Id="GHPqB62kyBDOUVxOWgEKzu" Patch="CDXX0yypyWOP3ZLZxluQVx" Enabled="true" />
+              <Fragment Id="Il829twb5TCQVs8WZeUB3M" Patch="T1YSTsdc3JLLd1sR4snQ7V" />
             </ProcessDefinition>
             <Link Id="RkTy9jfg3TDMUrlyrxYS0c" Ids="E522X5U7sOkMFArkv2k0Eq,CKQcXygLma1OjXK8KzRhX8" />
             <Link Id="GNEc3uRmitBMEhHSN1IEGA" Ids="KL2ONaDZeJ9Lt33l1DGic2,PtujBaWFYp9NllQGrGxfX4" />
@@ -3934,23 +3936,34 @@
             <Link Id="Vc6QQlz6UE9NQWUjgSWl2X" Ids="S5y5mZaLyJnM8dtjWTOGpp,Bsvgnv7G2U3NkZqRZti4dd" />
             <Link Id="I6mxVB6rxz8MWl4blbz21a" Ids="CBB47rBt6mfOSwzpHvo61n,CMl3OBLlQ8bQFf8748W0ru" />
             <Link Id="Ioo74v7EhSzN87GS56zaAz" Ids="H5TMHP4FL1KLeBGPDnWyb8,RotwQAGgXbBNVMbQHIE7qB" />
-            <Link Id="IRzAJ614eqaP1UjzlxHqq4" Ids="HsdGAs0eaQ1LeZMbD5Tiik,E522X5U7sOkMFArkv2k0Eq" />
-            <Link Id="FnRGVr4Np0SLdVMmmobplk" Ids="DiIXU0bZPp7Njf6kp7am8Z,HsdGAs0eaQ1LeZMbD5Tiik" IsHidden="true" />
-            <Link Id="SgnUhJkiNHTOHujkL6bVwz" Ids="EaXuj0XliReNhqUTXBz0Cx,CVx0GKUfHr8OjfFeirW6FW,KL2ONaDZeJ9Lt33l1DGic2" />
-            <Link Id="LLiTI64iMm0PlhUdkAHHBY" Ids="EElBOp1gO1MO3aHwrWobtd,EaXuj0XliReNhqUTXBz0Cx" IsHidden="true" />
-            <Link Id="UOSpdDTyfkXMA9NkaF9H86" Ids="BJKOQh3sxXHOnxzWKGeIO8,UCeL2MqQqINPWF3IBntTAD" />
-            <Link Id="RfCWTcYJcJ3OkIbxUlyOFg" Ids="Q9ojEHr9hR5Pjyo21kcKFQ,BJKOQh3sxXHOnxzWKGeIO8" IsHidden="true" />
+            <Link Id="FnRGVr4Np0SLdVMmmobplk" Ids="KVsdCIZbRy3LCVgbNZiyZJ,HsdGAs0eaQ1LeZMbD5Tiik" IsHidden="true" />
+            <Link Id="LLiTI64iMm0PlhUdkAHHBY" Ids="PnBkDIJ6aBlPdE9HzPImvY,EaXuj0XliReNhqUTXBz0Cx" IsHidden="true" />
+            <Link Id="RfCWTcYJcJ3OkIbxUlyOFg" Ids="ASsn9LRRPt2NTSUDXV5mf7,BJKOQh3sxXHOnxzWKGeIO8" IsHidden="true" />
             <Link Id="HiQdNtzrpG4N8YsKDmTp44" Ids="Pqm3V9G3TVdPqTzHPQztBF,PV6h0H1opg3LJZyOajPTHf" />
             <Link Id="HOXFeiFCFNMQXpOEA1Y5Ia" Ids="Pqm3V9G3TVdPqTzHPQztBF,IAWCrIZQ64GPGlJ6ujjXJP" />
-            <Link Id="LUei55Nu4xHMxdDBSpLTN3" Ids="PTNCjUFOWLgLrkqxOlhZZ8,O6iCgv5dhAAQafFnzNhRbS" />
-            <Link Id="QatWY7IE5qwNogh3EuoFTS" Ids="OmblgkciAv7L7m4K68aKw0,PTNCjUFOWLgLrkqxOlhZZ8" IsHidden="true" />
-            <Link Id="Eh489IDHcTMQXEiowBBDI2" Ids="Pqm3V9G3TVdPqTzHPQztBF,D6SgUBn2V3IPBXg0EPXpHu" />
-            <Link Id="Fr7SqAXXejbNb8to78qtb1" Ids="D6SgUBn2V3IPBXg0EPXpHu,MHROs2s3HovQQXJTK7T9zn" IsHidden="true" />
-            <Link Id="BExZLlsREmnLbSyd2HM0PV" Ids="NJH6Uf60N1aNdqZwd793Dz,CG5b0B5b67DPnQOwUkwV0F" />
-            <Link Id="By6sH2ObxjIPPLuiaeb3id" Ids="CG5b0B5b67DPnQOwUkwV0F,GcDZQGqJ0aZM4sMHEFS0Xc" IsHidden="true" />
-            <Link Id="FNbNbAeYWKlMbXxPjtiSOL" Ids="H5TMHP4FL1KLeBGPDnWyb8,Ix8YxKZnJTuPHpZVP6YtR7" />
-            <Link Id="DNCmjFEug9PQai3YbIubmV" Ids="Ix8YxKZnJTuPHpZVP6YtR7,GLKKPoCdpsDPzrUDqj5pIp" IsHidden="true" />
-            <Link Id="ScjfsRbVfu6LRa2Dfuga25" Ids="BJKOQh3sxXHOnxzWKGeIO8,HlTaenLlnOjPyybfmusOF6" />
+            <Link Id="QatWY7IE5qwNogh3EuoFTS" Ids="Q17VWqE0B9aLr2URyzAGym,PTNCjUFOWLgLrkqxOlhZZ8" IsHidden="true" />
+            <Link Id="Eh489IDHcTMQXEiowBBDI2" Ids="Pqm3V9G3TVdPqTzHPQztBF,PCjjiW4nVODOmcIqc9ol6j" />
+            <Link Id="Fr7SqAXXejbNb8to78qtb1" Ids="D6SgUBn2V3IPBXg0EPXpHu,IlxoAIRHtXlMK5qFxUU2ld" IsHidden="true" />
+            <Link Id="BExZLlsREmnLbSyd2HM0PV" Ids="NJH6Uf60N1aNdqZwd793Dz,LmQM8WqyX8TMz7NubEWYX1" />
+            <Link Id="By6sH2ObxjIPPLuiaeb3id" Ids="CG5b0B5b67DPnQOwUkwV0F,GjgOciUGj9mMt64fdp3nR0" IsHidden="true" />
+            <Link Id="FNbNbAeYWKlMbXxPjtiSOL" Ids="H5TMHP4FL1KLeBGPDnWyb8,FfB06d2ATj6PZ1MNJ6uNgl" />
+            <Link Id="DNCmjFEug9PQai3YbIubmV" Ids="Ix8YxKZnJTuPHpZVP6YtR7,VpaUWzALh1hN8TwgalaCDB" IsHidden="true" />
+            <Link Id="GuSeAGN8vSCLIXmpZkIRaD" Ids="FfB06d2ATj6PZ1MNJ6uNgl,Ix8YxKZnJTuPHpZVP6YtR7" />
+            <Slot Id="QpZljndA1qWQN0C2NPMk1h" Name="DwellTime" />
+            <Patch Id="T1YSTsdc3JLLd1sR4snQ7V" Name="Split">
+              <Pin Id="IlxoAIRHtXlMK5qFxUU2ld" Name="Matched" Kind="OutputPin" />
+              <Pin Id="GjgOciUGj9mMt64fdp3nR0" Name="Reached" Kind="OutputPin" />
+              <Pin Id="VpaUWzALh1hN8TwgalaCDB" Name="DwellTime" Kind="OutputPin" />
+            </Patch>
+            <Link Id="LYemgxAayGDQPVpWzHKw98" Ids="LmQM8WqyX8TMz7NubEWYX1,CG5b0B5b67DPnQOwUkwV0F" />
+            <Slot Id="AQNlFoYdBUTLxKcoX8XaJO" Name="Reached" />
+            <Link Id="RwVVz4vQUVsMHkLT6eFdGF" Ids="PCjjiW4nVODOmcIqc9ol6j,D6SgUBn2V3IPBXg0EPXpHu" />
+            <Slot Id="Ha4Kg8kzULoNB2uRkz1g9n" Name="Matched" />
+            <Link Id="ARiLsuDyoZ2PEkZQvbmYHu" Ids="EaXuj0XliReNhqUTXBz0Cx,UIdSKk0EfTKMNmNUDX9IBz,KL2ONaDZeJ9Lt33l1DGic2" />
+            <Link Id="S9t2v2IHkBtMrmRxZBtTwo" Ids="HsdGAs0eaQ1LeZMbD5Tiik,E522X5U7sOkMFArkv2k0Eq" />
+            <Link Id="Id6wFcaW7sEMGifblTve2O" Ids="BJKOQh3sxXHOnxzWKGeIO8,UCeL2MqQqINPWF3IBntTAD" />
+            <Link Id="Px95b9mrft5QASIUu8njF3" Ids="BJKOQh3sxXHOnxzWKGeIO8,HlTaenLlnOjPyybfmusOF6" />
+            <Link Id="VNyQha2ElOOMraB5lnBVgX" Ids="PTNCjUFOWLgLrkqxOlhZZ8,O6iCgv5dhAAQafFnzNhRbS" />
           </Patch>
         </Node>
       </Canvas>
@@ -37504,7 +37517,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1170.6666, -943.3333, 1052.6666, 820.6667" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1170.6666, -943.3333, 1060.6666, 843.3333" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
