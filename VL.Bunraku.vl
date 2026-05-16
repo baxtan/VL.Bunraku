@@ -37302,7 +37302,7 @@
                 <Pin Id="CB9YvzvUrDrQZWC4hxIaE0" Name="Component" Kind="InputPin" />
                 <Pin Id="Egz8cFemDhzP3feE2zI4dD" Name="Children" Kind="InputPin" />
                 <Pin Id="Ts3wDrnHQemMf2JozEUwGX" Name="Name" Kind="InputPin" />
-                <Pin Id="InrNz2JgasrQWs5XR9gL89" Name="Enabled" Kind="InputPin" />
+                <Pin Id="InrNz2JgasrQWs5XR9gL89" Name="Enabled" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="LjI0fEDUtHWLvVuZWlDecl" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="TW8qtTwPp2iPq9SDrotLqQ" Name="Entity" Kind="OutputPin" />
                 <Pin Id="VE5BZCZIookL3PuhjeNEsE" Name="Show Helper" Kind="InputPin" IsHidden="true" />
@@ -37390,6 +37390,25 @@
                 <Pin Id="OF2DlrNsEWbL6e6wLhkknB" Name="EnableLight" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="T7rwbz6yC49NrXEbm42D9a" Bounds="749,220" />
+              <Node Bounds="856,640,125,19" Id="TQjxEifr9GCMzS6GwCl4H7">
+                <p:NodeReference LastCategoryFullName="Stride.Lights.ShadowMaps" LastDependency="VL.Stride.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessNode" Name="LightPointShadowMap" />
+                </p:NodeReference>
+                <Pin Id="FSK3vi4ARjQNZ43r9qfVaj" Name="Type" Kind="InputPin" />
+                <Pin Id="MwYKIz6fTn8NqimAa0dOwQ" Name="Filter" Kind="InputPin" />
+                <Pin Id="SbmvdAwNBglP7CL9uDBxZT" Name="Size" Kind="InputPin" DefaultValue="XSmall" />
+                <Pin Id="Sb4yaaBZYN1MQ635QVE99f" Name="Depth Bias" Kind="InputPin" />
+                <Pin Id="KHhsmBxe6s2OcNKm5ry6dT" Name="Normal Offset Scale" Kind="InputPin" DefaultValue="10" />
+                <Pin Id="IHWA7XkYYfNOf5roLAb8Mg" Name="Debug" Kind="InputPin" DefaultValue="False" />
+                <Pin Id="VTnPkDEreHXPLxgEcA7BRA" Name="Enabled" Kind="InputPin" />
+                <Pin Id="DG2j4B4eTQyLyuk1JceBoe" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Pad Id="KqkMn2Hvz31MYa9VXircyc" Comment="Size" Bounds="898,590,67,15" ShowValueBox="true" isIOBox="true" Value="XSmall">
+                <p:TypeAnnotation LastCategoryFullName="Stride.Rendering.Lights" LastDependency="VL.Stride.vl">
+                  <Choice Kind="TypeFlag" Name="LightShadowMapSize" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
             <Patch Id="VYEl77gUK9XOpFLxm5psaI" Name="Create" />
             <Patch Id="RFza1pVRaEEPJvFZ2GhURn" Name="Update">
@@ -37437,8 +37456,10 @@
             <Link Id="OXcE2hw8sAaLBxbwx7RFFP" Ids="TggXSQiIk1GPMeTWCPfGDX,C1MqZJGH4t6OR0DmT4SH6I" />
             <Link Id="PxlJyVVXbo3OHMWalFAjCJ" Ids="T7rwbz6yC49NrXEbm42D9a,TSbpnPTQfkBOP2qblGttga" />
             <Link Id="V7445qvA5i3PEaakBNk0cQ" Ids="MfWS7UQF2u1Laju0plsT4g,T7rwbz6yC49NrXEbm42D9a" IsHidden="true" />
-            <Link Id="CzolqggoiYyQNsp1NEUL6D" Ids="OF2DlrNsEWbL6e6wLhkknB,InrNz2JgasrQWs5XR9gL89" />
             <Link Id="VwV4GPhmFbpOQsAG8uDK0F" Ids="U2xmS7OktThQKYZNbVJXEX,DalCtAQCKo7OG3zxz9EtHa" />
+            <Link Id="I2PflMgB5dqPuMtBcbCYNu" Ids="DG2j4B4eTQyLyuk1JceBoe,ARpNzx3W2ndNI4bB3yg08I" />
+            <Link Id="GZsHr5ml7pPLPi82LPndyX" Ids="KqkMn2Hvz31MYa9VXircyc,SbmvdAwNBglP7CL9uDBxZT" />
+            <Link Id="A938jCVRiWqLnzNVzI2usS" Ids="OF2DlrNsEWbL6e6wLhkknB,InrNz2JgasrQWs5XR9gL89" />
           </Patch>
         </Node>
         <!--
@@ -37609,7 +37630,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1638, 59, 1791, 1281" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="944, 347.33334, 956.6667, 908.6667" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -40802,7 +40823,7 @@
   <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" Version="2.66.0" />
   <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" Version="2.66.0" />
   <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" Version="2.66.0" />
-  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.64.0" />
+  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.72.0" />
   <PlatformDependency Id="FKViKKB5yYpN5SIToeAAS7" Location="./lib/net8.0/Grpc.Core.dll" />
   <PlatformDependency Id="E8xKu2esIgpOb3BxFU0P8B" Location="./lib/net8.0/ExternalApiTest.dll" />
   <NugetDependency Id="FFBlMHInFRxMDq9zN1Avyb" Location="Stride.Core.Mathematics" Version="4.2.1.2487" />
