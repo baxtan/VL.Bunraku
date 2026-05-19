@@ -35260,7 +35260,7 @@
                   <Pin Id="AAweUtyZedSMoo04wPCW54" Name="Value" Kind="OutputPin" />
                   <Pin Id="IyPIkJmSqUdL6Lno2x5R51" Name="On Data" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="292,640,109,86" Id="K7Ym4F6AMZQNabPgp6Rz9U">
+                <Node Bounds="292,641,109,86" Id="K7Ym4F6AMZQNabPgp6Rz9U">
                   <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Control" />
@@ -35279,7 +35279,7 @@
                     <Patch Id="MqbwmWCabcLQTzrZS3z3Ff" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="G6tfBSEr5ADPGX6KW13ydt" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="Gsj4XWdUa4lNCwIykDqejr" Name="Dispose" ManuallySortedPins="true" />
-                    <Node Bounds="304,676,85,19" Id="Rva21FGtb2uNeSIxoy4KDw">
+                    <Node Bounds="304,686,85,19" Id="Rva21FGtb2uNeSIxoy4KDw">
                       <p:NodeReference LastCategoryFullName="Serialization.MessagePack" LastDependency="VL.Serialization.MessagePack.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="DeserializeJson" />
@@ -35288,7 +35288,7 @@
                       <Pin Id="HbTDDPF4dHwMKX1KApyB9a" Name="Result" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="QUcnIXsFgW0PqO4aDc5OYR" Bounds="306,720" Alignment="Bottom" />
+                  <ControlPoint Id="QUcnIXsFgW0PqO4aDc5OYR" Bounds="306,721" Alignment="Bottom" />
                 </Node>
                 <Node Bounds="267,593,42,19" Id="PQ3Wo0zUiC5NYD5C5vsPxn">
                   <p:NodeReference LastCategoryFullName="Primitive.Tuple (2 Items)" LastDependency="VL.CoreLib.vl">
@@ -35349,6 +35349,7 @@
                 <ControlPoint Id="N9eGGHFMfNPOHjpOY9Oqr2" Bounds="265,31" />
                 <ControlPoint Id="IXGYdwebC9rOt5Nft6HWIz" Bounds="531,330" />
                 <ControlPoint Id="Iv89YJH4JAZOEi42l1dIOs" Bounds="374,780" />
+                <Pad Id="BIbyvGQOPzbQHOzAIziftV" Comment="On Data" Bounds="329,601,35,35" ShowValueBox="true" isIOBox="true" />
               </Canvas>
               <Patch Id="L0bKcJj1t2ZMUdGA7KjVwd" Name="Create" />
               <Patch Id="Qq1FPRNZK9qMXLwmJVLZDk" Name="Update">
@@ -35397,6 +35398,7 @@
               <Link Id="OvBkWNasVHcM4zWT4rySQZ" Ids="QUcnIXsFgW0PqO4aDc5OYR,Iv89YJH4JAZOEi42l1dIOs" />
               <Link Id="HRJ4f8SR772Qa7yq8UMBK5" Ids="Iv89YJH4JAZOEi42l1dIOs,HgIjgyfcnqzNrkYtO5hrYP" IsHidden="true" />
               <Link Id="AY6Fxb4z8IkMreLVkU067g" Ids="AVT7Vey9p3ZPEdTU4xSF41,UQ3L3FwnzMqPteMGxFZFTx" />
+              <Link Id="Ob3I4pRC5KbMnMMAxMy4U6" Ids="IyPIkJmSqUdL6Lno2x5R51,BIbyvGQOPzbQHOzAIziftV" />
             </Patch>
           </Node>
           <!--
@@ -35507,6 +35509,7 @@
                   <Pin Id="SzbFL0R0GlCOUZaA90bTzl" Name="ov" Kind="InputPin" DefaultValue="15" />
                   <Pin Id="OG4UO462SbGLzuUxSoxYvu" Name="t" Kind="InputPin" />
                   <Pin Id="NlbrdKwvZUCLRVColNDMvA" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="FV2WMZwM7cVLLwT01sqYgb" Name="dig" Kind="InputPin" />
                 </Node>
                 <Node Bounds="293,286,74,19" Id="RAF44tYK5srMmnr1wE9Syx">
                   <p:NodeReference LastCategoryFullName="Serialization.MessagePack" LastDependency="VL.Serialization.MessagePack.vl">
@@ -35680,6 +35683,8 @@
                   <ControlPoint Id="KFzPLmr0fd8PxYURkC83wg" Bounds="179,270" Alignment="Bottom" />
                   <ControlPoint Id="SnKKMZSTtNFQU5jHYPTagc" Bounds="217,270" Alignment="Bottom" />
                 </Node>
+                <Pad Id="ETvi1iYPVUQOHTEASGXinV" Comment="" Bounds="316,470,136,276" ShowValueBox="true" isIOBox="true" Value="{&#xD;&#xA;    &quot;cntr&quot;: 0,&#xD;&#xA;    &quot;ct&quot;: 2000,&#xD;&#xA;    &quot;ctl&quot;: {&#xD;&#xA;        &quot;en&quot;: false,&#xD;&#xA;        &quot;ov&quot;: 50,&#xD;&#xA;        &quot;syn&quot;: false&#xD;&#xA;    },&#xD;&#xA;    &quot;t&quot;: [&#xD;&#xA;        -48.312218,&#xD;&#xA;        -115.001945,&#xD;&#xA;        118.64897,&#xD;&#xA;        100.1582,&#xD;&#xA;        -15.353489,&#xD;&#xA;        0&#xD;&#xA;    ]&#xD;&#xA;}" />
+                <ControlPoint Id="APD6pWNxsHkLLEQOxO8QME" Bounds="666,110" />
               </Canvas>
               <Patch Id="PdfSVgknirGMPHy3eTexVn" Name="Create" />
               <Patch Id="DEK3ifm9ACzM1PVpc7ZQEH" Name="Update">
@@ -35692,6 +35697,7 @@
                 <Pin Id="J0pAuaFP6JhQJdexeycnLC" Name="OverrideSpeed" Kind="InputPin" />
                 <Pin Id="LRJdep0RfhyM7rP7h1irhD" Name="Sync" Kind="InputPin" />
                 <Pin Id="DofMuPy3Tg0Mdf37wjlVeZ" Name="Enable" Kind="InputPin" />
+                <Pin Id="AUBkoPK2o4BMi8Pe4azL2F" Name="DigitalOutput" Kind="InputPin" />
               </Patch>
               <ProcessDefinition Id="DFx65v0D5w2PV92GKXEIVQ">
                 <Fragment Id="IoOTLjvjzPoMoYCSzRrlzF" Patch="PdfSVgknirGMPHy3eTexVn" Enabled="true" />
@@ -35727,6 +35733,9 @@
               <Link Id="INZ0bzbZaKzPeKtIbGzVZg" Ids="KFzPLmr0fd8PxYURkC83wg,Aj7FgX776QLMwlNEvKC0DQ" />
               <Link Id="LJE8CRO2QjDNg4RYahAEK3" Ids="IacOKdYlIk2PNC6ljdWKho,SnKKMZSTtNFQU5jHYPTagc" />
               <Link Id="DpGXbXDkCwyPW5nK754GzM" Ids="SnKKMZSTtNFQU5jHYPTagc,UZpxoygYndqMxECYE98HEs" />
+              <Link Id="QSRXw8wWO41L130JNl5jza" Ids="R051q6P17WEPQf7xJqAHDd,ETvi1iYPVUQOHTEASGXinV" />
+              <Link Id="StKmNA25wPHPhnIXfDvlXm" Ids="APD6pWNxsHkLLEQOxO8QME,FV2WMZwM7cVLLwT01sqYgb" />
+              <Link Id="DpXdjOhg9HTOV35MWS9G1t" Ids="AUBkoPK2o4BMi8Pe4azL2F,APD6pWNxsHkLLEQOxO8QME" IsHidden="true" />
             </Patch>
           </Node>
           <!--
@@ -35766,6 +35775,9 @@
                 <ControlPoint Id="NojbtfhvKG2LZDLuZ0HkSw" Bounds="438,460" />
                 <Pad Id="FG6fBAViHRJPDN6miruPP3" SlotId="MtZ7Vn8gRFmNEIRMx8zOer" Bounds="397,540" />
                 <ControlPoint Id="J4YYilZE4hXManOS9aKR2R" Bounds="397,590" />
+                <Pad Id="KzDKkGq3EtqN0MLHsFvGcm" SlotId="JVjYLutjcdYQB3iS5bpAJB" Bounds="604,500" />
+                <ControlPoint Id="V0b3mfCtsPhN43H0ENqqRS" Bounds="604,470" />
+                <ControlPoint Id="MfbughkeVPgMtji0SA59Ib" Bounds="604,530" />
               </Canvas>
               <Patch Id="EQz5miNIxNSLLIVh6L2Ngs" Name="Create">
                 <Pin Id="EGi8JwjPYD8MdrW7A6OiyE" Name="cntr" Kind="InputPin" />
@@ -35774,6 +35786,7 @@
                 <Pin Id="TaKbCb7abzJMGW4B2XR1V3" Name="syn" Kind="InputPin" />
                 <Pin Id="GtdTmWwTBOzMFIx5hWzvDv" Name="ov" Kind="InputPin" />
                 <Pin Id="IBrKOJ1pkqfNRZQf7i9LU6" Name="t" Kind="InputPin" />
+                <Pin Id="LdubTusnxScLjMncaM7fIW" Name="dig" Kind="InputPin" />
               </Patch>
               <ProcessDefinition Id="KQrtNEYygbIORfRX6Dk0U2" IsHidden="true">
                 <Fragment Id="IEVkRBCfMkYMmjwn2xQzPB" Patch="EQz5miNIxNSLLIVh6L2Ngs" Enabled="true" />
@@ -35806,6 +35819,7 @@
                 <Pin Id="AF7Sf45GZLdPZJCaOhrWMY" Name="ct" Kind="OutputPin" />
                 <Pin Id="HO0l13SksHHPzpB4hOWZig" Name="ctl" Kind="OutputPin" />
                 <Pin Id="IAcANaTlOIRNb9Ap12b3AH" Name="t" Kind="OutputPin" />
+                <Pin Id="ME6lKqS9tKzLE9eSFPCMDA" Name="dig" Kind="OutputPin" />
               </Patch>
               <Link Id="PvDQhFs8094M3v7zRAWnWi" Ids="D8meWF8rVPQLnrMWHO0HWZ,HI1EOF3boZcQS7y2RYHFmt" IsHidden="true" />
               <Link Id="UCCRpcGn1hILPB8tyVT3nG" Ids="EjboMbt8uc0MQt7F0fovlh,D8meWF8rVPQLnrMWHO0HWZ" />
@@ -35827,6 +35841,15 @@
               <Link Id="JLsakEVrDDHOY2AjKFr7LJ" Ids="HbO33OhMpe2QC8GZdRpUEt,R8V7NG7VvOdOPXq1eWEZtF" />
               <Link Id="BMytClht6SALLqDeT5QobG" Ids="Swl2LO5rveLNNeUvVjWjUB,OxlZlnSu6cJMiCILMQu9Ux" />
               <Link Id="DqGBy8hvBdkPTjWhJpqIR6" Ids="NojbtfhvKG2LZDLuZ0HkSw,DIk6wAl9GLeLR443Gx6CR6" />
+              <Slot Id="JVjYLutjcdYQB3iS5bpAJB" Name="dig">
+                <p:TypeAnnotation p:Type="TypeReference">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Slot>
+              <Link Id="AMR15i5og1nLd82AlHv9Z7" Ids="LdubTusnxScLjMncaM7fIW,V0b3mfCtsPhN43H0ENqqRS" IsHidden="true" />
+              <Link Id="NBvvVoqqHyBPoEL7NbM02f" Ids="V0b3mfCtsPhN43H0ENqqRS,KzDKkGq3EtqN0MLHsFvGcm" />
+              <Link Id="Em0L5KfvHA3PyceenqX8Dt" Ids="MfbughkeVPgMtji0SA59Ib,ME6lKqS9tKzLE9eSFPCMDA" IsHidden="true" />
+              <Link Id="QfsdRfc754NLTUZoObpJA4" Ids="KzDKkGq3EtqN0MLHsFvGcm,MfbughkeVPgMtji0SA59Ib" />
             </Patch>
           </Node>
           <!--
@@ -40823,7 +40846,7 @@
   <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" Version="2.66.0" />
   <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" Version="2.66.0" />
   <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" Version="2.66.0" />
-  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.72.0" />
+  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.64.0" />
   <PlatformDependency Id="FKViKKB5yYpN5SIToeAAS7" Location="./lib/net8.0/Grpc.Core.dll" />
   <PlatformDependency Id="E8xKu2esIgpOb3BxFU0P8B" Location="./lib/net8.0/ExternalApiTest.dll" />
   <NugetDependency Id="FFBlMHInFRxMDq9zN1Avyb" Location="Stride.Core.Mathematics" Version="4.2.1.2487" />
