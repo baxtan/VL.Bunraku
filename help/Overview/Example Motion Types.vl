@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="VDQShjA0hzjN9DljBPl6rN">
         <Canvas Id="CEWhC9BQcgvM8pCR8RCeOZ" CanvasType="Group">
-          <Node Bounds="593,368,91,19" Id="UID7cZFUX9ZM5Fn0GAh8PJ">
+          <Node Bounds="593,350,91,19" Id="UID7cZFUX9ZM5Fn0GAh8PJ">
             <p:NodeReference LastCategoryFullName="Bunraku.Motion" LastDependency="bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CartesianMotion" />
@@ -153,7 +153,7 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="959,370,68,19" Id="Vz8a7DkHxEmPY5lNJeOYsb">
+          <Node Bounds="959,340,68,19" Id="Vz8a7DkHxEmPY5lNJeOYsb">
             <p:NodeReference LastCategoryFullName="Main.Motion" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="AxisMotion" />
@@ -161,7 +161,7 @@
             <Pin Id="Js8YuwpaPwuNB9kXUgEim5" Name="AxisValues" Kind="InputPin" />
             <Pin Id="JXCbnzsBTFrQCcGsJY4m9M" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Is5lOcstatbMVlHosJ6J8C" Comment="AxisValues" Bounds="961,170,56,111" ShowValueBox="true" isIOBox="true" Value="0, -90, 90, 0, 0, 0">
+          <Pad Id="Is5lOcstatbMVlHosJ6J8C" Comment="AxisValues" Bounds="961,210,56,111" ShowValueBox="true" isIOBox="true" Value="0, -90, 90, 0, 0, 0">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -180,7 +180,7 @@
           <Overlay Id="OU00gAhMXd9MLDhnSFMy1g" Name="Cartesian - IK" Bounds="520,93,296,332">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Overlay Id="MJJhbBlQUANNE2fyTDqJp0" Name="Axis Values - FK" Bounds="865,99,290,319">
+          <Overlay Id="MJJhbBlQUANNE2fyTDqJp0" Name="Axis Values - FK" Bounds="865,99,290,309">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
           <Node Bounds="553,640,65,19" Id="A6en87GafMsMSYykybtzyj">
@@ -206,16 +206,6 @@
             </p:ValueBoxSettings>
           </Pad>
           <ControlPoint Id="MEY8NIW2douMhfRdehQcxd" Bounds="575,537" />
-          <Node Bounds="274,750,81,19" Id="MXmE14z9Zq1LahPv5rcI7u">
-            <p:NodeReference LastCategoryFullName="Main.Robot.Cybertech" LastDependency="VL.Bunraku.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Robot" />
-              <CategoryReference Kind="Category" Name="Cybertech" />
-              <Choice Kind="ProcessAppFlag" Name="KR16R2010-2" />
-            </p:NodeReference>
-            <Pin Id="AhyZyP40K2GNaiwj5CJeKz" Name="RobotData" Kind="OutputPin" />
-            <Pin Id="Pa3h2TeF615MSEqZZxyVNt" Name="Node Context" Kind="InputPin" IsHidden="true" />
-          </Node>
         </Canvas>
         <Patch Id="Bq5QraSZaMdObZf2TUOzWb" Name="Create" />
         <Patch Id="ViLhW45pbfXMK0orfjEC3M" Name="Update" />
