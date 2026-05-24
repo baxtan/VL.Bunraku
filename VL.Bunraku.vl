@@ -39903,7 +39903,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="KyCI5fLMN3KL6VFb4Q49B2" Name="State" Position="285,508">
+      <Canvas Id="KyCI5fLMN3KL6VFb4Q49B2" Name="RobotState" Position="285,508">
         <!--
 
     ************************ RobotSnapshot ************************
@@ -41879,7 +41879,7 @@
                 <Pin Id="MbBb0bXwl4ZOOq5QskiJhk" Name="Value" Kind="InputPin" />
                 <Pin Id="FTXK1BVl3lmMtdtcP3d8da" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="217,90,225,26" Id="L0VeecVR6nqMiWqP0rxUJV">
+              <Node Bounds="11,100,225,26" Id="L0VeecVR6nqMiWqP0rxUJV">
                 <p:NodeReference LastCategoryFullName="Main.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="RobotAssembly" />
@@ -41902,7 +41902,7 @@
               <Pad Id="NQoJVCFfY10P6zFwjZg9fe" SlotId="N4iezPSx9T7N9IDYI1iwKK" Bounds="339,370" />
               <Pad Id="Mn7r1dk8C4oPXJ7dJnf67P" SlotId="H3vi0WnKeOPPUAlCjfuCzp" Bounds="133,411" />
               <ControlPoint Id="I9S03Cbwl1mLMapaZeeikO" Bounds="153,250" />
-              <ControlPoint Id="PuJfU66qkJBLfoJTQsAnf4" Bounds="61,21" />
+              <ControlPoint Id="PuJfU66qkJBLfoJTQsAnf4" Bounds="13,21" />
               <ControlPoint Id="Rtwe57d3Px3OX9ZMaomBme" Bounds="217,250" />
               <ControlPoint Id="Jr7DjWwAS3uM73ePIAsyPq" Bounds="309,250" />
               <ControlPoint Id="VbE7i9Lsl94Nq42JjDI3aV" Bounds="419,250" />
@@ -42263,6 +42263,7 @@
               </Node>
               <ControlPoint Id="TTVQfytmlbRPUeBJ0HSrwe" Bounds="646,250" />
               <ControlPoint Id="EVwMp0olSL8MWTP9kIvgWA" Bounds="93,230" />
+              <ControlPoint Id="E4cW7djH5NtMkSYXMsamXs" Bounds="359,203" />
             </Canvas>
             <Patch Id="RoWS2OTM8LaOGYZi02c9tv" Name="Create" />
             <Patch Id="KMHEWHO2sTtONsyPbgPPaY" Name="Update">
@@ -42275,7 +42276,7 @@
               <Pin Id="IO6kGt4fMfvMvNTy6vCYx0" Name="SetKeyFrame" Kind="InputPin" DefaultValue="False" />
               <Pin Id="OkinmWnz3FlNc6NqG5YWgD" Name="RemoveLast" Kind="InputPin" DefaultValue="False" />
               <Pin Id="Sqahj0sp6daNvXzeNXYyP2" Name="ClearAll" Kind="InputPin" DefaultValue="False" />
-              <Pin Id="Az1eAcSOEMhM8zLBRFLTNK" Name="Output" Kind="OutputPin" />
+              <Pin Id="Az1eAcSOEMhM8zLBRFLTNK" Name="Clip" Kind="OutputPin" />
               <Pin Id="DcL6gGNGIBMMDLa4TKJc9Q" Name="Name" Kind="InputPin" />
               <Pin Id="RjB5yAYLg8ZMRHz5xcuzRX" Name="HomePosition" Kind="InputPin" />
               <Pin Id="GAvIOjKW47GONz3DdWgGeY" Name="Write" Kind="InputPin" DefaultValue="False" />
@@ -42324,7 +42325,7 @@
             <Link Id="B4uC6cq1jwdMZT1XqYOBNL" Ids="Ts6EagQ5IKBNYpk2FKr79A,IOpkkp8bgpTP6jaecao0BP" />
             <Link Id="UJmBXLVj9yYMoleKmiojfo" Ids="QUNKKTanqZHMaiynrYaPfl,IfnJMWzCNduL3g7yuKY8Ow" />
             <Link Id="EV0jBpZWOW3NgeVcxJrlTg" Ids="SMgnfit0oWgMtzqyQxrGED,PkA9GPlQpCyPUaiKrTCIK7" />
-            <Link Id="Bli9XVKrEmVOFbDJPOn37p" Ids="Q1LMLuUzBrrNWyq5PCK3fJ,R61rgyX6LuXMgFATqroigP" />
+            <Link Id="Bli9XVKrEmVOFbDJPOn37p" Ids="Q1LMLuUzBrrNWyq5PCK3fJ,E4cW7djH5NtMkSYXMsamXs,R61rgyX6LuXMgFATqroigP" />
             <Link Id="SJ8D74a4B6ePyiaQeM1crY" Ids="Mn7r1dk8C4oPXJ7dJnf67P,LlqjPyYhTvpMellmN9MG89" />
             <Link Id="FmI08T0JoU8MSDo92pOXjI" Ids="BTJjjKTsH7YLc84onbctdh,Uq30L2Gs47aLn6DsLei2AJ" />
             <Link Id="UtCFRUVMg0GNvGii8Xylcy" Ids="FTXK1BVl3lmMtdtcP3d8da,BPIHlrweXzcOwpYOc5CIm5" />
