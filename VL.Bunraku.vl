@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2025.7.2-0045-gcf0050e30e" Version="0.128">
-  <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" Version="2025.7.2-0045-gcf0050e30e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2025.7.2-0032-g4ea78fbb04" Version="0.128">
+  <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" Version="2025.7.2-0032-g4ea78fbb04" />
   <Patch Id="SWgnOE0qyZAL8x0tTWxYn3">
     <Canvas Id="NsWyQ2QdGT7NGrW5Ey63h9" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="HGfabSUYsz3ObAt3sh8t1c" Name="Utilities" Position="285,434">
@@ -36130,7 +36130,6 @@
                 <Pin Id="FWKF4VZaa6uQcJ83Qh5KuQ" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="UIK28UkI39oNcsmpcTMFD4" Name="Always On Top" Kind="InputPin" IsHidden="true" />
                 <Pin Id="HvUvZ1eIKeiLIL32eGenmQ" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
-                <Pin Id="ULu9oGLQrCoMaBZjRSGiaF" Name="Is Borderless" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Gcf13Ycu7PuL5flyBiXUIN" Name="Input" Kind="InputPin" />
                 <Pin Id="IibedxvxbqrPtdLDqyJ39L" Name="Camera" Kind="InputPin" />
                 <Pin Id="FPuui7kZeZpN94lkFl5W3J" Name="Enable Default Camera" Kind="InputPin" DefaultValue="True" />
@@ -37658,7 +37657,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="2309, 115, 923, 826" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1092, 11, 1786, 1029" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -37668,7 +37667,6 @@
                 <Pin Id="AktINjZCNPOM7hwfHbt3lS" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="FQ0wFjIm4mHN86yWdBtroQ" Name="Always On Top" Kind="InputPin" IsHidden="true" />
                 <Pin Id="NuRshLv6ye4PYo3WUeJjuC" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
-                <Pin Id="R4FzRZv1PyHLS2aumkmXdT" Name="Is Borderless" Kind="InputPin" IsHidden="true" />
                 <Pin Id="QEV3fluI6EmNGXOzOWDTY9" Name="Input" Kind="InputPin" />
                 <Pin Id="Ma85nSv2RHQNcYBgkyTREY" Name="Camera" Kind="InputPin" />
                 <Pin Id="V8WBotc7d58QS1MINhl2uU" Name="Enable Default Camera" Kind="InputPin" />
@@ -42622,11 +42620,6 @@
               <Pin Id="Ib1dTQ00uPQMx6jCrd0gas" Name="Read" Kind="InputPin" />
               <Pin Id="JgdYjNDM7euLsfO8hrnYIa" Name="Output" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="FeVpzWqkPQxO1rh6s88MdU">
               <Fragment Id="JYJKoKtXbc6NUTJjHvZdhT" Patch="Ba9xmZOK2tYMiMlBjVLHf2" Enabled="true" />
               <Fragment Id="Bqra1BIf4f6LpsHj2iSAT2" Patch="Vzda6fJQA4DNBTB9yRLcQ8" Enabled="true" />
@@ -42736,11 +42729,6 @@
               <Pin Id="RPuWzGMy56jLgAm97pjI2s" Name="Play" Kind="InputPin" DefaultValue="False" />
               <Pin Id="CZiO1fXjpIAO9KtCphdJYs" Name="Reset" Kind="InputPin" DefaultValue="False" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="IaPJHvhN9FXMLO3aUh4ZJK">
               <Fragment Id="NREmVzEnJh4MY2yE0DKJDV" Patch="TVMe2Lop4dJPiAJ7IeS0MO" Enabled="true" />
               <Fragment Id="V2xpR84g68dNm4VjGKM6Qe" Patch="IZ50NW75YvhMaMXVwBAS5y" Enabled="true" />
@@ -42794,17 +42782,17 @@
   </Patch>
   <PlatformDependency Id="GzrmA0TBYycPRzvBDfcb9Z" Location="./lib/net8.0/BunrakuSpotControlUtils.dll" />
   <NugetDependency Id="UKPogmrLddzLOff72ryR0D" Location="Google.Protobuf" Version="3.31.1" />
-  <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" Version="2.57.0" />
-  <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" Version="2.57.0" />
-  <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" Version="2.57.0" />
-  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.72.0" />
+  <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" Version="2.66.0" />
+  <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" Version="2.66.0" />
+  <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" Version="2.66.0" />
+  <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.64.0" />
   <PlatformDependency Id="FKViKKB5yYpN5SIToeAAS7" Location="./lib/net8.0/Grpc.Core.dll" />
   <PlatformDependency Id="E8xKu2esIgpOb3BxFU0P8B" Location="./lib/net8.0/ExternalApiTest.dll" />
   <NugetDependency Id="FFBlMHInFRxMDq9zN1Avyb" Location="Stride.Core.Mathematics" Version="4.2.1.2487" />
-  <NugetDependency Id="DQOZM3FGdQ7NGgOvMybi09" Location="VL.Stride" Version="2025.7.2-0045-gcf0050e30e" />
-  <NugetDependency Id="V7L04oPY6RPNSjMhzvxtyh" Location="VL.Skia" Version="2025.7.2-0045-gcf0050e30e" />
-  <NugetDependency Id="DWHum2ujy95PvTdRxcBERa" Location="VL.Stride.TextureFX" Version="2025.7.2-0045-gcf0050e30e" />
-  <NugetDependency Id="ApH9o31RRjgNRKhkuUvJz7" Location="VL.Serialization.MessagePack" Version="2025.7.2-0045-gcf0050e30e" />
+  <NugetDependency Id="DQOZM3FGdQ7NGgOvMybi09" Location="VL.Stride" Version="2025.7.2-0032-g4ea78fbb04" />
+  <NugetDependency Id="V7L04oPY6RPNSjMhzvxtyh" Location="VL.Skia" Version="2025.7.2-0032-g4ea78fbb04" />
+  <NugetDependency Id="DWHum2ujy95PvTdRxcBERa" Location="VL.Stride.TextureFX" Version="2025.7.2-0032-g4ea78fbb04" />
+  <NugetDependency Id="ApH9o31RRjgNRKhkuUvJz7" Location="VL.Serialization.MessagePack" Version="2025.7.2-0032-g4ea78fbb04" />
   <NugetDependency Id="JK6GN6b61XIQC5FdHv260P" Location="VL.IO.WebSocket" Version="1.1.0" />
   <PlatformDependency Id="DWCjJYN1u0XOLnkCgypbB6" Location="System.Text.Json" />
   <PlatformDependency Id="EA0KPzfUkYzNhzRMjnYqVo" Location="./lib/net8.0/Bunraku.Kinematics.dll" />
