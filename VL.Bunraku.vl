@@ -37657,7 +37657,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="720.6667, 44.666668, 899.3333, 921.3333" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="556, -1440, 890, 890" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -37890,6 +37890,47 @@
                   <Choice Kind="TypeFlag" Name="RGBA" />
                 </p:TypeAnnotation>
               </Pad>
+              <Node Bounds="801,1180,125,19" Id="NlECr5zTez8Pf4rykwyGtN">
+                <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="AdditionalSceneWindow" />
+                </p:NodeReference>
+                <Pin Id="M3JrU5UfXuaQT2Cm7DYZQ5" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="MkrdPabsXnlNJomy7kcH9A" Name="Bounds" Kind="InputPin" DefaultValue="742, 22, 960, 918" IsHidden="true" />
+                <Pin Id="UlI0kZTkbglPoJ0wbWkpQa" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+                <Pin Id="VsXSs683IqwOD2aYAEQZUU" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+                <Pin Id="Mzo9QcJzgLsNWvT4lwE3IW" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+                <Pin Id="Itp3pV8zJosQK4qeGeH1FX" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
+                <Pin Id="UNd1To1Qb9KMPlP6LvUvuj" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
+                <Pin Id="OxedQzJI7cqMQfITmceAcv" Name="Present Interval" Kind="InputPin" IsHidden="true" />
+                <Pin Id="HkKX0TbuBHsMnz3fGXQea5" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
+                <Pin Id="K29EZSH1sX3MqXEPeFhEOy" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
+                <Pin Id="OvHzlpaL9aZQaZpKLcXkvq" Name="Light Shafts" Kind="InputPin" IsHidden="true" />
+                <Pin Id="CDsvnptgTU4NeSIEbzNHHq" Name="VR Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="RbzwKX9iDHwPzP661SnRjt" Name="Viewport Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="HWQMDatUQNuMzGuWLpXKPd" Name="Subsurface Scattering Blur Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DZSqLZq0fVRNYexIxUhURa" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
+                <Pin Id="Ce2Dd9YRnXJLfuw5nBYnJP" Name="Camera" Kind="InputPin" />
+                <Pin Id="VsvPlFWUUhXM6bNA54HJqF" Name="Title" Kind="InputPin" />
+                <Pin Id="Igry5uqLXRLNXEkmnoOHBB" Name="Clear Color" Kind="InputPin" />
+                <Pin Id="DgITwxEzUD5QY6EwEjiwX1" Name="Clear" Kind="InputPin" />
+                <Pin Id="Crfj5AIYB4zPmQFj3VgnOQ" Name="Post Effects" Kind="InputPin" />
+                <Pin Id="Buuf3LdEmlwLmu0mTMkttM" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
+                <Pin Id="GQbvMIq5Mf6NjNr2dB2B8N" Name="Enabled" Kind="InputPin" />
+                <Pin Id="Gll8mgnuoAuP5W73iMgigJ" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="R7rY8Rs5D7ZMSdTUhMXYUI" Name="Window" Kind="OutputPin" />
+                <Pin Id="CMjIcEJoUAsPaLrLlzrqYb" Name="Client Bounds" Kind="OutputPin" />
+                <Pin Id="IhttY26NySsPUjSYgAFQQO" Name="Input Source" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="801,1211,65,19" Id="QNQ1nyvOK4LNv0uBWqtz7U">
+                <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="FromValue" />
+                </p:NodeReference>
+                <Pin Id="I5EAYQ81KpZMJEBvNrKa64" Name="Input" Kind="InputPin" />
+                <Pin Id="Drfj4K84ifBPARsD0qH8TH" Name="Result" Kind="OutputPin" />
+              </Node>
             </Canvas>
             <Patch Id="IcrEAl1CeuJO6RXBlzDEuh" Name="Create" />
             <Patch Id="Fa6O0M4CmwfLUar1qrM3Ka" Name="Update">
@@ -37921,6 +37962,9 @@
             <Link Id="UDzaUBDewemMqn1BF24K0g" Ids="VrgK2TxHVMbOCLLJLXBsyI,Tbop4FBgWtSMzdcbnBV3W2" />
             <Link Id="LFVd9vkOaE3QFkIQJUjKdI" Ids="UHVK073tVVwOu5bk6xcSa8,CzxQpIMudeCPlBlLZSGkNm" />
             <Link Id="JQmo9lX6IggNkUA56DJchp" Ids="Pf7EbB8IbTaLBJ53YLokmA,Ep3RjrtBAK5PKvmaOuu6Nk" />
+            <Link Id="ONH4AxdI6gxP9x28Yn7XzV" Ids="Gll8mgnuoAuP5W73iMgigJ,I5EAYQ81KpZMJEBvNrKa64" />
+            <Link Id="HJJpqN7JAnUPebZjUV6doL" Ids="Drfj4K84ifBPARsD0qH8TH,VNk12U9uLNSPUQYpDtS1dK" />
+            <Link Id="QtSIDHzAsW0PWI5NCxy6QY" Ids="NwbPcQbgkrYOjurKOr5Z5P,Ce2Dd9YRnXJLfuw5nBYnJP" />
           </Patch>
         </Node>
         <!--
