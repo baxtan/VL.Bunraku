@@ -37781,7 +37781,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="-5.3333335, -965.3333, 1706.6666, 944.6667" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="-1708, -150.66667, 1567.3334, 581.3333" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -38133,6 +38133,14 @@
                   <Choice Kind="TypeFlag" Name="Vector3" />
                 </p:TypeAnnotation>
               </Pad>
+              <Pad Id="MWkDiPub9h1M9j6HQAN3wi" Comment="Reset" Bounds="557,940,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
             </Canvas>
             <Patch Id="IcrEAl1CeuJO6RXBlzDEuh" Name="Create" />
             <Patch Id="Fa6O0M4CmwfLUar1qrM3Ka" Name="Update">
@@ -38179,6 +38187,7 @@
             <Link Id="Jxv0sa0Oy9rLz8Eba89WZZ" Ids="Uc36HWgsZZxL7MGGGFDkYv,KapF2vgKmDtO9MHyyflj5n" />
             <Link Id="GmDoCjlWfx0NyF02m1yyj6" Ids="UBRwOkqnV78Puh2ExtJf1g,OzGNTbqjtZhMTIlQ5P3T4u" />
             <Link Id="NdRBAHKfGo5QW1iOJfNk5t" Ids="OazjsE5vekCNXiBIfvutuh,TosieicQ2MDMQoouRSfNFL" />
+            <Link Id="TMBooDnGzOxNrkkzgqOfLj" Ids="MWkDiPub9h1M9j6HQAN3wi,GU8pLwXu5VILBqbyHK9Gb3" />
           </Patch>
         </Node>
         <!--
