@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2025.7.3-0007-g9f2db52a5d" Version="0.128">
-  <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" Version="2025.7.3-0007-g9f2db52a5d" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2026.8.0-0092-gcda0e862d5" Version="0.128">
+  <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" />
   <Patch Id="SWgnOE0qyZAL8x0tTWxYn3">
     <Canvas Id="NsWyQ2QdGT7NGrW5Ey63h9" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="HGfabSUYsz3ObAt3sh8t1c" Name="Utilities" Position="285,434">
@@ -37781,7 +37781,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="-1709.3334, -154, 1703.3334, 938.6667" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1983, 152, 1127, 1047" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -37977,7 +37977,7 @@
                 <Pin Id="Ep3RjrtBAK5PKvmaOuu6Nk" Name="Color" Kind="InputPin" />
                 <Pin Id="TP0C8VvS70JNlT4naG28B6" Name="Enabled" Kind="InputPin" DefaultValue="True" />
               </Node>
-              <Pad Id="Pf7EbB8IbTaLBJ53YLokmA" Comment="Color" Bounds="991,780,136,15" ShowValueBox="true" isIOBox="true" Value="0.4, 0.4, 0.4, 1">
+              <Pad Id="Pf7EbB8IbTaLBJ53YLokmA" Comment="Color" Bounds="991,780,136,15" ShowValueBox="true" isIOBox="true" Value="0.18000002, 0.18000002, 0.18000002, 1">
                 <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="RGBA" />
                 </p:TypeAnnotation>
@@ -38183,7 +38183,6 @@
             <Link Id="O9hHnFRSnfENnzZAwUZfVn" Ids="PrHPMqSD1ZfPrsSabaHzY1,T9k1WfwzICgNtWXynfL0Pe" />
             <Link Id="LEzDHNePRg2MZAFOzXCCLZ" Ids="PrHPMqSD1ZfPrsSabaHzY1,D6uhRSHSIDGLjDGRX7099k" />
             <Link Id="G64VuPrTVkCPKJSZ52nyIP" Ids="UW05wi5zDpaQEjVHFb19Ux,Ukbx07nrmi6P6mi9caoRIN" />
-            <Link Id="KV7Z9XJ1TyYNXprXPOaqTg" Ids="D72o0zPYlP8QGoNA3pCEt3,LL5BXeNgxh5M5W7oqZ3PeW" />
             <Link Id="Jxv0sa0Oy9rLz8Eba89WZZ" Ids="Uc36HWgsZZxL7MGGGFDkYv,KapF2vgKmDtO9MHyyflj5n" />
             <Link Id="GmDoCjlWfx0NyF02m1yyj6" Ids="UBRwOkqnV78Puh2ExtJf1g,OzGNTbqjtZhMTIlQ5P3T4u" />
             <Link Id="NdRBAHKfGo5QW1iOJfNk5t" Ids="OazjsE5vekCNXiBIfvutuh,TosieicQ2MDMQoouRSfNFL" />
@@ -39555,7 +39554,7 @@
                 <Pin Id="UQpZSsyFuheMvg9Fybo4oS" Name="Components" Kind="InputPin" />
                 <Pin Id="R36eMr9bdZsPV4HMLP2yYk" Name="Children" Kind="InputPin" />
                 <Pin Id="UDM2N1EeMZXMpUO8jIT2cW" Name="Name" Kind="InputPin" />
-                <Pin Id="CyBStlE4hPHOWy8CBdr4Ky" Name="Enabled" Kind="InputPin" />
+                <Pin Id="CyBStlE4hPHOWy8CBdr4Ky" Name="Enabled" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="ENk406czhYOLpgw4CisFJ8" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="396,800,85,19" Id="Fp6A11qA3AyPEihigAs41m">
@@ -43394,17 +43393,17 @@
   </Patch>
   <PlatformDependency Id="GzrmA0TBYycPRzvBDfcb9Z" Location="./lib/net8.0/BunrakuSpotControlUtils.dll" />
   <NugetDependency Id="UKPogmrLddzLOff72ryR0D" Location="Google.Protobuf" Version="3.31.1" />
-  <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" Version="2.57.0" />
-  <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" Version="2.57.0" />
-  <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" Version="2.57.0" />
+  <NugetDependency Id="B3l28QH9y5mLDGek9Y7Hpi" Location="Grpc.Core.Api" />
+  <NugetDependency Id="RCpz07ssX3dNqoOwA7MPmh" Location="Grpc.Net.Client" />
+  <NugetDependency Id="BDUWjEmeus8NhLncKfGAYp" Location="Grpc.Net.Common" />
   <NugetDependency Id="GlOxQBWiqMOPpGogvqzCdD" Location="Grpc.Tools" Version="2.64.0" />
   <PlatformDependency Id="FKViKKB5yYpN5SIToeAAS7" Location="./lib/net8.0/Grpc.Core.dll" />
   <PlatformDependency Id="E8xKu2esIgpOb3BxFU0P8B" Location="./lib/net8.0/ExternalApiTest.dll" />
-  <NugetDependency Id="FFBlMHInFRxMDq9zN1Avyb" Location="Stride.Core.Mathematics" Version="4.2.1.2487" />
-  <NugetDependency Id="DQOZM3FGdQ7NGgOvMybi09" Location="VL.Stride" Version="2025.7.3-0007-g9f2db52a5d" />
-  <NugetDependency Id="V7L04oPY6RPNSjMhzvxtyh" Location="VL.Skia" Version="2025.7.3-0007-g9f2db52a5d" />
-  <NugetDependency Id="DWHum2ujy95PvTdRxcBERa" Location="VL.Stride.TextureFX" Version="2025.7.3-0007-g9f2db52a5d" />
-  <NugetDependency Id="ApH9o31RRjgNRKhkuUvJz7" Location="VL.Serialization.MessagePack" Version="2025.7.3-0007-g9f2db52a5d" />
+  <NugetDependency Id="FFBlMHInFRxMDq9zN1Avyb" Location="Stride.Core.Mathematics" />
+  <NugetDependency Id="DQOZM3FGdQ7NGgOvMybi09" Location="VL.Stride" />
+  <NugetDependency Id="V7L04oPY6RPNSjMhzvxtyh" Location="VL.Skia" />
+  <NugetDependency Id="DWHum2ujy95PvTdRxcBERa" Location="VL.Stride.TextureFX" />
+  <NugetDependency Id="ApH9o31RRjgNRKhkuUvJz7" Location="VL.Serialization.MessagePack" />
   <NugetDependency Id="JK6GN6b61XIQC5FdHv260P" Location="VL.IO.WebSocket" Version="1.1.0" />
   <PlatformDependency Id="DWCjJYN1u0XOLnkCgypbB6" Location="System.Text.Json" />
   <PlatformDependency Id="EA0KPzfUkYzNhzRMjnYqVo" Location="./lib/net8.0/Bunraku.Kinematics.dll" />
