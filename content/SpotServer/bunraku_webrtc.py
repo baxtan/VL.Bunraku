@@ -1,0 +1,67 @@
+export ROBOT_IP=192.168.8.103
+
+# Version Service
+python3 -m command_line $ROBOT_IP version software
+
+# Audio Service
+python3 -m command_line $ROBOT_IP audio set_volume 1
+python3 -m command_line $ROBOT_IP audio get_volume
+python3 -m command_line $ROBOT_IP audio load autonomous_robot_en data/autonomous_robot_en.wav
+python3 -m command_line $ROBOT_IP audio list
+python3 -m command_line $ROBOT_IP audio play autonomous_robot_en
+python3 -m command_line $ROBOT_IP audio delete autonomous_robot_en
+python3 -m command_line $ROBOT_IP audio list
+
+# Compositor Service
+python3 -m command_line $ROBOT_IP compositor list
+python3 -m command_line $ROBOT_IP compositor get
+python3 -m command_line $ROBOT_IP compositor set mech
+python3 -m command_line $ROBOT_IP compositor visible
+python3 -m command_line $ROBOT_IP compositor get_colormap
+python3 -m command_line $ROBOT_IP compositor set_colormap jet
+python3 -m command_line $ROBOT_IP compositor set_reticle --xs 0.1 0.2 0.3 --ys 0.1 0.4 0.8 --unit c
+
+# Lighting Service
+python3 -m command_line $ROBOT_IP lighting set 0.1 0.2 0.3 0.4
+python3 -m command_line $ROBOT_IP lighting get
+
+# Media Log Service
+python3 -m command_line $ROBOT_IP media_log list_cameras
+python3 -m command_line $ROBOT_IP media_log store pano
+python3 -m command_line $ROBOT_IP media_log store_retrieve ptz
+# The UUID is given by the 'store' command
+IMAGE_UUID=f0e835c2-54d4-11ea-9365-00044be03a91
+python3 -m command_line $ROBOT_IP media_log status $IMAGE_UUID
+python3 -m command_line $ROBOT_IP media_log retrieve $IMAGE_UUID
+python3 -m command_line $ROBOT_IP media_log delete $IMAGE_UUID
+
+# You should not see the UUID in the list of logpoints
+python3 -m command_line $ROBOT_IP media_log list_logpoints
+
+# You should see 10 stitched jpeg images
+seq 10 | xargs -I{} python3 -m command_line $ROBOT_IP media_log store_retrieve pano
+
+# Ptz Service
+python3 -m command_line $ROBOT_IP ptz list
+python3 -m command_line $ROBOT_IP ptz set_position mech 0 0 1
+python3 -m command_line $ROBOT_IP ptz get_position mech
+python3 -m command_line $ROBOT_IP ptz set_focus auto_focus
+python3 -m command_line $ROBOT_IP ptz set_focus manual_focus --distance 5
+python3 -m command_line $ROBOT_IP ptz get_focus
+
+# Get Spot CAM ICE settings
+python3 -m command_line $ROBOT_IP network ice_settings
+# Set Spot CAM ICE settings (example JSON file provided)
+python3 -m command_line $ROBOT_IP network set_ice ice.json
+
+# WebRTC and Stream Quality Service
+# Set target (maximum) bitrate to 2mbps
+# This command can be useful when running the python3 WebRTC examples
+# The python3 WebRTC library (aiortc) can sometimes have trouble streaming at higher bitrates
+python3 -m command_line $ROBOT_IP stream_quality set --target-bitrate 2000000
+# Save images to .jpg files
+python3 -m command_line $ROBOT_IP webrtc save
+# Save 10 seconds of video (no audio)
+python3 -m command_line $ROBOT_IP webrtc record --time 10
+# Save 10 seconds of audio
+python3 -m command_line $ROBOT_IP webrtc record audio --time 10
