@@ -7,14 +7,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Bunraku</id>
-    <version>0.0.9</version>
+    <version>1.0.0</version>
     <title>VL.Bunraku</title>
     <authors>Amir Bastan</authors>
     <projectUrl>https://amirbastan.com/projects/bunraku/</projectUrl>
     <repository type="git" url="https://github.com/baxtan/VL.Bunraku" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Robot control, real-time simulation, and collaborative interaction for creative and artistic contexts.</description>
-    <tags>VL, Robotics, KUKA, Spot, Boston Dynamics</tags>
+    <tags>VL, Robotics, PRC, KUKA, Spot, BostonDynamics</tags>
     <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
@@ -23,8 +23,6 @@
   <files>
     <file src="..\lib\net8.0\Bunraku.Kinematics.dll" target="lib\net8.0\" />
     <file src="..\lib\net8.0\BunrakuSpotControlUtils.dll" target="lib\net8.0\" />
-    <file src="..\lib\net8.0\ExternalApiTest.dll" target="lib\net8.0\" />
-    <file src="..\lib\net8.0\Grpc.Core.dll" target="lib\net8.0\" />
     <file src="..\content\**" target="content\" />
     <file src="..\*.vl" target="" />
     <file src="..\help\**" target="help\" />
