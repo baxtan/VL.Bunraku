@@ -32197,6 +32197,8 @@
                   <Pin Id="GiqyIuYnGK6O6MLMhTsA9F" Name="Statistics" Kind="OutputPin" />
                   <Pin Id="T8fG0J91eToPWmRBgawTLl" Name="Is Connected" Kind="OutputPin" />
                   <Pin Id="C9ZvwwZDjkMQNO8PVDBU7v" Name="Send Queue Length" Kind="OutputPin" />
+                  <Pin Id="R7A9Mu0WTjrP6XUAbtMXJu" Name="Server Connected" Kind="OutputPin" IsHidden="true" />
+                  <Pin Id="KqB16D82cIyPHu5I15Q4r9" Name="Server Disconnected" Kind="OutputPin" IsHidden="true" />
                 </Node>
                 <Pad Id="KUTgw8LDr77P8OAoKXwu3R" Comment="Server" Bounds="463,149,104,15" ShowValueBox="true" isIOBox="true" Value="ws://localhost:8765">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -37844,7 +37846,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1889, 226, 656, 628" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="2500, 99, 656, 628" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -46104,8 +46106,11 @@
   <NugetDependency Id="V7L04oPY6RPNSjMhzvxtyh" Location="VL.Skia" />
   <NugetDependency Id="DWHum2ujy95PvTdRxcBERa" Location="VL.Stride.TextureFX" />
   <NugetDependency Id="ApH9o31RRjgNRKhkuUvJz7" Location="VL.Serialization.MessagePack" />
-  <NugetDependency Id="JK6GN6b61XIQC5FdHv260P" Location="VL.IO.WebSocket" Version="1.1.0" />
+  <NugetDependency Id="JK6GN6b61XIQC5FdHv260P" Location="VL.IO.WebSocket" />
   <PlatformDependency Id="DWCjJYN1u0XOLnkCgypbB6" Location="System.Text.Json" />
   <PlatformDependency Id="EA0KPzfUkYzNhzRMjnYqVo" Location="./lib/net8.0/Bunraku.Kinematics.dll" />
   <NugetDependency Id="Ad4T2hPVzBRNBwrlp4BYAp" Location="VL.ImGui.Stride" />
+  <NugetDependency Id="H8ilIZn3NxWM4gZD0RWjFY" Location="PRC.Core" />
+  <NugetDependency Id="AC4XCr49raXOnvv4dYvzDe" Location="PRC.GRPC" />
+  <NugetDependency Id="RspGfnssAhNL7cUTI8dRST" Location="PRC.Library" />
 </Document>
