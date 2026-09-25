@@ -37846,7 +37846,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1916, 134, 656, 628" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1709, 67, 656, 628" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -46083,7 +46083,7 @@
     ************************ OpenPRCServer ************************
 
 -->
-        <Node Name="OpenPRCServer" Bounds="314,211" Id="EQ6yu6XizQDNOenuEJm1S6">
+        <Node Name="OpenPRCServer" Bounds="58,70" Id="EQ6yu6XizQDNOenuEJm1S6">
           <p:NodeReference>
             <Choice Kind="ContainerDefinition" />
           </p:NodeReference>
@@ -46275,11 +46275,6 @@
               <Pin Id="QgeSr5l1pmrNsilWtPgSEf" Name="OpenOnBrowser" Kind="InputPin" />
               <Pin Id="PnbZbkj68ZsMCXtmmi6tu9" Name="Output" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="GOYgGSs26IZMFjctdw1EGt">
               <Fragment Id="HhbnQyf0zIBPWtA625x0RK" Patch="OaNrGKlbGctNxr3q9iYgGH" Enabled="true" />
               <Fragment Id="U4VlHCNxiaqL2GKyNPJ4jz" Patch="KzJdUL4UjkJOwAtGLYQqFp" Enabled="true" />
@@ -46318,7 +46313,7 @@
     ************************ RobotProperty ************************
 
 -->
-        <Node Name="RobotProperty" Bounds="318,360" Id="UR90vUeUuMlOqyNC8Rl2Hx">
+        <Node Name="RobotProperty" Bounds="58,150" Id="UR90vUeUuMlOqyNC8Rl2Hx">
           <p:NodeReference>
             <Choice Kind="RecordDefinition" />
           </p:NodeReference>
@@ -46433,7 +46428,7 @@
                 <Pin Id="PmMUueaQwbhNOYhprbt6iL" Name="Input" Kind="StateInputPin" />
                 <Pin Id="DeHYa2umSCWN9Gbz6B4FWY" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="458,189,83,26" Id="JqcxyXzDsWEPRT456sHUtK">
+              <Node Bounds="458,320,83,26" Id="JqcxyXzDsWEPRT456sHUtK">
                 <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -46462,7 +46457,7 @@
               </Node>
               <Pad Id="DfedsOOOFxhNJWWfeGRjGi" SlotId="GTxtYZzURZNNcNp0PBovrA" Bounds="725,270" />
               <Pad Id="Vbn7DGXLk6ZOIS8T3iQ5FI" SlotId="VuFXdxURKgONueBAF9YvQa" Bounds="580,270" />
-              <Pad Id="P3mLl0OSc2xPKyBhQoAUvo" SlotId="Oyh4eOaFj3uQKJCpgC2W4L" Bounds="460,270" />
+              <Pad Id="P3mLl0OSc2xPKyBhQoAUvo" SlotId="Oyh4eOaFj3uQKJCpgC2W4L" Bounds="460,370" />
               <Pad Id="B0Eq3LnWOxRMHJck8pKgRd" SlotId="EtA87xOr52jNpv4X6LQxUh" Bounds="323,270" />
               <Pad Id="EJzmIxpEp7HMUgUSA3DpDW" SlotId="GESAmQLkpjXO1k4rUK4wQ4" Bounds="182,270" />
               <Node Bounds="1232,191,83,26" Id="FVy94N15mucQZclOoITHBS">
@@ -46487,12 +46482,23 @@
                 <Pin Id="Qh87vPq9AyTNrUukFZSl2C" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="JEYEfXtm3k0P95VWqfTLkW" Name="Data" Kind="OutputPin" />
               </Node>
+              <Node Bounds="458,290,60,19" Id="UVRMAzRlJGoQDezJCiVvcR">
+                <p:NodeReference LastCategoryFullName="Stride.API.Core.Utils" LastDependency="VL.Stride.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="AvoidNull" />
+                </p:NodeReference>
+                <Pin Id="HfcSdgndZQ6LNKECw0FYdW" Name="Input" Kind="InputPin" />
+                <Pin Id="UFVqyubs5NnLBt8KMDNbKj" Name="Create Default Value" Kind="InputPin" />
+                <Pin Id="JTrjSpDQNaxNrSH6KhWffL" Name="Output" Kind="OutputPin" />
+              </Node>
+              <ControlPoint Id="J5HC3e8VFddQFOGj7NIp28" Bounds="872,420" />
             </Canvas>
             <Patch Id="UqasQ1ec9xaMZkbClWLHH8" Name="Create">
               <Pin Id="DtPTtZ3YavyNoUjAvId4cb" Name="Input" Kind="InputPin" />
             </Patch>
             <ProcessDefinition Id="C6sAHI0is0XNCMP954eYqF" IsHidden="true">
               <Fragment Id="MxU9bwY49V6O3ihJnKMYk6" Patch="UqasQ1ec9xaMZkbClWLHH8" Enabled="true" />
+              <Fragment Id="Dnawf6JeoKZPAl4SkyzZA1" Patch="ADay7U8xdq2QXcbgwX1FSK" />
             </ProcessDefinition>
             <Link Id="NTEKylNbqwvMHnR4wzDNTj" Ids="CQgl35ZyXDWNZfOl895u6i,MrCgTG3tln5Qc8siZj7alv" />
             <Link Id="Jda1kRJLntpNIA1kULHWVJ" Ids="DtPTtZ3YavyNoUjAvId4cb,CQgl35ZyXDWNZfOl895u6i" IsHidden="true" />
@@ -46502,7 +46508,6 @@
             <Link Id="CsbaWlyAEqHLsg4cb3W9xo" Ids="UGnAYhiP4UPP8jS7OsPfE8,TegEnNDRqLsMqrF0E7VaE0" />
             <Link Id="VZfCRW7qYhCPTY2XQODwuS" Ids="CQgl35ZyXDWNZfOl895u6i,IgbACTnPa9JLC4hvziUKuG" />
             <Link Id="MHAulIQbV79LLm9oZ4OHat" Ids="UeuS71l6dE9NlewdepVGZp,PmMUueaQwbhNOYhprbt6iL" />
-            <Link Id="CJyKfPg3nOfNvMkcMXWSHy" Ids="BiF5MOg5qXdLvHyT8ZAzqH,Vy0kRIUTuwJQQudIhtG8h2" />
             <Link Id="DO7mPaJkYg9LIXBHz2thCw" Ids="CQgl35ZyXDWNZfOl895u6i,ML6E8yunouXNqXi6XS3qhl" />
             <Link Id="Q4Bo8ZpcCXYQVkB3NrfOyQ" Ids="CQgl35ZyXDWNZfOl895u6i,REsK0zv3S2TPR9UM7Sf5qc" />
             <Link Id="Gpl3NMTIrJ2MWqKCy591Wy" Ids="RIdpsycJzkRQMTTo7zN3NP,Jb4yt4w9uqNNMr3gHIO04O" />
@@ -46528,8 +46533,117 @@
             <Link Id="RAhnpvEvQeWOsqljrsvy3S" Ids="TBBN4JWkJSpNoZ5a993sY0,DzJ2HwN2vnzPYAlugkVPZs" />
             <Link Id="CibHjK3MhC4QPNqf98dGxC" Ids="TBBN4JWkJSpNoZ5a993sY0,JuQdp5T3NtQPASlgXh5i2a" />
             <Link Id="EPFygN4DTd1LDjdBQlY35z" Ids="TBBN4JWkJSpNoZ5a993sY0,FuFnRPGMEWEQWjMkiVZEJM" />
+            <Link Id="Duug543FKz2OTLhG1CdrmE" Ids="BiF5MOg5qXdLvHyT8ZAzqH,HfcSdgndZQ6LNKECw0FYdW" />
+            <Link Id="B8tsugxLpm9LlbcOknrbAe" Ids="JTrjSpDQNaxNrSH6KhWffL,Vy0kRIUTuwJQQudIhtG8h2" />
+            <Link Id="T82jRgqAXfRLPgz6solac6" Ids="EGFlnAVS37fOSjuKYMN0t6,J5HC3e8VFddQFOGj7NIp28" />
+            <Link Id="DowIMJLijVnPrkCb1YSNE2" Ids="J5HC3e8VFddQFOGj7NIp28,L8oy93trkL9PkgumssYbnN" IsHidden="true" />
+            <Patch Id="ADay7U8xdq2QXcbgwX1FSK" Name="Split">
+              <Pin Id="L8oy93trkL9PkgumssYbnN" Name="Axis Speed" Kind="OutputPin" />
+            </Patch>
           </Patch>
         </Node>
+        <!--
+
+    ************************ RobotAssembly ************************
+
+-->
+        <Node Name="RobotAssembly" Bounds="58,210" Id="QaCr1FQ6ExGLslFT7nHJBc">
+          <p:NodeReference>
+            <Choice Kind="ContainerDefinition" />
+          </p:NodeReference>
+          <Patch Id="TjMWgEFTVPTLfD3HLT1oF9">
+            <Canvas Id="A2rXShwNaaZMgbljjJfp2C" CanvasType="Group" />
+            <Patch Id="U793vFcTy8xOVBQfWZCKI5" Name="Create" />
+            <Patch Id="Tee1qsS6wXtOOFecOvgaHT" Name="Update" />
+            <ProcessDefinition Id="DmmcjL9aiWFL2Hu7YLj0Pv">
+              <Fragment Id="MAMSQ0FvFQDNQGAaAYJqvH" Patch="U793vFcTy8xOVBQfWZCKI5" Enabled="true" />
+              <Fragment Id="QmZHdHb80X1QBmPF1sBvd4" Patch="Tee1qsS6wXtOOFecOvgaHT" Enabled="true" />
+            </ProcessDefinition>
+          </Patch>
+        </Node>
+        <Canvas Id="IdCgwOlYzTKPE83zxfLqSz" Name="Robots" Position="440,150">
+          <Canvas Id="Je4q4LvMdK4MhMLacVNpoI" Name="KUKA" Position="207,230">
+            <!--
+
+    ************************ KUKA_KR1000 ************************
+
+-->
+            <Node Name="KUKA_KR1000" Bounds="114,221" Id="DPKw7dQD6BZMlqm5QM75di">
+              <p:NodeReference>
+                <Choice Kind="ContainerDefinition" />
+              </p:NodeReference>
+              <Patch Id="QNsaNUmDB2mMgNSfIMGc1k">
+                <Canvas Id="SPZzVmqwyN1PLBFI6cGDJL" CanvasType="Group">
+                  <Node Bounds="112,117,92,119" Id="TfT4Tbpb7A9M5h6aKfCJ4g">
+                    <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                      <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                      <CategoryReference Kind="Category" Name="Primitive" />
+                      <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+                    </p:NodeReference>
+                    <Pin Id="MuV5tEbizfgLWmnHFSe6cp" Name="Force" Kind="InputPin" />
+                    <Pin Id="OSCGvEFwse9Lpr2iZa2dBD" Name="Dispose Cached Outputs" Kind="InputPin" />
+                    <Pin Id="D5dmZV2wwAGMAJPB0sgdsu" Name="Has Changed" Kind="OutputPin" />
+                    <Patch Id="TKGqzr6JLefPfdjAsfhZrF" ManuallySortedPins="true">
+                      <Patch Id="TlsK5dRVgLQLWJoxu1RUTY" Name="Create" ManuallySortedPins="true" />
+                      <Patch Id="CPMrGtVQdXZMNr4ZfyLsmS" Name="Then" ManuallySortedPins="true" />
+                      <Node Bounds="124,140,68,26" Id="IouaQjEa5eXNWpMZvUpGlo">
+                        <p:NodeReference LastCategoryFullName="PRC.Library.Robots.KUKA.KUKA_KR1000" LastDependency="PRC.Library.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="AssemblyCategory" Name="Robots" />
+                          <CategoryReference Kind="AssemblyCategory" Name="KUKA" />
+                          <CategoryReference Kind="AssemblyCategory" Name="KUKA_KR1000" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                        </p:NodeReference>
+                        <Pin Id="EqxHtna8TeaLFBZPBTpuSM" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                      <Node Bounds="124,190,67,26" Id="E5n47SkK7UXPEiEJrJoNm3">
+                        <p:NodeReference LastCategoryFullName="Main.ParametricRobotControl.RobotProperty" LastDependency="VL.Bunraku.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="RecordType" Name="RobotProperty" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                        </p:NodeReference>
+                        <Pin Id="Vcaj79vSOdNOUaxQltDnAU" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                        <Pin Id="MuE6VXxCTXGONt9FjcLhzu" Name="Input" Kind="InputPin" />
+                        <Pin Id="OYR12fRrRyNMaWF6u3ysbG" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                    </Patch>
+                    <ControlPoint Id="REyl8agGg0aOaWnSQZI8VF" Bounds="126,230" Alignment="Bottom" />
+                  </Node>
+                  <ControlPoint Id="D8rYSw2E9W6LJ54W8qpm89" Bounds="126,280" />
+                  <Node Bounds="112,80,54,19" Id="Fhtz9t9YVkGNEAFSJlEpDG">
+                    <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+                    </p:NodeReference>
+                    <Pin Id="Pqscas4BbqxLp7lgZMIq39" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                    <Pin Id="QHBdXZH043rP9H3hshyRgJ" Name="Simulate" Kind="InputPin" />
+                    <Pin Id="LWR3RrIpbRhPMBvj4hVtha" Name="Output" Kind="OutputPin" />
+                  </Node>
+                </Canvas>
+                <Patch Id="S84vPspl9RHNYNgwRyHvTe" Name="Create" />
+                <Patch Id="SS29pNqJop6LUnVEVvCo6o" Name="Update">
+                  <Pin Id="ErftLmouPzaLbSFNU3JMAN" Name="Output" Kind="OutputPin" />
+                </Patch>
+                <!--
+
+    ************************  ************************
+
+-->
+                <ProcessDefinition Id="E5G9RU1z6aZLXKqgkOxEFW">
+                  <Fragment Id="IdXo9sBmUeMNKF9ITCF8Du" Patch="S84vPspl9RHNYNgwRyHvTe" Enabled="true" />
+                  <Fragment Id="Ddu5qs7Tsg8NUTMan2dAtM" Patch="SS29pNqJop6LUnVEVvCo6o" Enabled="true" />
+                </ProcessDefinition>
+                <Link Id="IO0zr4oilpOPCxABOPUDL8" Ids="D8rYSw2E9W6LJ54W8qpm89,ErftLmouPzaLbSFNU3JMAN" IsHidden="true" />
+                <Link Id="GI36Wp8LnYOLYDSof3YNjh" Ids="LWR3RrIpbRhPMBvj4hVtha,MuV5tEbizfgLWmnHFSe6cp" />
+                <Link Id="BQyRKhuHMjbNgX201pZbqw" Ids="EqxHtna8TeaLFBZPBTpuSM,MuE6VXxCTXGONt9FjcLhzu" />
+                <Link Id="Lr3GMY7pG88LSZNLaAnHnK" Ids="OYR12fRrRyNMaWF6u3ysbG,REyl8agGg0aOaWnSQZI8VF" />
+                <Link Id="E8tv7XixBiRMNJ6MGFIWPd" Ids="REyl8agGg0aOaWnSQZI8VF,D8rYSw2E9W6LJ54W8qpm89" />
+              </Patch>
+            </Node>
+          </Canvas>
+          <Canvas Id="LV2j9gIxOWJLA6VpEmLu9d" Name="ABB" Position="208,270" BordersChecked="false" />
+          <Canvas Id="IeGSdh6xqF4MdHi9VJmdb3" Name="UniversalRobots" Position="209,310" BordersChecked="false" />
+        </Canvas>
       </Canvas>
     </Canvas>
     <!--
