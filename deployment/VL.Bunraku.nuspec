@@ -14,10 +14,17 @@
     <repository type="git" url="https://github.com/baxtan/VL.Bunraku" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Robot control, real-time simulation, and collaborative interaction for creative and artistic contexts.</description>
-    <tags>VL, Robotics, PRC, KUKA, Spot, BostonDynamics</tags>
+    <tags>VL, Robotics, ParametricRobotControl, PRC, KUKA, Spot, BostonDynamics</tags>
     <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
+    <dependencies>
+      <dependency id="PRC.Core" version="1.749.0" />
+      <dependency id="PRC.GRPC" version="1.749.0" />
+      <dependency id="PRC.Library" version="1.749.0" />
+      <dependency id="PRC.Server" version="1.749.0" />
+      <dependency id="PRC.Server.Bundle" version="1.749.0" />
+    </dependencies>
   </metadata>
 
   <files>
