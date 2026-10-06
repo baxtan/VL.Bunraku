@@ -14,6 +14,9 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
     - name: Git Checkout
       uses: actions/checkout@main
@@ -27,6 +30,12 @@ jobs:
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v2.0.0
 
+    - name: NuGet login (Trusted Publishing)
+      uses: NuGet/login@v1
+      id: login
+      with:
+        user: anamirbast
+
     - name: Publish VL Nuget
       uses: vvvv/PublishVLNuget@1.0.43
       with:
@@ -37,5 +46,5 @@ jobs:
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
         
-        # Provide the nuget key. See: https://thegraybook.vvvv.org/reference/extending/publishing.html#getting-a-nugetorg-api-key
-        nuget-key: ${{ secrets.NUGET_KEY }}
+        # Short-lived key issued by nuget.org Trusted Publishing
+        nuget-key: ${{ steps.login.outputs.NUGET_API_KEY }}
