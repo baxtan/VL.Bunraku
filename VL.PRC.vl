@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LxbyA0WW9IvO7ALJ3vJtSu" LanguageVersion="2026.8.0-0158-gda117bc374" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="C8IEwxxuPz3MQo6LrsznQm" LanguageVersion="2026.8.0-0158-gda117bc374" Version="0.128">
   <NugetDependency Id="TFIRM6jSYY7OvIy47ZDHjw" Location="VL.CoreLib" />
   <Patch Id="Otpp5ogWOEEL2eNaOVsMJT">
     <Canvas Id="R3slPW9dhJwLONuOiI4mYl" DefaultCategory="ParametricRobotControl" CanvasType="FullCategory">
@@ -8,7 +8,7 @@
     ************************ VisualizePRCRobot ************************
 
 -->
-      <Node Name="VisualizePRCRobot" Bounds="77,490" Id="TLRH38jMTOIPjRAGAK6GJS">
+      <Node Name="VisualizePRCRobot" Bounds="77,380" Id="TLRH38jMTOIPjRAGAK6GJS">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -63,7 +63,7 @@
     ************************ SetupRobotTask ************************
 
 -->
-      <Node Name="SetupRobotTask" Bounds="627,210" Id="QGUIQIkI5mxPJ9uNF9YzdK">
+      <Node Name="SetupRobotTask" Bounds="525,240" Id="QGUIQIkI5mxPJ9uNF9YzdK">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -303,7 +303,7 @@
     ************************ CreatePTPMotionGroup ************************
 
 -->
-      <Node Name="CreatePTPMotionGroup" Bounds="853,1020" Id="FOz7FrjkHLUPsQyWfSveLK">
+      <Node Name="CreatePTPMotionGroup" Bounds="593,680" Id="FOz7FrjkHLUPsQyWfSveLK">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -628,7 +628,7 @@
     ************************ CreateJointTraget ************************
 
 -->
-      <Node Name="CreateJointTraget" Bounds="853,970" Id="Aiem6cN7iT0LrRFUDTzZQ5">
+      <Node Name="CreateJointTraget" Bounds="593,630" Id="Aiem6cN7iT0LrRFUDTzZQ5">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -730,7 +730,7 @@
     ************************ CreateCartesianPosition ************************
 
 -->
-      <Node Name="CreateCartesianPosition" Bounds="853,1061" Id="BIXp5gf1yi9MXdmGYLp5S3">
+      <Node Name="CreateCartesianPosition" Bounds="593,721" Id="BIXp5gf1yi9MXdmGYLp5S3">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -1610,7 +1610,7 @@
     ************************ OpenPRCServer ************************
 
 -->
-      <Node Name="OpenPRCServer" Bounds="320,50" Id="EgAyfDrxpEhP1RPi2VlPg0">
+      <Node Name="OpenPRCServer" Bounds="322,140" Id="EgAyfDrxpEhP1RPi2VlPg0">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -1714,7 +1714,7 @@
     ************************ RobotProperty ************************
 
 -->
-      <Node Name="RobotProperty" Bounds="132,160" Id="JnSSdBBghnmM8KO3FnB5vV">
+      <Node Name="RobotProperty" Bounds="77,240" Id="JnSSdBBghnmM8KO3FnB5vV">
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
@@ -1991,7 +1991,7 @@
     ************************ RobotClientFeedback ************************
 
 -->
-      <Node Name="RobotClientFeedback" Bounds="325,290" Id="HZL8cH1CztyQIgyuLvZ9Q1">
+      <Node Name="RobotClientFeedback" Bounds="322,280" Id="HZL8cH1CztyQIgyuLvZ9Q1">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -2198,7 +2198,7 @@
     ************************ ClientTaskFeedback ************************
 
 -->
-      <Node Name="ClientTaskFeedback" Bounds="627,250" Id="OI6sno5qtCcPXCXQFoyB6K">
+      <Node Name="ClientTaskFeedback" Bounds="525,280" Id="OI6sno5qtCcPXCXQFoyB6K">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -2386,7 +2386,7 @@
     ************************ RobotClient ************************
 
 -->
-      <Node Name="RobotClient" Bounds="325,250" Id="GSXRFPJrszeOucnR4r7y3a">
+      <Node Name="RobotClient" Bounds="322,240" Id="GSXRFPJrszeOucnR4r7y3a">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -2713,7 +2713,7 @@
           <Link Id="OESFRjDSbDbNoQXgsW2u0r" Ids="KOdOfPvdgQGMD74dlgSSai,EJCpdG590LsQK7kLZdSs6e" />
         </Patch>
       </Node>
-      <Canvas Id="SGRUTX8kq2KMxGUJuLbOFM" Name="Robots" Position="131,60">
+      <Canvas Id="SGRUTX8kq2KMxGUJuLbOFM" Name="Robots" Position="71,100">
         <Canvas Id="P2UVQ2gMTjeNA9m96q8rx5" Name="KUKA" Position="62,90">
           <!--
 
@@ -2835,7 +2835,7 @@
     ************************ KUKA_KR1000 ************************
 
 -->
-          <Node Name="KUKA_KR1000" Bounds="38,60" Id="E6659R0iGimLKKVE9dc6yS">
+          <Node Name="KUKA_KR1000" Aspects="Internal" Bounds="38,60" Id="E6659R0iGimLKKVE9dc6yS">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -2950,7 +2950,7 @@
     ************************ KUKA_KR100120P2 ************************
 
 -->
-          <Node Name="KUKA_KR100120P2" Bounds="38,100" Id="MxL5YkWxgYaMeOvBLPwfRH">
+          <Node Name="KUKA_KR100120P2" Aspects="Internal" Bounds="38,100" Id="MxL5YkWxgYaMeOvBLPwfRH">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3065,7 +3065,7 @@
     ************************ KUKA_KR10R11003 ************************
 
 -->
-          <Node Name="KUKA_KR10R11003" Bounds="38,140" Id="RqF3uodVGhIQZ12qnx02cK">
+          <Node Name="KUKA_KR10R11003" Aspects="Internal" Bounds="38,140" Id="RqF3uodVGhIQZ12qnx02cK">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3180,7 +3180,7 @@
     ************************ KUKA_KR10R1420 ************************
 
 -->
-          <Node Name="KUKA_KR10R1420" Bounds="38,180" Id="Tm1MbBuhQjdLBF9y5Pv4TT">
+          <Node Name="KUKA_KR10R1420" Aspects="Internal" Bounds="38,180" Id="Tm1MbBuhQjdLBF9y5Pv4TT">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3295,7 +3295,7 @@
     ************************ KUKA_KR10R14402 ************************
 
 -->
-          <Node Name="KUKA_KR10R14402" Bounds="38,220" Id="U97qrVVVSA9PgaC9s9X1h9">
+          <Node Name="KUKA_KR10R14402" Aspects="Internal" Bounds="38,220" Id="U97qrVVVSA9PgaC9s9X1h9">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3410,7 +3410,7 @@
     ************************ KUKA_KR120KR150R31002 ************************
 
 -->
-          <Node Name="KUKA_KR120KR150R31002" Bounds="38,260" Id="I5mb5ZMHHxgNOa5xugE3qG">
+          <Node Name="KUKA_KR120KR150R31002" Aspects="Internal" Bounds="38,260" Id="I5mb5ZMHHxgNOa5xugE3qG">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3525,7 +3525,7 @@
     ************************ KUKA_KR120KR210R2700 ************************
 
 -->
-          <Node Name="KUKA_KR120KR210R2700" Bounds="38,300" Id="PKhPvRvi6vANQQHQDsly8s">
+          <Node Name="KUKA_KR120KR210R2700" Aspects="Internal" Bounds="38,300" Id="PKhPvRvi6vANQQHQDsly8s">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3640,7 +3640,7 @@
     ************************ KUKA_KR120R1800 ************************
 
 -->
-          <Node Name="KUKA_KR120R1800" Bounds="38,340" Id="Ia3KDxa5A0zOyUaWqBoPN5">
+          <Node Name="KUKA_KR120R1800" Aspects="Internal" Bounds="38,340" Id="Ia3KDxa5A0zOyUaWqBoPN5">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3755,7 +3755,7 @@
     ************************ KUKA_KR120R3900K ************************
 
 -->
-          <Node Name="KUKA_KR120R3900K" Bounds="38,380" Id="TKxF6IW1CnUN68O6vdBx5z">
+          <Node Name="KUKA_KR120R3900K" Aspects="Internal" Bounds="38,380" Id="TKxF6IW1CnUN68O6vdBx5z">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3870,7 +3870,7 @@
     ************************ KUKA_KR120R3900K2 ************************
 
 -->
-          <Node Name="KUKA_KR120R3900K2" Bounds="38,420" Id="K5Y1T29ROiQN4o4nic4zfZ">
+          <Node Name="KUKA_KR120R3900K2" Aspects="Internal" Bounds="38,420" Id="K5Y1T29ROiQN4o4nic4zfZ">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -3985,7 +3985,7 @@
     ************************ KUKA_KR125200 ************************
 
 -->
-          <Node Name="KUKA_KR125200" Bounds="38,460" Id="BncFjVpCRcYPmLkQaEzQBV">
+          <Node Name="KUKA_KR125200" Aspects="Internal" Bounds="38,460" Id="BncFjVpCRcYPmLkQaEzQBV">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4100,7 +4100,7 @@
     ************************ KUKA_KR12KR20R1810 ************************
 
 -->
-          <Node Name="KUKA_KR12KR20R1810" Bounds="38,500" Id="HXeuwfqkWqqP7jwQkqJ7Ps">
+          <Node Name="KUKA_KR12KR20R1810" Aspects="Internal" Bounds="38,500" Id="HXeuwfqkWqqP7jwQkqJ7Ps">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4215,7 +4215,7 @@
     ************************ KUKA_KR13R9003 ************************
 
 -->
-          <Node Name="KUKA_KR13R9003" Bounds="38,540" Id="R8BWU2cmmULO0WMLsvauC6">
+          <Node Name="KUKA_KR13R9003" Aspects="Internal" Bounds="38,540" Id="R8BWU2cmmULO0WMLsvauC6">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4330,7 +4330,7 @@
     ************************ KUKA_KR150240L110180 ************************
 
 -->
-          <Node Name="KUKA_KR150240L110180" Bounds="38,580" Id="AyiUETqvACBOZkkQXEFo5X">
+          <Node Name="KUKA_KR150240L110180" Aspects="Internal" Bounds="38,580" Id="AyiUETqvACBOZkkQXEFo5X">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4445,7 +4445,7 @@
     ************************ KUKA_KR180KR240R29002 ************************
 
 -->
-          <Node Name="KUKA_KR180KR240R29002" Bounds="38,620" Id="Nm9J4KQQLmqLF6jlFhdPwJ">
+          <Node Name="KUKA_KR180KR240R29002" Aspects="Internal" Bounds="38,620" Id="Nm9J4KQQLmqLF6jlFhdPwJ">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4560,7 +4560,7 @@
     ************************ KUKA_KR180R3500K2 ************************
 
 -->
-          <Node Name="KUKA_KR180R3500K2" Bounds="38,660" Id="UbWeAQ0f1E3LRtkbm4Cdpx">
+          <Node Name="KUKA_KR180R3500K2" Aspects="Internal" Bounds="38,660" Id="UbWeAQ0f1E3LRtkbm4Cdpx">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4675,7 +4675,7 @@
     ************************ KUKA_KR200comp ************************
 
 -->
-          <Node Name="KUKA_KR200comp" Bounds="38,700" Id="Fo11ZelUHnRQakYlZBWl8J">
+          <Node Name="KUKA_KR200comp" Aspects="Internal" Bounds="38,700" Id="Fo11ZelUHnRQakYlZBWl8J">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -4905,7 +4905,7 @@
     ************************ KUKA_KR210KR240R2700 ************************
 
 -->
-          <Node Name="KUKA_KR210KR240R2700" Bounds="38,780" Id="GBEDQDAD7eUPijBy9bcuSz">
+          <Node Name="KUKA_KR210KR240R2700" Aspects="Internal" Bounds="38,780" Id="GBEDQDAD7eUPijBy9bcuSz">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5020,7 +5020,7 @@
     ************************ KUKA_KR210R31002 ************************
 
 -->
-          <Node Name="KUKA_KR210R31002" Bounds="38,820" Id="NPqpDjuptheOkHGdfFkr6v">
+          <Node Name="KUKA_KR210R31002" Aspects="Internal" Bounds="38,820" Id="NPqpDjuptheOkHGdfFkr6v">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5135,7 +5135,7 @@
     ************************ KUKA_KR210R3300K ************************
 
 -->
-          <Node Name="KUKA_KR210R3300K" Bounds="289,61" Id="RU30rz1gvQBM4y0X3VHrIN">
+          <Node Name="KUKA_KR210R3300K" Aspects="Internal" Bounds="289,61" Id="RU30rz1gvQBM4y0X3VHrIN">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5250,7 +5250,7 @@
     ************************ KUKA_KR22R1610 ************************
 
 -->
-          <Node Name="KUKA_KR22R1610" Bounds="289,101" Id="F4hbPIEqoWgO78N8NqHMZM">
+          <Node Name="KUKA_KR22R1610" Aspects="Internal" Bounds="289,101" Id="F4hbPIEqoWgO78N8NqHMZM">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5365,7 +5365,7 @@
     ************************ KUKA_KR250KR300R27002 ************************
 
 -->
-          <Node Name="KUKA_KR250KR300R27002" Bounds="289,141" Id="GqcV0Ld1JL5NdIvPw5WpmC">
+          <Node Name="KUKA_KR250KR300R27002" Aspects="Internal" Bounds="289,141" Id="GqcV0Ld1JL5NdIvPw5WpmC">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5480,7 +5480,7 @@
     ************************ KUKA_KR3060 ************************
 
 -->
-          <Node Name="KUKA_KR3060" Bounds="289,181" Id="Mx6EcsD4A7ON5VNi7FEVE9">
+          <Node Name="KUKA_KR3060" Aspects="Internal" Bounds="289,181" Id="Mx6EcsD4A7ON5VNi7FEVE9">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5595,7 +5595,7 @@
     ************************ KUKA_KR3070R2100 ************************
 
 -->
-          <Node Name="KUKA_KR3070R2100" Bounds="289,221" Id="Rwutd6ahLIaN0izy7iQQtQ">
+          <Node Name="KUKA_KR3070R2100" Aspects="Internal" Bounds="289,221" Id="Rwutd6ahLIaN0izy7iQQtQ">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5710,7 +5710,7 @@
     ************************ KUKA_KR30L16 ************************
 
 -->
-          <Node Name="KUKA_KR30L16" Bounds="289,261" Id="GJclYKOY2EUOxYL1TklHNd">
+          <Node Name="KUKA_KR30L16" Aspects="Internal" Bounds="289,261" Id="GJclYKOY2EUOxYL1TklHNd">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5825,7 +5825,7 @@
     ************************ KUKA_KR3605002 ************************
 
 -->
-          <Node Name="KUKA_KR3605002" Bounds="289,301" Id="R7zHSuhu83pM765msz39cB">
+          <Node Name="KUKA_KR3605002" Aspects="Internal" Bounds="289,301" Id="R7zHSuhu83pM765msz39cB">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -5940,7 +5940,7 @@
     ************************ KUKA_KR3R540 ************************
 
 -->
-          <Node Name="KUKA_KR3R540" Bounds="289,341" Id="KrMHO1e8zIkOUgk6qovQXb">
+          <Node Name="KUKA_KR3R540" Aspects="Internal" Bounds="289,341" Id="KrMHO1e8zIkOUgk6qovQXb">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6055,7 +6055,7 @@
     ************************ KUKA_KR480R3330 ************************
 
 -->
-          <Node Name="KUKA_KR480R3330" Bounds="289,381" Id="RYiVSWPavl3OmRzEZiz3Lb">
+          <Node Name="KUKA_KR480R3330" Aspects="Internal" Bounds="289,381" Id="RYiVSWPavl3OmRzEZiz3Lb">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6170,7 +6170,7 @@
     ************************ KUKA_KR4R600 ************************
 
 -->
-          <Node Name="KUKA_KR4R600" Bounds="289,421" Id="CZ0MwreZyLWLQW7dY0JpaK">
+          <Node Name="KUKA_KR4R600" Aspects="Internal" Bounds="289,421" Id="CZ0MwreZyLWLQW7dY0JpaK">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6285,7 +6285,7 @@
     ************************ KUKA_KR50R25002 ************************
 
 -->
-          <Node Name="KUKA_KR50R25002" Bounds="289,501" Id="KF4uO4EaUMlNzKQoMA8lUd">
+          <Node Name="KUKA_KR50R25002" Aspects="Internal" Bounds="289,501" Id="KF4uO4EaUMlNzKQoMA8lUd">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6400,7 +6400,7 @@
     ************************ KUKA_KR50R2500CRW ************************
 
 -->
-          <Node Name="KUKA_KR50R2500CRW" Bounds="289,541" Id="KngzBzsiDVWPFC277s470J">
+          <Node Name="KUKA_KR50R2500CRW" Aspects="Internal" Bounds="289,541" Id="KngzBzsiDVWPFC277s470J">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6515,7 +6515,7 @@
     ************************ KUKA_KR5arcHW ************************
 
 -->
-          <Node Name="KUKA_KR5arcHW" Bounds="289,581" Id="AukHszwcdjaPKsYa0Ox8t2">
+          <Node Name="KUKA_KR5arcHW" Aspects="Internal" Bounds="289,581" Id="AukHszwcdjaPKsYa0Ox8t2">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6630,7 +6630,7 @@
     ************************ KUKA_KR600R2830 ************************
 
 -->
-          <Node Name="KUKA_KR600R2830" Bounds="289,621" Id="NDWfYLqqEDHNQEwmn7KRfT">
+          <Node Name="KUKA_KR600R2830" Aspects="Internal" Bounds="289,621" Id="NDWfYLqqEDHNQEwmn7KRfT">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6745,7 +6745,7 @@
     ************************ KUKA_KR610R1100 ************************
 
 -->
-          <Node Name="KUKA_KR610R1100" Bounds="289,661" Id="Ohb54KbuyILNlqCN1y7KNd">
+          <Node Name="KUKA_KR610R1100" Aspects="Internal" Bounds="289,661" Id="Ohb54KbuyILNlqCN1y7KNd">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6860,7 +6860,7 @@
     ************************ KUKA_KR610R11002 ************************
 
 -->
-          <Node Name="KUKA_KR610R11002" Bounds="289,701" Id="F1csiQ5thIpPirltkBp0n2">
+          <Node Name="KUKA_KR610R11002" Aspects="Internal" Bounds="289,701" Id="F1csiQ5thIpPirltkBp0n2">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -6975,7 +6975,7 @@
     ************************ KUKA_KR610R900 ************************
 
 -->
-          <Node Name="KUKA_KR610R900" Bounds="289,740" Id="IFb4rC5RiuSOfxbWurvK5D">
+          <Node Name="KUKA_KR610R900" Aspects="Internal" Bounds="289,740" Id="IFb4rC5RiuSOfxbWurvK5D">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7090,7 +7090,7 @@
     ************************ KUKA_KR610R9002 ************************
 
 -->
-          <Node Name="KUKA_KR610R9002" Bounds="289,780" Id="TdEUKcGvEuxMiUasUwQk80">
+          <Node Name="KUKA_KR610R9002" Aspects="Internal" Bounds="289,780" Id="TdEUKcGvEuxMiUasUwQk80">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7205,7 +7205,7 @@
     ************************ KUKA_KR61620 ************************
 
 -->
-          <Node Name="KUKA_KR61620" Bounds="289,820" Id="RAKJdzDoJ1FPqTpvJux3fK">
+          <Node Name="KUKA_KR61620" Aspects="Internal" Bounds="289,820" Id="RAKJdzDoJ1FPqTpvJux3fK">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7320,7 +7320,7 @@
     ************************ KUKA_KR616Arc ************************
 
 -->
-          <Node Name="KUKA_KR616Arc" Bounds="540,60" Id="TeKGzAqBN4lMBEP3xvfAQ0">
+          <Node Name="KUKA_KR616Arc" Aspects="Internal" Bounds="540,60" Id="TeKGzAqBN4lMBEP3xvfAQ0">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7435,7 +7435,7 @@
     ************************ KUKA_KR6R1820 ************************
 
 -->
-          <Node Name="KUKA_KR6R1820" Bounds="540,100" Id="K35SLA2aT8gMcvABgrO8b2">
+          <Node Name="KUKA_KR6R1820" Aspects="Internal" Bounds="540,100" Id="K35SLA2aT8gMcvABgrO8b2">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7550,7 +7550,7 @@
     ************************ KUKA_KR6R18402 ************************
 
 -->
-          <Node Name="KUKA_KR6R18402" Bounds="540,140" Id="OnrFkTu3UboN3Ivczb6n0F">
+          <Node Name="KUKA_KR6R18402" Aspects="Internal" Bounds="540,140" Id="OnrFkTu3UboN3Ivczb6n0F">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7665,7 +7665,7 @@
     ************************ KUKA_KR6R700 ************************
 
 -->
-          <Node Name="KUKA_KR6R700" Bounds="540,180" Id="G6WXXbNRKcpLVITXW8reQm">
+          <Node Name="KUKA_KR6R700" Aspects="Internal" Bounds="540,180" Id="G6WXXbNRKcpLVITXW8reQm">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7780,7 +7780,7 @@
     ************************ KUKA_KR6R7002 ************************
 
 -->
-          <Node Name="KUKA_KR6R7002" Bounds="540,220" Id="D9Rm31KRcrvMEfXEKdTp1L">
+          <Node Name="KUKA_KR6R7002" Aspects="Internal" Bounds="540,220" Id="D9Rm31KRcrvMEfXEKdTp1L">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -7895,7 +7895,7 @@
     ************************ KUKA_KR70R21002 ************************
 
 -->
-          <Node Name="KUKA_KR70R21002" Bounds="540,259" Id="UqQG8WDdiE8ODIJ3J26z7I">
+          <Node Name="KUKA_KR70R21002" Aspects="Internal" Bounds="540,259" Id="UqQG8WDdiE8ODIJ3J26z7I">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8010,7 +8010,7 @@
     ************************ KUKA_KR800R28002 ************************
 
 -->
-          <Node Name="KUKA_KR800R28002" Bounds="540,300" Id="KVnzPc6dsQ9OgqMZROFKaC">
+          <Node Name="KUKA_KR800R28002" Aspects="Internal" Bounds="540,300" Id="KVnzPc6dsQ9OgqMZROFKaC">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8125,7 +8125,7 @@
     ************************ KUKA_KR816R20102 ************************
 
 -->
-          <Node Name="KUKA_KR816R20102" Bounds="540,340" Id="M3uO4Sz7CM9ODpTus8w74t">
+          <Node Name="KUKA_KR816R20102" Aspects="Internal" Bounds="540,340" Id="M3uO4Sz7CM9ODpTus8w74t">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8240,7 +8240,7 @@
     ************************ KUKA_KR8R14402ArcHW ************************
 
 -->
-          <Node Name="KUKA_KR8R14402ArcHW" Bounds="540,380" Id="JXlcmoZILysN2MgRS5Euuo">
+          <Node Name="KUKA_KR8R14402ArcHW" Aspects="Internal" Bounds="540,380" Id="JXlcmoZILysN2MgRS5Euuo">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8355,7 +8355,7 @@
     ************************ KUKA_KR8R1620 ************************
 
 -->
-          <Node Name="KUKA_KR8R1620" Bounds="540,420" Id="SbS2belpZs7LH7wzHKB7Jw">
+          <Node Name="KUKA_KR8R1620" Aspects="Internal" Bounds="540,420" Id="SbS2belpZs7LH7wzHKB7Jw">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8470,7 +8470,7 @@
     ************************ KUKA_KR90KR120R2900 ************************
 
 -->
-          <Node Name="KUKA_KR90KR120R2900" Bounds="540,460" Id="F7ERQGqmMggNnLAc4fcDke">
+          <Node Name="KUKA_KR90KR120R2900" Aspects="Internal" Bounds="540,460" Id="F7ERQGqmMggNnLAc4fcDke">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8585,7 +8585,7 @@
     ************************ KUKA_KR90KR150R3700K ************************
 
 -->
-          <Node Name="KUKA_KR90KR150R3700K" Bounds="540,500" Id="R6HZch5PlJKLpduZJ3XQlO">
+          <Node Name="KUKA_KR90KR150R3700K" Aspects="Internal" Bounds="540,500" Id="R6HZch5PlJKLpduZJ3XQlO">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8700,7 +8700,7 @@
     ************************ KUKA_KR90KR270R2500 ************************
 
 -->
-          <Node Name="KUKA_KR90KR270R2500" Bounds="540,540" Id="S5XMsxPjbRGPmglga5aiKr">
+          <Node Name="KUKA_KR90KR270R2500" Aspects="Internal" Bounds="540,540" Id="S5XMsxPjbRGPmglga5aiKr">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8815,7 +8815,7 @@
     ************************ KUKA_KR90KR270R2700 ************************
 
 -->
-          <Node Name="KUKA_KR90KR270R2700" Bounds="540,580" Id="C0gj5aRhmuHObumukpc9gG">
+          <Node Name="KUKA_KR90KR270R2700" Aspects="Internal" Bounds="540,580" Id="C0gj5aRhmuHObumukpc9gG">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -8930,7 +8930,7 @@
     ************************ KUKA_KR90KR270R3100 ************************
 
 -->
-          <Node Name="KUKA_KR90KR270R3100" Bounds="540,620" Id="VfJoXaq3X3vPjoW5iKxo3D">
+          <Node Name="KUKA_KR90KR270R3100" Aspects="Internal" Bounds="540,620" Id="VfJoXaq3X3vPjoW5iKxo3D">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -11933,7 +11933,7 @@
     ************************ RobotAssembly ************************
 
 -->
-      <Node Name="RobotAssembly" Bounds="132,210" Id="GgeMSQzf9CdNEBtuCjQ8Bx">
+      <Node Name="RobotAssembly" Bounds="77,280" Id="GgeMSQzf9CdNEBtuCjQ8Bx">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -12041,7 +12041,7 @@
     ************************ RobotState ************************
 
 -->
-      <Node Name="RobotState" Bounds="821,250" Id="JpkREWUmDm4PZlYrxqvidA">
+      <Node Name="RobotState" Bounds="719,280" Id="JpkREWUmDm4PZlYrxqvidA">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -12205,7 +12205,7 @@
     ************************ GetRobotState ************************
 
 -->
-      <Node Name="GetRobotState" Bounds="325,160" Id="AWjI8vBY2QeQBKy2f2QlhX">
+      <Node Name="GetRobotState" Bounds="719,320" Id="AWjI8vBY2QeQBKy2f2QlhX">
         <p:NodeReference>
           <Choice Kind="ClassDefinition" Name="Class" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -12780,7 +12780,7 @@
     ************************ DrawRobot ************************
 
 -->
-      <Node Name="DrawRobot" Bounds="77,530" Id="Q7nqHLT1YUsLWKI3WIJRHY">
+      <Node Name="DrawRobot" Bounds="77,420" Id="Q7nqHLT1YUsLWKI3WIJRHY">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -13385,7 +13385,7 @@
     ************************ RequestMachinData ************************
 
 -->
-      <Node Name="RequestMachinData" Bounds="817,210" Id="Pk3mjj55ymcN9qBqHDu98J">
+      <Node Name="RequestMachinData" Bounds="715,240" Id="Pk3mjj55ymcN9qBqHDu98J">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -13540,7 +13540,7 @@
     ************************ IRobot ************************
 
 -->
-      <Node Name="IRobot" Bounds="132,120" Id="B5RPGUMJK6jMNfLsylo1s5">
+      <Node Name="IRobot" Bounds="77,190" Id="B5RPGUMJK6jMNfLsylo1s5">
         <p:NodeReference>
           <Choice Kind="InterfaceDefinition" />
         </p:NodeReference>
@@ -13576,17 +13576,13 @@
     ************************ RunPRCServer ************************
 
 -->
-      <Node Name="RunPRCServer" Bounds="499,50" Id="V7q3O4Qm6CON3ZT1y57ZMK">
+      <Node Name="RunPRCServer" Bounds="322,100" Id="V7q3O4Qm6CON3ZT1y57ZMK">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
         <Patch Id="VA8EchGyf2POGUwNRdNv4D">
           <Canvas Id="QkaUXyM0WaDNP6Ds7d0Cg5" CanvasType="Group">
-<<<<<<< HEAD
-            <Node Bounds="269,220,91,26" Id="DPK3dHsqSXaLiBVzAWVEc9">
-=======
             <Node Bounds="78,40,91,26" Id="DPK3dHsqSXaLiBVzAWVEc9">
->>>>>>> prc-sync
               <p:NodeReference LastCategoryFullName="PRC.Server.Bundle.SharedBundledServer" LastDependency="PRC.Server.Bundle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="SharedBundledServer" />
@@ -13595,13 +13591,8 @@
               <Pin Id="Gd8gn1ibnZxQaTiIVrquMo" Name="Enabled" Kind="InputPin" />
               <Pin Id="Jc462LkE9ASMAhOYbWS1bf" Name="Output" Kind="StateOutputPin" />
             </Node>
-<<<<<<< HEAD
-            <Pad Id="EbDH4W1DNInQCUfPLrKn3c" SlotId="V78bUoBzTxpOzSU1dv7fUQ" Bounds="271,280" />
-            <Node Bounds="269,350,91,26" Id="PnOri5BOphgPlNqdQYHyUx">
-=======
             <Pad Id="EbDH4W1DNInQCUfPLrKn3c" SlotId="V78bUoBzTxpOzSU1dv7fUQ" Bounds="80,101" />
             <Node Bounds="78,200,91,26" Id="PnOri5BOphgPlNqdQYHyUx">
->>>>>>> prc-sync
               <p:NodeReference LastCategoryFullName="PRC.Server.Bundle.SharedBundledServer" LastDependency="PRC.Server.Bundle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="SharedBundledServer" />
@@ -13612,15 +13603,9 @@
               <Pin Id="ID8nszHcldCP2BQqUoiQTe" Name="Output" Kind="StateOutputPin" />
               <Pin Id="JDUT8s2RnLlOORq34UmbHR" Name="Result" Kind="OutputPin" />
             </Node>
-<<<<<<< HEAD
-            <ControlPoint Id="CiPQAPmJ9MyP17Z4Px7aHb" Bounds="432,210" />
-            <ControlPoint Id="LiAk0HEjYbSMIXuVz2EGMb" Bounds="357,410" />
-            <Node Bounds="684,349,91,26" Id="GbDHbhaWnv2OgJ2gA70uPL">
-=======
             <ControlPoint Id="CiPQAPmJ9MyP17Z4Px7aHb" Bounds="166,101" />
             <ControlPoint Id="LiAk0HEjYbSMIXuVz2EGMb" Bounds="166,260" />
             <Node Bounds="396,200,91,26" Id="GbDHbhaWnv2OgJ2gA70uPL">
->>>>>>> prc-sync
               <p:NodeReference LastCategoryFullName="PRC.Server.Bundle.SharedBundledServer" LastDependency="PRC.Server.Bundle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="SharedBundledServer" />
@@ -13629,11 +13614,7 @@
               <Pin Id="JfH5QwmlIKKMhNc7cTyUwR" Name="Input" Kind="StateInputPin" />
               <Pin Id="MDLoGlOOzl4NPKkHXQAuU4" Name="Output" Kind="StateOutputPin" />
             </Node>
-<<<<<<< HEAD
-            <Node Bounds="555,349,91,26" Id="ARRiUbqmF6WMZy8fwVdrhF">
-=======
             <Node Bounds="289,200,91,26" Id="ARRiUbqmF6WMZy8fwVdrhF">
->>>>>>> prc-sync
               <p:NodeReference LastCategoryFullName="PRC.Server.Bundle.SharedBundledServer" LastDependency="PRC.Server.Bundle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="SharedBundledServer" />
@@ -13643,13 +13624,8 @@
               <Pin Id="FOzzHNIjgTnNafg9F5Jklf" Name="Output" Kind="StateOutputPin" />
               <Pin Id="DADSTvst5ZdOT7Ph4GMdTP" Name="Error" Kind="OutputPin" />
             </Node>
-<<<<<<< HEAD
-            <ControlPoint Id="JMoYF9yEUu3MPGJIqkYnVC" Bounds="643,410" />
-            <Node Bounds="408,350,91,26" Id="MTxsjX2JHh7N2LIb6IAqQn">
-=======
             <ControlPoint Id="JMoYF9yEUu3MPGJIqkYnVC" Bounds="377,260" />
             <Node Bounds="183,200,91,26" Id="MTxsjX2JHh7N2LIb6IAqQn">
->>>>>>> prc-sync
               <p:NodeReference LastCategoryFullName="PRC.Server.Bundle.SharedBundledServer" LastDependency="PRC.Server.Bundle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="SharedBundledServer" NeedsToBeDirectParent="true" />
@@ -13659,11 +13635,7 @@
               <Pin Id="TUikekcjWiOPVjCNdqOGHl" Name="Output" Kind="StateOutputPin" />
               <Pin Id="K0JIpjrSHI0LyijdH4KAYc" Name="Started Here" Kind="OutputPin" />
             </Node>
-<<<<<<< HEAD
-            <ControlPoint Id="I8G7UJn7QlfLeyikU0nh4W" Bounds="496,410" />
-=======
             <ControlPoint Id="I8G7UJn7QlfLeyikU0nh4W" Bounds="271,260" />
->>>>>>> prc-sync
             <Node Bounds="-517,20,365,704" Id="Sa5zXJxpqHKQIRzWAPLSrj">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -13832,8 +13804,6 @@
               </Patch>
               <Pin Id="ATZh3ZnJkKKMiU6WgFU7zk" Name="Node Context" Kind="InputPin" IsHidden="true" />
             </Node>
-<<<<<<< HEAD
-=======
             <Node Bounds="603,190,86,19" Id="NUv9DDxHepxQdusngxCyKe">
               <p:NodeReference LastCategoryFullName="ParametricRobotControl" LastDependency="VL.PRC.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -13843,7 +13813,6 @@
               <Pin Id="BTReCnlw7tFOxSAP0zJQk3" Name="OpenOnBrowser" Kind="InputPin" />
             </Node>
             <ControlPoint Id="LZrTLW1yKcbNL6GnDP3Awx" Bounds="605,119" />
->>>>>>> prc-sync
           </Canvas>
           <Patch Id="H5ptbqJtU0yNFVI7nP36NM" Name="Create" ParticipatingElements="DPK3dHsqSXaLiBVzAWVEc9" />
           <Patch Id="CExa8iuX9m2LxLwEzrd0H2" Name="Update">
@@ -13851,10 +13820,7 @@
             <Pin Id="QPflKO3TcXzPjU66h44mIZ" Name="IsReady" Kind="OutputPin" />
             <Pin Id="CDuFJVGDaKNQTwSI9U7bWz" Name="Started Here" Kind="OutputPin" />
             <Pin Id="EopPorPCVYhLDDEiXSzVZt" Name="Error" Kind="OutputPin" />
-<<<<<<< HEAD
-=======
             <Pin Id="TJxYsjCCJzeNnNmwhhp6Ou" Name="OpenOnBrowser" Kind="InputPin" />
->>>>>>> prc-sync
           </Patch>
           <ProcessDefinition Id="Ia6ofifPxGUOOs6CkX1eQV">
             <Fragment Id="EYEp0aqRsViQVfVvKhlKom" Patch="H5ptbqJtU0yNFVI7nP36NM" Enabled="true" />
@@ -13898,11 +13864,8 @@
           <Link Id="BCIb7ohF5FCLcIjVYP63O2" Ids="OAKM0Hwy5HiN6i5dzbiE0a,Tx7PXLmYXWeN99OmjDn93H" />
           <Link Id="B6lUl6Xl3dbMmCt9gQi2hO" Ids="RTWKKwSJ7tiP3G0BcDiGyE,BDdynqwPtOlPD88Aa6uV5Y" />
           <Link Id="VuaAubyiwV9MTMixC6wsEH" Ids="O0Eg6jDHpjOMNx4bhDyVxe,VMP6pqPTOsJNwk1xUbnNWH" />
-<<<<<<< HEAD
-=======
           <Link Id="NoicFQYFfRbNUZKN4CDYXG" Ids="LZrTLW1yKcbNL6GnDP3Awx,BTReCnlw7tFOxSAP0zJQk3" />
           <Link Id="Lc7vupE3kqfNqQpzrQgiSc" Ids="TJxYsjCCJzeNnNmwhhp6Ou,LZrTLW1yKcbNL6GnDP3Awx" IsHidden="true" />
->>>>>>> prc-sync
         </Patch>
       </Node>
     </Canvas>
