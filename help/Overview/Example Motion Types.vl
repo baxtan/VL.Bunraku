@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LdogeJnw3x3LxlHIUbWs4n" LanguageVersion="2026.8.0-0123-gdc6ede5082" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="OWLYVgkZVJPP44VwEwVhR0" LanguageVersion="2026.8.0-0158-gda117bc374" Version="0.128">
   <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" />
   <Patch Id="GauHDHfpdPrOfhfRE2peY6">
     <Canvas Id="Hq17MV1HagjQJc3nQ1OKz8" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -78,7 +78,7 @@
             <Pin Id="McdkWsrk1cXP2BKp0DznmH" Name="Translation" Kind="InputPin" />
             <Pin Id="VWHLlYEKqIHNjLZh19Ydtt" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GgSUVAle7oQM4kXCosUBFR" Comment="Translation" Bounds="344,197,35,43" ShowValueBox="true" isIOBox="true" Value="1.37, 1.66, 0.37">
+          <Pad Id="GgSUVAle7oQM4kXCosUBFR" Comment="Translation" Bounds="344,197,35,43" ShowValueBox="true" isIOBox="true" Value="1.37, 1.26, 0.37">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -195,19 +195,6 @@
             <Pin Id="PUmETLRZbuNQaSbb1X01At" Name="EnableSceneGrid" Kind="InputPin" DefaultValue="False" />
             <Pin Id="PD3xmytXSROMiXDVSednSi" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="471,1020,88,19" Id="MhL8W0eGzPjL9xzbKvGzpS">
-            <p:NodeReference LastCategoryFullName="Main.RobotState" LastDependency="VL.Bunraku.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="RobotState" NeedsToBeDirectParent="true">
-                <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
-              </CategoryReference>
-              <Choice Kind="ProcessAppFlag" Name="RobotVisualizer" />
-            </p:NodeReference>
-            <Pin Id="HI3yfNDy9CeQZNOGFi7GWo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="JugSmoQNdf8NNpLy9FN0wA" Name="Input" Kind="InputPin" />
-            <Pin Id="Us1FBSI7zu3P6paO17zJZt" Name="Settings" Kind="InputPin" />
-            <Pin Id="PQbgMOXkyUXMHBCqpyeeCs" Name="Output" Kind="OutputPin" />
-          </Node>
           <Node Bounds="445,740,76,19" Id="BzH1aDdxccmOsnnI5EeABY">
             <p:NodeReference LastCategoryFullName="Main.Robot.Quantec" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -253,6 +240,19 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="471,1050,88,19" Id="C0zGVSOmgZNLLI2sFwTFqs">
+            <p:NodeReference LastCategoryFullName="Bunraku.RobotState" LastDependency="VL.Bunraku.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="RobotState" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="Bunraku" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="ProcessAppFlag" Name="RobotVisualizer" />
+            </p:NodeReference>
+            <Pin Id="O5r4N6hM50aPaylPOyuoBW" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BRfbuwii827M2xNc2jIkTu" Name="Input" Kind="InputPin" />
+            <Pin Id="GONYtrtJeikPDv5wTbW7Mf" Name="Settings" Kind="InputPin" />
+            <Pin Id="VZw3CG0CpuQQEHTitUdvNo" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Bq5QraSZaMdObZf2TUOzWb" Name="Create" />
         <Patch Id="ViLhW45pbfXMK0orfjEC3M" Name="Update" />
@@ -272,9 +272,6 @@
         <Link Id="N7AqJnhF9Y7LteUAtx7g55" Ids="Is5lOcstatbMVlHosJ6J8C,GTNPkzRh0umNL7uz11smAT" />
         <Link Id="VO5p2xmsvwHL5xI2zKECZt" Ids="ErWspFECy8oPgriKnm6gal,B1vRh5ZHdQAMCpf4kNyS6m" />
         <Link Id="TfvKD3wGhAVOAdwcgQVpJx" Ids="PD3xmytXSROMiXDVSednSi,NwbQdsmNUmKPSClJg9UT15" />
-        <Link Id="DPaXAteyRP4NrwoQJVc7xQ" Ids="Ca5QwdkiE8ZPZqHz03mS0e,JugSmoQNdf8NNpLy9FN0wA" />
-        <Link Id="IqsqZDvBTNIOEqVtq4Xjsl" Ids="PQbgMOXkyUXMHBCqpyeeCs,A9CN7FzGJKVQFHFBrwFHz0" />
-        <Link Id="Kzi3kkAYXPGN5faHcJGnq8" Ids="UZM3P4zaP7bNl8wAYBhRDG,Us1FBSI7zu3P6paO17zJZt" />
         <Link Id="QiX5e1yWYhWLTOL08QgDIH" Ids="BTipHfwLKAVP3VI6MDQ6S7,K1XtYvNfbFpM0khhdmm1gr" />
         <Link Id="Nc5oYmNp9GeOxQ5syUjycj" Ids="JAy7tuToFqbP11cpAVib5r,C1cRQVgPZKLOMIcbdnAMaK" />
         <Link Id="DOTuLWkZYF8LAhyxg6zwmi" Ids="E004aUTuDOfLPg5b6nw7Sc,QFEUnxc99osNHbuf0WyBnJ" />
@@ -282,6 +279,9 @@
         <Link Id="VFcI5N6Lfs6QJy4vmD742D" Ids="OPQ5bGDmViyM7rwiaRtc9k,GWtEeMkq6KLPu2xmRNqmt6" />
         <Link Id="L3uyITBddZAMPAB8SBYHUY" Ids="SZqhy7C5cDjPdrCezJsawr,UQDho8wYcjlPDrA8vBX63w" />
         <Link Id="VtcHfCvJBKqOnBuQY516zy" Ids="BTipHfwLKAVP3VI6MDQ6S7,Obukg6k4KYJLuIxXrugmCN" />
+        <Link Id="AjizBPRVKHkMKiE0XzARW0" Ids="Ca5QwdkiE8ZPZqHz03mS0e,BRfbuwii827M2xNc2jIkTu" />
+        <Link Id="R0Oj130Qsk5MHHaXi1bBHP" Ids="VZw3CG0CpuQQEHTitUdvNo,A9CN7FzGJKVQFHFBrwFHz0" />
+        <Link Id="Q8oc2tGBaO9NdU08OKScGa" Ids="UZM3P4zaP7bNl8wAYBhRDG,GONYtrtJeikPDv5wTbW7Mf" />
       </Patch>
     </Node>
   </Patch>
