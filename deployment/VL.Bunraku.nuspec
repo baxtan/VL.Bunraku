@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Bunraku</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>VL.Bunraku</title>
     <authors>Amir Bastan</authors>
     <projectUrl>https://amirbastan.com/projects/bunraku/</projectUrl>
@@ -14,7 +14,11 @@
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
     <dependencies>
-      <dependency id="VL.PRC" version="1.1.0" />
+      <dependency id="PRC.Core" version="1.749.0" />
+      <dependency id="PRC.GRPC" version="1.749.0" />
+      <dependency id="PRC.Library" version="1.749.0" />
+      <dependency id="PRC.Server" version="1.749.0" />
+      <dependency id="PRC.Server.Bundle" version="1.749.0" />
     </dependencies>
   </metadata>
   <files>
