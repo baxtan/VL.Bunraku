@@ -39241,7 +39241,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1678.8572, 57.142857, 753.1429, 472" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1678.8572, 57.142857, 476, 472" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -48592,56 +48592,7 @@
                 <Pin Id="SSYf5lOFPRVOLaOGKmMW4Z" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="SdNmviPIsrCPRNgjSzCWRF" Name="Cs" Kind="InputPin" />
               </Node>
-              <Node Bounds="307,271,81,26" Id="RqbxwCqpfRULdzxPde7OfJ">
-                <p:NodeReference LastCategoryFullName="PRC.Core.Geometry.CoordinateSystem" LastDependency="PRC.Core.dll" OverloadStrategy="AllPinsThatAreNotCommon">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="CoordinateSystem" />
-                  <CategoryReference Kind="AssemblyCategory" Name="CoordinateSystem" NeedsToBeDirectParent="true">
-                    <p:OuterCategoryReference Kind="AssemblyCategory" Name="Geometry" NeedsToBeDirectParent="true" />
-                  </CategoryReference>
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                  <PinReference Kind="InputPin" Name="Origin" />
-                  <PinReference Kind="InputPin" Name="Vec" />
-                </p:NodeReference>
-                <Pin Id="K3EWXPOIdN0PjZy1GvPyJP" Name="Origin" Kind="InputPin" />
-                <Pin Id="VPzTLemNHTgMVaLgV0R72z" Name="Vec" Kind="InputPin" />
-                <Pin Id="G5sIchERs1wNckfiVfRIhs" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="383,221,46,26" Id="DTuZ9cdsiQzOCzSedNWcyT">
-                <p:NodeReference LastCategoryFullName="System.Numerics.Vector3" LastDependency="System.Numerics.Vectors.dll" OverloadStrategy="AllPinsThatAreNotCommon">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="System" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Numerics" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Vector3" />
-                  <AssemblyReference ID="System.Numerics.Vectors.dll" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                  <PinReference Kind="InputPin" Name="X" />
-                  <PinReference Kind="InputPin" Name="Y" />
-                  <PinReference Kind="InputPin" Name="Z" />
-                </p:NodeReference>
-                <Pin Id="A83wZV3vTSLLrTrLit2uUT" Name="X" Kind="InputPin" />
-                <Pin Id="TIvp26erUPPQVFyTTLFSm0" Name="Y" Kind="InputPin" />
-                <Pin Id="HltpEc3MPYnMRqcs8rp4Xm" Name="Z" Kind="InputPin" />
-                <Pin Id="U4zmKsqnezNLZdYBnQp345" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="307,221,46,26" Id="AmXJThWFk3SOco3tuS3NXL">
-                <p:NodeReference LastCategoryFullName="System.Numerics.Vector3" LastDependency="System.Numerics.Vectors.dll" OverloadStrategy="AllPinsThatAreNotCommon">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="System" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Numerics" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Vector3" />
-                  <AssemblyReference ID="System.Numerics.Vectors.dll" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                  <PinReference Kind="InputPin" Name="X" />
-                  <PinReference Kind="InputPin" Name="Y" />
-                  <PinReference Kind="InputPin" Name="Z" />
-                </p:NodeReference>
-                <Pin Id="Kf6UsIMblPiMRnz2noDD5J" Name="X" Kind="InputPin" />
-                <Pin Id="AbCFgXdAiBRPQR0zA4SZLK" Name="Y" Kind="InputPin" />
-                <Pin Id="JZCG6snGQTnMcRh1GyxsDI" Name="Z" Kind="InputPin" />
-                <Pin Id="VoTHy0gf5DaLt337Vd9ZPU" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="307,181,46,19" Id="FNI1fkMHa0DLEE39THZMIz">
+              <Node Bounds="306,140,46,19" Id="FNI1fkMHa0DLEE39THZMIz">
                 <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Vector3Type" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -48652,7 +48603,7 @@
                 <Pin Id="QUTfWmfBMYeONvtWQ1M6Bm" Name="Y" Kind="OutputPin" />
                 <Pin Id="R8zaQaV30IrOMBlGPjkXSc" Name="Z" Kind="OutputPin" />
               </Node>
-              <Node Bounds="383,181,46,19" Id="Gt1Svwrr8RkPFh2ZnrKsp3">
+              <Node Bounds="367,140,46,19" Id="Gt1Svwrr8RkPFh2ZnrKsp3">
                 <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Vector3Type" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -48664,8 +48615,8 @@
                 <Pin Id="Fykku9DoyTaMgO1ZKmzgd8" Name="Z" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="P68gxAdjXpJM1xuW4HWCOE" Bounds="143,562" />
-              <ControlPoint Id="SR3hbNJblBdOlNoTS6aGqe" Bounds="309,151" />
-              <ControlPoint Id="BuYdSKM5xwwQLe6rPEsoi3" Bounds="385,150" />
+              <ControlPoint Id="SR3hbNJblBdOlNoTS6aGqe" Bounds="308,110" />
+              <ControlPoint Id="BuYdSKM5xwwQLe6rPEsoi3" Bounds="369,110" />
               <Node Bounds="141,401,46,26" Id="C3arsioDIWkMWkLvczw43a">
                 <p:NodeReference LastCategoryFullName="PRC.Core.Commands.Motion.PTP" LastDependency="PRC.Core.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -48742,6 +48693,37 @@
               <ControlPoint Id="KhIRviqqpaEOljqGScAkiI" Bounds="445,341" />
               <Pad Id="OoRH3zIMDZrPfjseyYHONk" Bounds="212,321" />
               <Pad Id="E1KKe1jzVGJO5DHUp0yJEe" Bounds="143,442" />
+              <Node Bounds="307,270,81,26" Id="SA2C8Mrl6zDP3p5mMRKiym">
+                <p:NodeReference LastCategoryFullName="PRC.Core.Geometry.CoordinateSystem" LastDependency="PRC.Core.dll" OverloadStrategy="UserSelectedPins">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="CoordinateSystem" />
+                  <CategoryReference Kind="AssemblyCategory" Name="CoordinateSystem" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="AssemblyCategory" Name="Geometry" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Create" />
+                  <PinReference Kind="InputPin" Name="Euler" />
+                </p:NodeReference>
+                <Pin Id="UmMXyprSlPQOev7NOxT9MR" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="FBwIvzlEOGOMJszBHioqL4" Name="Euler" Kind="InputPin" />
+              </Node>
+              <Node Bounds="307,230,105,26" Id="I52x7eTtGUSN73fvuX0vHq">
+                <p:NodeReference LastCategoryFullName="PRC.Core.Primitives.Euler" LastDependency="PRC.Core.dll" OverloadStrategy="UserSelectedPins">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="Euler" />
+                  <CategoryReference Kind="AssemblyCategory" Name="Euler" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="AssemblyCategory" Name="Primitives" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Create" />
+                  <PinReference Kind="InputPin" Name="X" />
+                </p:NodeReference>
+                <Pin Id="MYwUeEzAfv7Pd6ZcR25K96" Name="X" Kind="InputPin" />
+                <Pin Id="DsEaAnDq0zeNOUEsJRpIuh" Name="Y" Kind="InputPin" />
+                <Pin Id="VBKeNrSCANuQHKmYBj0JgE" Name="Z" Kind="InputPin" />
+                <Pin Id="CQjIZ5onP0HLQ2xjEVR2iS" Name="A" Kind="InputPin" />
+                <Pin Id="RZ7BLXjXko2Nw5MalVsjue" Name="B" Kind="InputPin" />
+                <Pin Id="VXLHWAKJn3BM05A1k6q12M" Name="C" Kind="InputPin" />
+                <Pin Id="K7qeZ2CMcGcPm4xrLWLkLS" Name="Output" Kind="StateOutputPin" />
+              </Node>
             </Canvas>
             <Patch Id="EwsNLncktXANXWACsfx74I" Name="Create" ParticipatingElements="C3arsioDIWkMWkLvczw43a,RsuUdI6u1lOLEhsaAURCgg" />
             <Patch Id="Agq7ZucTuzNNmtVmppQSbW" Name="Update">
@@ -48755,13 +48737,6 @@
               <Fragment Id="SKtwWCSr3WKMnyDD4G8DGH" Patch="EwsNLncktXANXWACsfx74I" Enabled="true" />
               <Fragment Id="DRLOXdZnXnFNvoJaaGeHyk" Patch="Agq7ZucTuzNNmtVmppQSbW" Enabled="true" />
             </ProcessDefinition>
-            <Link Id="UnoMto6CtTkLqVIn8NxXib" Ids="G5sIchERs1wNckfiVfRIhs,SdNmviPIsrCPRNgjSzCWRF" />
-            <Link Id="QXkiswuW0qbLJV0mtUVl69" Ids="U4zmKsqnezNLZdYBnQp345,VPzTLemNHTgMVaLgV0R72z" />
-            <Link Id="CbOzLPpIXyYOJJyOnsh01q" Ids="VoTHy0gf5DaLt337Vd9ZPU,K3EWXPOIdN0PjZy1GvPyJP" />
-            <Link Id="Ueeo3NnBI8aPNLQ1eJLXNE" Ids="N1GT9cloTfiNqC1por1Zm3,TIvp26erUPPQVFyTTLFSm0" />
-            <Link Id="BCZPH7tnGoEMCIPYIVfEIm" Ids="R7ltLc8F891PRR2cfMkjDv,Kf6UsIMblPiMRnz2noDD5J" />
-            <Link Id="TRBKwEPckZSMB4LcLslyqb" Ids="QUTfWmfBMYeONvtWQ1M6Bm,AbCFgXdAiBRPQR0zA4SZLK" />
-            <Link Id="FWEEs4zpGaBMvm1Xfg0pvi" Ids="R8zaQaV30IrOMBlGPjkXSc,JZCG6snGQTnMcRh1GyxsDI" />
             <Link Id="QE2fZAm2rE3OOPmnAz4SXX" Ids="P68gxAdjXpJM1xuW4HWCOE,TK7vGFyWFN5LvmQjp8Ptit" IsHidden="true" />
             <Link Id="LgaqenBiHCUNhunYHNMJKv" Ids="SR3hbNJblBdOlNoTS6aGqe,Q9QNDtkAe5nMV5Hffo6Ppp" />
             <Link Id="A5bLlLB2KvENvkyj3LevDM" Ids="BuYdSKM5xwwQLe6rPEsoi3,FtAkiLMuA5ENGVWlcbCio2" />
@@ -48780,8 +48755,14 @@
             <Link Id="JxUDZ5bWTWALjMCIwrHksp" Ids="E6gsXGdnlQ9QGi4Olj2qFA,KhIRviqqpaEOljqGScAkiI" IsHidden="true" />
             <Link Id="RQKeg6jKfNGNVxhcGNccyI" Ids="OoRH3zIMDZrPfjseyYHONk,Udm7KP8OtyPOeZ4YfLx3qe" />
             <Link Id="LDEaudX7lJTN9b4Uw8AAeZ" Ids="E1KKe1jzVGJO5DHUp0yJEe,SwJ5eJt8fION76c5rfm1YZ" />
-            <Link Id="PxgIU5AQ91jOdU2MJatNB1" Ids="SQ5RvPu2SarOVNS0UZxVHc,A83wZV3vTSLLrTrLit2uUT" />
-            <Link Id="E4rgtbKH12dPzyDKDIxfRW" Ids="Fykku9DoyTaMgO1ZKmzgd8,HltpEc3MPYnMRqcs8rp4Xm" />
+            <Link Id="OffCN7y6ZXcLBPt6eHnxrj" Ids="K7qeZ2CMcGcPm4xrLWLkLS,FBwIvzlEOGOMJszBHioqL4" />
+            <Link Id="FOyl7VQoSbPPkPvGYDhoB1" Ids="R7ltLc8F891PRR2cfMkjDv,MYwUeEzAfv7Pd6ZcR25K96" />
+            <Link Id="T0Pe4EWo1onMEJPzKQC0pN" Ids="QUTfWmfBMYeONvtWQ1M6Bm,DsEaAnDq0zeNOUEsJRpIuh" />
+            <Link Id="JN3elTNTojZMeMtqE3081E" Ids="R8zaQaV30IrOMBlGPjkXSc,VBKeNrSCANuQHKmYBj0JgE" />
+            <Link Id="KsHzCBbiZSNMBNkKc67Qgz" Ids="SQ5RvPu2SarOVNS0UZxVHc,CQjIZ5onP0HLQ2xjEVR2iS" />
+            <Link Id="AhGvTT4waIUQXg0ouJleiZ" Ids="N1GT9cloTfiNqC1por1Zm3,RZ7BLXjXko2Nw5MalVsjue" />
+            <Link Id="ClVsNWNgpqnN3IIRduaRzL" Ids="Fykku9DoyTaMgO1ZKmzgd8,VXLHWAKJn3BM05A1k6q12M" />
+            <Link Id="EJc9yVvnX48Pt32K8RMGrl" Ids="UmMXyprSlPQOev7NOxT9MR,SdNmviPIsrCPRNgjSzCWRF" />
           </Patch>
         </Node>
         <!--
