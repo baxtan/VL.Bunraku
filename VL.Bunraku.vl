@@ -39241,7 +39241,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1678.8572, 57.142857, 476, 472" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="762.2857, 79.42857, 870.2857, 804.5714" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -48137,7 +48137,7 @@
             <Link Id="RW5QZvOMm0wPREjv3kHfO2" Ids="AcpFxU8DoDEPscWcR5JrAC,VKN8fEpRUftL6sD4nFY2PX" />
             <Link Id="F1Gtm85kDePPdqC0DPOVX8" Ids="RHLkbo07Ic7M2nNGFQbXzi,Doa8v80XjUiPuSNZeFw3ym" />
             <Link Id="LGF2aYHrduUOnyp3ZSzdOp" Ids="RHLkbo07Ic7M2nNGFQbXzi,PWowszgZx0aPxDcggjbqrB" />
-            <Link Id="JyXmk6vWBiPNuVeNH9Rvup" Ids="E7Gw4E3gD7DLfPs2ef2CPs,Ang2gNUfOu9MsUHRKGGhkg" />
+            <Link Id="JVsWZLfbPAbQLPYBf5cd9o" Ids="E7Gw4E3gD7DLfPs2ef2CPs,Ang2gNUfOu9MsUHRKGGhkg" />
           </Patch>
         </Node>
         <!--
@@ -59972,6 +59972,7 @@
                     </p:NodeReference>
                     <Pin Id="SYydPGDTnCXP7mKxd0DXG7" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="CIHbb4rXIIFPFJ9A5sEKib" Name="Input" Kind="InputPin" />
+                    <Pin Id="R68MYbptogZM88fzzZZP4W" Name="UpdateRobotState" Kind="InputPin" />
                     <Pin Id="FHGM013SNogNpf03GPvZdz" Name="Simulation State" Kind="InputPin" />
                     <Pin Id="KnSqidcHsl7LajMvLDazJs" Name="Client" Kind="OutputPin" />
                     <Pin Id="IzxDpRJ6qmNLF8icd21bAk" Name="RobotProperty" Kind="OutputPin" />
@@ -60016,6 +60017,7 @@
               <Pad Id="HQc7bbyhaL3MddCKG67pQK" SlotId="QPFmbrLLPuyOT2eRj4witU" Bounds="159,390" />
               <Pad Id="AjMK3nBkb6BM5AeE7xSlKE" SlotId="AfhYy80iWb3QcllFlG9acu" Bounds="249,390" />
               <Pad Id="IgOAFhagIiyOa1Yw6HPD3h" SlotId="J6ZWeoTLOLLMa7b50Qj51t" Bounds="338,390" />
+              <ControlPoint Id="TdcwRy4oP9KLPMjNGeqxf5" Bounds="249,90" />
             </Canvas>
             <Patch Id="AcWFbl4Hf5ROoGxllEZ2tM" Name="Create" />
             <Patch Id="T9J85WcWdJTMRDqNXjuxQh" Name="Update">
@@ -60025,6 +60027,7 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="DRkf5fWNV2NLOgVKmFheZ2" Name="Task" Kind="InputPin" />
+              <Pin Id="HfjNZGup7LeNNgBmoh18nD" Name="UpdateRobotState" Kind="InputPin" />
               <Pin Id="SKWehRv8hKsN4PZUzlA5jD" Name="Simulation State" Kind="InputPin" />
               <Pin Id="Vn5029ojdjYNujHuWT0GL7" Name="TaskFeedbackMessage" Kind="OutputPin" />
               <Pin Id="MuZRhWQYX4iOE7583LTGdX" Name="Code" Kind="OutputPin" />
@@ -60078,6 +60081,8 @@
               <Pin Id="Fc08sABUAHoP6975WEq6w8" Name="RobotProperty" Kind="OutputPin" />
               <Pin Id="PP8gbCnnzoTL55xDEufyXr" Name="RobotState" Kind="OutputPin" />
             </Patch>
+            <Link Id="KgAe7faNwWhMdcdpHLppb4" Ids="TdcwRy4oP9KLPMjNGeqxf5,R68MYbptogZM88fzzZZP4W" />
+            <Link Id="KuotdtuSB9RLYnbVssZkSs" Ids="HfjNZGup7LeNNgBmoh18nD,TdcwRy4oP9KLPMjNGeqxf5" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -60261,7 +60266,7 @@
                   </Node>
                 </Patch>
               </Node>
-              <Pad Id="Mkazxg5DJUZP9WxsaM1Hts" Comment="Condition" Bounds="249,270,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+              <Pad Id="Mkazxg5DJUZP9WxsaM1Hts" Comment="Condition" Bounds="249,270,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -60282,6 +60287,7 @@
               <ControlPoint Id="INDzq0IXjGALnUdSnDYkEo" Bounds="643,741" />
               <ControlPoint Id="SCVb7M2baXEMtnQxqhyjqT" Bounds="145,731" />
               <ControlPoint Id="BfLe38P97x4LPYoznhIl9Y" Bounds="125,291" />
+              <ControlPoint Id="C1KvkAWjdplNyWeOuvfFFa" Bounds="249,90" />
             </Canvas>
             <Patch Id="INHtQ3cGCMpNzWp82305RC" Name="Create" />
             <Patch Id="AzSgtiVUgtrPQx1GouSiee" Name="Update">
@@ -60290,6 +60296,7 @@
                   <Choice Kind="TypeFlag" Name="IRobot" />
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="BFZeoLvzJEzQHUsu3VYLXg" Name="UpdateRobotState" Kind="InputPin" />
               <Pin Id="JbJNnK5uZTlMmQLIDoIf9J" Name="Simulation State" Kind="InputPin" />
               <Pin Id="RT2SU1LxIwDPWO6dVvfjBf" Name="Client" Kind="OutputPin" />
               <Pin Id="FoIvDncnDy1L2P0nhvej7W" Name="RobotProperty" Kind="OutputPin" />
@@ -60319,7 +60326,6 @@
             <Link Id="TRBKe3NDqFZP7pZR6EsADr" Ids="GklC1QUVbIaLVwM6qwgNkZ,Ny2KWE2DzRRQakdeU9l05I" />
             <Link Id="P5alPYzNh0oORiL4kHZZ2m" Ids="ST3UtXvLLRDLm9ePfN7fsJ,TfTyvIXkcLaQT69wuvx3oW" />
             <Link Id="DTgtx2keLPrNnzYcy77eN4" Ids="OnLkTSSHoFRMoBOZWhE4ba,BydcYpEVp2cOOd1NDdni6C" />
-            <Link Id="BkhHdvzgtKXMkhWZ9aQl9d" Ids="Mkazxg5DJUZP9WxsaM1Hts,QJSmqIRQcHZL5Jp682oaZ5" />
             <Link Id="BJgdkxqYYn0MgLAoPMVmH4" Ids="IBegDoifHJYOiCfQIUv5P4,FrNQPMKJH4AMCtWMJGm4mf" />
             <Link Id="OkE7eho5aJYMKJmu2HBn8b" Ids="AJhy9KC8taHP4b4mRi9Fes,VnBfFRr73D0N44DXz0cRoP" />
             <Link Id="G78iR5vSvY2PxrlKS8DH7i" Ids="TmFLpnIXzcNLfIZjg3xXoa,JvNzAlpmSsRNsGJEgUotJh" />
@@ -60331,6 +60337,8 @@
             <Link Id="I8CWLyF5IRGM5YqXzqT7xw" Ids="SCVb7M2baXEMtnQxqhyjqT,FoIvDncnDy1L2P0nhvej7W" IsHidden="true" />
             <Link Id="SWxgqxnoQSaNYR7ezw6s4z" Ids="BfLe38P97x4LPYoznhIl9Y,RT2SU1LxIwDPWO6dVvfjBf" IsHidden="true" />
             <Link Id="AQLBiwA3YbVN2x8aBbBk7f" Ids="TmFLpnIXzcNLfIZjg3xXoa,BfLe38P97x4LPYoznhIl9Y" />
+            <Link Id="DjxnBH2vkgyNSqXv050N68" Ids="C1KvkAWjdplNyWeOuvfFFa,QJSmqIRQcHZL5Jp682oaZ5" />
+            <Link Id="UYDV5FA8c4FObmvMtLYnSd" Ids="BFZeoLvzJEzQHUsu3VYLXg,C1KvkAWjdplNyWeOuvfFFa" IsHidden="true" />
           </Patch>
         </Node>
         <!--
