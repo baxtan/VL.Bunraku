@@ -1,6 +1,8 @@
 
 # Bunraku
 
+![alt text](bunraku.png)
+
 **Bunraku** is an ongoing project by [Amir Bastan](https://amirbastan.com/) exploring robot control, real-time simulation, and collaborative interaction in creative and artistic contexts. A visual live programming tool, developed for artists, designers, and creative coders, it provides an experimental space for working with robotic movement outside of purely industrial applications.
 
 Rather than treating robots as rigid tools for automation, Bunraku approaches them as dynamic, responsive, and performative entities. The framework allows for live interaction, networked collaboration, and alternative input methods, making it particularly suited for multimedia installations, performances, and research into non-utilitarian robotics.
