@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2026.8.0-0186-g5862c1d22a" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2026.8.0-0322-g9f75078316" Version="0.128">
   <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" />
   <Patch Id="SWgnOE0qyZAL8x0tTWxYn3">
     <Canvas Id="NsWyQ2QdGT7NGrW5Ey63h9" DefaultCategory="Bunraku" CanvasType="FullCategory">
@@ -39241,7 +39241,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="989.1429, 79.42857, 643.4286, 804.5714" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1584, 67, 855, 804" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -47530,7 +47530,7 @@
           </p:NodeReference>
           <Patch Id="B3IvSnxT5X5NeuQ7GC1q3c">
             <Canvas Id="B9BdP9bptbBNqdcXiEcIGz" CanvasType="Group">
-              <Node Bounds="116,170,66,19" Id="T5JyTFph382NmBRDfSJ8tE">
+              <Node Bounds="74,370,66,19" Id="T5JyTFph382NmBRDfSJ8tE">
                 <p:NodeReference LastCategoryFullName="ParametricRobotControl" LastDependency="PRC.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="DrawRobot" />
@@ -47539,8 +47539,8 @@
                 <Pin Id="GjdAHgJE6E8PYdUKZAw4Ht" Name="Input" Kind="InputPin" />
                 <Pin Id="EgT6pz0zy5pNDH2czRY3ve" Name="Output" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="LfdnsReyZJNMifoHgXPKzy" Bounds="118,261" />
-              <Node Bounds="267,170,99,19" Id="GIIu84GM8JuM9LbVQSZrWB">
+              <ControlPoint Id="LfdnsReyZJNMifoHgXPKzy" Bounds="216,510" />
+              <Node Bounds="849,390,99,19" Id="GIIu84GM8JuM9LbVQSZrWB">
                 <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="LoadRobotMeshes" />
@@ -47549,7 +47549,7 @@
                 <Pin Id="SkNr3Q55AueMh53KNLZ8uf" Name="Input" Kind="InputPin" />
                 <Pin Id="OB4UN5jvf1aQXr8ySt78MV" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="553,310,79,19" Id="RxE068OyhOMMDREiRJ8dLh">
+              <Node Bounds="1135,530,79,19" Id="RxE068OyhOMMDREiRJ8dLh">
                 <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="LastOrDefault" />
@@ -47559,7 +47559,7 @@
                 <Pin Id="SP4qkUuiW8YNLr0AJCqs1e" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="FGdFdD92mhzQQPV75Zz7p2" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="568,418,185,19" Id="HmxLGaTREPpL7NZiD7UKeI">
+              <Node Bounds="1150,638,185,19" Id="HmxLGaTREPpL7NZiD7UKeI">
                 <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="PointLight" />
@@ -47579,7 +47579,7 @@
                 <Pin Id="BUO4CVEQGS7OvgMJEgHBc7" Name="Entity" Kind="OutputPin" />
                 <Pin Id="GTPjYTbLBkPQAJ5iq9ORaI" Name="Show Helper" Kind="InputPin" IsHidden="true" />
               </Node>
-              <Node Bounds="568,390,64,19" Id="BzgEdneQZ2MPxJDgdz4PiR">
+              <Node Bounds="1150,610,64,19" Id="BzgEdneQZ2MPxJDgdz4PiR">
                 <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -47589,12 +47589,12 @@
                 <Pin Id="CsFBi3NQdWMMEiBg4zjgiH" Name="Transform" Kind="InputPin" />
                 <Pin Id="HvZROhEIpLVPuwrmrGBHfQ" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="JY12tbJPNZPOd1VF6ulZxk" Comment="" Bounds="570,344,35,43" ShowValueBox="true" isIOBox="true" Value="0.49, 0, 0">
+              <Pad Id="JY12tbJPNZPOd1VF6ulZxk" Comment="" Bounds="1152,564,35,43" ShowValueBox="true" isIOBox="true" Value="0.49, 0, 0">
                 <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Vector3" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="247,80,85,19" Id="KZxrztvbXRUORnu9fTKBr8">
+              <Node Bounds="829,300,85,19" Id="KZxrztvbXRUORnu9fTKBr8">
                 <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessNode" Name="RobotMaterials" />
@@ -47607,7 +47607,7 @@
                 <Pin Id="DF2canlreJFMYdwymnl3If" Name="XRayColor" Kind="InputPin" DefaultValue="0.56608015, 0.5452001, 0.5800001, 1" />
                 <Pin Id="B9h0VW6U0D7L93sDVc8loX" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="318,410,126,19" Id="CSolJmQTnZuQZWzOQ1RkOn">
+              <Node Bounds="900,630,126,19" Id="CSolJmQTnZuQZWzOQ1RkOn">
                 <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessNode" Name="DrawRobotBoundingBox" />
@@ -47618,7 +47618,7 @@
                 <Pin Id="G9eQqvRMYCfM3XYLlTDC1q" Name="Enable" Kind="InputPin" />
                 <Pin Id="AdlQHSGN29sOwuMf2uHJV8" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="143,110,109,19" Id="RD7afKE7ssKPBLDERUxoRn">
+              <Node Bounds="725,330,109,19" Id="RD7afKE7ssKPBLDERUxoRn">
                 <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessNode" Name="DrawRobotAxisLimit" />
@@ -47628,7 +47628,7 @@
                 <Pin Id="IwvInGo1aAKNWAYmQXY3Vj" Name="Conditions" Kind="InputPin" />
                 <Pin Id="GE9dgj8DRNRO3htiU6tgOS" Name="Material" Kind="InputPin" />
               </Node>
-              <Node Bounds="254,0,205,26" Id="QS5fyY1Y0DmOBHngvoxGPD">
+              <Node Bounds="836,220,205,26" Id="QS5fyY1Y0DmOBHngvoxGPD">
                 <p:NodeReference LastCategoryFullName="Bunraku.Visulization.VisualizationSettings" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="VisualizationSettings" />
@@ -47647,7 +47647,7 @@
                 <Pin Id="RUvKAsMlj8iNPhG40Dy1P2" Name="FlangGimbal" Kind="OutputPin" />
                 <Pin Id="HUCp6lhC2dMP9XygXnD0yN" Name="BaseGimbal" Kind="OutputPin" />
               </Node>
-              <Node Bounds="648,380,125,19" Id="LxbLcCzJ42mMMnm1Zwj38H">
+              <Node Bounds="1230,600,125,19" Id="LxbLcCzJ42mMMnm1Zwj38H">
                 <p:NodeReference LastCategoryFullName="Stride.Lights.ShadowMaps" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessNode" Name="LightPointShadowMap" />
@@ -47661,12 +47661,12 @@
                 <Pin Id="JGsAygICv8NMrSrSTJSWWQ" Name="Enabled" Kind="InputPin" DefaultValue="False" />
                 <Pin Id="HUEe1pP1XvcNuRPzgGGd6X" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="GCEllcWqQkDNX2tabQRNbd" Comment="Size" Bounds="690,330,67,15" ShowValueBox="true" isIOBox="true" Value="XSmall">
+              <Pad Id="GCEllcWqQkDNX2tabQRNbd" Comment="Size" Bounds="1272,550,67,15" ShowValueBox="true" isIOBox="true" Value="XSmall">
                 <p:TypeAnnotation LastCategoryFullName="Stride.Rendering.Lights" LastDependency="VL.Stride.vl">
                   <Choice Kind="TypeFlag" Name="LightShadowMapSize" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="929,260,129,102" Id="EqmQEmxeoiFLYsFrNG0aNj">
+              <Node Bounds="1511,480,129,102" Id="EqmQEmxeoiFLYsFrNG0aNj">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -47679,7 +47679,7 @@
                   <Patch Id="O8Od72ia93xLMP6O1GwUAk" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Vf5ZCsc3dFVPzgfpL4v7l8" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="GEpC3JeNk0NLERRo4qxQlb" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="941,323,105,19" Id="PCgWMzlCp42NzctukdIN6t">
+                  <Node Bounds="1523,543,105,19" Id="PCgWMzlCp42NzctukdIN6t">
                     <p:NodeReference LastCategoryFullName="Bunraku.Utilities" LastDependency="bunraku.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="Gimbal" />
@@ -47693,7 +47693,7 @@
                     <Pin Id="BNV9fk5wUuJMZb8yzAdx1W" Name="Depth Buffer Enable" Kind="InputPin" DefaultValue="True" />
                     <Pin Id="A7oJsDND1S6PcaojQ8QBUt" Name="Enabled" Kind="InputPin" DefaultValue="True" />
                   </Node>
-                  <Node Bounds="941,283,86,26" Id="N9hvuHs8urhPYZFK7vRaoc">
+                  <Node Bounds="1523,503,86,26" Id="N9hvuHs8urhPYZFK7vRaoc">
                     <p:NodeReference LastCategoryFullName="Bunraku.State.RobotDynamicState" LastDependency="VL.Bunraku.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="RecordType" Name="RobotDynamicState" NeedsToBeDirectParent="true" />
@@ -47705,9 +47705,9 @@
                   </Node>
                 </Patch>
                 <Pin Id="CM3dxa5YdGXO66DN0iZq6B" Name="Reset" Kind="InputPin" IsHidden="true" />
-                <ControlPoint Id="QF3y7HqCDLjNWtyDZgJt1O" Bounds="943,356" Alignment="Bottom" />
+                <ControlPoint Id="QF3y7HqCDLjNWtyDZgJt1O" Bounds="1525,576" Alignment="Bottom" />
               </Node>
-              <Node Bounds="921,420,85,19" Id="ONRPS7iH69KMA1v7zi0vXQ">
+              <Node Bounds="1503,640,85,19" Id="ONRPS7iH69KMA1v7zi0vXQ">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -47721,7 +47721,7 @@
                 <Pin Id="VHM8nfDqGSNMQjdm7Ieimh" Name="Enabled" Kind="InputPin" />
                 <Pin Id="NswnvPs4yAgNmswtIyTapP" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1144,270,129,95" Id="CmyRBe3GbK3QGftwYNNJXq">
+              <Node Bounds="1726,490,129,95" Id="CmyRBe3GbK3QGftwYNNJXq">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -47734,7 +47734,7 @@
                   <Patch Id="GXVI5nrjSpTLLob2NZLRlB" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="VxmE8ddlXL5MQkwKD7wMg2" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="Qx73EVBPlNULKFOw08cwnf" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="1156,326,105,19" Id="RUqmdu7u8OyNbNr96TbhKu">
+                  <Node Bounds="1738,546,105,19" Id="RUqmdu7u8OyNbNr96TbhKu">
                     <p:NodeReference LastCategoryFullName="Bunraku.Utilities" LastDependency="bunraku.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="Gimbal" />
@@ -47748,7 +47748,7 @@
                     <Pin Id="QHutsJzBeylOwMQPaihWhX" Name="Depth Buffer Enable" Kind="InputPin" DefaultValue="True" />
                     <Pin Id="AZT3PlMqpO3LloX1ClxJO5" Name="Enabled" Kind="InputPin" />
                   </Node>
-                  <Node Bounds="1156,293,86,26" Id="N2XXZXtaahDLI0HqXohnVp">
+                  <Node Bounds="1738,513,86,26" Id="N2XXZXtaahDLI0HqXohnVp">
                     <p:NodeReference LastCategoryFullName="Bunraku.State.RobotDynamicState" LastDependency="VL.Bunraku.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="RecordType" Name="RobotDynamicState" NeedsToBeDirectParent="true" />
@@ -47760,10 +47760,90 @@
                   </Node>
                 </Patch>
                 <Pin Id="R8M85gZLAHhOeNtSvPOCpy" Name="Reset" Kind="InputPin" IsHidden="true" />
-                <ControlPoint Id="QZ7yIaiUPTrO6F86ss0TgE" Bounds="1158,359" Alignment="Bottom" />
+                <ControlPoint Id="QZ7yIaiUPTrO6F86ss0TgE" Bounds="1740,579" Alignment="Bottom" />
               </Node>
-              <ControlPoint Id="RKENqsXdp8VMayDhl4SDt6" Bounds="256,-90" />
-              <ControlPoint Id="QEN87fTCrwAOY9vG7upsE4" Bounds="118,40" />
+              <ControlPoint Id="RKENqsXdp8VMayDhl4SDt6" Bounds="838,130" />
+              <ControlPoint Id="QEN87fTCrwAOY9vG7upsE4" Bounds="76,100" />
+              <Node Bounds="274,270,45,19" Id="SvHTyuQ01DeLC1r1ptYHkV">
+                <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Rotate" />
+                </p:NodeReference>
+                <Pin Id="TkXS8hiEwsEN0GOO2fqRpv" Name="Input" Kind="InputPin" />
+                <Pin Id="VxGq32NbrK6LLNK7yejeQj" Name="Rotation" Kind="InputPin" DefaultValue="-0.25, 0, 0" />
+                <Pin Id="IOBO1iyzx9xP8F330mN1W9" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="254,300,25,19" Id="GjK78Bg6aumQdtsMbS2oXv">
+                <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="*" />
+                </p:NodeReference>
+                <Pin Id="QV38FhxRUVyPQZImD04Jo7" Name="Input" Kind="InputPin" />
+                <Pin Id="E7UjVIiqr13Poc6wWje1El" Name="Input 2" Kind="InputPin" />
+                <Pin Id="PTAVPKoMPclNWaGhoN5ZQ2" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Pad Id="Ssxj7jGBOP0QT4cf4coHf4" Comment="Rotation" Bounds="316,250,35,43" ShowValueBox="true" isIOBox="true" Value="-0.25, 0, 0">
+                <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Vector3" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="254,330,105,19" Id="AIeFCOwCUgAQWeL65pvChd">
+                <p:NodeReference LastCategoryFullName="Bunraku.Utilities" LastDependency="VL.Bunraku.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Gimbal" />
+                </p:NodeReference>
+                <Pin Id="NtfK4n2bCz9MA1Nv4wKYWP" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="Lrb2fJchDkyN3prLuUYSSx" Name="Input" Kind="InputPin" />
+                <Pin Id="SrEvaX2K6h1QKk8sgUd3qo" Name="Text" Kind="InputPin" />
+                <Pin Id="M3AEzy73XzTLJ3md8uqypj" Name="ShowCircle" Kind="InputPin" />
+                <Pin Id="EgbwOPX6nJ5MBIE1eFV56q" Name="ShowTag" Kind="InputPin" />
+                <Pin Id="NXLLQT985uoOv0uQTALvjD" Name="Depth Buffer Enable" Kind="InputPin" />
+                <Pin Id="N8K5fa6gWNvPlVFT7xMkBi" Name="Enabled" Kind="InputPin" />
+                <Pin Id="O6QrT6QwuUwPays5YRPxeU" Name="Output 2" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="230,230,76,26" Id="G3hC88k9xwNNUfY1nKgMvP">
+                <p:NodeReference LastCategoryFullName="Bunraku.ParametricRobotControl.GetRobotState" LastDependency="VL.Bunraku.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="RobotFrames" />
+                </p:NodeReference>
+                <Pin Id="P6wLXjTE37zQZrdS5UKamw" Name="Input" Kind="StateInputPin" />
+                <Pin Id="MP6xhNG8LezM6UVmDztiuP" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="DHQnIvcHnCJO1y4lC32WmM" Name="Flange Frame" Kind="OutputPin" />
+                <Pin Id="GVShCIvDiYYPYFQhDfUFcV" Name="Tool Frame" Kind="OutputPin" />
+                <Pin Id="Iqw5b1vfMnRQItvgnAjwcT" Name="Root Frame" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="163,200,72,26" Id="BKHQoU1WyR6NWdXqJXL5Eq">
+                <p:NodeReference LastCategoryFullName="Bunraku.ParametricRobotControl.RobotAssembly" LastDependency="VL.Bunraku.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="ClassType" Name="RobotAssembly" />
+                  <CategoryReference Kind="ClassType" Name="RobotAssembly" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="ParametricRobotControl" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Split" />
+                </p:NodeReference>
+                <Pin Id="IYbyfSyYGiXO8xyFHqjhZf" Name="Input" Kind="StateInputPin" />
+                <Pin Id="VNfChERlUmeQESrFPX8NxD" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="ED6u7WyPS7LM34hwVOT52Q" Name="Client" Kind="OutputPin" />
+                <Pin Id="Ecd1KNk1MZTPxFTKuHagQO" Name="RobotProperty" Kind="OutputPin" />
+                <Pin Id="K74W7ML9rS0LNvovZr4ede" Name="RobotState" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="214,441,85,19" Id="T5tRboOKt0oOXU2c0wHGQs">
+                <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Group" />
+                </p:NodeReference>
+                <Pin Id="KiQlygNYPYyPaK5EAxL43P" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="QDdEyfeo4dnO1IOtPCUChI" Name="Transformation" Kind="InputPin" />
+                <Pin Id="C57FnkvoLG6N37KXeyy2aA" Name="Child" Kind="InputPin" />
+                <Pin Id="UTgyx84YGK8L66X3lRsQxZ" Name="Child 2" Kind="InputPin" />
+                <Pin Id="CMNWGlZE5x8O6qDcLuTqsb" Name="Name" Kind="InputPin" />
+                <Pin Id="IkYn667PPInMTZekPdJoy5" Name="Enabled" Kind="InputPin" />
+                <Pin Id="K1LYuCB1Li5MhbkByCkl0u" Name="Output" Kind="OutputPin" />
+              </Node>
             </Canvas>
             <Patch Id="H5OO8wVXrQgLnXYHxjBbL8" Name="Create" />
             <Patch Id="Jzu94dpgMbbP5kg8KawNI9" Name="Update">
@@ -47775,7 +47855,6 @@
               <Fragment Id="A9asvCl9vGoMxuweYf4egx" Patch="H5OO8wVXrQgLnXYHxjBbL8" Enabled="true" />
               <Fragment Id="A6NLf3QsRIUPZmrIjHHOif" Patch="Jzu94dpgMbbP5kg8KawNI9" Enabled="true" />
             </ProcessDefinition>
-            <Link Id="OLbSeOB0fjiQJ4I6ttwXc1" Ids="EgT6pz0zy5pNDH2czRY3ve,LfdnsReyZJNMifoHgXPKzy" />
             <Link Id="Gwh9uXSMdMEMFblf3BPb7o" Ids="LfdnsReyZJNMifoHgXPKzy,S5Nzfm5EStnMBUsLFPjudW" IsHidden="true" />
             <Link Id="Q7EVpiggLCbPtVDm8Qinz1" Ids="HvZROhEIpLVPuwrmrGBHfQ,L28xHCwYF9uQHqpxwlkVRL" />
             <Link Id="COWx6R4mSkUPXGXirJeIuM" Ids="JY12tbJPNZPOd1VF6ulZxk,QmPKSJ33Ix2NQN2JRjWTqK" />
@@ -47803,6 +47882,15 @@
             <Link Id="I3O1enfYtBGPf6pegk0JJ8" Ids="LpQ8uMMPc8KO180iy1V42u,RKENqsXdp8VMayDhl4SDt6" IsHidden="true" />
             <Link Id="R7NW5bphPXROezDbUvHf3g" Ids="QEN87fTCrwAOY9vG7upsE4,GjdAHgJE6E8PYdUKZAw4Ht" />
             <Link Id="Qn124G4kQN7PCmh4PCn8oi" Ids="PRDypsssWkcOUstpoGO2fj,QEN87fTCrwAOY9vG7upsE4" IsHidden="true" />
+            <Link Id="BEU4Afxte1vLPbR3DPcVRu" Ids="IOBO1iyzx9xP8F330mN1W9,E7UjVIiqr13Poc6wWje1El" />
+            <Link Id="AOSKm14Hi8JPjvrRX6QSTL" Ids="Ssxj7jGBOP0QT4cf4coHf4,VxGq32NbrK6LLNK7yejeQj" />
+            <Link Id="KAlM1RWx1jAM0R0DJNjft7" Ids="PTAVPKoMPclNWaGhoN5ZQ2,Lrb2fJchDkyN3prLuUYSSx" />
+            <Link Id="QxyLbjOnB4vMQ6XBgJs8oo" Ids="K74W7ML9rS0LNvovZr4ede,P6wLXjTE37zQZrdS5UKamw" />
+            <Link Id="IP2LLb7fEGkPydRvycd3Ip" Ids="DHQnIvcHnCJO1y4lC32WmM,QV38FhxRUVyPQZImD04Jo7" />
+            <Link Id="VZPRr8qpHQxN4IPP82Nd9c" Ids="QEN87fTCrwAOY9vG7upsE4,IYbyfSyYGiXO8xyFHqjhZf" />
+            <Link Id="AZjhA9bQ9BGNyINpBAc1xk" Ids="O6QrT6QwuUwPays5YRPxeU,UTgyx84YGK8L66X3lRsQxZ" />
+            <Link Id="VUJeOHbkWXyOBLQZeboCuv" Ids="EgT6pz0zy5pNDH2czRY3ve,C57FnkvoLG6N37KXeyy2aA" />
+            <Link Id="AUbeheYs8C0PTzzeItKQUx" Ids="K1LYuCB1Li5MhbkByCkl0u,LfdnsReyZJNMifoHgXPKzy" />
           </Patch>
         </Node>
         <!--
@@ -60017,7 +60105,7 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="DRkf5fWNV2NLOgVKmFheZ2" Name="Task" Kind="InputPin" />
-              <Pin Id="HfjNZGup7LeNNgBmoh18nD" Name="UpdateRobotState" Kind="InputPin" />
+              <Pin Id="HfjNZGup7LeNNgBmoh18nD" Name="UpdateRobotState" Kind="InputPin" Visibility="Optional" />
               <Pin Id="SKWehRv8hKsN4PZUzlA5jD" Name="Simulation State" Kind="InputPin" />
               <Pin Id="Vn5029ojdjYNujHuWT0GL7" Name="TaskFeedbackMessage" Kind="OutputPin" />
               <Pin Id="MuZRhWQYX4iOE7583LTGdX" Name="Code" Kind="OutputPin" />
