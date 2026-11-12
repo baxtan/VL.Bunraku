@@ -293,7 +293,7 @@
           <CategoryReference Kind="Category" Name="Primitive" />
         </p:NodeReference>
         <Patch Id="JHMkatBlAjDMdQZIy9ieVD">
-          <Canvas Id="TIutDVkP5EDPMDmzp4Fd2s" BordersChecked="false" CanvasType="Group">
+          <Canvas Id="TIutDVkP5EDPMDmzp4Fd2s" CanvasType="Group">
             <Node Bounds="497,188,85,19" Id="C07UrQT4VgAPNrU2Myebwi">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -500,7 +500,7 @@
               <Choice Kind="TypeFlag" Name="TaskType" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KMTiHJ1SVbKM3jZP31p0UU" Comment="Simulation State" Bounds="904,740,235,21" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="KMTiHJ1SVbKM3jZP31p0UU" Comment="Simulation State" Bounds="904,740,235,21" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -563,7 +563,7 @@
             <Pin Id="PZqBvdjGnxxL1HiznAytTT" Name="TaskFeedbackMessage" Kind="OutputPin" />
             <Pin Id="OTCFKXb893WLm43oDreRms" Name="Code" Kind="OutputPin" />
           </Node>
-          <Pad Id="RCIdhpIscZLPhTeqVwAfAX" Comment="TaskFeedbackMessage" Bounds="708,851,97,19" ShowValueBox="true" isIOBox="true" Value="Error: A Cartesian target has NaN or infinite values." />
+          <Pad Id="RCIdhpIscZLPhTeqVwAfAX" Comment="TaskFeedbackMessage" Bounds="708,851,191,25" ShowValueBox="true" isIOBox="true" Value="Error: A Cartesian target has NaN or infinite values." />
           <Node Bounds="136,1161,115,19" Id="D9Sontx2H8rQIRFkcmTyfB">
             <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="VL.Bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
