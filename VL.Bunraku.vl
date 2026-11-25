@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2026.8.0-0322-g9f75078316" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="OBbPTktdDCfPhptbHh4p3P" LanguageVersion="2026.8.0-0374-ga13b8c2c14" Version="0.128">
   <NugetDependency Id="TahhILkfFkbLhSNhHu4opq" Location="VL.CoreLib" />
   <Patch Id="SWgnOE0qyZAL8x0tTWxYn3">
     <Canvas Id="NsWyQ2QdGT7NGrW5Ey63h9" DefaultCategory="Bunraku" CanvasType="FullCategory">
@@ -37905,6 +37905,77 @@
             </Patch>
           </Node>
         </Canvas>
+        <Canvas Id="LCOuCNd99fCQLbu7h7HQlb" Name="Devices" Position="433,140">
+          <!--
+
+    ************************ XboxController ************************
+
+-->
+          <Node Name="XboxController" Bounds="148,140" Id="UshtvnVrKDILVQKfsPv5HC">
+            <p:NodeReference>
+              <Choice Kind="ContainerDefinition" />
+            </p:NodeReference>
+            <Patch Id="CEYxR9dykqnN6ufm44B8PT">
+              <Canvas Id="BddupivglTiO5qbE6XZmHL" CanvasType="Group">
+                <ControlPoint Id="INMYXu1LM6SLEsbql9A5Vu" Bounds="161,70" />
+                <ControlPoint Id="Hf4Qmge9MntQMhDzdioGnG" Bounds="259,139" />
+                <Pad Id="CyxbiQ1YBn8LBcc8BACkg3" Bounds="45,189,86,17" ShowValueBox="true" isIOBox="true" Value="IO/Devices/Xbox">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="ImmutableTypeFlag" Name="String" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Node Bounds="159,99,103,19" Id="VyhGGWH2z1fMN6w69O90fq">
+                  <p:NodeReference LastCategoryFullName="IO.Xbox360Controller" LastDependency="VL.IO.Xbox360Controller.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="Xbox360Controller (State)" />
+                  </p:NodeReference>
+                  <Pin Id="MbY1xcBfylzPoYzjEIH1Jo" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="AYQL93pTAaiNsOFvVLDTuv" Name="User Index" Kind="InputPin" />
+                  <Pin Id="Kp6qEaYWXFtNDwYMEGMfvh" Name="Output" Kind="OutputPin" />
+                  <Pin Id="IJK3anAl1KVNrQPqADJWpP" Name="Is Connected" Kind="OutputPin" />
+                  <Pin Id="NrLYPYL5B4NQSc7SbeS2qj" Name="Dead Zone" Kind="InputPin" IsHidden="true" />
+                </Node>
+                <Node Bounds="84,219,80,19" Id="Du9M8HXPZTyLO5eZLZCeVp">
+                  <p:NodeReference LastCategoryFullName="Application" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="PublicChannel" />
+                  </p:NodeReference>
+                  <Pin Id="DDASERhDvjzLGJuKkyHIpY" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="Uj697Zf0yQ2PKkPx5DSfzL" Name="Path" Kind="InputPin" />
+                  <Pin Id="DCBrE0PVZnlNRLFngzIvbe" Name="Value" Kind="InputPin" />
+                  <Pin Id="HF8Af4n4MXWNmLxLhheKoK" Name="Path" Kind="OutputPin" IsHidden="true" />
+                  <Pin Id="MeaT4tIRaIfNYFDnCOtwYs" Name="Output" Kind="OutputPin" />
+                  <Pin Id="Du69ttmkhODMYVtjrWP61g" Name="Value" Kind="OutputPin" />
+                  <Pin Id="KGpIP74Wm7zML2PwRMRJLb" Name="Author" Kind="InputPin" IsHidden="true" />
+                </Node>
+                <ControlPoint Id="JLZCyNms8i6Pvg5eQu4bnD" Bounds="86,271" />
+              </Canvas>
+              <Patch Id="Jo2rLicQ2uQQV43psA3PGs" Name="Create" />
+              <Patch Id="NRNEh29lyFhQEvHCg3m3KT" Name="Update">
+                <Pin Id="EKatQLN91aaMW3S5VijmAh" Name="User Index" Kind="InputPin" />
+                <Pin Id="RtGguDgMzXqOHaD7UhsLPC" Name="Output" Kind="OutputPin" />
+                <Pin Id="PPYxcTbZzixMLcc3fyghQf" Name="Is Connected" Kind="OutputPin" />
+              </Patch>
+              <!--
+
+    ************************  ************************
+
+-->
+              <ProcessDefinition Id="AcfLMFJ6Mi8PQXFfcfgwGN">
+                <Fragment Id="MYcU3qD5c1VM7blrLIyMaM" Patch="Jo2rLicQ2uQQV43psA3PGs" Enabled="true" />
+                <Fragment Id="H4HpvnqmZpiLLZD4L3Hrim" Patch="NRNEh29lyFhQEvHCg3m3KT" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="E47DB0iL3u6OskAd1gsuhF" Ids="EKatQLN91aaMW3S5VijmAh,INMYXu1LM6SLEsbql9A5Vu" IsHidden="true" />
+              <Link Id="QepLKVN6Z7zOeLQ5VlVHv2" Ids="Hf4Qmge9MntQMhDzdioGnG,PPYxcTbZzixMLcc3fyghQf" IsHidden="true" />
+              <Link Id="ELoYFi17MwFNOH88qRFiYW" Ids="INMYXu1LM6SLEsbql9A5Vu,AYQL93pTAaiNsOFvVLDTuv" />
+              <Link Id="P8zaf7qxTWrPSM1loQ4DFf" Ids="IJK3anAl1KVNrQPqADJWpP,Hf4Qmge9MntQMhDzdioGnG" />
+              <Link Id="AXIjC0m2VDQN5zYKK9BvSN" Ids="Kp6qEaYWXFtNDwYMEGMfvh,DCBrE0PVZnlNRLFngzIvbe" />
+              <Link Id="H0x1NaPxM2gMzrrfdkuRh4" Ids="CyxbiQ1YBn8LBcc8BACkg3,Uj697Zf0yQ2PKkPx5DSfzL" />
+              <Link Id="PFtVNTixyviMqDf9aohmzB" Ids="MeaT4tIRaIfNYFDnCOtwYs,JLZCyNms8i6Pvg5eQu4bnD" />
+              <Link Id="D2Qchtda1gNM5kOwilTzLs" Ids="JLZCyNms8i6Pvg5eQu4bnD,RtGguDgMzXqOHaD7UhsLPC" IsHidden="true" />
+            </Patch>
+          </Node>
+        </Canvas>
       </Canvas>
       <Canvas Id="Q8iEBhhTpMgNUYRZP57Yhr" Name="Visulization" Position="285,398">
         <!--
@@ -39241,7 +39312,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="1584, 67, 855, 804" IsHidden="true" />
+                <Pin Id="EbxrRKkSozYPasD4ho0Obm" Name="Bounds" Kind="InputPin" DefaultValue="2358, 49, 1010, 977" IsHidden="true" />
                 <Pin Id="EbJKOeOpqZ9OwVGAuP2NLU" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR6dVdrkT22NhNx51UVIeZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DT2XAJqHnchQPovJsxJlVj" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -62380,4 +62451,5 @@
   <NugetDependency Id="TuV1tF8qZBTP628id5lONq" Location="PRC.Server.Bundle" Version="1.749.0" />
   <PlatformDependency Id="PvdBshli40xOFPIYNy795l" Location="System.Numerics" />
   <PlatformDependency Id="Ovr8haVD9ltPvpx89HBl0c" Location="System.Numerics.Vectors" />
+  <NugetDependency Id="NVb6suHFKKpLsQ2aFCAAZS" Location="VL.IO.Xbox360Controller" Version="1.0.4" />
 </Document>
